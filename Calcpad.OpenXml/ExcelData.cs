@@ -1,4 +1,4 @@
-﻿using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 using System;
@@ -147,6 +147,20 @@ namespace Calcpad.OpenXml
                 ++current.Row;
             }
             return data;
+        }
+
+        public static string[][] ReadValues(
+            string filepath,
+            string sheetName,
+            string rangeStart,
+            string rangeEnd
+        )
+        {
+            var data = Read(filepath, sheetName, rangeStart, rangeEnd);
+            if (data is null)
+                return null;
+
+            return [.. data.Where(row => row?.Any(value => !string.IsNullOrEmpty(value)) == true)];
         }
 
         private static string GetCellValue(WorkbookPart wbPart, WorksheetPart wsPart, string cellRef)
