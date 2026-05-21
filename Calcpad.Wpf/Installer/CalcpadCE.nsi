@@ -10,7 +10,7 @@
 !endif
 !define APP_PUBLISHER "CalcpadCE Community"
 !define APP_URL "https://calcpad-ce.org/"
-!define APP_EXE "Calcpad.exe"
+!define APP_EXE "CalcpadCE.exe"
 !define PUBLISH_DIR "..\bin\Release\net10.0-windows\win-x64\publish"
 !define DOTNET_MAJOR "10"
 !define DOTNET_URL "https://aka.ms/dotnet/${DOTNET_MAJOR}.0/windowsdesktop-runtime-win-x64.exe"

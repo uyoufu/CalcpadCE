@@ -2219,7 +2219,7 @@ tol = 10^-14
 #end def
 #val
 '<table class="bordered" width="500">
-'<tr><th>n</th><th>Calcpad</th><th>Expected</th><th>Error</th></tr>
+'<tr><th>n</th><th>CalcpadCE</th><th>Expected</th><th>Error</th></tr>
 check$(1)
 check$(2)
 check$(3)

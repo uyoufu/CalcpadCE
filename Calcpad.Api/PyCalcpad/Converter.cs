@@ -34,7 +34,7 @@ namespace Calcpad
         {
             var htmlFile = Path.ChangeExtension(path, ".html");
             File.WriteAllText(htmlFile, HtmlApplyWorksheet(html));
-            
+
             string wkhtmltopdfPath;
 
             if (OperatingSystem.IsWindows())
@@ -44,13 +44,13 @@ namespace Calcpad
             else
             {
                 wkhtmltopdfPath = "/usr/bin/wkhtmltopdf";
-                
+
                 if (!File.Exists("/usr/bin/wkhtmltopdf"))
                 {
                     throw new DirectoryNotFoundException("wkhtmltopdf not found.");
                 }
             }
-            
+
             var startInfo = new ProcessStartInfo
             {
                 FileName = wkhtmltopdfPath

@@ -3,7 +3,7 @@
 '<h4>Static scheme</h4>
 '<p id="type" class="flip_base" style="display:none">'type = ?'</p>
 #pre
-'<p><select data-target="type" class="flip_trigger"> 
+'<p><select data-target="type" class="flip_trigger">
 '<option value="1">Cantilever with concentrated load</option>
 '<option value="2">Cantilever with uniformly distributed load</option>
 '<option value="3">Simply supported beam with concentrated load</option>
@@ -12,25 +12,25 @@
 #hide
 #if type ≡ 1
 	#show
-	'<img class="side flip flip_1" src="https://calcpad.eu/media/structures/rc/design/deflection-cantilever-force.png" alt="deflection-cantilever-force.png" style="width:150pt;">
+	'<img class="side flip flip_1" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/deflection-cantilever-force.png?raw=true" alt="deflection-cantilever-force.png" style="width:150pt;">
 	#post
 	'Cantilever with concentrated load
 	#hide
 #else if type ≡ 2
 	#show
-	'<img class="side flip flip_2" src="https://calcpad.eu/media/structures/rc/design/deflection-cantilever-uniform.png" alt="deflection-cantilever-uniform.png" style="width:150pt;">
+	'<img class="side flip flip_2" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/deflection-cantilever-uniform.png?raw=true" alt="deflection-cantilever-uniform.png" style="width:150pt;">
 	#post
 	'Cantilever with uniformly distributed load
 	#hide
 #else if type ≡ 3
 	#show
-	'<img class="side flip flip_3" src="https://calcpad.eu/media/structures/rc/design/deflection-beam-force.png" alt="deflection-beam-force.png" style="width:150pt;">
+	'<img class="side flip flip_3" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/deflection-beam-force.png?raw=true" alt="deflection-beam-force.png" style="width:150pt;">
 	#post
 	'Simply supported beam with concentrated load
 	#hide
 #else if type ≡ 0
 	#show
-	'<img class="side flip flip_0" src="https://calcpad.eu/media/structures/rc/design/deflection-beam-uniform.png" alt="deflection-beam-uniform.png" style="width:150pt;">
+	'<img class="side flip flip_0" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/deflection-beam-uniform.png?raw=true" alt="deflection-beam-uniform.png" style="width:150pt;">
 	#post
 	'Simply supported beam with uniformly distributed load
 	#hide
@@ -40,7 +40,7 @@
 'Exposure class:
 '<p id="w_max" style="display:none">'w_max = ?'</p>
 #pre
-'<p><select data-target="w_max"> 
+'<p><select data-target="w_max">
 '<option value="0.4">X0 or XC1</option>
 '<option value="0.3">XC2, XC3, XC4, XD1, XD2, XS2 or XS3</option>
 '</select></p>
@@ -56,7 +56,7 @@
 'Characteristic combination (<i>g</i> + <i>q</i>) -'M_k = ?'kNm
 'Quasi-permanent combination (<i>g</i> + <i>ψ</i><sub>2</sub><i>q</i>) -'M_qp = ?'kNm
 '
-'<img class="side" src="https://calcpad.eu/media/structures/rc/design/beam-section.png" alt="beam-section.png" style="width:120pt;">
+'<img class="side" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/beam-section.png?raw=true" alt="beam-section.png" style="width:120pt;">
 '<h4>Cross section dimensions</h4>
 'Width -'b = ?'mm, Height -'h = ?'mm
 'Concrete cover -'c = ?'mm (to bars surface)
@@ -78,7 +78,7 @@
 'Concrete cover to the center of reinforcement -'d_2 = ?'mm
 '
 '<h4>Material properties</h4>
-'<p><b>Concrete</b> [EN 1992-1-1, <a target="_blank" href="https://calcpad.eu/reference/concrete-table.html">Table 3.1</a>]</p>
+'<p><b>Concrete</b> [EN 1992-1-1, Table 3.1]</p>
 'Characteristic compressive cylinder strength -'f_ck = ?'MPa
 #post
 'Mean value of cylinder compressive strength -'f_cm = f_ck + 8'MPa
@@ -168,7 +168,7 @@ E_c_eff = E_cm/(1 + φ_8_t0)'GPa
 'Total reinforcement area -'A_s = A_s1 + A_s2'mm²
 'Concrete area -'A_c = b*h'mm²
 'Effective section area
-A_red = A_c + α_e*A_s'mm² 
+A_red = A_c + α_e*A_s'mm²
 'Section modulus about the bottom edge
 S_c = b*h^2/2'mm<sup>3</sup>
 'Effective section modulus about the bottom edge
@@ -293,7 +293,7 @@ A_c_eff = b*h_c_eff'mm²
 	'Maximum final crack spacing
 	s_r_max = k_3*c + k_1*k_2*k_4*Φ_1/ρ_p_eff'mm
 #end if
-'The check is performed for quasi-permanent combination 
+'The check is performed for quasi-permanent combination
 'Reinforcement stress
 σ_s = α_e*M_qp*10^6/I_red_II*(d - x)'MPa
 'Long-term load factor -'k_t = 0.4
@@ -320,7 +320,7 @@ w_k = s_r_max*Δε'mm
 #end if
 '
 '<div class="fold">
-'<h4>Control of deflections</h4> 
+'<h4>Control of deflections</h4>
 'Crack opening moment
 #if σ_ct ≤ f_ctm
 	'Distribution coefficient

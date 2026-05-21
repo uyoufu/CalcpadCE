@@ -1,20 +1,20 @@
 "Column Detailing for Ductility Class DCM<hr/><small>According to <strong>Eurocode</strong>: EN 1998-1</small>
 '<div style="max-width:180mm">
-'<img class="side" style="width:220pt;" src="https://calcpad.eu/media/structures/rc/detailing/column-section.png" alt="column-section.png">
+'<img class="side" style="width:220pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/detailing/column-section.png?raw=true" alt="column-section.png">
 '<p><b>Column dimensions</b></p>
 'Cross section -'b_c = ? {500}'mm,'h_c = ? {500}'mm
 'Clear storey height -'l_cl = ? {2850}'mm
 'Cross section area -'A_c = b_c*h_c'mm²
 'Maximum seismic axial load -'N_Ed = ? {983.8}'kN
 
-'<p class="ref">[EN 1992-1-1, <a target="_blank" href="https://calcpad.eu/reference/concrete-table.html">Table 3.1</a>]</p>
+'<p class="ref">[EN 1992-1-1, Table 3.1]</p>
 '<p><b>Concrete</b></p>
 'Characteristic compressive cylinder strength -'f_ck = ? {25}'MPa
 'Partial safety factor -'γ_c = 1.5','α_ct = 1','α_cc = ? {1}
-'<img class="side" style="width:130pt;" src="https://calcpad.eu/media/structures/rc/detailing/column-view.png" alt="column-view.png">
+'<img class="side" style="width:130pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/detailing/column-view.png?raw=true" alt="column-view.png">
 #post
 'Mean value of axial tensile strength
-f_ctm = 0.30*f_ck^(2/3)'MPa 
+f_ctm = 0.30*f_ck^(2/3)'MPa
 'Characteristic axial tensile strength
 f_ctk,005 = 0.7*f_ctm'MPa
 'Design compressive cylinder strength
@@ -25,7 +25,7 @@ f_cd = α_cc*f_ck/γ_c'MPa
 '<p id="C" style="display:none;">'C = ? {0}'</p>
 'Characteristic yield strength -'f_yk = ? {500}'MPa
 #pre
-'<p>Steel class - <select data-target="C"> 
+'<p>Steel class - <select data-target="C">
 '<option value="0"> Class B </option>
 '<option value="1"> Class C </option>
 '</select></p>
@@ -60,7 +60,7 @@ f_cd = α_cc*f_ck/γ_c'MPa
 #else if (n_b1 < 3) + (n_b2 < 3)
 	'<p class="ref">[§ 5.4.3.2.2 (2)]</p>
 	'<p class="err">Minimum one intermediate bar at each side is required.</p>
-#end if 
+#end if
 'Reinforcement area
 A_s1 = π*d_bL^2/4'mm²
 A_s = n_b*A_s1'mm²
@@ -71,7 +71,7 @@ A_s = n_b*A_s1'mm²
 	'<p class="err">The reinforcement ratio is less than the minimum:'ρ_L'&lt; 0.01</p>
 #else if ρ_L > 0.04
 	'<p class="err">The reinforcement ratio is greater than the maximum:'ρ_L'&gt; 0.04</p>
-#else 
+#else
 	'Design check: 0.01 ≤'ρ_L'≤ 0.04. The check is satisfied! ✓
 #end if
 

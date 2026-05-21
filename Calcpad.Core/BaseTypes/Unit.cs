@@ -1763,7 +1763,7 @@ namespace Calcpad.Core
                 if (!s.Contains('^'))
                 {
                     var writer = new TextWriter(null, false);
-                    var ps = GetFraction(f) ?? 
+                    var ps = GetFraction(f) ??
                         (d < 0 ?
                             $"({writer.FormatNumberHelper(d, null)})" :
                             writer.FormatNumberHelper(d, null));
@@ -1780,7 +1780,7 @@ namespace Calcpad.Core
         private static string GetFraction(float f)
         {
             var uf = Math.Abs(f);
-            if (uf >= 1f) 
+            if (uf >= 1f)
                 return null;
 
             var s = f < 0 ? "-" : string.Empty;

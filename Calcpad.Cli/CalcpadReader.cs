@@ -11,7 +11,7 @@ namespace Calcpad.Cli
 {
     internal static class CalcpadReader
     {
-        private static readonly StringBuilder _stringBuilder = new();   
+        private static readonly StringBuilder _stringBuilder = new();
         internal static string Read(string fileName)
         {
             var inputLines = ReadLines(fileName);
@@ -149,7 +149,7 @@ namespace Calcpad.Cli
 
                 _stringBuilder.Clear();
                 if (values.Count == 0)
-                    return;  
+                    return;
             }
         }
 
@@ -253,7 +253,7 @@ namespace Calcpad.Cli
         private const string ErrorString = "#Error";
         internal static string CodeToHtml(string code)
         {
-            const string spaces = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";    
+            const string spaces = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
             var errors = new Queue<int>();
             _stringBuilder.Clear();
             var lines = code.EnumerateLines();

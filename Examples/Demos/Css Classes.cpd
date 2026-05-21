@@ -1,9 +1,9 @@
-"CSS Classes in Calcpad
+"CSS Classes in CalcpadCE
 '<hr/>
 '<p class="ref">[ref (No)]</p>
 '<p>Design checks: <span class="ok">ok</span> / <span class="err">fail</span>.
 'Image (side)
-'<img class="side" style="height:114pt; width:127pt;" src="https://calcpad.eu/media/mechanics/beams/cantilever-beam-concentrated-force.png" alt="cantilever-beam-concentrated-force.png">
+'<img class="side" style="height:114pt; width:127pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/mechanics/beams/cantilever-beam-concentrated-force.png?raw=true" alt="cantilever-beam-concentrated-force.png">
 '<div class="fold">
 '<h4>Folded content heading</h4>
 'Folded content line 1

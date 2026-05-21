@@ -6,7 +6,7 @@ a = ? {5}', 'b = ? {4}', 'c = ? {6}
 #hide
 #if (a + b > c)*(b + c > a)*(c + a > b)
 	#post
-	'Perimeter 
+	'Perimeter
 	P = a + b + c
 	'Half-perimeter -'p = 0.5*P
 	'Area (Heron′s formula):
@@ -20,11 +20,11 @@ a = ? {5}', 'b = ? {4}', 'c = ? {6}
 	β = acos((c^2 + a^2 - b^2)/(2*c*a))'&deg;
 	γ = acos((a^2 + b^2 - c^2)/(2*a*b))'&deg;
 	#if (α ≡ 90) + (β ≡ 90) + (γ ≡ 90)
-		'<p>Type of triangle: right, 
+		'<p>Type of triangle: right,
 	#else if (α > 90) + (β > 90) + (γ > 90)
-		'<p>Type of triangle: obtuse, 
+		'<p>Type of triangle: obtuse,
 	#else
-		'<p>Type of triangle: acute, 
+		'<p>Type of triangle: acute,
 	#end if
 	#if (a ≡ b)*(a ≡ c)
 		'<!-- -->equilateral.</p>
@@ -69,7 +69,7 @@ a = ? {5}', 'b = ? {4}', 'c = ? {6}
 	y_C = y_A - h_c*k
 	#post
 	#val
-	'<svg viewbox="'x_min*k - 20' -20 'w + 40' 'h + 40'" xmlns="http://www.w3.org/2000/svg" version="1.1" style="font-size: 18px; width: 'w/2 + 20'pt; height: 'h/2 + 20'pt"> 
+	'<svg viewbox="'x_min*k - 20' -20 'w + 40' 'h + 40'" xmlns="http://www.w3.org/2000/svg" version="1.1" style="font-size: 18px; width: 'w/2 + 20'pt; height: 'h/2 + 20'pt">
 	'<path d="M'x_A + 40' 'y_A' A 40 40 0 0 0 'x_A + 40*cos(α)' 'y_A - 40*sin(α)'" style="stroke:goldenrod; stroke-width:1; fill: none"/>
 	'<path d="M'x_B - 40' 'y_A' A 40 40 0 0 1 'x_B - 40*cos(β)' 'y_B - 40*sin(β)'" style="stroke:goldenrod; stroke-width:1; fill: none"/>
 	'<path d="M'x_C + 40*cos(β)' 'y_C + 40*sin(β)' A 40 40 0 0 1 'x_C - 40*cos(α)' 'y_C + 40*sin(α)'" style="stroke:goldenrod; stroke-width:1; fill: none"/>
@@ -109,7 +109,7 @@ a = ? {5}', 'b = ? {4}', 'c = ? {6}
 	y_M = (y_C + 2*y_mC)/3
 	#post
 	#val
-	'<svg viewbox="'x_min*k - 20' -20 'w + 40' 'h + 40'" xmlns="http://www.w3.org/2000/svg" version="1.1" style="font-size: 18px; width: 'w/2 + 20'pt; height: 'h/2 + 20'pt"> 
+	'<svg viewbox="'x_min*k - 20' -20 'w + 40' 'h + 40'" xmlns="http://www.w3.org/2000/svg" version="1.1" style="font-size: 18px; width: 'w/2 + 20'pt; height: 'h/2 + 20'pt">
 	'<line x1="'x_A'" y1="'y_A'" x2="'x_mA'" y2="'y_mA'" style="stroke:orange; stroke-width:1"/>
 	'<line x1="'x_B'" y1="'y_B'" x2="'x_mB'" y2="'y_mB'" style="stroke:orange; stroke-width:1"/>
 	'<line x1="'x_C'" y1="'y_C'" x2="'x_mC'" y2="'y_mC'" style="stroke:orange; stroke-width:1"/>
@@ -167,7 +167,7 @@ a = ? {5}', 'b = ? {4}', 'c = ? {6}
 	y_O = y_A - y_o*k
 	#post
 	#val
-	'<svg viewbox="'x_min*k - 20' -20 'w + 40' 'h + 40'" xmlns="http://www.w3.org/2000/svg" version="1.1" style="font-size: 18px; width: 'w/2 + 20'pt; height: 'h/2 + 20'pt"> 
+	'<svg viewbox="'x_min*k - 20' -20 'w + 40' 'h + 40'" xmlns="http://www.w3.org/2000/svg" version="1.1" style="font-size: 18px; width: 'w/2 + 20'pt; height: 'h/2 + 20'pt">
 	'<circle cx="'x_O'" cy="'y_O'" r="'R*k'" style="stroke:red; fill:none "/>
 	'<circle cx="'x_L'" cy="'y_L'" r="'r*k'" style="stroke:green; fill:palegreen; fill-opacity:0.4"/>
 	'<path d="M'x_A + 40' 'y_A' A 40 40 0 0 0 'x_A + 40*cos(α)' 'y_A - 40*sin(α)'" style="stroke:goldenrod; stroke-width:1; fill: none"/>

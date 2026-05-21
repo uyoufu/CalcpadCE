@@ -18,7 +18,7 @@ namespace Calcpad.Cli
             var appUrl = $"file:///{Program.AppPath.Replace("\\", "/")}doc/";
             var templatePath =  $"{Program.AppPath}doc{Path.DirectorySeparatorChar}template{Program.AddCultureExt("html")}";
             _htmlWorksheet = File.ReadAllText(templatePath).Replace("jquery", appUrl + "jquery");
-            _isSilent = isSilent;   
+            _isSilent = isSilent;
         }
 
         internal void ToHtml(string html, string path)
@@ -39,7 +39,7 @@ namespace Calcpad.Cli
         {
             var htmlFile = Path.ChangeExtension(path, ".html");
             File.WriteAllText(htmlFile, HtmlApplyWorksheet(html));
-            
+
             string wkhtmltopdfPath;
 
             if (OperatingSystem.IsWindows())
@@ -49,13 +49,13 @@ namespace Calcpad.Cli
             else
             {
                 wkhtmltopdfPath = "/usr/bin/wkhtmltopdf";
-                
+
                 if (!File.Exists("/usr/bin/wkhtmltopdf"))
                 {
                     throw new DirectoryNotFoundException("wkhtmltopdf not found.");
                 }
             }
-            
+
             var startInfo = new ProcessStartInfo
             {
                 FileName = wkhtmltopdfPath
@@ -70,13 +70,13 @@ namespace Calcpad.Cli
             startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             var process = Process.Start(startInfo);
             process?.WaitForExit();
-            
+
             File.Delete(htmlFile);
             if (!_isSilent && File.Exists(path))
                 Run(path);
         }
 
-        private static void Run(string fileName) 
+        private static void Run(string fileName)
         {
             Process process = new()
             {
@@ -90,7 +90,7 @@ namespace Calcpad.Cli
 
         private string HtmlApplyWorksheet(string s)
         {
-            
+
             _sb.Append(_htmlWorksheet);
             _sb.Append(s);
             _sb.Append(" </body></html>");

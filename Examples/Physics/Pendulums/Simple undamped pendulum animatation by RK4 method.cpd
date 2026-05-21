@@ -92,7 +92,7 @@ k_1,ω = (g/l)*sin(-θ_i)'</td></tr>
 θ_RK4 = vector(n)'<br/>'ω_RK4 = vector(n)'<br/>'E_RK4 = vector(n)
 'Set initial conditions
 θ_RK4.1 = θ_0/1rad','ω_RK4.1 = 0/s
-'Perform Runge-Kutta 4 steps 
+'Perform Runge-Kutta 4 steps
 #for i = 1 : n - 1
 	'RK4 factors
 	k_1,θ = ω_RK4.i', ' _

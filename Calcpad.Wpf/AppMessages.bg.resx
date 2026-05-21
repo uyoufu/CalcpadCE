@@ -61,7 +61,7 @@
   <data name="ReportUnhandledExceptionAndClose_NoUnsavedData" xml:space="preserve">
     <value>
 
-Няма незаписани данни. Ако проблемът продължи, моля пишете на proektsoft.bg@gmail.com.</value>
+Няма незаписани данни. Ако проблемът продължи, моля пишете на https://github.com/imartincei/CalcpadCE/issues.</value>
   </data>
   <data name="ReportUnhandledExceptionAndClose_NoUnsavedData_RecoveryAttempted" xml:space="preserve">
     <value>
@@ -71,13 +71,13 @@ Calcpad запази вашите данни и се опита да се въз
   <data name="ReportUnhandledExceptionAndClose_UnsavedData_RecoveryFailed" xml:space="preserve">
     <value>
 
-Има незаписани данни. Възстановяването беше неуспешно. Ако проблемът продължи, моля пишете на proektsoft.bg@gmail.com.</value>
+Има незаписани данни. Възстановяването беше неуспешно. Ако проблемът продължи, моля пишете на https://github.com/imartincei/CalcpadCE/issues.</value>
   </data>
   <data name="ExceptionDetails" xml:space="preserve">
     <value>
 
 Информация за грешката:
- 
+
 "{0}"</value>
   </data>
   <data name="UnexpectedErrorOccurred" xml:space="preserve">

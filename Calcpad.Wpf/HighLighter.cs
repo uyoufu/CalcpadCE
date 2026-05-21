@@ -567,7 +567,7 @@ namespace Calcpad.Wpf
         private static bool CheckIsNewLineBlock(Block block)
         {
             block = block?.PreviousBlock;
-            if (block is Paragraph p && 
+            if (block is Paragraph p &&
                 CheckIsLineExtensionInline(p.Inlines.LastInline))
                 return false;
 
@@ -580,7 +580,7 @@ namespace Calcpad.Wpf
             {
                 var span = r.Text.AsSpan().TrimEnd();
                 if (span.EndsWith(" _") ||
-                    span.Length > 0 && UserDefined.IsLineExtension(span[^1]) && 
+                    span.Length > 0 && UserDefined.IsLineExtension(span[^1]) &&
                     r.Foreground != Colors[(int)Types.Comment])
                     return true;
             }
@@ -599,7 +599,7 @@ namespace Calcpad.Wpf
             while (p is not null)
             {
                 InitParagraph(p);
-                var text = textOverride is not null && 
+                var text = textOverride is not null &&
                     ReferenceEquals(p, startParagraph) ?
                     textOverride :
                     new TextRange(p.ContentStart, p.ContentEnd).Text;
@@ -607,7 +607,7 @@ namespace Calcpad.Wpf
                 if (text.Length > 10000)
                     return;
 
-                _state.PreviousParagraph = p.PreviousBlock as Paragraph;    
+                _state.PreviousParagraph = p.PreviousBlock as Paragraph;
                 var isSkip = ReferenceEquals(p, skipParagraph);
                 if (isSkip)
                     p = new Paragraph();
@@ -634,8 +634,8 @@ namespace Calcpad.Wpf
                         if (i > 0 && _state.IsLeading && !Validator.IsWhiteSpace(c))
                             Append(Types.None);
                     }
-                    if (c == '_'  && 
-                        (i == len - 1 || text.AsSpan(i + 1).IsWhiteSpace()) && 
+                    if (c == '_'  &&
+                        (i == len - 1 || text.AsSpan(i + 1).IsWhiteSpace()) &&
                         (i > 0 && text[i - 1] == ' ') &&
                         ParseLineBreak(c))
                         break;
@@ -820,8 +820,8 @@ namespace Calcpad.Wpf
             {
                 var span = r.Text.AsSpan().TrimEnd();
                 if (span.EndsWith(" _") ||
-                    span.Length > 0 && UserDefined.IsLineExtension(span[^1]) && 
-                    _state.CurrentType != Types.Comment && 
+                    span.Length > 0 && UserDefined.IsLineExtension(span[^1]) &&
+                    _state.CurrentType != Types.Comment &&
                     _state.CurrentType != Types.HtmlComment)
                     return true;
             }
@@ -1215,7 +1215,7 @@ namespace Calcpad.Wpf
             var isPercent = c == '%' && (len > 0 && _builder[len - 1] == '.' || _state.IsUnits);
             Append(_state.CurrentTypeOrPreviousIfCurrentIsNone);
             if (IsDataExchangeKeyword && c == '=')
-            { 
+            {
                 AppendRun(Types.Operator, "=");
                 _state.CurrentType = Types.Operator;
                 return;
@@ -1727,7 +1727,7 @@ namespace Calcpad.Wpf
                              Types.Function :
                              GetTypeFromColor(r.Foreground);
                     var t2 = t1;
-                    if (t1 == Types.Keyword && s.Length > 0 && s[0] == '$' && 
+                    if (t1 == Types.Keyword && s.Length > 0 && s[0] == '$' &&
                         !s.Equals("$block", StringComparison.OrdinalIgnoreCase) &&
                         !s.Equals("$inline", StringComparison.OrdinalIgnoreCase) &&
                         !s.Equals("$while", StringComparison.OrdinalIgnoreCase))
@@ -1783,8 +1783,8 @@ namespace Calcpad.Wpf
                         }
                     }
                     var isFunction = r.NextInline is Run run && run.Text == "(";
-                    bool IsDefined(int lineNumber) => isFunction ? 
-                        IsFunction(s, lineNumber) : 
+                    bool IsDefined(int lineNumber) => isFunction ?
+                        IsFunction(s, lineNumber) :
                         IsVariable(s, lineNumber);
                     switch (t1)
                     {
@@ -1971,7 +1971,7 @@ namespace Calcpad.Wpf
             if (prevInline is null)
             {
                 var b = currentInline?.Parent as Block;
-                var p = b.Parent is null ? 
+                var p = b.Parent is null ?
                     _state.PreviousParagraph :
                     b.PreviousBlock as Paragraph;
                 if (p is null)
@@ -2009,7 +2009,7 @@ namespace Calcpad.Wpf
                 {
                     var s = text[(i + 1)..i1].ToString();
                     i1 = i;
-                    if (isCommand) 
+                    if (isCommand)
                         while (--i1 >= 0)
                         {
                             c = text[i1];

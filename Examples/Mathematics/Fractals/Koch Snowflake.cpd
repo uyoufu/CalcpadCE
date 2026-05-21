@@ -5,7 +5,7 @@ x = hp([0; 1; 0.5; 0])
 y = hp([0; 0; a; 0])
 'Number of iterations -'n = 6
 #val
-'<style>polygon {stroke:steelBlue; stroke-width:0.2; stroke-opacity:0.4;}</style> 
+'<style>polygon {stroke:steelBlue; stroke-width:0.2; stroke-opacity:0.4;}</style>
 #hide
 w = 300', 'h = 1.2*w', 'k = 100
 #for i = 1 : n

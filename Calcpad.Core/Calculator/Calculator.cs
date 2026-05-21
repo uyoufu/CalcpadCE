@@ -199,7 +199,7 @@ namespace Calcpad.Core
         {
             var n = FunctionIndex.Count;
             _isZeroPreservingFunction = new bool[n];
-            var calc = new RealCalculator();    
+            var calc = new RealCalculator();
             for (int i = 0; i < n; ++i)
                 _isZeroPreservingFunction[i] = calc.GetFunction(i)(RealValue.Zero).Equals(RealValue.Zero);
         }

@@ -13,7 +13,7 @@ Their values are ranged from **-1.7976931348623157E+308** to **1.797693134862315
 If you select "**Complex**" mode, you can use complex numbers in calculations.
 Otherwise, only real arithmetic is applied.
 Each complex number is represented by the ordered couple (**a**; **b**), where "**a**" is real number, and "**b** = \|**b**\|·***i***" is called "imaginary". It can be written in so called algebraic form: ±**a** ± **b*i*** (e.g. "2 + 3*i*"). You can also use other forms, such as polar or exponential form, by entering the respective expressions.
-In Calcpad, the imaginary unit can be entered either as "*i*" or as "1*i*" in case you have a variable named "*i*". It is a special number that satisfies the expression $i^2 = -1$.
+In CalcpadCE, the imaginary unit can be entered either as "*i*" or as "1*i*" in case you have a variable named "*i*". It is a special number that satisfies the expression $i^2 = -1$.
 
 ## Custom
 

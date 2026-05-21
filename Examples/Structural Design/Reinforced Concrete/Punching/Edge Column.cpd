@@ -1,6 +1,6 @@
 "Punching Design of Edge Column<hr/><small>According to <strong>Eurocode</strong>: EN 1992-1-1</small>
 '<div style="max-width:180mm">
-'<img class="side" style="width:225pt;" src="https://calcpad.eu/media/structures/rc/design/punching-edge-column.png" alt="punching-edge-column.png">
+'<img class="side" style="width:225pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/punching-edge-column.png?raw=true" alt="punching-edge-column.png">
 '<h4>Input data</h4>
 '<p><b>Column</b></p>
 'Dimensions - 'c_1 = ?'mm, 'c_2 = ?'mm
@@ -24,7 +24,7 @@ A_sx = ?'mm²/m, 'A_sy = ?'mm²/m
 ρ_l = sqr(ρ_lx*ρ_ly)
 #show
 '<p><b>Material properties</b></p>
-'<p><b>Concrete</b> [EN 1992-1-1, <a target="_blank" href="https://calcpad.eu/reference/concrete-table.html">Table 3.1</a>]</p>
+'<p><b>Concrete</b> [EN 1992-1-1, Table 3.1]</p>
 'Characteristic compressive cylinder strength -'f_ck = ?'MPa
 'Partial safety factor for concrete -'γ_c = 1.5','α_cc = ?
 #post
@@ -82,7 +82,7 @@ v_Ed = β*V_Ed*10^3/(u_1*d)'MPa
 		'<p class="err">Increase slab thickness, column dimensions or concrete grade.</p>
 	#end if
 	'<p class="ref">[BS EN 1992-1-1, Table NA.1, §6.4.5 (3)]</p>
-	'Limitation of punching stress at basic control perimeter 
+	'Limitation of punching stress at basic control perimeter
 	#if v_Ed ≤ 2*v_Rd_c
 		v_Ed' MPa &le; '2*v_Rd_c'MPa. Design check is satisfied.
 	#else
@@ -103,7 +103,7 @@ v_Ed = β*V_Ed*10^3/(u_1*d)'MPa
 	#if s_t ≤ 1.5*d
 		'Check:'s_t'mm &le; '1.5*d'mm. Check is satisfied.
 	#else
-		'Check:'s_t'mm &gt;'1.5*d'mm. 
+		'Check:'s_t'mm &gt;'1.5*d'mm.
 		'<p class="err">Distance exceeds the maximum value.</p>
 		'Accepted value: 's_t = 1.5*d'mm
 	#end if
@@ -133,8 +133,8 @@ v_Ed = β*V_Ed*10^3/(u_1*d)'MPa
 	#else
 		'<p class="err">'v_Ed'MPa &gt;'v_Rd_cs'MPa. Check is NOT satisfied. Increase shear reinforcement area.</p>
 	#end if
-	'<img style="width:225pt;" style="display:inline;" src="https://calcpad.eu/media/structures/rc/design/punching-edge-column-reinf-plan.png" alt="punching-edge-column-reinf-plan.png">
-	'<img style="width:195pt;" src="https://calcpad.eu/media/structures/rc/design/punching-edge-column-reinf-section.png" alt="punching-edge-column-reinf-section.png">
+	'<img style="width:225pt;" style="display:inline;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/punching-edge-column-reinf-plan.png?raw=true" alt="punching-edge-column-reinf-plan.png">
+	'<img style="width:195pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/punching-edge-column-reinf-section.png?raw=true" alt="punching-edge-column-reinf-section.png">
 #end if
 #show
 '</div>600	300	200	200	20	10	6	1200	600	25	1	500

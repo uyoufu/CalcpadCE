@@ -32,4 +32,4 @@ PlotWidth = 360''PlotHeight = 200
 		#post
 		$Plot{f(x) @ x = x_min : x_max}
 	#end if
-#end if 
+#end if

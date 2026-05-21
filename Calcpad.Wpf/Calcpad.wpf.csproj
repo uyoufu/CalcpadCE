@@ -8,21 +8,20 @@
     <StartupObject>Calcpad.Wpf.App</StartupObject>
     <ApplicationIcon>resources\calcpad.ico</ApplicationIcon>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Authors>Nedelcho Ganchovski</Authors>
     <RootNamespace>Calcpad.Wpf</RootNamespace>
     <Platforms>AnyCPU</Platforms>
-		<Authors>Nedelcho Ganchovski</Authors>
-		<Company>Proektsoft EOOD</Company>
-    <PackageId>Calcpad</PackageId>
-    <Product>Calcpad</Product>
-    <AssemblyName>Calcpad</AssemblyName>
+    <Authors>CalcpadCE Contributors</Authors>
+    <Company>CalcpadCE Community</Company>
+    <PackageId>CalcpadCE</PackageId>
+    <Product>CalcpadCE</Product>
+    <AssemblyName>CalcpadCE</AssemblyName>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
 		<PlatformTarget>AnyCPU</PlatformTarget>
 	</PropertyGroup>
-	
+
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
 		<Optimize>false</Optimize>
@@ -33,7 +32,7 @@
     <PackageReference Include="HtmlAgilityPack" Version="1.12.4" />
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3595.46" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <ProjectReference Include="..\Calcpad.core\Calcpad.Core.csproj" />
     <ProjectReference Include="..\Calcpad.OpenXml\Calcpad.OpenXml.csproj" />
@@ -47,7 +46,6 @@
     <Resource Include="resources\form.png" />
     <Resource Include="resources\help.png" />
     <Resource Include="resources\image.png" />
-    <Resource Include="resources\logo.png" />
     <Resource Include="resources\new.png" />
     <Resource Include="resources\open.png" />
     <Resource Include="resources\paste.png" />
@@ -111,10 +109,8 @@
     <None Update="doc\Images\Calc.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="doc\Images\calcpad.ico">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="doc\Images\Calcpad.png">
+    <None Include="..\docs\media\logo.svg">
+      <Link>doc\Images\logo.svg</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="doc\Images\Copy.png">
@@ -142,9 +138,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="doc\Images\Keyboard.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="doc\Images\Logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="doc\Images\Mandelbrot.png">
@@ -306,7 +299,7 @@
     <None Update="Fonts\Roboto-Black.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Fonts\Roboto-BlackItalic.ttf">  
+    <None Update="Fonts\Roboto-BlackItalic.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Fonts\Roboto-Bold.ttf">
@@ -396,7 +389,7 @@
     <None Update="doc\Images\Sample5.bg.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-	
+
 	<!--Chinese (zh)-->
     <None Update="doc\help.zh.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -491,15 +484,15 @@
     <EmbeddedResource Update="ConstantsResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ConstantsResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>	
+    </EmbeddedResource>
     <EmbeddedResource Update="FindReplaceResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>FindReplaceResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>    
+    </EmbeddedResource>
     <EmbeddedResource Update="MainWindowResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>MainWindowResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>	
+    </EmbeddedResource>
     <EmbeddedResource Update="MathResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>MathResources.Designer.cs</LastGenOutput>
@@ -507,8 +500,8 @@
     <EmbeddedResource Update="UnitsResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>UnitsResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>	
-	
+    </EmbeddedResource>
+
 	<EmbeddedResource Update="AppMessages.bg.resx">
       <DependentUpon>AppMessages.resx</DependentUpon>
     </EmbeddedResource>
@@ -527,7 +520,7 @@
     <EmbeddedResource Update="UnitsResources.bg.resx">
       <DependentUpon>UnitsResources.resx</DependentUpon>
     </EmbeddedResource>
-	
+
 	<EmbeddedResource Update="AppMessages.zh.resx">
       <DependentUpon>AppMessages.resx</DependentUpon>
     </EmbeddedResource>

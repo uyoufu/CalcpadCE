@@ -121,7 +121,7 @@ namespace Calcpad.Core
                 return 1.0;
             return Solver.TanhSinh(t => Math.Pow(t, a - 1) * Math.Pow(1 - t, b - 1), FpMin, x, Precision);
         }
-            
+
 
         internal static double IncompleteBeta(double x, double a, double b)
         {
@@ -289,7 +289,7 @@ namespace Calcpad.Core
         // Jacobi elliptic amplitude am
         internal static double JacobiAm(double u, double m)
         {
-            if (u == 0) 
+            if (u == 0)
                 return 0;
             if (m == 0)
                 return u;
@@ -330,7 +330,7 @@ namespace Calcpad.Core
             return cn / sn;
         }
 
-        // Jacobi elliptic function cd   
+        // Jacobi elliptic function cd
         internal static double JacobiCd(double u, double m)
         {
             var phi = JacobiAm(u, m);
@@ -822,7 +822,7 @@ namespace Calcpad.Core
                 y *= y;
                 var ans = ax * (0.5 + y * (0.87890594 + y * (0.51498869 + y * (0.15084934
                     + y * (0.2658733e-1 + y * (0.301532e-2 + y * 0.32411e-3))))));
-                
+
                 return x < 0.0 ? -ans : ans;
             }
             else
@@ -856,7 +856,7 @@ namespace Calcpad.Core
             var bi = 1.0;
             for (int j = 2 * (n + (int)Math.Sqrt(ACC * n)); j > 0; j--)  // Downward recurrence from even m.
             {
-                var bim = bip + j * tox * bi; 
+                var bim = bip + j * tox * bi;
                 bip = bi;
                 bi = bim;
                 if (Math.Abs(bi) > BIGNO)  // Renormalize to prevent overflows.
@@ -1102,7 +1102,7 @@ namespace Calcpad.Core
 
             if (x < Math.E)
                 return Solver.ModAB(ξ => ξ * Math.Exp(ξ), -1, 1, x, Precision, out _);
-            
+
             const double k_e = Math.E / (Math.E - 1);
             var ln_x = Math.Log(x);
             var ln_ln_x = Math.Log(ln_x);

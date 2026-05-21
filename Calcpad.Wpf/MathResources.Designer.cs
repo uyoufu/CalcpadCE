@@ -10,8 +10,8 @@
 
 namespace Calcpad.Wpf {
     using System;
-    
-    
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -23,15 +23,15 @@ namespace Calcpad.Wpf {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class MathResources {
-        
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal MathResources() {
         }
-        
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -45,7 +45,7 @@ namespace Calcpad.Wpf {
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -59,7 +59,7 @@ namespace Calcpad.Wpf {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Absolute value/magnitude.
         /// </summary>
@@ -68,7 +68,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AbsoluteValue", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Add.
         /// </summary>
@@ -77,7 +77,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Add", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Addition.
         /// </summary>
@@ -86,7 +86,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Addition", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Aggregate and Interpolation.
         /// </summary>
@@ -95,7 +95,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AggregateAndInterpolation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The angle which tangent is y/x.
         /// </summary>
@@ -104,7 +104,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AngleWhichTangentIsYDividedByX", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Assignment.
         /// </summary>
@@ -113,7 +113,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Assignment", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Average of multiple values.
         /// </summary>
@@ -122,7 +122,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AverageOfMultipleValues", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Binary Logarithm.
         /// </summary>
@@ -131,7 +131,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("BinaryLogarithm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Complex.
         /// </summary>
@@ -140,7 +140,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Complex", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Conditional And Logical.
         /// </summary>
@@ -149,7 +149,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConditionalAndLogical", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Conditional еvaluation.
         /// </summary>
@@ -158,7 +158,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConditionalEvaluation_Function", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Cosecant.
         /// </summary>
@@ -167,7 +167,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Cosecant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Cosine.
         /// </summary>
@@ -176,7 +176,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Cosine", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Cotangent.
         /// </summary>
@@ -185,7 +185,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Cotangent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Cubic root.
         /// </summary>
@@ -194,7 +194,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CubicRoot", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Decimal logarithm.
         /// </summary>
@@ -203,7 +203,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DecimalLogarithm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Decimal point.
         /// </summary>
@@ -212,7 +212,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DecimalPoint", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Divide.
         /// </summary>
@@ -221,7 +221,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Divide", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Division.
         /// </summary>
@@ -230,7 +230,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Division", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Division Bar.
         /// </summary>
@@ -239,7 +239,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DivisionBar", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Equal.
         /// </summary>
@@ -248,7 +248,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Equal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Equal To.
         /// </summary>
@@ -257,7 +257,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EqualTo", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Exponentiation.
         /// </summary>
@@ -266,7 +266,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Exponentiation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Factorial.
         /// </summary>
@@ -275,7 +275,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Factorial", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Functions.
         /// </summary>
@@ -284,7 +284,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Functions", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Geometric mean.
         /// </summary>
@@ -293,7 +293,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GeometricMean", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Greater Than.
         /// </summary>
@@ -302,7 +302,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GreaterThan", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Greater Than Or Equal.
         /// </summary>
@@ -311,7 +311,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GreaterThanOrEqual", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The greatest common divisor of several integers.
         /// </summary>
@@ -320,7 +320,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GreatestCommonDivisor", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Hermite spline interpolation.
         /// </summary>
@@ -329,7 +329,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HermiteSplineInterpolation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Hyperbolic.
         /// </summary>
@@ -338,7 +338,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Hyperbolic", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Hyperbolic Cosecant.
         /// </summary>
@@ -347,7 +347,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HyperbolicCosecant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Hyperbolic Cosine.
         /// </summary>
@@ -356,7 +356,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HyperbolicCosine", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Hyperbolic Cotangent.
         /// </summary>
@@ -365,7 +365,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HyperbolicCotangent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to HyperbolicSecant.
         /// </summary>
@@ -374,7 +374,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HyperbolicSecant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Hyperbolic Sine.
         /// </summary>
@@ -383,7 +383,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HyperbolicSine", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Hyperbolic Tangent.
         /// </summary>
@@ -392,7 +392,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HyperbolicTangent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The imaginary part of a complex numbers.
         /// </summary>
@@ -401,7 +401,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ImaginaryPartOfAComplexNumber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Integer.
         /// </summary>
@@ -410,7 +410,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Integer", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Integer Division.
         /// </summary>
@@ -419,7 +419,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("IntegerDivision", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Cosecant.
         /// </summary>
@@ -428,7 +428,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseCosecant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Cosine.
         /// </summary>
@@ -437,7 +437,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseCosine", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Cotangent.
         /// </summary>
@@ -446,7 +446,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseCotangent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Hyperbolic.
         /// </summary>
@@ -455,7 +455,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseHyperbolic", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Hyperbolic Cosecant.
         /// </summary>
@@ -464,7 +464,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseHyperbolicCosecant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Hyperbolic Cosine.
         /// </summary>
@@ -473,7 +473,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseHyperbolicCosine", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Hyperbolic Cotangent.
         /// </summary>
@@ -482,7 +482,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseHyperbolicCotangent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Hyperbolic Secant.
         /// </summary>
@@ -491,7 +491,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseHyperbolicSecant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Hyperbolic Sine.
         /// </summary>
@@ -500,7 +500,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseHyperbolicSine", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Hyperbolic Tangent.
         /// </summary>
@@ -509,7 +509,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseHyperbolicTangent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Secant.
         /// </summary>
@@ -518,7 +518,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseSecant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Sine.
         /// </summary>
@@ -527,7 +527,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseSine", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Tangent.
         /// </summary>
@@ -536,7 +536,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseTangent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Trigonometric.
         /// </summary>
@@ -545,7 +545,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseTrigonometric", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The least common multiple of several integers.
         /// </summary>
@@ -554,7 +554,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LeastCommonMultiple", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Left bracket.
         /// </summary>
@@ -563,7 +563,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LeftBracket", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Less Than.
         /// </summary>
@@ -572,7 +572,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LessThan", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Less Than or Equal.
         /// </summary>
@@ -581,7 +581,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LessThanOrEqual", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Linear interpolation.
         /// </summary>
@@ -590,7 +590,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LinearInterpolation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Logarithmic, Exponential and Roots.
         /// </summary>
@@ -599,7 +599,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LogarithmicExponentialAndRoots", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Logical &quot;AND&quot;.
         /// </summary>
@@ -608,7 +608,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LogicalAnd", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Logical &quot;NOT&quot;.
         /// </summary>
@@ -617,7 +617,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LogicalNot", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Logical &quot;OR&quot;.
         /// </summary>
@@ -626,7 +626,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LogicalOr", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Logical &quot;XOR&quot;.
         /// </summary>
@@ -635,7 +635,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LogicalXor", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Maximum of multiple values.
         /// </summary>
@@ -644,7 +644,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MaximumOfMultipleValues", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Minimum of multiple values.
         /// </summary>
@@ -653,7 +653,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MinimumOfMultipleValues", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Modulo (remainder).
         /// </summary>
@@ -662,7 +662,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Modulo", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The modulo (remainder) of an integer division.
         /// </summary>
@@ -671,7 +671,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Modulo_Description", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Multiplication.
         /// </summary>
@@ -680,7 +680,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Multiplication", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Multiply.
         /// </summary>
@@ -689,7 +689,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Multiply", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Natural Exponent.
         /// </summary>
@@ -698,7 +698,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NaturalExponent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Natural Logarithm.
         /// </summary>
@@ -707,7 +707,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NaturalLogarithm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Not еqual.
         /// </summary>
@@ -716,7 +716,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NotEqual", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Not Equal To.
         /// </summary>
@@ -725,7 +725,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NotEqualTo", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to n-th Root.
         /// </summary>
@@ -734,7 +734,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NthRoot", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Operators.
         /// </summary>
@@ -743,7 +743,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Operators", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The phase of a complex number.
         /// </summary>
@@ -752,7 +752,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PhaseOfAComplexNumber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Pi number.
         /// </summary>
@@ -761,7 +761,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PiNumber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Product of multiple values.
         /// </summary>
@@ -770,7 +770,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ProductOfMultipleValues", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Raise to cube.
         /// </summary>
@@ -779,7 +779,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RaiseToCube", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Raise to power.
         /// </summary>
@@ -788,7 +788,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RaiseToPower", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Raise to square.
         /// </summary>
@@ -797,7 +797,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RaiseToSquare", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Random number between 0 and x.
         /// </summary>
@@ -806,7 +806,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RandomNumber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The real part of a complex number.
         /// </summary>
@@ -815,7 +815,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RealPartOfAComplexNumber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Right bracket.
         /// </summary>
@@ -824,7 +824,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RightBracket", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Rounding.
         /// </summary>
@@ -833,7 +833,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Rounding", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Round to the nearest integer.
         /// </summary>
@@ -842,7 +842,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RoundToNearestInteger", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Round to the greater integer.
         /// </summary>
@@ -851,7 +851,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RoundToTheGreaterInteger", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Round to the lower integer.
         /// </summary>
@@ -860,7 +860,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RoundToTheLowerInteger", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Round towards zero.
         /// </summary>
@@ -869,7 +869,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RoundTowardsZero", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Secant.
         /// </summary>
@@ -878,7 +878,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Secant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Selective evaluation.
         /// </summary>
@@ -887,7 +887,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SelectiveEvaluation_Function", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sign of a number.
         /// </summary>
@@ -896,7 +896,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SignOfANumber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sine.
         /// </summary>
@@ -905,7 +905,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Sine", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Square Root.
         /// </summary>
@@ -914,7 +914,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SquareRoot", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Square root of sum of squares.
         /// </summary>
@@ -923,7 +923,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SquareRootOfSumOfSquares", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Subtract.
         /// </summary>
@@ -932,7 +932,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Subtract", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Subtraction.
         /// </summary>
@@ -941,7 +941,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Subtraction", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sum of multiple values.
         /// </summary>
@@ -950,7 +950,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SumOfMultipleValues", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sum of squares.
         /// </summary>
@@ -959,7 +959,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SumOfSquares", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Take the n-th element.
         /// </summary>
@@ -968,7 +968,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TakeTheNthElement", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Tangent.
         /// </summary>
@@ -977,7 +977,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Tangent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Trigonometric.
         /// </summary>

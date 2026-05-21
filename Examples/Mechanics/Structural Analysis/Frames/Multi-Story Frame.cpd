@@ -352,7 +352,7 @@ R(i) = -z_J(j(i))*[m; m; 1]*last(r(i); 3)
 #novar
 #for i = 1 : n_c
 	#val
-	'<p>Joint <b>J'j(i)' - 
+	'<p>Joint <b>J'j(i)' -
 	#equ
 	'</b>'R(i)'</p>
 #loop
@@ -456,7 +456,7 @@ k_w = W/w
 #loop
 #equ
 '<p><b>Deformed shape</b></p>
-'Shape function in relative coordinates ξ = x/l (with account to shear deflections) 
+'Shape function in relative coordinates ξ = x/l (with account to shear deflections)
 Φ_1(e; ξ) = 1/(1 + k_s(e))*(1 + k_s(e) - k_s(e)*ξ - 3*ξ^2 + 2*ξ^3)
 Φ_2(e; ξ) = ξ*l(e)*m^-1/(1 + k_s(e))*(1 + k_s(e)/2 - (2 + k_s(e)/2)*ξ + ξ^2)
 Φ_3(e; ξ) = ξ/(1 + k_s(e))*(k_s(e) + 3*ξ - 2*ξ^2)

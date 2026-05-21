@@ -1,6 +1,6 @@
 "Shear Design of RC Rectangular Section<hr/><small>According to <strong>Eurocode</strong>: EN 1992-1-1</small>
 '<div style="max-width:180mm;">
-'<img class="side" style="width:270pt;" src="https://calcpad.eu/media/structures/rc/design/beam-shear.png" alt="beam-shear.png">
+'<img class="side" style="width:270pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/beam-shear.png?raw=true" alt="beam-shear.png">
 '<h4>Cross section dimensions</h4>
 'Width -'b = ?'mm, Height'h = ?'mm
 #post
@@ -11,12 +11,12 @@
 #post
 'Reinforcement ratio -'ρ_l = min(A_sl/(b*d); 0.02)
 #show
-'Shear links diameter -'d_w = ?'mm 
+'Shear links diameter -'d_w = ?'mm
 'Number of legs for one link -'n_w = ?
 '<p><b>Section design loads</b></p>
 'Shear force -'V_Ed = ?'kN&nbsp;&emsp;Axial force -'N_Ed = ?'kN
 '<h4>Material properties</h4>
-'<p class="ref">[EN 1992-1-1, <a target="_blank" href="https://calcpad.eu/reference/concrete-table.html">Table 3.1</a>]</p>
+'<p class="ref">[EN 1992-1-1, Table 3.1]</p>
 '<p><b>Concrete</b></p>
 'Characteristic compressive cylinder strength -'f_ck = ?'MPa
 'Partial safety factor for concrete -'γ_c = 1.5','α_cc = ?
@@ -24,7 +24,7 @@
 'Design compressive cylinder strength -'f_cd = α_cc*f_ck/γ_c'MPa
 #show
 '<p><b>Steel for shear reinforcement</b></p>
-'Characteristic yield strength -'f_yk = ?'MPa 
+'Characteristic yield strength -'f_yk = ?'MPa
 #post
 'Partial safety factor for steel -'γ_s = 1.15
 'Design yield strength -'f_ywd = f_yk/γ_s'MPa
@@ -42,7 +42,7 @@ k_1 = 0.15
 '<p class="ref">(6.2a)</p>
 'Shear resistance
 V_Rd_c_ = (C_Rd_c*k*(100*ρ_l*f_ck)^(1/3) + k_1*σ_cp)*b*d*10^-3'kN
-'Minimum shear resistance 
+'Minimum shear resistance
 '<p class="ref">(6.2b)</p>
 V_Rd_c_min = (v_min + k_1*σ_cp)*b*d*10^-3'kN
 V_Rd_c = max(V_Rd_c_min;V_Rd_c_)'kN
@@ -92,11 +92,11 @@ V_Rd_c = max(V_Rd_c_min;V_Rd_c_)'kN
 		'<p class="ref">[EN 1992-1-1, §9.2.2]</p>
 		'Maximum spacing -'s_max = min(0.75*d;300)'mm
 		#if s > s_max
-			s'mm &gt;'s_max'mm. Spacing is greater than the maximum. 
+			s'mm &gt;'s_max'mm. Spacing is greater than the maximum.
 			'The relevant spacing is accepted:'s = s_max'mm
 		#end if
 		'<p class="ref">(9.4)</p>
-		'Reinforcement ratio 
+		'Reinforcement ratio
 		ρ_w = A_sw/(s*b)
 		'<p class="ref">(9.5N)</p>
 		ρ_w_min = 0.08*sqr(f_ck)/f_yk
@@ -104,7 +104,7 @@ V_Rd_c = max(V_Rd_c_min;V_Rd_c_)'kN
 			ρ_w'&lt;'ρ_w_min'. Reinforcement ratio is lower than the minimum. Minimum reinforcement ratio is accepted.
 		#end if
 		'<p class="ref">(6.18)</p>
-		'Additional force in tensile reinforcement 
+		'Additional force in tensile reinforcement
 		ΔF_td = 0.5*V_Ed*cot(θ)'kN
 		'<p class="ref">(9.2)</p>
 		'Bending moment diagram shifting distance

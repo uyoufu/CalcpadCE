@@ -58,11 +58,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="calcpad_download_help_html" xml:space="preserve">
-        <value>https:// calcpad.eu/download/help.html</value>
-    </data>
   <data name="TryRestoreState_Recovered_SavePrompt" xml:space="preserve">
-        <value>Calcpad recovered from unexpected shutdown.
+        <value>CalcpadCE recovered from unexpected shutdown.
 Would you like to restore your unsaved data?</value>
     </data>
   <data name="TryRestoreState_Failed" xml:space="preserve">
@@ -81,13 +78,13 @@ You can find your unsaved data in
         <value>Stop! Inline Html elements must not cross text lines.</value>
     </data>
   <data name="Command_Open_Text_File" xml:space="preserve">
-        <value>Text File (*.txt)|*.txt|Calcpad Worksheet (*.cpd)|*.cpd|Calcpad Compiled (*.cpdz)|*.cpdz</value>
+        <value>Text File (*.txt)|*.txt|CalcpadCE Worksheet (*.cpd)|*.cpd|CalcpadCE Compiled (*.cpdz)|*.cpdz</value>
     </data>
   <data name="Command_Open_Calcpad_Worksheet" xml:space="preserve">
-        <value>Calcpad Worksheet (*.cpd)|*.cpd|Calcpad Compiled (*.cpdz)|*.cpdz|Text File (*.txt)|*.txt</value>
+        <value>CalcpadCE Worksheet (*.cpd)|*.cpd|CalcpadCE Compiled (*.cpdz)|*.cpdz|Text File (*.txt)|*.txt</value>
     </data>
   <data name="FileSaveAs_Calcpad_Compiled" xml:space="preserve">
-        <value>Calcpad Compiled (*.cpdz)|*.cpdz</value>
+        <value>CalcpadCE Compiled (*.cpdz)|*.cpdz</value>
     </data>
   <data name="SavePrompt" xml:space="preserve">
         <value>File not saved. Save?</value>

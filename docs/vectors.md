@@ -2,7 +2,7 @@
 
 ## Internal implementation and types of vectors
 
-There are two types of vectors in Calcpad: regular (small) and large.
+There are two types of vectors in CalcpadCE: regular (small) and large.
 Vectors can contain only real numbers with units.
 Complex vectors are not supported in this version.
 A single vector can contain different types of units, even if not consistent.
@@ -18,12 +18,12 @@ A vector is defined with its full "mathematical" length, but no memory is initia
 This length can be obtained by the **len**($\vec{v}$) function.
 The greatest index of a non-zero element defines the internal size of a vector.
 It is returned by the **size**($\vec{v}$) function.
-The rest of the elements are known to be zero, so Calcpad does not need to store them in memory.
+The rest of the elements are known to be zero, so CalcpadCE does not need to store them in memory.
 Instead, it returns directly zero, if such an element is accessed.
 
 This allows the software to work efficiently with vectors that are not entirely filled.
 Such vectors are very common in engineering as is the load vector in finite element analyses.
-However, Calcpad reserves a little bit more memory above the size, that is called "capacity". This is because resizing a vector is computationally expensive.
+However, CalcpadCE reserves a little bit more memory above the size, that is called "capacity". This is because resizing a vector is computationally expensive.
 Since we normally assign elements in a loop, in this way we avoid resizing the vector on each iteration.
 
 ## Definition
@@ -92,7 +92,7 @@ $b = [0\ 1\ 4\ 9\ 16\ 25]$
 
 This includes all functions that read or modify the structure of the vector.
 It means that the result does not depend on the content, i.e. the values of elements.
-The following functions are available in Calcpad:
+The following functions are available in CalcpadCE:
 
 ### **len**($\vec{a}$)
 
@@ -457,7 +457,7 @@ For example:
 
 `sin([0; 30; 45; 90])` $= [0\ 0.5\ 0.707\ 1]$
 
-Calcpad also includes several math functions that are specific for vectors:
+CalcpadCE also includes several math functions that are specific for vectors:
 
 ### **norm_p**($\vec{a}$)
 
@@ -615,7 +615,7 @@ For example:
 `[2; 4; 5]*[2; 3; 4]` $= [4\ 12\ 20]$
 
 If the lengths of both vectors are different, the shorter vector is padded with zeros to the length of the longer one.
-Dot and cross products in Calcpad are implemented as functions (see above). All binary operators are supported for vector-scalar and scalar-vector operands in a similar way.
+Dot and cross products in CalcpadCE are implemented as functions (see above). All binary operators are supported for vector-scalar and scalar-vector operands in a similar way.
 For example:
 
 `[2; 4; 5]*2` $= [4\ 8\ 10]$

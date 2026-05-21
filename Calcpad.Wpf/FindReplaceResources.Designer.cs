@@ -10,8 +10,8 @@
 
 namespace Calcpad.Wpf {
     using System;
-    
-    
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -23,15 +23,15 @@ namespace Calcpad.Wpf {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class FindReplaceResources {
-        
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal FindReplaceResources() {
         }
-        
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -45,7 +45,7 @@ namespace Calcpad.Wpf {
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -59,7 +59,7 @@ namespace Calcpad.Wpf {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to All.
         /// </summary>
@@ -68,7 +68,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("All", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Close.
         /// </summary>
@@ -77,7 +77,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Close", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0} matches were replaced..
         /// </summary>
@@ -86,7 +86,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("count_matches_were_replaced", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Direction:.
         /// </summary>
@@ -95,7 +95,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Direction", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Down.
         /// </summary>
@@ -104,7 +104,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Down", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to End of text reached. There are no other occurrences..
         /// </summary>
@@ -113,7 +113,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("End_of_text_reached_There_are_no_other_occurrences", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Fin_d.
         /// </summary>
@@ -122,7 +122,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Find", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Find And Replace.
         /// </summary>
@@ -131,7 +131,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Find_And_Replace_Caption", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Find Next.
         /// </summary>
@@ -140,7 +140,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FindNext", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Find Output.
         /// </summary>
@@ -149,7 +149,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FindOutput", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid character: {0}..
         /// </summary>
@@ -158,7 +158,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Invalid_character_0", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Match case.
         /// </summary>
@@ -167,7 +167,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MatchCase", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Re_place.
         /// </summary>
@@ -176,7 +176,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Replace", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Replace _All.
         /// </summary>
@@ -185,7 +185,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ReplaceAll", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Replace w_ith:.
         /// </summary>
@@ -194,7 +194,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ReplaceWith", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Search text not found..
         /// </summary>
@@ -203,7 +203,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Search_text_not_found", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Search for:.
         /// </summary>
@@ -212,7 +212,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SearchFor", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Selection.
         /// </summary>
@@ -221,7 +221,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Selection", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Start of text reached. There are no other occurrences..
         /// </summary>
@@ -230,7 +230,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Start_of_text_reached_There_are_no_other_occurrences", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The search string is empty..
         /// </summary>
@@ -239,7 +239,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("The_search_string_is_empty", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Up.
         /// </summary>
@@ -248,7 +248,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Up", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Whole words.
         /// </summary>

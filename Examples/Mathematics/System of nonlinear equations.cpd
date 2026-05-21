@@ -1,4 +1,4 @@
-"Numerical methods for solving systems of nonlinear equations with Calcpad
+"Numerical methods for solving systems of nonlinear equations with CalcpadCE
 '<hr/>
 '<!--'x = [1; 1; 1; 1]','g(x) = 0','g_k(x) = 0','f′(x) = 0','J(x) = 0'-->
 #noc
@@ -35,7 +35,7 @@ x.1^2 - x.2 + 2*x.3 - sqrt(x.4) - 3'='0
 	#end if
 #loop
 #show
-'Calculate the following expressions iteratively (the last results are displayed only): 
+'Calculate the following expressions iteratively (the last results are displayed only):
 '  'x⁰ = join(x)' - store a copy of the previous vector <var>x</var>
 '  Update the solution vector with a new approximation
 '  'x.1 = g_1(x)','x.2 = g_2(x)','x.3 = g_3(x)','x.4 = g_4(x)
@@ -85,7 +85,7 @@ J(x) = [5; 4; 1; -2*x.4| _
 	x = x⁰ - δx
 #loop
 #show
-'Calculate the following expressions iteratively (the last results are displayed only): 
+'Calculate the following expressions iteratively (the last results are displayed only):
 '  'x⁰ = x' - store the previous vector <var>x</var>
 '  'δx = inverse(J(x⁰))*f(x⁰)'- difference
 '  'x = x⁰ - δx'- update the solution vector
@@ -96,8 +96,8 @@ J(x) = [5; 4; 1; -2*x.4| _
 'Completed in'n'iterations at'ε'&lt;'ε_max'.
 'Result -'x
 'Check -'f(x)
-'<h4>3. Broyden’s method</h4> 
-'The Broyden’s method is the mulidimensional equivalent to the secant method. It is similar to Newton’s method, but instead of calculating the inverse Jacobian on each iteration, it uses the secant between two consecutive approximations. 
+'<h4>3. Broyden’s method</h4>
+'The Broyden’s method is the mulidimensional equivalent to the secant method. It is similar to Newton’s method, but instead of calculating the inverse Jacobian on each iteration, it uses the secant between two consecutive approximations.
 '<img style="height:100pt; width:160pt;" src="./Secant.png" alt="Secant.png">
 'Although its convergence is slower, it avoids the heavy operation on computing and inverting the Jacobian each time. The solution is performed as follows:
 #equ
@@ -126,7 +126,7 @@ y¹ = f(x¹)
 	x¹ = x²','y¹ = y²
 #loop
 #show
-'Calculate the following expressions iteratively (the last results are displayed only): 
+'Calculate the following expressions iteratively (the last results are displayed only):
 '  'y⁰ = f(x⁰)'- function values at prev. step
 '  'x¹ = x⁰ - J_inv*y⁰'- current step approximation
 '  'y¹ = f(x¹)'- function values at current step

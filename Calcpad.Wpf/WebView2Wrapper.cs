@@ -22,7 +22,7 @@ namespace Calcpad.Wpf
             _blankPagePath = blankPagePath ?? "about:blank";
         }
         private async Task<T> InvokeScriptAsync<T>(string script)
-        {   
+        {
             var json = await _wv2.ExecuteScriptAsync(script);
             return JsonSerializer.Deserialize<T>(json);
         }
@@ -172,7 +172,7 @@ printWindow.document.write(savedHtml);
 printWindow.document.close();
 printWindow.onafterprint = function(){printWindow.close();};
 printWindow.onload = setTimeout(function(){
-printWindow.focus(); 
+printWindow.focus();
 printWindow.print();
 }, 100);");
         }
@@ -196,12 +196,12 @@ printWindow.print();
         private async Task<string> GetTextAsync()
         {
             const string script = @"$('body').children().not('script').map(function() {
-    var e = $(this); 
-    var text = e.text(); 
-    if (e.is('p, h1, h2, h3, h4, h5')) 
+    var e = $(this);
+    var text = e.text();
+    if (e.is('p, h1, h2, h3, h4, h5'))
     {
         return text + '\n';
-    } 
+    }
     return text;
 }).get().join();";
             try
@@ -257,7 +257,7 @@ EndFragment:0000000004";
             }
             catch
             {
-                MessageBox.Show(AppMessages.Error_getting_input_fields_values, "Calcpad", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show(AppMessages.Error_getting_input_fields_values, "CalcpadCE", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             return null;
         }
@@ -305,9 +305,9 @@ EndFragment:0000000004";
             settings.ColorMode = CoreWebView2PrintColorMode.Color;
             settings.Duplex = CoreWebView2PrintDuplex.OneSided;
             settings.MediaSize = CoreWebView2PrintMediaSize.Default;
-            settings.HeaderTitle = "Created with Calcpad";
+            settings.HeaderTitle = "Created with CalcpadCE";
             settings.FooterUri = "";
-            settings.PrinterName = "Calcpad";
+            settings.PrinterName = "CalcpadCE";
             return settings;
         }
     }

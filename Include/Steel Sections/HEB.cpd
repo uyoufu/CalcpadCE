@@ -23,7 +23,7 @@
 	Iw_HEB100 = 3233000000mm^6
 	Ww_HEB100 = 1462000mm^4
 	#show
-	
+
 #end def
 #def HEB120$
 	#hide
@@ -50,7 +50,7 @@
 	Iw_HEB120 = 9125000000mm^6
 	Ww_HEB120 = 2824000mm^4
 	#show
-	
+
 #end def
 #def HEB140$
 	#hide
@@ -77,7 +77,7 @@
 	Iw_HEB140 = 21965000000mm^6
 	Ww_HEB140 = 4948000mm^4
 	#show
-	
+
 #end def
 #def HEB160$
 	#hide
@@ -104,7 +104,7 @@
 	Iw_HEB160 = 46667000000mm^6
 	Ww_HEB160 = 8020000mm^4
 	#show
-	
+
 #end def
 #def HEB180$
 	#hide
@@ -131,7 +131,7 @@
 	Iw_HEB180 = 91728000000mm^6
 	Ww_HEB180 = 12380000mm^4
 	#show
-	
+
 #end def
 #def HEB200$
 	#hide
@@ -158,7 +158,7 @@
 	Iw_HEB200 = 167060000000mm^6
 	Ww_HEB200 = 18230000mm^4
 	#show
-	
+
 #end def
 #def HEB220$
 	#hide
@@ -185,7 +185,7 @@
 	Iw_HEB220 = 289510000000mm^6
 	Ww_HEB220 = 26010000mm^4
 	#show
-	
+
 #end def
 #def HEB240$
 	#hide
@@ -212,7 +212,7 @@
 	Iw_HEB240 = 476280000000mm^6
 	Ww_HEB240 = 35890000mm^4
 	#show
-	
+
 #end def
 #def HEB260$
 	#hide
@@ -239,7 +239,7 @@
 	Iw_HEB260 = 736280000000mm^6
 	Ww_HEB260 = 47140000mm^4
 	#show
-	
+
 #end def
 #def HEB280$
 	#hide
@@ -266,7 +266,7 @@
 	Iw_HEB280 = 1107200000000mm^6
 	Ww_HEB280 = 60840000mm^4
 	#show
-	
+
 #end def
 #def HEB300$
 	#hide
@@ -293,7 +293,7 @@
 	Iw_HEB300 = 1651000000000mm^6
 	Ww_HEB300 = 79000000mm^4
 	#show
-	
+
 #end def
 #def HEB320$
 	#hide
@@ -320,7 +320,7 @@
 	Iw_HEB320 = 2026200000000mm^6
 	Ww_HEB320 = 90900000mm^4
 	#show
-	
+
 #end def
 #def HEB340$
 	#hide
@@ -347,7 +347,7 @@
 	Iw_HEB340 = 2405600000000mm^6
 	Ww_HEB340 = 101500000mm^4
 	#show
-	
+
 #end def
 #def HEB360$
 	#hide
@@ -374,7 +374,7 @@
 	Iw_HEB360 = 2829300000000mm^6
 	Ww_HEB360 = 112600000mm^4
 	#show
-	
+
 #end def
 #def HEB400$
 	#hide
@@ -401,7 +401,7 @@
 	Iw_HEB400 = 3751100000000mm^6
 	Ww_HEB400 = 133900000mm^4
 	#show
-	
+
 #end def
 #def HEB450$
 	#hide
@@ -428,7 +428,7 @@
 	Iw_HEB450 = 5177700000000mm^6
 	Ww_HEB450 = 163800000mm^4
 	#show
-	
+
 #end def
 #def HEB500$
 	#hide
@@ -455,7 +455,7 @@
 	Iw_HEB500 = 6920700000000mm^6
 	Ww_HEB500 = 196600000mm^4
 	#show
-	
+
 #end def
 #def HEB550$
 	#hide
@@ -482,7 +482,7 @@
 	Iw_HEB550 = 8743900000000mm^6
 	Ww_HEB550 = 224900000mm^4
 	#show
-	
+
 #end def
 #def HEB600$
 	#hide
@@ -509,7 +509,7 @@
 	Iw_HEB600 = 10838000000000mm^6
 	Ww_HEB600 = 254700000mm^4
 	#show
-	
+
 #end def
 #def HEB650$
 	#hide
@@ -536,7 +536,7 @@
 	Iw_HEB650 = 13219000000000mm^6
 	Ww_HEB650 = 286000000mm^4
 	#show
-	
+
 #end def
 #def HEB700$
 	#hide
@@ -563,7 +563,7 @@
 	Iw_HEB700 = 15900000000000mm^6
 	Ww_HEB700 = 318700000mm^4
 	#show
-	
+
 #end def
 #def HEB800$
 	#hide
@@ -590,7 +590,7 @@
 	Iw_HEB800 = 21617000000000mm^6
 	Ww_HEB800 = 377500000mm^4
 	#show
-	
+
 #end def
 #def HEB900$
 	#hide
@@ -617,7 +617,7 @@
 	Iw_HEB900 = 29196000000000mm^6
 	Ww_HEB900 = 451800000mm^4
 	#show
-	
+
 #end def
 #def HEB1000$
 	#hide
@@ -644,5 +644,5 @@
 	Iw_HEB1000 = 37340000000000mm^6
 	Ww_HEB1000 = 518300000mm^4
 	#show
-	
+
 #end def

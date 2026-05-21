@@ -47,7 +47,7 @@ a - b'- subtraction
 a + b'- addition
 'Relational (comparison):
 a ≡ b'- equal to
-a ≠ b'- unequal to 
+a ≠ b'- unequal to
 a < b'- less then
 a > b'- greater than
 a ≤ b'- less or equal
@@ -94,7 +94,7 @@ a = 2', 'b = [0; 4; 5; 6; 7]
 'Relational (comparison):
 2 ≡ b'- equal to
 2 ≠ b'- unequal to
-2 < b'- less then 
+2 < b'- less then
 2 > b'- greater than
 2 ≤ b'- less or equal
 2 ≥ b'- greater or equal

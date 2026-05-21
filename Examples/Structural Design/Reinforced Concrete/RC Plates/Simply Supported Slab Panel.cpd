@@ -1,6 +1,6 @@
 "Simply Supported Slab Panel Design<hr/><small>According to <strong>Eurocode</strong>: EN 1992-1-1</small>
 '<div style="max-width:180mm;">
-'<img alt="ss-span-cl.png" style="height:170pt;" class="side" src="https://calcpad.eu/media/structures/rc/spans/ss-span-cl.png">
+'<img alt="ss-span-cl.png" style="height:170pt;" class="side" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/spans/ss-span-cl.png?raw=true">
 '<h4>Dimensions</h4>
 'Clear spans (<i>l</i><sub>x</sub> &lt; <i>l</i><sub>y</sub>)
 l_x_cl = ?'m,'l_y_cl = ?'m
@@ -19,7 +19,7 @@ l_y = l_y_cl + min(b_y/100;h/100)'m
 	#hide
 #else
 	#show
-	'<img alt="ss-span.png" class="side" style="height:140pt;" src="https://calcpad.eu/media/structures/rc/spans/ss-span.png">
+	'<img alt="ss-span.png" class="side" style="height:140pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/spans/ss-span.png?raw=true">
 	'<h4>Span length</h4>
 	'Design spans lengths and edge moments in adjacent panels
 	'Self weight -'g_sw = 0.25*h'kN/m²
@@ -52,7 +52,7 @@ l_y = l_y_cl + min(b_y/100;h/100)'m
 	'</div>
 	#show
 	'<h4>Material properties</h4>
-	'<p><b>Concrete</b> &nbsp;&nbsp;[<a target="_blank" href="https://calcpad.eu/reference/concrete-table.html">EN 1992-1-1, Table 3.1</a>]</p>
+	'<p><b>Concrete</b> &nbsp;&nbsp;[EN 1992-1-1, Table 3.1]</p>
 	'Characteristic compressive cylinder strength -'f_ck = ?'MPa
 	'Partial safety factors for concrete -'γ_c = 1.5','α_cc = ?
 	#post

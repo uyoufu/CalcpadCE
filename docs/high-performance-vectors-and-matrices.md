@@ -2,7 +2,7 @@
 
 High performance (hp) vectors and matrices were introduced in Calcpad version 7.3.0 with the purpose of solving larger engineering problems faster and with less memory consumption.
 But this comes with a trade-off: all elements of an hp vector or matrix must have the same units.
-This allows Calcpad to store and process the units only once for the whole vector/matrix and perform a lot of additional optimizations like SIMD vectorization of operations, application of more cache-friendly algorithms, etc.
+This allows CalcpadCE to store and process the units only once for the whole vector/matrix and perform a lot of additional optimizations like SIMD vectorization of operations, application of more cache-friendly algorithms, etc.
 All this results in dozens of times improvement in speed and reduces the required memory size more than twice, even if there are no units at all.
 
 Hp vectors and matrices are initially created by special functions, similar to standard creational functions, but ending with “\_hp”, as follows:
@@ -48,7 +48,7 @@ To check if the type of *x* is a high-performance (hp) vector or matrix you can 
 
 ## High performance symmetric solvers
 
-Calcpad also includes advanced solvers for two of the most common matrix problems – solution of linear systems of equations and finding the eigenvalues and eigenvector of a matrix:
+CalcpadCE also includes advanced solvers for two of the most common matrix problems – solution of linear systems of equations and finding the eigenvalues and eigenvector of a matrix:
 
 ### PCG symmetric linear solver
 
@@ -58,7 +58,7 @@ They are much faster than direct ones, especially if the matrix is well conditio
 One of the most popular of them is the preconditioned conjugate gradient (PCG) method.
 Its complexity is $`O(m\sqrt{k})`$, where *m* is the number of nonzero elements and *k* is the condition number of the matrix.
 
-In Calcpad, the PCG method is used in the following functions:
+In CalcpadCE, the PCG method is used in the following functions:
 
 | Function | Description |
 | --- | --- |
@@ -70,9 +70,9 @@ If the matrix has banded or skyline structure, the algorithm takes advantage of 
 You can achieve such structure and minimize the bandwidth by providing appropriate numbering for the joints of the FE model.
 
 Iterative methods like PCG are approximate and the solution continues until a certain precision is achieved.
-In Calcpad, it is specified by setting the variable `Tol`. Its default value is `Tol` $= 10^{-6}$ just like in MATLAB.
+In CalcpadCE, it is specified by setting the variable `Tol`. Its default value is `Tol` $= 10^{-6}$ just like in MATLAB.
 If the required precision is not reached for under 1000 iterations, no convergence is assumed, so the solution is stopped with an error message.
-Preconditioning can often improve convergence by reducing the condition number *k*. In Calcpad, a simple Jacoby preconditioner is used for that purpose.
+Preconditioning can often improve convergence by reducing the condition number *k*. In CalcpadCE, a simple Jacoby preconditioner is used for that purpose.
 
 ### Symmetric Lanczos eigensolver
 
@@ -84,7 +84,7 @@ It can find several of the extreme (smallest or largest) eigenvalues of a large 
 It has a time complexity of $O(k^2 m)$, where *k* is the number of iterations and *m* is the number of nonzero elements of the matrix.
 It is applied at the tridiagonalization step, replacing the Householder’s reflections method.
 
-In Calcpad, it is used for the same functions as the QL method, when the size of the matrix is \> 200:
+In CalcpadCE, it is used for the same functions as the QL method, when the size of the matrix is \> 200:
 
 | Function | Description |
 |---|---|

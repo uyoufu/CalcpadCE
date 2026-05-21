@@ -61,17 +61,17 @@
   <data name="ReportUnhandledExceptionAndClose_NoUnsavedData" xml:space="preserve">
         <value>
 
-There is no unsaved data. If the problem persists, please contact proektsoft.bg@gmail.com.</value>
+There is no unsaved data. If the problem persists, please file an issue at https://github.com/imartincei/CalcpadCE/issues.</value>
     </data>
   <data name="ReportUnhandledExceptionAndClose_NoUnsavedData_RecoveryAttempted" xml:space="preserve">
         <value>
 
-Calcpad saved your work and tried to recover automatically.</value>
+CalcpadCE saved your work and tried to recover automatically.</value>
     </data>
   <data name="ReportUnhandledExceptionAndClose_UnsavedData_RecoveryFailed" xml:space="preserve">
         <value>
 
-There was unsaved data. Calcpad tried, but was unable to recover. If the problem persists, please contact proektsoft.bg@gmail.com.</value>
+There was unsaved data. CalcpadCE tried, but was unable to recover. If the problem persists, please file an issue at https://github.com/imartincei/CalcpadCE/issues.</value>
     </data>
   <data name="ExceptionDetails" xml:space="preserve">
         <value>
@@ -117,7 +117,7 @@ Exception details:
     <value>End of line expected.</value>
   </data>
   <data name="UnexpectedErrorOccurred" xml:space="preserve">
-    <value>Unexpected error occurred in Calcpad: "{0}"
+    <value>Unexpected error occurred in CalcpadCE: "{0}"
 
 Source: "{1}"</value>
   </data>

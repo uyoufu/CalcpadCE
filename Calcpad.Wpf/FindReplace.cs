@@ -155,7 +155,7 @@ namespace Calcpad.Wpf
         {
             if (IsWebView2Focused)
             {
-                var matchCase = MatchCase.ToString().ToLowerInvariant();           
+                var matchCase = MatchCase.ToString().ToLowerInvariant();
                 var searchUpward = (Direction == FindReplace.Directions.Up).ToString().ToLowerInvariant();
                 var wrapAround = (Direction == FindReplace.Directions.All).ToString().ToLowerInvariant();
                 var wholeWord = WholeWords.ToString().ToLowerInvariant();

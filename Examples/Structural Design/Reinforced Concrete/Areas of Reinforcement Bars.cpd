@@ -3,11 +3,11 @@
 '<style>td:hover {color:red;} table {cursor:default;}</style>
 'Required reinforcement area -'A_s,req = ? {7}'cm²
 #pre
-'<img style="height:104pt; width:122pt;" src="https://calcpad.eu/media/structures/rc/design/bars.png" alt="bars.png">
+'<img style="height:104pt; width:122pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/bars.png?raw=true" alt="bars.png">
 #post
 #val
 '<table class="bordered">
-'<tr><th>Count</th><!--'i = 0''j = 0'--> 
+'<tr><th>Count</th><!--'i = 0''j = 0'-->
 #Repeat 10
 	'<th id="c'j = j + 1'">'i = i + 1'</th>
 	#if i ≡ 6

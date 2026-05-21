@@ -6,8 +6,8 @@ x = hp([0; 1; 0.5; 0])', 'y = hp([0; 0; a$; 0])
 'Number of iterations -'n = 6'&emsp;<button id="start">Start</button>
 
 #val
-'<style>polygon{display:none; stroke:#08a; stroke-width:0.1}</style> 
-#hide 
+'<style>polygon{display:none; stroke:#08a; stroke-width:0.1}</style>
+#hide
 w = 300', 'h = 1.2*w', 'k = 100
 #show
 '<center><svg viewbox="0 10 'k' 'k'" style="width:'w'pt; height:'h'pt;">
@@ -42,4 +42,4 @@ w = 300', 'h = 1.2*w', 'k = 100
 	#show
 #loop
 '</svg></center>
-'<script>var i='1';var f=$("#fr-1");f.show();$("#start").click(function(){$("html, body").animate({scrollTop:$("#start").offset().top},800);$("#start").hide();setInterval(function(){if(++i>'n'){i=1;$("polygon:not(#fr-1)").hide();}f=$("#fr-"+i);f.show(600);},'1000');})</script> 
+'<script>var i='1';var f=$("#fr-1");f.show();$("#start").click(function(){$("html, body").animate({scrollTop:$("#start").offset().top},800);$("#start").hide();setInterval(function(){if(++i>'n'){i=1;$("polygon:not(#fr-1)").hide();}f=$("#fr-"+i);f.show(600);},'1000');})</script>

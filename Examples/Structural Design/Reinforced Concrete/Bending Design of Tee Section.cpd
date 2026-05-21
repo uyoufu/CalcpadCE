@@ -1,6 +1,6 @@
 "Bending Design of RC Tee Section<hr/><small>According to <strong>Eurocode</strong>: EN 1992-1-1</small>
 '<div style="max-width:180mm;">
-'<img style="width:400pt;" src="https://calcpad.eu/media/structures/rc/design/tbeam-bending.png" alt="tbeam-bending.png">
+'<img style="width:400pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/tbeam-bending.png?raw=true" alt="tbeam-bending.png">
 'Design bending moment -'M_Ed = ?'kN·m
 '<h4>Cross section dimensions</h4>
 'Web -'b_w = ?'mm,'h_w = ?'mm
@@ -12,7 +12,7 @@
 'Flange first moment of area -'S_f = A_f*(d - h_f/2)'mm<sup>3</sup>
 #show
 '<h4>Material properties</h4>
-'<p style="float:right">[EN 1992-1-1, <a target="_blank" href="https://calcpad.eu/reference/concrete-table.html">Table 3.1</a>]</p>
+'<p style="float:right">[EN 1992-1-1, Table 3.1]</p>
 '<p><b>Concrete</b></p>
 'Characteristic compressive cylinder strength -'f_ck = ?'MPa
 'Partial safety factor for concrete -'γ_c = 1.5','α_cc = ?
@@ -24,7 +24,7 @@
 'Mean value of axial tensile strength -'f_ctm = 0.30*f_ck^(2/3)'MPa
 #show
 '<p><b>Steel</b></p>
-'Characteristic yield strength -'f_yk = ?'MPa 
+'Characteristic yield strength -'f_yk = ?'MPa
 #post
 'Partial safety factor for steel -'γ_s = 1.15
 'Design yield strength -'f_yd = f_yk/γ_s'MPa

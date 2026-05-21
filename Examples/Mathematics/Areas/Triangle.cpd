@@ -1,11 +1,11 @@
 "Area and Perimeter of Triangle
-'<hr /><div style="max-width:110mm;"><img style="height:55pt;" class="side" alt="triangle.png" src="https://calcpad.eu/media/math/area/triangle.png"></div>
+'<hr /><div style="max-width:110mm;"><img style="height:55pt;" class="side" alt="triangle.png" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/math/area/triangle.png?raw=true"></div>
 'Side lengths
 a = ?','b = ?','c = ?
 '<!--
 #if (a + b > c)*(b + c > a)*(c + a > b)
 	'<-->
-	'Perimeter 
+	'Perimeter
 	P = a + b + c
 	'Area (Heron formula)
 	'Semiperimeter -'p = 0.5*P

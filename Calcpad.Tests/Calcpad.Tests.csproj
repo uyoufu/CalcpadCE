@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Calcpad.core\Calcpad.Core.csproj" />
+    <ProjectReference Include="..\Calcpad.Core\Calcpad.Core.csproj" />
   </ItemGroup>
 
 </Project>

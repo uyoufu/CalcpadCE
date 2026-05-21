@@ -136,8 +136,8 @@ $Plot{t(i)|r.i @ i = 1 : n}
 $Plot{r.i*sin(θ.i)|-r.i*cos(θ.i) @ i = 1 : n}
 '</td><td>Energy - <var>E</var>(<var>t</var>), [J]<br/>
 $Plot{t(i)|E_p(i) + E_k(i) & 0s|0J & 0s|0J & 0s|0J & t(i)|E_p(i) & t(i)|E_k(i) @ i = 1 : n}
-'<br/><b style="color:MediumVioletRed">━━</b> Potential - <var>E</var><sub>p</sub>, 
-'<b style="color:MediumSpringGreen">━━</b> Kinetic - <var>E</var><sub>k</sub>, 
+'<br/><b style="color:MediumVioletRed">━━</b> Potential - <var>E</var><sub>p</sub>,
+'<b style="color:MediumSpringGreen">━━</b> Kinetic - <var>E</var><sub>k</sub>,
 '<b style="color:Tomato">━━</b> Total - <var>E</var><sub>tot</sub>
 '</td></tr></table>
 '<style>.Series3, .Series4{stroke:none!Important; fill:none!Important;} #start{height:1.8em; padding-top:0;} .fr{display:none;} .fr svg{align:center;} .trace{stroke:red; stroke-width:1; fill:red;}</style>

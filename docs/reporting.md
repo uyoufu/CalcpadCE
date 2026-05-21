@@ -65,13 +65,13 @@ For example, you can create a conditional block for displaying the selected unit
 
 ## Formatting with Html and CSS
 
-Calcpad can be used as a development platform for professional engineering programs.
+CalcpadCE can be used as a development platform for professional engineering programs.
 If you are not going to do that, you can skip this chapter.
 
 **Html** (Hyper Text Markup Language) is a markup language which is created for formatting web pages.
 You can change the font type, size and weight, the color of the text and to insert tables, images, etc.
 This is performed by adding special elements called "tags". Each tag is enclosed in angular brackets: "<tag\>". Some tags are used in pairs - opening "<tag\>" and closing "</tag\>". The contents is going in between.
-For example, if you want to make some text bold, you can use the following tags: <b\>**Bold text**</b\>. Even if you are not a professional programmer, you can easily learn some basic Html, to use with Calcpad:
+For example, if you want to make some text bold, you can use the following tags: <b\>**Bold text**</b\>. Even if you are not a professional programmer, you can easily learn some basic Html, to use with CalcpadCE:
 
 | Html code | Output |
 | --- | --- |
@@ -161,7 +161,7 @@ The result will look as follows:
 
 ### Images
 
-Before inserting an image into Calcpad document, you need to have it already as a file.
+Before inserting an image into CalcpadCE document, you need to have it already as a file.
 You can create it by some image editing software and save it to a \*.png, \*.gif or \*.jpg file.
 You can use some freeware programs like Paint, Gimp, InkScape, DraftSight or others.
 Then you can insert it using Html.
@@ -185,7 +185,7 @@ When you run the calculations, the picture will appear in the output window.
 
 [Markdown](https://www.markdownguide.org/) is a simple and lightweight markup language for text formatting.
 Unlike Html, it uses individual symbols or short sequences of symbols for tagging.
-In Calcpad, you can use Markdown in comments optionally, instead of Html.
+In CalcpadCE, you can use Markdown in comments optionally, instead of Html.
 Since it requires an additional parsing step, you can switch it on and off by using the following keywords inside your worksheet:
 
 ```text
@@ -257,5 +257,5 @@ The formatting toolbar includes the following commands:
 
 To apply a formatting tag to a certain part of the text, select the part first and then press the respective button.
 If you press it once again, you will remove the existing formatting of the same type.
-Calcpad supports word autoselection.
+CalcpadCE supports word autoselection.
 If you click inside a word and press a formatting button, it is applied for the whole word.

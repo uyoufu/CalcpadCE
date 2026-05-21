@@ -1,6 +1,6 @@
 "Beam Detailing for Ductility Class DCM<hr/><small>According to <strong>Eurocode</strong>: EN 1998-1</small>
 '<div style="max-width:180mm">
-'<img style="width:375pt;" style="max-width:100%;" src="https://calcpad.eu/media/structures/rc/detailing/beam.png" alt="beam.png">
+'<img style="width:375pt;" style="max-width:100%;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/detailing/beam.png?raw=true" alt="beam.png">
 '<p><b>Beam dimensions</b></p>
 'Cross section - 'b_w = ? {350}'mm, 'h_w = ? {650}'mm
 'Clear beam span -'l_cl = ? {5000}'mm
@@ -16,7 +16,7 @@
 'Partial safety factor -'γ_c = 1.5','α_ct = 1','α_cc = ? {1}
 #post
 'Design compressive cylinder strength -'f_cd = α_cc*f_ck/γ_c'MPa
-'Mean value of axial tensile strength -'f_ctm = 0.30*f_ck^(2/3)'MPa 
+'Mean value of axial tensile strength -'f_ctm = 0.30*f_ck^(2/3)'MPa
 'Characteristic axial tensile strength -'f_ctk,005 = 0.7*f_ctm'MPa
 
 '<p class="ref">[§ 5.1.2 (1)]</p>
@@ -45,7 +45,7 @@ b_w,max = min(b_c + h_w;2*b_c)'mm
 '<p id="C" style="display:none;">'C = ? {0}'</p>
 'Characteristic yield strength -'f_yk = ? {500}'MPa
 #pre
-'<p>Steel class - <select data-target="C"> 
+'<p>Steel class - <select data-target="C">
 '<option value="0"> Class B </option>
 '<option value="1"> Class C </option>
 '</select></p>
@@ -77,7 +77,7 @@ b_w,max = min(b_c + h_w;2*b_c)'mm
 	'<p class="err">The reinforcement ratio is less than the minimum:'ρ_1'&lt;'ρ_min'. ❌</p>
 #else if ρ_1 > ρ_max
 	'<p class="err">The reinforcement ratio is greater than the maximum:'ρ_1'&gt;'ρ_max'. ❌</p>
-#else 
+#else
 	'Design check:'ρ_min'≤'ρ_1'≤'ρ_max'. The check is satisfied! ✓
 #end if
 '<p><b>Design anchorage length</b></p>
@@ -130,7 +130,7 @@ l_bd = round(max(l_bd_;l_b,min))'mm
 	'<p class="err">Reinforcement ratio is less than minimum:'ρ_2'&lt;'ρ_min'. ❌</p>
 #else if ρ_2 > ρ_max
 	'<p class="err">Reinforcement ratio is greater than maximum:'ρ_2'&gt;'ρ_max'. ❌</p>
-#else 
+#else
 	'Design check:'ρ_min'≤'ρ_2'≤'ρ_max'. The check is satisfied! ✓
 #end if
 '<p><b>Design anchorage length</b></p>

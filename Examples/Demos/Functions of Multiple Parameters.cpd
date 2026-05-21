@@ -35,11 +35,11 @@ M(3; 3)
 #val
 '<!--'i = 0''j = 0'-->
 '<table class="bordered">
-'<tr><th></th> 
+'<tr><th></th>
 #repeat 3
 	'<th>'j = j + 1'</th>
 #loop
-'</tr> 
+'</tr>
 #repeat 3
 	'<tr><th>'i = i + 1'<!--'j = 0'--></th>
 	#repeat 3

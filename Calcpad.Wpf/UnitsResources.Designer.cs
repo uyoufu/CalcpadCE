@@ -10,8 +10,8 @@
 
 namespace Calcpad.Wpf {
     using System;
-    
-    
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -23,15 +23,15 @@ namespace Calcpad.Wpf {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class UnitsResources {
-        
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal UnitsResources() {
         }
-        
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -45,7 +45,7 @@ namespace Calcpad.Wpf {
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -59,7 +59,7 @@ namespace Calcpad.Wpf {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Absorbed Dose.
         /// </summary>
@@ -68,7 +68,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AbsorbedDose", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to A (Ampere).
         /// </summary>
@@ -77,7 +77,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Ampere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Ah (Ampere-hour).
         /// </summary>
@@ -86,7 +86,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AmpereHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Angles.
         /// </summary>
@@ -95,7 +95,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Angles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to a (are).
         /// </summary>
@@ -104,7 +104,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Are", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Area.
         /// </summary>
@@ -113,7 +113,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Area", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to AU (astronomical unit).
         /// </summary>
@@ -122,7 +122,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AstronomicalUnit", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to atm (atmosphere).
         /// </summary>
@@ -131,7 +131,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Atmosphere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to bar (bar).
         /// </summary>
@@ -140,7 +140,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Bar", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Bq (Becquerel).
         /// </summary>
@@ -149,7 +149,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Becquerel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to cal (calorie).
         /// </summary>
@@ -158,7 +158,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Calorie", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to cd (candela).
         /// </summary>
@@ -167,7 +167,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Candela", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to cd/m² (candela per sq. meter).
         /// </summary>
@@ -176,7 +176,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CandelaPerSqMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Capacitance.
         /// </summary>
@@ -185,7 +185,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Capacitance", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kat (catalytic activity).
         /// </summary>
@@ -194,7 +194,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CatalyticActivity", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to cg (centigram).
         /// </summary>
@@ -203,7 +203,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Centigram", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to cL (centilitre).
         /// </summary>
@@ -212,7 +212,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Centilitre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to cm (centimeter).
         /// </summary>
@@ -221,7 +221,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Centimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to cPa (centipascal).
         /// </summary>
@@ -230,7 +230,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Centipascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to cP (centipoise).
         /// </summary>
@@ -239,7 +239,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Centipoise", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to cSt (centistokes).
         /// </summary>
@@ -248,7 +248,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Centistokes", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Charge.
         /// </summary>
@@ -257,7 +257,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Charge", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Conductance.
         /// </summary>
@@ -266,7 +266,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Conductance", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to C (Coulomb).
         /// </summary>
@@ -275,7 +275,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Coulomb", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to C/kg (Coulomb per kg).
         /// </summary>
@@ -284,7 +284,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CoulombPerKilogram", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to cm³ (cubic centimeter).
         /// </summary>
@@ -293,7 +293,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CubicCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to dm³ (cubic decimeter).
         /// </summary>
@@ -302,7 +302,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CubicDecimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to km³ (cubic kilometer).
         /// </summary>
@@ -311,7 +311,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CubicKilometer", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to m³ (cubic meter).
         /// </summary>
@@ -320,7 +320,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CubicMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mm³ (cubic millimeter).
         /// </summary>
@@ -329,7 +329,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CubicMillimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Ci (Curie).
         /// </summary>
@@ -338,7 +338,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Curie", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Current.
         /// </summary>
@@ -347,7 +347,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Current", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Da (Dalton).
         /// </summary>
@@ -356,7 +356,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Dalton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to u (Dalton alt.).
         /// </summary>
@@ -365,7 +365,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DaltonAlt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to d (day).
         /// </summary>
@@ -374,7 +374,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Day", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to daL (decalitre).
         /// </summary>
@@ -383,7 +383,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Decalitre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to daN (decanewton).
         /// </summary>
@@ -392,7 +392,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Decanewton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to daPa (decapascal).
         /// </summary>
@@ -401,7 +401,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Decapascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to daa (decare).
         /// </summary>
@@ -410,7 +410,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Decare", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to dg (decigram).
         /// </summary>
@@ -419,7 +419,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Decigram", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to dL (decilitre).
         /// </summary>
@@ -428,7 +428,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Decilitre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to dm (decimeter).
         /// </summary>
@@ -437,7 +437,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Decimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to dPa (decipascal).
         /// </summary>
@@ -446,7 +446,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Decipascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to deg (degrees).
         /// </summary>
@@ -455,7 +455,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DegDegrees", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to °C (degree Celsius).
         /// </summary>
@@ -464,7 +464,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DegreeCelsius", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ° (degrees).
         /// </summary>
@@ -473,7 +473,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Degrees", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Density/Unit weight.
         /// </summary>
@@ -482,7 +482,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DensityUnitWeight", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Δ°C (difference in °C).
         /// </summary>
@@ -491,7 +491,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DifferenceInDegreesCelsius", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Dimensionless.
         /// </summary>
@@ -500,7 +500,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Dimensionless", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to dyn (dyne).
         /// </summary>
@@ -509,7 +509,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Dyne", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Electric.
         /// </summary>
@@ -518,7 +518,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Electric", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Electric Field.
         /// </summary>
@@ -527,7 +527,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ElectricField", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to eV (electronvolt).
         /// </summary>
@@ -536,7 +536,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Electronvolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Energy.
         /// </summary>
@@ -545,7 +545,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Energy", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Energy/Work.
         /// </summary>
@@ -554,7 +554,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EnergyWork", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Equivalent Dose.
         /// </summary>
@@ -563,7 +563,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EquivalentDose", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to erg (erg).
         /// </summary>
@@ -572,7 +572,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Erg", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to EeV (exaelectronvolt).
         /// </summary>
@@ -581,7 +581,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Exaelectronvolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Exposure.
         /// </summary>
@@ -590,7 +590,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Exposure", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to F (Farad).
         /// </summary>
@@ -599,7 +599,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Farad", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Flux.
         /// </summary>
@@ -608,7 +608,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Flux", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Flux Density.
         /// </summary>
@@ -617,7 +617,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FluxDensity", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Force.
         /// </summary>
@@ -626,7 +626,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Force", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Frequency.
         /// </summary>
@@ -635,7 +635,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Frequency", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GA (gigaampere).
         /// </summary>
@@ -644,7 +644,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigaampere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GBq (gigabecquerel).
         /// </summary>
@@ -653,7 +653,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigabecquerel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GC (gigacoulomb).
         /// </summary>
@@ -662,7 +662,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigacoulomb", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GeV (gigaelectronvolt).
         /// </summary>
@@ -671,7 +671,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigaelectronvolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GF (gigafarad).
         /// </summary>
@@ -680,7 +680,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigafarad", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GGy (gigagray).
         /// </summary>
@@ -689,7 +689,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigagray", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GH (gigahenry).
         /// </summary>
@@ -698,7 +698,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigahenry", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GHz (gigahertz).
         /// </summary>
@@ -707,7 +707,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigahertz", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GJ (gigajoule).
         /// </summary>
@@ -716,7 +716,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigajoule", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to G℧ (gigamho).
         /// </summary>
@@ -725,7 +725,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigamho", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GN (giganewton).
         /// </summary>
@@ -734,7 +734,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Giganewton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GΩ (gigaohm).
         /// </summary>
@@ -743,7 +743,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigaohm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GPa (gigapascal).
         /// </summary>
@@ -752,7 +752,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigapascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GS (gigasiemens).
         /// </summary>
@@ -761,7 +761,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigasiemens", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GSv (gigasievert).
         /// </summary>
@@ -770,7 +770,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigasievert", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GT (gigatesla).
         /// </summary>
@@ -779,7 +779,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigatesla", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Gt (gigaton).
         /// </summary>
@@ -788,7 +788,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigaton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GV (gigavolt).
         /// </summary>
@@ -797,7 +797,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigavolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GVA (gigavolt-Ampere).
         /// </summary>
@@ -806,7 +806,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GigavoltAmpere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GVAR (gigavolt-Ampere-reactive).
         /// </summary>
@@ -815,7 +815,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GigavoltAmpereReactive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GW (gigawatt).
         /// </summary>
@@ -824,7 +824,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigawatt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GWh (gigawatt-hour).
         /// </summary>
@@ -833,7 +833,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GigawattHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GWb (gigaweber).
         /// </summary>
@@ -842,7 +842,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gigaweber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to grad (gradians).
         /// </summary>
@@ -851,7 +851,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gradians", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to g (gram).
         /// </summary>
@@ -860,7 +860,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gram", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to gf (gram-force).
         /// </summary>
@@ -869,7 +869,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GramForce", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to g/cm³ (gram per cubic cm).
         /// </summary>
@@ -878,7 +878,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GramsPerCubicCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to g/mm³ (gram per cubic mm).
         /// </summary>
@@ -887,7 +887,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GramsPerCubicMillimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Gy (Gray).
         /// </summary>
@@ -896,7 +896,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gray", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ha (hectare).
         /// </summary>
@@ -905,7 +905,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Hectare", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to hg (hectogram).
         /// </summary>
@@ -914,7 +914,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Hectogram", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to hL (hectolitre).
         /// </summary>
@@ -923,7 +923,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Hectolitre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to hN (hectonewton).
         /// </summary>
@@ -932,7 +932,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Hectonewton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to hPa (hectopascal).
         /// </summary>
@@ -941,7 +941,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Hectopascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to H (Henry).
         /// </summary>
@@ -950,7 +950,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Henry", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Hz (Hertz).
         /// </summary>
@@ -959,7 +959,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Hertz", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to h (hour).
         /// </summary>
@@ -968,7 +968,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Hour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Illuminance.
         /// </summary>
@@ -977,7 +977,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Illuminance", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inductance.
         /// </summary>
@@ -986,7 +986,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Inductance", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to J (Joule).
         /// </summary>
@@ -995,7 +995,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Joule", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to K (Kelvin).
         /// </summary>
@@ -1004,7 +1004,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kelvin", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kA (kiloampere).
         /// </summary>
@@ -1013,7 +1013,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kiloampere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kBq (kilobecquerel).
         /// </summary>
@@ -1022,7 +1022,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilobecquerel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kcal (kilocalorie).
         /// </summary>
@@ -1031,7 +1031,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilocalorie", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kC (kilocoulomb).
         /// </summary>
@@ -1040,7 +1040,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilocoulomb", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to keV (kiloelectronvolt).
         /// </summary>
@@ -1049,7 +1049,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kiloelectronvolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kF (kilofarad).
         /// </summary>
@@ -1058,7 +1058,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilofarad", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kg (kilogram).
         /// </summary>
@@ -1067,7 +1067,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilogram", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kgf (kilogram-force).
         /// </summary>
@@ -1076,7 +1076,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KilogramForce", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kgf/cm³ (kg-force per cubic cm).
         /// </summary>
@@ -1085,7 +1085,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KilogramForcePerCubicCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kgf/cm² (kg-force per sq. cm).
         /// </summary>
@@ -1094,7 +1094,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KilogramFrocePerSqCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kg/cm³ (kilogram per cubic cm).
         /// </summary>
@@ -1103,7 +1103,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KilogramsPerCubicCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kGy (kilogray).
         /// </summary>
@@ -1112,7 +1112,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilogray", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kH (kilohenry).
         /// </summary>
@@ -1121,7 +1121,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilohenry", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kHz (kilohertz).
         /// </summary>
@@ -1130,7 +1130,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilohertz", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kJ (kilojoule).
         /// </summary>
@@ -1139,7 +1139,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilojoule", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to km (kilometer).
         /// </summary>
@@ -1148,7 +1148,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilometer", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kmh (kilometers per hour).
         /// </summary>
@@ -1157,7 +1157,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KilometersPerHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to k℧ (kilomho).
         /// </summary>
@@ -1166,7 +1166,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilomho", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kN (kilonewton).
         /// </summary>
@@ -1175,7 +1175,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilonewton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kN·cm (kilonewton-centimeter).
         /// </summary>
@@ -1184,7 +1184,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KiloNewtonCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kNm (kilonewton-meter).
         /// </summary>
@@ -1193,7 +1193,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KiloNewtonMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kN/cm³ (kilonewton per cubic cm).
         /// </summary>
@@ -1202,7 +1202,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KilonewtonsPerCubicCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kN/m³ (kilonewton per cubic m).
         /// </summary>
@@ -1211,7 +1211,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KilonewtonsPerCubicMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kN/cm² (kN per sq. cm).
         /// </summary>
@@ -1220,7 +1220,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KiloNewtonsPerSqCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kN/m² (kN per sq. meter).
         /// </summary>
@@ -1229,7 +1229,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KiloNewtonsPerSqMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kΩ (kiloohm).
         /// </summary>
@@ -1238,7 +1238,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kiloohm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kPa (kilopascal).
         /// </summary>
@@ -1247,7 +1247,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilopascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kS (kilosiemens).
         /// </summary>
@@ -1256,7 +1256,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilosiemens", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kSv (kilosievert).
         /// </summary>
@@ -1265,7 +1265,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilosievert", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kT (kilotesla).
         /// </summary>
@@ -1274,7 +1274,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilotesla", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kt (kiloton).
         /// </summary>
@@ -1283,7 +1283,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kiloton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kV (kilovolt).
         /// </summary>
@@ -1292,7 +1292,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilovolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kVA (kilovolt-Ampere).
         /// </summary>
@@ -1301,7 +1301,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KilovoltAmpere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kVAR (kilovolt-Ampere-reactive).
         /// </summary>
@@ -1310,7 +1310,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KilovoltAmpereReactive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kW (kilowatt).
         /// </summary>
@@ -1319,7 +1319,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kilowatt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kWh (kilowatt-hour).
         /// </summary>
@@ -1328,7 +1328,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KilowattHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to kWb (kiloweber).
         /// </summary>
@@ -1337,7 +1337,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Kiloweber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Length.
         /// </summary>
@@ -1346,7 +1346,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Length", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Light/Radiation.
         /// </summary>
@@ -1355,7 +1355,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LightRadiation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ly (light year).
         /// </summary>
@@ -1364,7 +1364,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LightYear", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to L (litre).
         /// </summary>
@@ -1373,7 +1373,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Litre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to lm (lumen).
         /// </summary>
@@ -1382,7 +1382,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Lumen", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to lm/W (lumen per Watt).
         /// </summary>
@@ -1391,7 +1391,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LumenPerWatt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to lm·s (lumen-second).
         /// </summary>
@@ -1400,7 +1400,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LumenSecond", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to lm·s/m³ (lumen-second per m³).
         /// </summary>
@@ -1409,7 +1409,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LumenSecondPerCubicMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Luminance.
         /// </summary>
@@ -1418,7 +1418,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Luminance", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Luminous efficacy.
         /// </summary>
@@ -1427,7 +1427,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LuminousEfficacy", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Luminous energy.
         /// </summary>
@@ -1436,7 +1436,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LuminousEnergy", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Luminous energy density.
         /// </summary>
@@ -1445,7 +1445,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LuminousEnergyDensity", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Luminous exposure.
         /// </summary>
@@ -1454,7 +1454,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LuminousExposure", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Luminous flux.
         /// </summary>
@@ -1463,7 +1463,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LuminousFlux", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Luminous intensity.
         /// </summary>
@@ -1472,7 +1472,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LuminousIntensity", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to lx (lux).
         /// </summary>
@@ -1481,7 +1481,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Lux", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to lx·s (lux-second).
         /// </summary>
@@ -1490,7 +1490,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LuxSecond", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Magnetic.
         /// </summary>
@@ -1499,7 +1499,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Magnetic", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Mass.
         /// </summary>
@@ -1508,7 +1508,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Mass", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MA (megaampere).
         /// </summary>
@@ -1517,7 +1517,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megaampere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MBq (megabecquerel).
         /// </summary>
@@ -1526,7 +1526,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megabecquerel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MC (megacoulomb).
         /// </summary>
@@ -1535,7 +1535,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megacoulomb", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MeV (megaelectronvolt).
         /// </summary>
@@ -1544,7 +1544,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megaelectronvolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MF (megafarad).
         /// </summary>
@@ -1553,7 +1553,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megafarad", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MGy (megagray).
         /// </summary>
@@ -1562,7 +1562,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megagray", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MH (megahenry).
         /// </summary>
@@ -1571,7 +1571,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megahenry", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MHz (megahertz).
         /// </summary>
@@ -1580,7 +1580,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megahertz", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MJ (megajoule).
         /// </summary>
@@ -1589,7 +1589,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megajoule", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to M℧ (megamho).
         /// </summary>
@@ -1598,7 +1598,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megamho", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MN (meganewton).
         /// </summary>
@@ -1607,7 +1607,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Meganewton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MΩ (megaohm).
         /// </summary>
@@ -1616,7 +1616,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megaohm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MPa (megapascal).
         /// </summary>
@@ -1625,7 +1625,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megapascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MS (megasiemens).
         /// </summary>
@@ -1634,7 +1634,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megasiemens", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MSv (megasievert).
         /// </summary>
@@ -1643,7 +1643,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megasievert", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MT (megatesla).
         /// </summary>
@@ -1652,7 +1652,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megatesla", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Mt (megaton).
         /// </summary>
@@ -1661,7 +1661,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megaton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MV (megavolt).
         /// </summary>
@@ -1670,7 +1670,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megavolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MVA (megavolt-Ampere).
         /// </summary>
@@ -1679,7 +1679,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MegavoltAmpere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MVAR (megavolt-Ampere-reactive).
         /// </summary>
@@ -1688,7 +1688,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MegavoltAmpereReactive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MW (megawatt).
         /// </summary>
@@ -1697,7 +1697,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megawatt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MWh (megawatt-hour).
         /// </summary>
@@ -1706,7 +1706,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MegawattHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MWb (megaweber).
         /// </summary>
@@ -1715,7 +1715,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Megaweber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to m (meter).
         /// </summary>
@@ -1724,7 +1724,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Meter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to m/s (meters per second).
         /// </summary>
@@ -1733,7 +1733,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MetersPerSecond", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Metric.
         /// </summary>
@@ -1742,7 +1742,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Metric", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ℧ (mho).
         /// </summary>
@@ -1751,7 +1751,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Mho", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μA (microampere).
         /// </summary>
@@ -1760,7 +1760,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microampere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μbar (microbar).
         /// </summary>
@@ -1769,7 +1769,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microbar", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μBq (microbecquerel).
         /// </summary>
@@ -1778,7 +1778,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microbecquerel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μC (microcoulomb).
         /// </summary>
@@ -1787,7 +1787,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microcoulomb", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μF (microfarad).
         /// </summary>
@@ -1796,7 +1796,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microfarad", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μg (microgram).
         /// </summary>
@@ -1805,7 +1805,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microgram", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μGy (microgray).
         /// </summary>
@@ -1814,7 +1814,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microgray", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μH (microhenry).
         /// </summary>
@@ -1823,7 +1823,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microhenry", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μHz (microhertz).
         /// </summary>
@@ -1832,7 +1832,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microhertz", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μJ (microjoule).
         /// </summary>
@@ -1841,7 +1841,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microjoule", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μL (microlitre).
         /// </summary>
@@ -1850,7 +1850,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microlitre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μm (micrometer).
         /// </summary>
@@ -1859,7 +1859,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Micrometer", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μ℧ (micromho).
         /// </summary>
@@ -1868,7 +1868,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Micromho", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μΩ (microohm).
         /// </summary>
@@ -1877,7 +1877,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microohm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μPa (micropascal).
         /// </summary>
@@ -1886,7 +1886,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Micropascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μs (microsecond).
         /// </summary>
@@ -1895,7 +1895,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microsecond", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μS (microsiemens).
         /// </summary>
@@ -1904,7 +1904,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microsiemens", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μSv (microsievert).
         /// </summary>
@@ -1913,7 +1913,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microsievert", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μT (microtesla).
         /// </summary>
@@ -1922,7 +1922,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microtesla", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μV (microvolt).
         /// </summary>
@@ -1931,7 +1931,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microvolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μVA (microvolt-Ampere).
         /// </summary>
@@ -1940,7 +1940,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MicrovoltAmpere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μVAR (microvolt-Ampere-reactive).
         /// </summary>
@@ -1949,7 +1949,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MicrovoltAmpereReactive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μW (microwatt).
         /// </summary>
@@ -1958,7 +1958,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microwatt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μWh (microwatt-hour).
         /// </summary>
@@ -1967,7 +1967,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MicrowattHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to μWb (microweber).
         /// </summary>
@@ -1976,7 +1976,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Microweber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mAh (milliampere-hour).
         /// </summary>
@@ -1985,7 +1985,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MillampereHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mA (milliampere).
         /// </summary>
@@ -1994,7 +1994,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Milliampere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mbar (millibar).
         /// </summary>
@@ -2003,7 +2003,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millibar", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mBq (millibecquerel).
         /// </summary>
@@ -2012,7 +2012,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millibecquerel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mC (millicoulomb).
         /// </summary>
@@ -2021,7 +2021,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millicoulomb", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mF (millifarad).
         /// </summary>
@@ -2030,7 +2030,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millifarad", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mg (milligram).
         /// </summary>
@@ -2039,7 +2039,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Milligram", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mGy (milligray).
         /// </summary>
@@ -2048,7 +2048,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Milligray", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mH (millihenry).
         /// </summary>
@@ -2057,7 +2057,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millihenry", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mHz (millihertz).
         /// </summary>
@@ -2066,7 +2066,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millihertz", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mJ (millijoule).
         /// </summary>
@@ -2075,7 +2075,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millijoule", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mmHg (millimeters of mercury).
         /// </summary>
@@ -2084,7 +2084,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MillilitersOfMercury", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mL (millilitre).
         /// </summary>
@@ -2093,7 +2093,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millilitre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mm (millimeter).
         /// </summary>
@@ -2102,7 +2102,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to m℧ (millimho).
         /// </summary>
@@ -2111,7 +2111,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millimho", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mΩ (milliohm).
         /// </summary>
@@ -2120,7 +2120,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Milliohm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mPa (millipascal).
         /// </summary>
@@ -2129,7 +2129,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millipascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ms (millisecond).
         /// </summary>
@@ -2138,7 +2138,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millisecond", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mS (millisiemens).
         /// </summary>
@@ -2147,7 +2147,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millisiemens", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mSv (millisievert).
         /// </summary>
@@ -2156,7 +2156,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millisievert", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mT (millitesla).
         /// </summary>
@@ -2165,7 +2165,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millitesla", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mV (millivolt).
         /// </summary>
@@ -2174,7 +2174,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Millivolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mVA (millivolt-Ampere).
         /// </summary>
@@ -2183,7 +2183,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MillivoltAmpere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mVAR (millivolt-Ampere-reactive).
         /// </summary>
@@ -2192,7 +2192,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MillivoltAmpereReactive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mW (milliwatt).
         /// </summary>
@@ -2201,7 +2201,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Milliwatt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mWh (milliwatt-hour).
         /// </summary>
@@ -2210,7 +2210,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MilliwattHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mWb (milliweber).
         /// </summary>
@@ -2219,7 +2219,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Milliweber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to min (minute).
         /// </summary>
@@ -2228,7 +2228,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Minute", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ′ (minutes).
         /// </summary>
@@ -2237,7 +2237,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Minutes", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mol (amount of substance).
         /// </summary>
@@ -2246,7 +2246,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Mol", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nA (nanoampere).
         /// </summary>
@@ -2255,7 +2255,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanoampere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nBq (nanobecquerel).
         /// </summary>
@@ -2264,7 +2264,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanobecquerel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nC (nanocoulomb).
         /// </summary>
@@ -2273,7 +2273,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanocoulomb", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nF (nanofarad).
         /// </summary>
@@ -2282,7 +2282,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanofarad", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ng (nanogram).
         /// </summary>
@@ -2291,7 +2291,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanogram", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nGy (nanogray).
         /// </summary>
@@ -2300,7 +2300,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanogray", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nH (nanohenry).
         /// </summary>
@@ -2309,7 +2309,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanohenry", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nHz (nanohertz).
         /// </summary>
@@ -2318,7 +2318,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanohertz", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nJ (nanojoule).
         /// </summary>
@@ -2327,7 +2327,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanojoule", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nL (nanolitre).
         /// </summary>
@@ -2336,7 +2336,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanolitre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nm (nanometer).
         /// </summary>
@@ -2345,7 +2345,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanometer", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to n℧ (nanomho).
         /// </summary>
@@ -2354,7 +2354,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanomho", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nΩ (nanoohm).
         /// </summary>
@@ -2363,7 +2363,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanoohm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nPa (nanopascal).
         /// </summary>
@@ -2372,7 +2372,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanopascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ns (nanosecond).
         /// </summary>
@@ -2381,7 +2381,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanosecond", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nS (nanosiemens).
         /// </summary>
@@ -2390,7 +2390,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanosiemens", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nSv (nanosievert).
         /// </summary>
@@ -2399,7 +2399,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanosievert", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nT (nanotesla).
         /// </summary>
@@ -2408,7 +2408,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanotesla", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nV (nanovolt).
         /// </summary>
@@ -2417,7 +2417,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanovolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nVA (nanovolt-Ampere).
         /// </summary>
@@ -2426,7 +2426,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NanovoltAmpere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nVAR (nanovolt-Ampere-reactive).
         /// </summary>
@@ -2435,7 +2435,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NanovoltAmpereReactive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nW (nanowatt).
         /// </summary>
@@ -2444,7 +2444,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanowatt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nWh (nanowatt-hour).
         /// </summary>
@@ -2453,7 +2453,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NanowattHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to nWb (nanoweber).
         /// </summary>
@@ -2462,7 +2462,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Nanoweber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to N (Newton).
         /// </summary>
@@ -2471,7 +2471,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Newton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to N·cm (Newton-centimeter).
         /// </summary>
@@ -2480,7 +2480,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NewtonCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Nm (Newton-meter).
         /// </summary>
@@ -2489,7 +2489,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NewtonMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to N·mm (Newton-millimeter).
         /// </summary>
@@ -2498,7 +2498,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NewtonMillimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to N/C (Newtons per Coulomb).
         /// </summary>
@@ -2507,7 +2507,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NewtonsPerCoulomb", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to N/cm³ (Newton per cubic cm).
         /// </summary>
@@ -2516,7 +2516,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NewtonsPerCubicCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to N/mm³ (Newton per cubic mm).
         /// </summary>
@@ -2525,7 +2525,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NewtonsPerCubicMillimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to N/cm² (Newton per sq. cm).
         /// </summary>
@@ -2534,7 +2534,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NewtonsPerSqCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to N/m² (Newton per sq. meter).
         /// </summary>
@@ -2543,7 +2543,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NewtonsPerSqMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to N/mm² (Newton per sq. mm).
         /// </summary>
@@ -2552,7 +2552,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NewtonsPerSqMillimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Ω (Ohm).
         /// </summary>
@@ -2561,7 +2561,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Ohm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Ω∙m (Ohm-meter).
         /// </summary>
@@ -2570,7 +2570,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("OhmMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Pa (Pascal).
         /// </summary>
@@ -2579,7 +2579,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Pascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Pa∙s (Pascal-second).
         /// </summary>
@@ -2588,7 +2588,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PascalSecond", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pcm (per 100 000).
         /// </summary>
@@ -2597,7 +2597,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Per100000", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ppb (per billion).
         /// </summary>
@@ -2606,7 +2606,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PerBillion", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to % (percent).
         /// </summary>
@@ -2615,7 +2615,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Percent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ‰ (permille).
         /// </summary>
@@ -2624,7 +2624,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Permille", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ppm (per million).
         /// </summary>
@@ -2633,7 +2633,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PerMillion", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ‱ (permyriad).
         /// </summary>
@@ -2642,7 +2642,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Permyriad", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ppq (per quadrillion).
         /// </summary>
@@ -2651,7 +2651,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PerQuadrillion", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ppt (per trillion).
         /// </summary>
@@ -2660,7 +2660,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PerTrillion", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to PeV (petaelectronvolt).
         /// </summary>
@@ -2669,7 +2669,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Petaelectronvolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pA (picoampere).
         /// </summary>
@@ -2678,7 +2678,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picoampere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pBq (picobecquerel).
         /// </summary>
@@ -2687,7 +2687,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picobecquerel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pC (picocoulomb).
         /// </summary>
@@ -2696,7 +2696,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picocoulomb", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pF (picofarad).
         /// </summary>
@@ -2705,7 +2705,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picofarad", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pg (picogram).
         /// </summary>
@@ -2714,7 +2714,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picogram", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pGy (picogray).
         /// </summary>
@@ -2723,7 +2723,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picogray", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pH (picohenry).
         /// </summary>
@@ -2732,7 +2732,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picohenry", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pHz (picohertz).
         /// </summary>
@@ -2741,7 +2741,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picohertz", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pJ (picojoule).
         /// </summary>
@@ -2750,7 +2750,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picojoule", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pL (picolitre).
         /// </summary>
@@ -2759,7 +2759,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picolitre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pm (picometer).
         /// </summary>
@@ -2768,7 +2768,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picometer", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to p℧ (picomho).
         /// </summary>
@@ -2777,7 +2777,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picomho", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pΩ (picoohm).
         /// </summary>
@@ -2786,7 +2786,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picoohm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pPa (picopascal).
         /// </summary>
@@ -2795,7 +2795,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picopascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ps (picosecond).
         /// </summary>
@@ -2804,7 +2804,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picosecond", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pS (picosiemens).
         /// </summary>
@@ -2813,7 +2813,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picosiemens", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pSv (picosievert).
         /// </summary>
@@ -2822,7 +2822,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picosievert", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pT (picotesla).
         /// </summary>
@@ -2831,7 +2831,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picotesla", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pV (picovolt).
         /// </summary>
@@ -2840,7 +2840,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picovolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pVA (picovolt-Ampere).
         /// </summary>
@@ -2849,7 +2849,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PicovoltAmpere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pVAR (picovolt-Ampere-reactive).
         /// </summary>
@@ -2858,7 +2858,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PicovoltAmpereReactive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pW (picowatt).
         /// </summary>
@@ -2867,7 +2867,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picowatt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pWh (picowatt-hour).
         /// </summary>
@@ -2876,7 +2876,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PicowattHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to pWb (picoweber).
         /// </summary>
@@ -2885,7 +2885,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Picoweber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to P (Poise).
         /// </summary>
@@ -2894,7 +2894,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Poise", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Potential.
         /// </summary>
@@ -2903,7 +2903,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Potential", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Power.
         /// </summary>
@@ -2912,7 +2912,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Power", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Pressure.
         /// </summary>
@@ -2921,7 +2921,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Pressure", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to rad (radians).
         /// </summary>
@@ -2930,7 +2930,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Radians", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Radioactivity.
         /// </summary>
@@ -2939,7 +2939,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Radioactivity", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Resistance.
         /// </summary>
@@ -2948,7 +2948,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Resistance", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to rev (revolutions).
         /// </summary>
@@ -2957,7 +2957,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Revolutions", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to R (Röntgen).
         /// </summary>
@@ -2966,7 +2966,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Roentgen", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to rpm (rotations per minute).
         /// </summary>
@@ -2975,7 +2975,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RPM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Rd (Rutherford).
         /// </summary>
@@ -2984,7 +2984,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Rutherford", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to s (second).
         /// </summary>
@@ -2993,7 +2993,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Second", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ″ (seconds).
         /// </summary>
@@ -3002,7 +3002,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Seconds", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to S (Siemens).
         /// </summary>
@@ -3011,7 +3011,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Siemens", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to S/m (Siemens per meter).
         /// </summary>
@@ -3020,7 +3020,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SiemensPerMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sv  (Sievert).
         /// </summary>
@@ -3029,7 +3029,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Sievert", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Speed.
         /// </summary>
@@ -3038,7 +3038,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Speed", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to cm² (sq. centimeter).
         /// </summary>
@@ -3047,7 +3047,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SqCentimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to dm² (sq. decimeter).
         /// </summary>
@@ -3056,7 +3056,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SqDecimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to km² (sq. kilometer).
         /// </summary>
@@ -3065,7 +3065,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SqKilometer", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to m² (sq. meter).
         /// </summary>
@@ -3074,7 +3074,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SqMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to mm² (sq. millimeter).
         /// </summary>
@@ -3083,7 +3083,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SqMillimeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to m²/s (square meters per second).
         /// </summary>
@@ -3092,7 +3092,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SquareMetersPerSecond", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to St (Stokes).
         /// </summary>
@@ -3101,7 +3101,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Stokes", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to at (technical atmosphere).
         /// </summary>
@@ -3110,7 +3110,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TechnicalAtmosphere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Temperature.
         /// </summary>
@@ -3119,7 +3119,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Temperature", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TA (teraampere).
         /// </summary>
@@ -3128,7 +3128,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Teraampere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TBq (terabecquerel).
         /// </summary>
@@ -3137,7 +3137,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Terabecquerel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TC (teracoulomb).
         /// </summary>
@@ -3146,7 +3146,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Teracoulomb", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TeV (teraelectronvolt).
         /// </summary>
@@ -3155,7 +3155,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Teraelectronvolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TF (terafarad).
         /// </summary>
@@ -3164,7 +3164,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Terafarad", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TGy (teragray).
         /// </summary>
@@ -3173,7 +3173,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Teragray", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TH (terahenry).
         /// </summary>
@@ -3182,7 +3182,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Terahenry", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to THz (terahertz).
         /// </summary>
@@ -3191,7 +3191,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Terahertz", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TJ (terajoule).
         /// </summary>
@@ -3200,7 +3200,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Terajoule", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to T℧ (teramho).
         /// </summary>
@@ -3209,7 +3209,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Teramho", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TN (teranewton).
         /// </summary>
@@ -3218,7 +3218,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Teranewton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TΩ (teraohm).
         /// </summary>
@@ -3227,7 +3227,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Teraohm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TPa (terapascal).
         /// </summary>
@@ -3236,7 +3236,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Terapascal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TS (terasiemens).
         /// </summary>
@@ -3245,7 +3245,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Terasiemens", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TSv (terasievert).
         /// </summary>
@@ -3254,7 +3254,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Terasievert", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TT (teratesla).
         /// </summary>
@@ -3263,7 +3263,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Teratesla", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TV (teravolt).
         /// </summary>
@@ -3272,7 +3272,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Teravolt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TVA (teravolt-Ampere).
         /// </summary>
@@ -3281,7 +3281,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TeravoltAmpere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TVAR (teravolt-Ampere-reactive).
         /// </summary>
@@ -3290,7 +3290,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TeravoltAmpereReactive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TW (terawatt).
         /// </summary>
@@ -3299,7 +3299,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Terawatt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TWh (terawatt-hour).
         /// </summary>
@@ -3308,7 +3308,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TerawattHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to TWb (teraweber).
         /// </summary>
@@ -3317,7 +3317,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Teraweber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to T (Tesla).
         /// </summary>
@@ -3326,7 +3326,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Tesla", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Time.
         /// </summary>
@@ -3335,7 +3335,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Time", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to t (ton).
         /// </summary>
@@ -3344,7 +3344,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Ton", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to tf (tonne-force).
         /// </summary>
@@ -3353,7 +3353,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TonneForce", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to tf/m³ (tonne-force per cubic meter).
         /// </summary>
@@ -3362,7 +3362,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TonneForcePerCubicMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to tf/m² (tonne-force per sq. meter).
         /// </summary>
@@ -3371,7 +3371,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TonneForcePerSqMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to t/m³ (tonne per cubic meter).
         /// </summary>
@@ -3380,7 +3380,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TonnesPerCubicMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Torque/Moment.
         /// </summary>
@@ -3389,7 +3389,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TorqueMoment", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Torr (Torr).
         /// </summary>
@@ -3398,7 +3398,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Torr", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Units.
         /// </summary>
@@ -3407,7 +3407,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Units_Header", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Viscosity.
         /// </summary>
@@ -3416,7 +3416,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Viscosity", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to V (Volt).
         /// </summary>
@@ -3425,7 +3425,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Volt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to VA (Volt-Ampere).
         /// </summary>
@@ -3434,7 +3434,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("VoltAmpere", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to VAR (Volt-Ampere (reactive)).
         /// </summary>
@@ -3443,7 +3443,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("VoltAmpereReactive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to V∙m (Volt-meter).
         /// </summary>
@@ -3452,7 +3452,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("VoltMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to V/m (Volts per meter).
         /// </summary>
@@ -3461,7 +3461,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("VoltsPerMeter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Volume.
         /// </summary>
@@ -3470,7 +3470,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Volume", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to W (Watt).
         /// </summary>
@@ -3479,7 +3479,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Watt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Wh (Watt-hour).
         /// </summary>
@@ -3488,7 +3488,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("WattHour", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Wb (Weber).
         /// </summary>
@@ -3497,7 +3497,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Weber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to w (week).
         /// </summary>
@@ -3506,7 +3506,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Week", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to y (year).
         /// </summary>

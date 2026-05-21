@@ -141,7 +141,7 @@ namespace Calcpad.Core
                 const string delimiters = "@=:";
                 var items = new SolverItem[n + 1];
                 int current = 0, bracketCounter = 0, equalityIndex = -1;
-                var ts = new TextSpan(script);  
+                var ts = new TextSpan(script);
                 var len = script.Length;
                 for (int i = 0; i < len; ++i)
                 {
@@ -286,9 +286,9 @@ namespace Calcpad.Core
                     else if (c == '}')
                         --curlyBracketCounter;
 
-                    if (bracketCounter == 0 && 
-                        squareBracketCounter == 0 && 
-                        curlyBracketCounter == 0 && 
+                    if (bracketCounter == 0 &&
+                        squareBracketCounter == 0 &&
+                        curlyBracketCounter == 0 &&
                         c == ';')
                     {
                         ts.ExpandTo(i);
@@ -343,7 +343,7 @@ namespace Calcpad.Core
                 }
             }
 
-            private void Compile() 
+            private void Compile()
             {
                 var allowAssignment =
                     _type == SolverTypes.Repeat || IsBlock;
@@ -386,7 +386,7 @@ namespace Calcpad.Core
                 else
                     _a = _parser.CompileRpn(rpn);
 
-                
+
                 if (len > 3)
                 {
                     rpn = _items[3].Rpn;

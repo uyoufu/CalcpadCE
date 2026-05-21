@@ -241,7 +241,7 @@ namespace Calcpad.Core
                                        pt.Type != TokenTypes.Variable &&
                                        pt.Type != TokenTypes.Unit &&
                                        firstToken.Type != TokenTypes.Vector &&
-                                       firstToken.Type != TokenTypes.Matrix && 
+                                       firstToken.Type != TokenTypes.Matrix &&
                                        firstToken.Type != TokenTypes.Array
                                     )
                                         throw Exceptions.AssignmentPreceded();

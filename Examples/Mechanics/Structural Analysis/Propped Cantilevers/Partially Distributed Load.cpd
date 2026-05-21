@@ -1,6 +1,6 @@
 "Propped Cantilever with Partially Distributed Load
 '<hr /><div style="max-width:180mm;">
-'<img style="width:210pt;" alt="propped-cantilever-beam-distributed-load-p.png" class="side" src="https://calcpad.eu/media/mechanics/beams/propped-cantilever-beam-distributed-load-p.png">
+'<img style="width:210pt;" alt="propped-cantilever-beam-distributed-load-p.png" class="side" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/mechanics/beams/propped-cantilever-beam-distributed-load-p.png?raw=true">
 '<p><b>Input data</b></p>
 'Beam Length -'l = ?'m
 'Load -'q = ?'kN/m
@@ -34,5 +34,5 @@ M(x_1)'kN·m
 V(x) = V_A - q*(x - a)*(x > a) + q*(x - e)*(x > e)
 $Plot{V(x) @ x = 0 : l}
 V(x_1)'kN
-#show 
+#show
 '</div>10	5	2	6	1

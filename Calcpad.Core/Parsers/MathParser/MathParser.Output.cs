@@ -369,8 +369,8 @@ namespace Calcpad.Core
                         var sa = a.Content;
                         if (a.Order > t.Order && !formatEquation)
                             sa = AddBrackets(sa, a.Level, a.MinOffset, a.MaxOffset, '(', ')');
-                        else if (a.Type == TokenTypes.MultiFunction && 
-                            a.Index == Calculator.SwitchIndex && 
+                        else if (a.Type == TokenTypes.MultiFunction &&
+                            a.Index == Calculator.SwitchIndex &&
                             a.ParameterCount > 2)
                             sa = writer.CloseCurlyBrackets(sa, a.Level);
 
@@ -502,7 +502,7 @@ namespace Calcpad.Core
                         ReadOnlySpan<char> span = s;
                         int i2 = span.IndexOf("</");
                         if (i2 > 0)
-                        { 
+                        {
                             ReadOnlySpan<char> startSpan = span[..i2];
                             int i1 = startSpan.LastIndexOf(">") + 1;
                             if (i1 > 0 && double.TryParse(startSpan[i1..], out var d))

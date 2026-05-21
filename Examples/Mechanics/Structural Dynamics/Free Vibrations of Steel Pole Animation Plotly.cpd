@@ -9,7 +9,7 @@
 'Poisson′s ratio - 'ν = 0.3
 'Shear modulus -'G = E/(2*(1 + ν))
 'Mass density -'γ_s = 7.85*t/m^3
-'<!--Section shape 'shape = 3', 'Precision = 10^-4'--> 
+'<!--Section shape 'shape = 3', 'Precision = 10^-4'-->
 '<h3>Cross-section</h3>
 'Section height:
 '- at bottom -'h_b = 3000mm
@@ -21,7 +21,7 @@
 '- at top -'w_t = 750mm
 '- difference -'Δw = w_t - w_b
 '- as a function of distance to base -'w(x) = w_b + Δw*x/L
-'<p>Cross-section shape - 
+'<p>Cross-section shape -
 #if shape ≡ 0
 	'<b>Rectangular</b></p>
 #else if shape ≡ 1
@@ -173,7 +173,7 @@ y = range(1; n_J; 1)*L/n_J
 	'const yn$ = 'y';
 	'var xn$ = 'x';
 	'var tn$ = 'T.n$*500';
-	'var layout = {autosize:false,width:300,height:600,xaxis:{range:[-'x_lim','x_lim'],tick0:-'x_lim',dtick: 0.1,ticklen:'2*x_lim'},yaxis:{dtick:10},margin:{l:25,r:10,b:50,t:10,pad:2},}; 
+	'var layout = {autosize:false,width:300,height:600,xaxis:{range:[-'x_lim','x_lim'],tick0:-'x_lim',dtick: 0.1,ticklen:'2*x_lim'},yaxis:{dtick:10},margin:{l:25,r:10,b:50,t:10,pad:2},};
 	'var data = [{x:xn$,y:yn$,line:{shape:"spline"},}];
 	'Plotly.newPlot("Moden$",data,layout);
 	'function animateModen$(){

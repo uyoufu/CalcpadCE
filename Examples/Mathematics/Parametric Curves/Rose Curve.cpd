@@ -5,7 +5,7 @@ r(θ) = cos(a/b*θ)
 x(θ) = r(θ)*cos(θ)
 y(θ) = r(θ)*sin(θ)
 #pre
-'<p>Coefficients <i>a</i>/<i>b</i> =  
+'<p>Coefficients <i>a</i>/<i>b</i> =
 '<select data-target="ab">
 '<option value="2;1">2</option>
 '<option value="3;1">3</option>

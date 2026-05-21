@@ -45,7 +45,7 @@ rqi$
 #show
 'Eigenvalue 3 -'λ_3
 'Eigenvector 3 -'x_3
-'Solution with Calcpad -'E = eigen(A_1)
+'Solution with CalcpadCE -'E = eigen(A_1)
 '(symmetric QL algorithm with implicit shifts)
 'Difference
 R = E - [λ_1; -x_1|λ_2; -x_2|λ_3; x_3]

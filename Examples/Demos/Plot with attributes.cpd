@@ -1,4 +1,4 @@
-"Plot with title, legend and labels 
+"Plot with title, legend and labels
 'Functions
 f_1(x) = 1'; 'f_2(x) = -1'; 'f_3(x) = x
 f_4(x) = 2 - 2*x'; 'f_5(x) = 2 - x'; 'f_6(x) = 2*x - 2

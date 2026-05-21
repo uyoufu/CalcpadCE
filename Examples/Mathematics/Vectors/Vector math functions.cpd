@@ -69,7 +69,7 @@ acoth(5/x)'- inverse hyperbolic cotangent
 
 'Logarithmic, exponential and roots:<hr/>
 log(x)'- decimal logarithm
-ln(x)'- natural logarithm 
+ln(x)'- natural logarithm
 log_2(x)'- binary logarithm
 exp(x)'- natural exponent = eˣ
 sqr(x)'- square root

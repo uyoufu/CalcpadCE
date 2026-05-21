@@ -9,7 +9,7 @@
 '<p>Select section -
 '<select data-target="section">
 #post
-'<p>Section type -  
+'<p>Section type -
 '<select data-target="section" style="font-weight:bold; border:none; background: none; color: black; box-shadow:none; appearance: none;">
 #show
 '<option value=100;4.1;55;5.7;55;5.7;7;0>IPE 100 </option>
@@ -195,7 +195,7 @@
 '</table>
 h_w = h - t_f1 - t_f2'mm
 #pre
-'<p>Section type - 
+'<p>Section type -
 '<select data-target="rolled">
 '<option value="1">Rolled</option>
 '<option value="0">Welded</option>

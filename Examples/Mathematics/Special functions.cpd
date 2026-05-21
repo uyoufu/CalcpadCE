@@ -1,9 +1,9 @@
 #md on
 #rad
 '<!--'PlotWidth = 200','PlotHeight = 120','PlotAdaptive = 0'-->
-"Evaluation of special math functions in Calcpad
+"Evaluation of special math functions in CalcpadCE
 '---
-'This workheet defines some of the most common special functions in ℝ, by using the existing numerical methods in Calcpad only in stable and precise way (as possible)
+'This workheet defines some of the most common special functions in ℝ, by using the existing numerical methods in CalcpadCE only in stable and precise way (as possible)
 '##### Gamma and related functions
 'Euler-Mascheroni constant -'γ = 0.57721566490153286
 '**Gamma function** -' _
@@ -119,18 +119,18 @@ am_(u; m) = gd(u) + (1 - m)/4*(sinh(u)*cosh(u) - u)*sech(u)
    **am**(*u*, *m*) = π - **am**(2K(*m*) - *u*, *m*), for *u* < 2K(*m*)
 'Function for evaluation of Jacobi elliptic amplitude:
 am(u; m) = switch(
-   m ≡ 0; u; 
-   m ≡ 1; asin(tanh(u)); 
+   m ≡ 0; u;
+   m ≡ 1; asin(tanh(u));
    $block{
-       K_m2 = K(m)*2; 
-       s = sign(u); u = abs(u); 
-       n = floor(u/(K_m2)); 
-       u = u - n*K_m2; 
-       y = u*π/(K_m2); 
+       K_m2 = K(m)*2;
+       s = sign(u); u = abs(u);
+       n = floor(u/(K_m2));
+       u = u - n*K_m2;
+       y = u*π/(K_m2);
        am = if(
-           u > K_m2/2; 
-           π - $Root{F(φ; m) = K_m2 - u @ φ = 0 : π/2}; 
-           $Root{F(φ; m) = u @ φ = max(0; y - 1) : min(π/2; y + 1)}); 
+           u > K_m2/2;
+           π - $Root{F(φ; m) = K_m2 - u @ φ = 0 : π/2};
+           $Root{F(φ; m) = u @ φ = max(0; y - 1) : min(π/2; y + 1)});
        s*(am + n*π) _
     } _
 )
@@ -146,41 +146,41 @@ sn(u; m) = sin(am(u; m))
 cn(u; m) = cos(am(u; m))
 '
 dn(u; m) = $block{
-  sn = sin(am(u; m)); 
+  sn = sin(am(u; m));
   sqrt(1 - m*sn*sn)}
 '
 cs(u; m) = $block{
-  φ = am(u; m); 
+  φ = am(u; m);
   cos(φ)/sin(φ)}
 '
 cd(u; m) = $block{
-  φ = am(u; m); 
-  sn = sin(φ); 
-  cn = cos(φ); 
-  dn = sqrt(1 - m*sn*sn); 
+  φ = am(u; m);
+  sn = sin(φ);
+  cn = cos(φ);
+  dn = sqrt(1 - m*sn*sn);
   cn÷dn}
 '
 dc(u; m) = $block{
-  φ = am(u; m); 
-  sn = sin(φ); 
-  cn = cos(φ); 
-  dn = sqrt(1 - m*sn*sn); 
+  φ = am(u; m);
+  sn = sin(φ);
+  cn = cos(φ);
+  dn = sqrt(1 - m*sn*sn);
   dn÷cn}
 '
 sc(u; m) = $block{
- φ = am(u; m); 
+ φ = am(u; m);
  sin(φ)/cos(φ)}
 '
 sd(u; m) = $block{
- φ = am(u; m); 
- sn = sin(φ); 
- dn = sqrt(1 - m*sn*sn); 
+ φ = am(u; m);
+ sn = sin(φ);
+ dn = sqrt(1 - m*sn*sn);
  sn÷dn}
 '
 ds(u; m) = $block{
- φ = am(u; m); 
- sn = sin(φ); 
- dn = sqrt(1 - m*sn*sn); 
+ φ = am(u; m);
+ sn = sin(φ);
+ dn = sqrt(1 - m*sn*sn);
  dn÷sn}
 Precision = 10^-15
 'Checks:
@@ -224,8 +224,8 @@ $Plot{Wr(x) - 2/(π*x) @ x = 100 : 200}
 'Secondary value -'W_b(x) = ln_2(x)/ln(x)
 'Lower bound -'W_btm(x) = W_a(x) + 0.5*W_b(x)
 'Upper bound -'W_top(x) = W_a(x) + e/(e - 1)*W_b(x)
-'The function -'W(x) = if(x < e; 
-     $Root{ξ*exp(ξ) = x @ ξ = -1 : 1}; 
+'The function -'W(x) = if(x < e;
+     $Root{ξ*exp(ξ) = x @ ξ = -1 : 1};
      $Root{ξ*exp(ξ) = x @ ξ = W_btm(x) : W_top(x)})
 $Plot{W(x) @ x = -1 : 10}
 'Omega constant -'Ω = 0.567143290409783873

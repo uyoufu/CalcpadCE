@@ -13,7 +13,7 @@
 	It_CHS21_3x2_3 = 12570mm^4
 	Wt_CHS21_3x2_3 = 1180mm^3
 	#show
-	
+
 #end def
 #def CHS21_3x2_6$
 	#hide
@@ -30,7 +30,7 @@
 	It_CHS21_3x2_6 = 13610mm^4
 	Wt_CHS21_3x2_6 = 1278mm^3
 	#show
-	
+
 #end def
 #def CHS21_3x3_2$
 	#hide
@@ -47,7 +47,7 @@
 	It_CHS21_3x3_2 = 15370mm^4
 	Wt_CHS21_3x3_2 = 1443mm^3
 	#show
-	
+
 #end def
 #def CHS26_9x2_3$
 	#hide
@@ -64,7 +64,7 @@
 	It_CHS26_9x2_3 = 27130mm^4
 	Wt_CHS26_9x2_3 = 2017mm^3
 	#show
-	
+
 #end def
 #def CHS26_9x2_6$
 	#hide
@@ -81,7 +81,7 @@
 	It_CHS26_9x2_6 = 29640mm^4
 	Wt_CHS26_9x2_6 = 2203mm^3
 	#show
-	
+
 #end def
 #def CHS26_9x3_2$
 	#hide
@@ -98,7 +98,7 @@
 	It_CHS26_9x3_2 = 34070mm^4
 	Wt_CHS26_9x3_2 = 2533mm^3
 	#show
-	
+
 #end def
 #def CHS33_7x2_6$
 	#hide
@@ -115,7 +115,7 @@
 	It_CHS33_7x2_6 = 61850mm^4
 	Wt_CHS33_7x2_6 = 3671mm^3
 	#show
-	
+
 #end def
 #def CHS33_7x3_2$
 	#hide
@@ -132,7 +132,7 @@
 	It_CHS33_7x3_2 = 72090mm^4
 	Wt_CHS33_7x3_2 = 4279mm^3
 	#show
-	
+
 #end def
 #def CHS33_7x4$
 	#hide
@@ -149,7 +149,7 @@
 	It_CHS33_7x4 = 83800mm^4
 	Wt_CHS33_7x4 = 4973mm^3
 	#show
-	
+
 #end def
 #def CHS42_4x2_6$
 	#hide
@@ -166,7 +166,7 @@
 	It_CHS42_4x2_6 = 129300mm^4
 	Wt_CHS42_4x2_6 = 6099mm^3
 	#show
-	
+
 #end def
 #def CHS42_4x3_2$
 	#hide
@@ -183,7 +183,7 @@
 	It_CHS42_4x3_2 = 152400mm^4
 	Wt_CHS42_4x3_2 = 7189mm^3
 	#show
-	
+
 #end def
 #def CHS42_4x4$
 	#hide
@@ -200,7 +200,7 @@
 	It_CHS42_4x4 = 179800mm^4
 	Wt_CHS42_4x4 = 8482mm^3
 	#show
-	
+
 #end def
 #def CHS48_3x2_6$
 	#hide
@@ -217,7 +217,7 @@
 	It_CHS48_3x2_6 = 195500mm^4
 	Wt_CHS48_3x2_6 = 8097mm^3
 	#show
-	
+
 #end def
 #def CHS48_3x3_2$
 	#hide
@@ -234,7 +234,7 @@
 	It_CHS48_3x3_2 = 231700mm^4
 	Wt_CHS48_3x3_2 = 9595mm^3
 	#show
-	
+
 #end def
 #def CHS48_3x4$
 	#hide
@@ -251,7 +251,7 @@
 	It_CHS48_3x4 = 275400mm^4
 	Wt_CHS48_3x4 = 11400mm^3
 	#show
-	
+
 #end def
 #def CHS48_3x5$
 	#hide
@@ -268,7 +268,7 @@
 	It_CHS48_3x5 = 323100mm^4
 	Wt_CHS48_3x5 = 13380mm^3
 	#show
-	
+
 #end def
 #def CHS60_3x2_6$
 	#hide
@@ -285,7 +285,7 @@
 	It_CHS60_3x2_6 = 393100mm^4
 	Wt_CHS60_3x2_6 = 13040mm^3
 	#show
-	
+
 #end def
 #def CHS60_3x3_2$
 	#hide
@@ -302,7 +302,7 @@
 	It_CHS60_3x3_2 = 469400mm^4
 	Wt_CHS60_3x3_2 = 15570mm^3
 	#show
-	
+
 #end def
 #def CHS60_3x4$
 	#hide
@@ -319,7 +319,7 @@
 	It_CHS60_3x4 = 563500mm^4
 	Wt_CHS60_3x4 = 18690mm^3
 	#show
-	
+
 #end def
 #def CHS60_3x5$
 	#hide
@@ -336,7 +336,7 @@
 	It_CHS60_3x5 = 669500mm^4
 	Wt_CHS60_3x5 = 22210mm^3
 	#show
-	
+
 #end def
 #def CHS76_1x2_6$
 	#hide
@@ -353,7 +353,7 @@
 	It_CHS76_1x2_6 = 811800mm^4
 	Wt_CHS76_1x2_6 = 21340mm^3
 	#show
-	
+
 #end def
 #def CHS76_1x3_2$
 	#hide
@@ -370,7 +370,7 @@
 	It_CHS76_1x3_2 = 975600mm^4
 	Wt_CHS76_1x3_2 = 25640mm^3
 	#show
-	
+
 #end def
 #def CHS76_1x4$
 	#hide
@@ -387,7 +387,7 @@
 	It_CHS76_1x4 = 1181000mm^4
 	Wt_CHS76_1x4 = 31040mm^3
 	#show
-	
+
 #end def
 #def CHS76_1x5$
 	#hide
@@ -404,7 +404,7 @@
 	It_CHS76_1x5 = 1418000mm^4
 	Wt_CHS76_1x5 = 37280mm^3
 	#show
-	
+
 #end def
 #def CHS88_9x3_2$
 	#hide
@@ -421,7 +421,7 @@
 	It_CHS88_9x3_2 = 1584000mm^4
 	Wt_CHS88_9x3_2 = 35640mm^3
 	#show
-	
+
 #end def
 #def CHS88_9x4$
 	#hide
@@ -438,7 +438,7 @@
 	It_CHS88_9x4 = 1927000mm^4
 	Wt_CHS88_9x4 = 43350mm^3
 	#show
-	
+
 #end def
 #def CHS88_9x5$
 	#hide
@@ -455,7 +455,7 @@
 	It_CHS88_9x5 = 2327000mm^4
 	Wt_CHS88_9x5 = 52360mm^3
 	#show
-	
+
 #end def
 #def CHS88_9x6_3$
 	#hide
@@ -472,7 +472,7 @@
 	It_CHS88_9x6_3 = 2805000mm^4
 	Wt_CHS88_9x6_3 = 63100mm^3
 	#show
-	
+
 #end def
 #def CHS101_6x3_2$
 	#hide
@@ -489,7 +489,7 @@
 	It_CHS101_6x3_2 = 2397000mm^4
 	Wt_CHS101_6x3_2 = 47190mm^3
 	#show
-	
+
 #end def
 #def CHS101_6x4$
 	#hide
@@ -506,7 +506,7 @@
 	It_CHS101_6x4 = 2926000mm^4
 	Wt_CHS101_6x4 = 57590mm^3
 	#show
-	
+
 #end def
 #def CHS101_6x5$
 	#hide
@@ -523,7 +523,7 @@
 	It_CHS101_6x5 = 3549000mm^4
 	Wt_CHS101_6x5 = 69870mm^3
 	#show
-	
+
 #end def
 #def CHS101_6x6_3$
 	#hide
@@ -540,7 +540,7 @@
 	It_CHS101_6x6_3 = 4301000mm^4
 	Wt_CHS101_6x6_3 = 84670mm^3
 	#show
-	
+
 #end def
 #def CHS101_6x8$
 	#hide
@@ -557,7 +557,7 @@
 	It_CHS101_6x8 = 5190000mm^4
 	Wt_CHS101_6x8 = 102200mm^3
 	#show
-	
+
 #end def
 #def CHS101_6x10$
 	#hide
@@ -574,7 +574,7 @@
 	It_CHS101_6x10 = 6108000mm^4
 	Wt_CHS101_6x10 = 120200mm^3
 	#show
-	
+
 #end def
 #def CHS114_3x3_2$
 	#hide
@@ -591,7 +591,7 @@
 	It_CHS114_3x3_2 = 3449000mm^4
 	Wt_CHS114_3x3_2 = 60360mm^3
 	#show
-	
+
 #end def
 #def CHS114_3x4$
 	#hide
@@ -608,7 +608,7 @@
 	It_CHS114_3x4 = 4221000mm^4
 	Wt_CHS114_3x4 = 73860mm^3
 	#show
-	
+
 #end def
 #def CHS114_3x5$
 	#hide
@@ -625,7 +625,7 @@
 	It_CHS114_3x5 = 5138000mm^4
 	Wt_CHS114_3x5 = 89910mm^3
 	#show
-	
+
 #end def
 #def CHS114_3x6_3$
 	#hide
@@ -642,7 +642,7 @@
 	It_CHS114_3x6_3 = 6254000mm^4
 	Wt_CHS114_3x6_3 = 109400mm^3
 	#show
-	
+
 #end def
 #def CHS114_3x8$
 	#hide
@@ -659,7 +659,7 @@
 	It_CHS114_3x8 = 7590000mm^4
 	Wt_CHS114_3x8 = 132800mm^3
 	#show
-	
+
 #end def
 #def CHS114_3x10$
 	#hide
@@ -676,7 +676,7 @@
 	It_CHS114_3x10 = 8993000mm^4
 	Wt_CHS114_3x10 = 157400mm^3
 	#show
-	
+
 #end def
 #def CHS139_7x4$
 	#hide
@@ -693,7 +693,7 @@
 	It_CHS139_7x4 = 7857000mm^4
 	Wt_CHS139_7x4 = 112500mm^3
 	#show
-	
+
 #end def
 #def CHS139_7x5$
 	#hide
@@ -710,7 +710,7 @@
 	It_CHS139_7x5 = 9611000mm^4
 	Wt_CHS139_7x5 = 137600mm^3
 	#show
-	
+
 #end def
 #def CHS139_7x6_3$
 	#hide
@@ -727,7 +727,7 @@
 	It_CHS139_7x6_3 = 11770000mm^4
 	Wt_CHS139_7x6_3 = 168500mm^3
 	#show
-	
+
 #end def
 #def CHS139_7x8$
 	#hide
@@ -744,7 +744,7 @@
 	It_CHS139_7x8 = 14410000mm^4
 	Wt_CHS139_7x8 = 206200mm^3
 	#show
-	
+
 #end def
 #def CHS139_7x10$
 	#hide
@@ -761,7 +761,7 @@
 	It_CHS139_7x10 = 17240000mm^4
 	Wt_CHS139_7x10 = 246800mm^3
 	#show
-	
+
 #end def
 #def CHS139_7x12_5$
 	#hide
@@ -778,7 +778,7 @@
 	It_CHS139_7x12_5 = 20400000mm^4
 	Wt_CHS139_7x12_5 = 292100mm^3
 	#show
-	
+
 #end def
 #def CHS168_3x4$
 	#hide
@@ -795,7 +795,7 @@
 	It_CHS168_3x4 = 13940000mm^4
 	Wt_CHS168_3x4 = 165700mm^3
 	#show
-	
+
 #end def
 #def CHS168_3x5$
 	#hide
@@ -812,7 +812,7 @@
 	It_CHS168_3x5 = 17120000mm^4
 	Wt_CHS168_3x5 = 203400mm^3
 	#show
-	
+
 #end def
 #def CHS168_3x6_3$
 	#hide
@@ -829,7 +829,7 @@
 	It_CHS168_3x6_3 = 21070000mm^4
 	Wt_CHS168_3x6_3 = 250400mm^3
 	#show
-	
+
 #end def
 #def CHS168_3x8$
 	#hide
@@ -846,7 +846,7 @@
 	It_CHS168_3x8 = 25950000mm^4
 	Wt_CHS168_3x8 = 308300mm^3
 	#show
-	
+
 #end def
 #def CHS168_3x10$
 	#hide
@@ -863,7 +863,7 @@
 	It_CHS168_3x10 = 31280000mm^4
 	Wt_CHS168_3x10 = 371700mm^3
 	#show
-	
+
 #end def
 #def CHS168_3x12_5$
 	#hide
@@ -880,7 +880,7 @@
 	It_CHS168_3x12_5 = 37370000mm^4
 	Wt_CHS168_3x12_5 = 444100mm^3
 	#show
-	
+
 #end def
 #def CHS177_8x5$
 	#hide
@@ -897,7 +897,7 @@
 	It_CHS177_8x5 = 20280000mm^4
 	Wt_CHS177_8x5 = 228100mm^3
 	#show
-	
+
 #end def
 #def CHS177_8x6_3$
 	#hide
@@ -914,7 +914,7 @@
 	It_CHS177_8x6_3 = 24990000mm^4
 	Wt_CHS177_8x6_3 = 281100mm^3
 	#show
-	
+
 #end def
 #def CHS177_8x8$
 	#hide
@@ -931,7 +931,7 @@
 	It_CHS177_8x8 = 30830000mm^4
 	Wt_CHS177_8x8 = 346800mm^3
 	#show
-	
+
 #end def
 #def CHS177_8x10$
 	#hide
@@ -948,7 +948,7 @@
 	It_CHS177_8x10 = 37240000mm^4
 	Wt_CHS177_8x10 = 418900mm^3
 	#show
-	
+
 #end def
 #def CHS177_8x12_5$
 	#hide
@@ -965,7 +965,7 @@
 	It_CHS177_8x12_5 = 44600000mm^4
 	Wt_CHS177_8x12_5 = 501600mm^3
 	#show
-	
+
 #end def
 #def CHS193_7x5$
 	#hide
@@ -982,7 +982,7 @@
 	It_CHS193_7x5 = 26400000mm^4
 	Wt_CHS193_7x5 = 272600mm^3
 	#show
-	
+
 #end def
 #def CHS193_7x6_3$
 	#hide
@@ -999,7 +999,7 @@
 	It_CHS193_7x6_3 = 32600000mm^4
 	Wt_CHS193_7x6_3 = 336600mm^3
 	#show
-	
+
 #end def
 #def CHS193_7x8$
 	#hide
@@ -1016,7 +1016,7 @@
 	It_CHS193_7x8 = 40310000mm^4
 	Wt_CHS193_7x8 = 416200mm^3
 	#show
-	
+
 #end def
 #def CHS193_7x10$
 	#hide
@@ -1033,7 +1033,7 @@
 	It_CHS193_7x10 = 48830000mm^4
 	Wt_CHS193_7x10 = 504200mm^3
 	#show
-	
+
 #end def
 #def CHS193_7x12_5$
 	#hide
@@ -1050,7 +1050,7 @@
 	It_CHS193_7x12_5 = 58690000mm^4
 	Wt_CHS193_7x12_5 = 605900mm^3
 	#show
-	
+
 #end def
 #def CHS193_7x14_2$
 	#hide
@@ -1067,7 +1067,7 @@
 	It_CHS193_7x14_2 = 64910000mm^4
 	Wt_CHS193_7x14_2 = 670200mm^3
 	#show
-	
+
 #end def
 #def CHS193_7x16$
 	#hide
@@ -1084,7 +1084,7 @@
 	It_CHS193_7x16 = 71090000mm^4
 	Wt_CHS193_7x16 = 734000mm^3
 	#show
-	
+
 #end def
 #def CHS219_1x5$
 	#hide
@@ -1101,7 +1101,7 @@
 	It_CHS219_1x5 = 38560000mm^4
 	Wt_CHS219_1x5 = 352000mm^3
 	#show
-	
+
 #end def
 #def CHS219_1x6_3$
 	#hide
@@ -1118,7 +1118,7 @@
 	It_CHS219_1x6_3 = 47720000mm^4
 	Wt_CHS219_1x6_3 = 435600mm^3
 	#show
-	
+
 #end def
 #def CHS219_1x8$
 	#hide
@@ -1135,7 +1135,7 @@
 	It_CHS219_1x8 = 59190000mm^4
 	Wt_CHS219_1x8 = 540300mm^3
 	#show
-	
+
 #end def
 #def CHS219_1x10$
 	#hide
@@ -1152,7 +1152,7 @@
 	It_CHS219_1x10 = 71970000mm^4
 	Wt_CHS219_1x10 = 656900mm^3
 	#show
-	
+
 #end def
 #def CHS219_1x12_5$
 	#hide
@@ -1169,7 +1169,7 @@
 	It_CHS219_1x12_5 = 86890000mm^4
 	Wt_CHS219_1x12_5 = 793200mm^3
 	#show
-	
+
 #end def
 #def CHS219_1x14_2$
 	#hide
@@ -1186,7 +1186,7 @@
 	It_CHS219_1x14_2 = 96400000mm^4
 	Wt_CHS219_1x14_2 = 880000mm^3
 	#show
-	
+
 #end def
 #def CHS219_1x16$
 	#hide
@@ -1203,7 +1203,7 @@
 	It_CHS219_1x16 = 105900000mm^4
 	Wt_CHS219_1x16 = 967000mm^3
 	#show
-	
+
 #end def
 #def CHS219_1x20$
 	#hide
@@ -1220,7 +1220,7 @@
 	It_CHS219_1x20 = 125200000mm^4
 	Wt_CHS219_1x20 = 1143000mm^3
 	#show
-	
+
 #end def
 #def CHS244_5x5$
 	#hide
@@ -1237,7 +1237,7 @@
 	It_CHS244_5x5 = 53970000mm^4
 	Wt_CHS244_5x5 = 441500mm^3
 	#show
-	
+
 #end def
 #def CHS244_5x6_3$
 	#hide
@@ -1254,7 +1254,7 @@
 	It_CHS244_5x6_3 = 66920000mm^4
 	Wt_CHS244_5x6_3 = 547400mm^3
 	#show
-	
+
 #end def
 #def CHS244_5x8$
 	#hide
@@ -1271,7 +1271,7 @@
 	It_CHS244_5x8 = 83210000mm^4
 	Wt_CHS244_5x8 = 680600mm^3
 	#show
-	
+
 #end def
 #def CHS244_5x10$
 	#hide
@@ -1288,7 +1288,7 @@
 	It_CHS244_5x10 = 101500000mm^4
 	Wt_CHS244_5x10 = 830000mm^3
 	#show
-	
+
 #end def
 #def CHS244_5x12_5$
 	#hide
@@ -1305,7 +1305,7 @@
 	It_CHS244_5x12_5 = 122900000mm^4
 	Wt_CHS244_5x12_5 = 1006000mm^3
 	#show
-	
+
 #end def
 #def CHS244_5x14_2$
 	#hide
@@ -1322,7 +1322,7 @@
 	It_CHS244_5x14_2 = 136700000mm^4
 	Wt_CHS244_5x14_2 = 1119000mm^3
 	#show
-	
+
 #end def
 #def CHS244_5x16$
 	#hide
@@ -1339,7 +1339,7 @@
 	It_CHS244_5x16 = 150700000mm^4
 	Wt_CHS244_5x16 = 1232000mm^3
 	#show
-	
+
 #end def
 #def CHS244_5x20$
 	#hide
@@ -1356,7 +1356,7 @@
 	It_CHS244_5x20 = 179100000mm^4
 	Wt_CHS244_5x20 = 1465000mm^3
 	#show
-	
+
 #end def
 #def CHS244_5x25$
 	#hide
@@ -1373,7 +1373,7 @@
 	It_CHS244_5x25 = 210300000mm^4
 	Wt_CHS244_5x25 = 1721000mm^3
 	#show
-	
+
 #end def
 #def CHS273x5$
 	#hide
@@ -1390,7 +1390,7 @@
 	It_CHS273x5 = 75620000mm^4
 	Wt_CHS273x5 = 554000mm^3
 	#show
-	
+
 #end def
 #def CHS273x6_3$
 	#hide
@@ -1407,7 +1407,7 @@
 	It_CHS273x6_3 = 93920000mm^4
 	Wt_CHS273x6_3 = 688000mm^3
 	#show
-	
+
 #end def
 #def CHS273x8$
 	#hide
@@ -1424,7 +1424,7 @@
 	It_CHS273x8 = 117000000mm^4
 	Wt_CHS273x8 = 857400mm^3
 	#show
-	
+
 #end def
 #def CHS273x10$
 	#hide
@@ -1441,7 +1441,7 @@
 	It_CHS273x10 = 143100000mm^4
 	Wt_CHS273x10 = 1048000mm^3
 	#show
-	
+
 #end def
 #def CHS273x12_5$
 	#hide
@@ -1458,7 +1458,7 @@
 	It_CHS273x12_5 = 173900000mm^4
 	Wt_CHS273x12_5 = 1274000mm^3
 	#show
-	
+
 #end def
 #def CHS273x14_2$
 	#hide
@@ -1475,7 +1475,7 @@
 	It_CHS273x14_2 = 193900000mm^4
 	Wt_CHS273x14_2 = 1421000mm^3
 	#show
-	
+
 #end def
 #def CHS273x16$
 	#hide
@@ -1492,7 +1492,7 @@
 	It_CHS273x16 = 214100000mm^4
 	Wt_CHS273x16 = 1569000mm^3
 	#show
-	
+
 #end def
 #def CHS273x20$
 	#hide
@@ -1509,7 +1509,7 @@
 	It_CHS273x20 = 256000000mm^4
 	Wt_CHS273x20 = 1875000mm^3
 	#show
-	
+
 #end def
 #def CHS273x25$
 	#hide
@@ -1526,7 +1526,7 @@
 	It_CHS273x25 = 302500000mm^4
 	Wt_CHS273x25 = 2216000mm^3
 	#show
-	
+
 #end def
 #def CHS323_9x5$
 	#hide
@@ -1543,7 +1543,7 @@
 	It_CHS323_9x5 = 127400000mm^4
 	Wt_CHS323_9x5 = 786600mm^3
 	#show
-	
+
 #end def
 #def CHS323_9x6_3$
 	#hide
@@ -1560,7 +1560,7 @@
 	It_CHS323_9x6_3 = 158600000mm^4
 	Wt_CHS323_9x6_3 = 979200mm^3
 	#show
-	
+
 #end def
 #def CHS323_9x8$
 	#hide
@@ -1577,7 +1577,7 @@
 	It_CHS323_9x8 = 198200000mm^4
 	Wt_CHS323_9x8 = 1224000mm^3
 	#show
-	
+
 #end def
 #def CHS323_9x10$
 	#hide
@@ -1594,7 +1594,7 @@
 	It_CHS323_9x10 = 243200000mm^4
 	Wt_CHS323_9x10 = 1501000mm^3
 	#show
-	
+
 #end def
 #def CHS323_9x12_5$
 	#hide
@@ -1611,7 +1611,7 @@
 	It_CHS323_9x12_5 = 296900000mm^4
 	Wt_CHS323_9x12_5 = 1833000mm^3
 	#show
-	
+
 #end def
 #def CHS323_9x14_2$
 	#hide
@@ -1628,7 +1628,7 @@
 	It_CHS323_9x14_2 = 332000000mm^4
 	Wt_CHS323_9x14_2 = 2050000mm^3
 	#show
-	
+
 #end def
 #def CHS323_9x16$
 	#hide
@@ -1645,7 +1645,7 @@
 	It_CHS323_9x16 = 367800000mm^4
 	Wt_CHS323_9x16 = 2271000mm^3
 	#show
-	
+
 #end def
 #def CHS323_9x20$
 	#hide
@@ -1662,7 +1662,7 @@
 	It_CHS323_9x20 = 442800000mm^4
 	Wt_CHS323_9x20 = 2734000mm^3
 	#show
-	
+
 #end def
 #def CHS323_9x25$
 	#hide
@@ -1679,7 +1679,7 @@
 	It_CHS323_9x25 = 528000000mm^4
 	Wt_CHS323_9x25 = 3260000mm^3
 	#show
-	
+
 #end def
 #def CHS355_6x6_3$
 	#hide
@@ -1696,7 +1696,7 @@
 	It_CHS355_6x6_3 = 210900000mm^4
 	Wt_CHS355_6x6_3 = 1186000mm^3
 	#show
-	
+
 #end def
 #def CHS355_6x8$
 	#hide
@@ -1713,7 +1713,7 @@
 	It_CHS355_6x8 = 264000000mm^4
 	Wt_CHS355_6x8 = 1485000mm^3
 	#show
-	
+
 #end def
 #def CHS355_6x10$
 	#hide
@@ -1730,7 +1730,7 @@
 	It_CHS355_6x10 = 324500000mm^4
 	Wt_CHS355_6x10 = 1825000mm^3
 	#show
-	
+
 #end def
 #def CHS355_6x12_5$
 	#hide
@@ -1747,7 +1747,7 @@
 	It_CHS355_6x12_5 = 397000000mm^4
 	Wt_CHS355_6x12_5 = 2233000mm^3
 	#show
-	
+
 #end def
 #def CHS355_6x14_2$
 	#hide
@@ -1764,7 +1764,7 @@
 	It_CHS355_6x14_2 = 444500000mm^4
 	Wt_CHS355_6x14_2 = 2500000mm^3
 	#show
-	
+
 #end def
 #def CHS355_6x16$
 	#hide
@@ -1781,7 +1781,7 @@
 	It_CHS355_6x16 = 493300000mm^4
 	Wt_CHS355_6x16 = 2774000mm^3
 	#show
-	
+
 #end def
 #def CHS355_6x20$
 	#hide
@@ -1798,7 +1798,7 @@
 	It_CHS355_6x20 = 595800000mm^4
 	Wt_CHS355_6x20 = 3351000mm^3
 	#show
-	
+
 #end def
 #def CHS355_6x25$
 	#hide
@@ -1815,7 +1815,7 @@
 	It_CHS355_6x25 = 713500000mm^4
 	Wt_CHS355_6x25 = 4013000mm^3
 	#show
-	
+
 #end def
 #def CHS406_4x6_3$
 	#hide
@@ -1832,7 +1832,7 @@
 	It_CHS406_4x6_3 = 317000000mm^4
 	Wt_CHS406_4x6_3 = 1560000mm^3
 	#show
-	
+
 #end def
 #def CHS406_4x8$
 	#hide
@@ -1849,7 +1849,7 @@
 	It_CHS406_4x8 = 397500000mm^4
 	Wt_CHS406_4x8 = 1956000mm^3
 	#show
-	
+
 #end def
 #def CHS406_4x10$
 	#hide
@@ -1866,7 +1866,7 @@
 	It_CHS406_4x10 = 489500000mm^4
 	Wt_CHS406_4x10 = 2409000mm^3
 	#show
-	
+
 #end def
 #def CHS406_4x12_5$
 	#hide
@@ -1883,7 +1883,7 @@
 	It_CHS406_4x12_5 = 600600000mm^4
 	Wt_CHS406_4x12_5 = 2956000mm^3
 	#show
-	
+
 #end def
 #def CHS406_4x14_2$
 	#hide
@@ -1900,7 +1900,7 @@
 	It_CHS406_4x14_2 = 673700000mm^4
 	Wt_CHS406_4x14_2 = 3315000mm^3
 	#show
-	
+
 #end def
 #def CHS406_4x16$
 	#hide
@@ -1917,7 +1917,7 @@
 	It_CHS406_4x16 = 749000000mm^4
 	Wt_CHS406_4x16 = 3686000mm^3
 	#show
-	
+
 #end def
 #def CHS406_4x20$
 	#hide
@@ -1934,7 +1934,7 @@
 	It_CHS406_4x20 = 908600000mm^4
 	Wt_CHS406_4x20 = 4472000mm^3
 	#show
-	
+
 #end def
 #def CHS406_4x25$
 	#hide
@@ -1951,7 +1951,7 @@
 	It_CHS406_4x25 = 1094000000mm^4
 	Wt_CHS406_4x25 = 5384000mm^3
 	#show
-	
+
 #end def
 #def CHS406_4x30$
 	#hide
@@ -1968,7 +1968,7 @@
 	It_CHS406_4x30 = 1264000000mm^4
 	Wt_CHS406_4x30 = 6223000mm^3
 	#show
-	
+
 #end def
 #def CHS406_4x40$
 	#hide
@@ -1985,7 +1985,7 @@
 	It_CHS406_4x40 = 1564000000mm^4
 	Wt_CHS406_4x40 = 7696000mm^3
 	#show
-	
+
 #end def
 #def CHS457x6_3$
 	#hide
@@ -2002,7 +2002,7 @@
 	It_CHS457x6_3 = 453100000mm^4
 	Wt_CHS457x6_3 = 1983000mm^3
 	#show
-	
+
 #end def
 #def CHS457x8$
 	#hide
@@ -2019,7 +2019,7 @@
 	It_CHS457x8 = 568900000mm^4
 	Wt_CHS457x8 = 2490000mm^3
 	#show
-	
+
 #end def
 #def CHS457x10$
 	#hide
@@ -2036,7 +2036,7 @@
 	It_CHS457x10 = 701800000mm^4
 	Wt_CHS457x10 = 3071000mm^3
 	#show
-	
+
 #end def
 #def CHS457x12_5$
 	#hide
@@ -2053,7 +2053,7 @@
 	It_CHS457x12_5 = 862900000mm^4
 	Wt_CHS457x12_5 = 3776000mm^3
 	#show
-	
+
 #end def
 #def CHS457x14_2$
 	#hide
@@ -2070,7 +2070,7 @@
 	It_CHS457x14_2 = 969300000mm^4
 	Wt_CHS457x14_2 = 4242000mm^3
 	#show
-	
+
 #end def
 #def CHS457x16$
 	#hide
@@ -2087,7 +2087,7 @@
 	It_CHS457x16 = 1079000000mm^4
 	Wt_CHS457x16 = 4723000mm^3
 	#show
-	
+
 #end def
 #def CHS457x20$
 	#hide
@@ -2104,7 +2104,7 @@
 	It_CHS457x20 = 1314000000mm^4
 	Wt_CHS457x20 = 5749000mm^3
 	#show
-	
+
 #end def
 #def CHS457x25$
 	#hide
@@ -2121,7 +2121,7 @@
 	It_CHS457x25 = 1588000000mm^4
 	Wt_CHS457x25 = 6951000mm^3
 	#show
-	
+
 #end def
 #def CHS457x30$
 	#hide
@@ -2138,7 +2138,7 @@
 	It_CHS457x30 = 1843000000mm^4
 	Wt_CHS457x30 = 8068000mm^3
 	#show
-	
+
 #end def
 #def CHS457x40$
 	#hide
@@ -2155,7 +2155,7 @@
 	It_CHS457x40 = 2299000000mm^4
 	Wt_CHS457x40 = 10060000mm^3
 	#show
-	
+
 #end def
 #def CHS508x6_3$
 	#hide
@@ -2172,7 +2172,7 @@
 	It_CHS508x6_3 = 624900000mm^4
 	Wt_CHS508x6_3 = 2460000mm^3
 	#show
-	
+
 #end def
 #def CHS508x8$
 	#hide
@@ -2189,7 +2189,7 @@
 	It_CHS508x8 = 785600000mm^4
 	Wt_CHS508x8 = 3093000mm^3
 	#show
-	
+
 #end def
 #def CHS508x10$
 	#hide
@@ -2206,7 +2206,7 @@
 	It_CHS508x10 = 970400000mm^4
 	Wt_CHS508x10 = 3820000mm^3
 	#show
-	
+
 #end def
 #def CHS508x12_5$
 	#hide
@@ -2223,7 +2223,7 @@
 	It_CHS508x12_5 = 1195000000mm^4
 	Wt_CHS508x12_5 = 4705000mm^3
 	#show
-	
+
 #end def
 #def CHS508x14_2$
 	#hide
@@ -2240,7 +2240,7 @@
 	It_CHS508x14_2 = 1344000000mm^4
 	Wt_CHS508x14_2 = 5291000mm^3
 	#show
-	
+
 #end def
 #def CHS508x16$
 	#hide
@@ -2257,7 +2257,7 @@
 	It_CHS508x16 = 1498000000mm^4
 	Wt_CHS508x16 = 5898000mm^3
 	#show
-	
+
 #end def
 #def CHS508x20$
 	#hide
@@ -2274,7 +2274,7 @@
 	It_CHS508x20 = 1829000000mm^4
 	Wt_CHS508x20 = 7199000mm^3
 	#show
-	
+
 #end def
 #def CHS508x25$
 	#hide
@@ -2291,7 +2291,7 @@
 	It_CHS508x25 = 2218000000mm^4
 	Wt_CHS508x25 = 8734000mm^3
 	#show
-	
+
 #end def
 #def CHS508x30$
 	#hide
@@ -2308,7 +2308,7 @@
 	It_CHS508x30 = 2583000000mm^4
 	Wt_CHS508x30 = 10170000mm^3
 	#show
-	
+
 #end def
 #def CHS508x40$
 	#hide
@@ -2325,7 +2325,7 @@
 	It_CHS508x40 = 3244000000mm^4
 	Wt_CHS508x40 = 12770000mm^3
 	#show
-	
+
 #end def
 #def CHS508x50$
 	#hide
@@ -2342,7 +2342,7 @@
 	It_CHS508x50 = 3818000000mm^4
 	Wt_CHS508x50 = 15030000mm^3
 	#show
-	
+
 #end def
 #def CHS610x6_3$
 	#hide
@@ -2359,7 +2359,7 @@
 	It_CHS610x6_3 = 1089000000mm^4
 	Wt_CHS610x6_3 = 3570000mm^3
 	#show
-	
+
 #end def
 #def CHS610x8$
 	#hide
@@ -2376,7 +2376,7 @@
 	It_CHS610x8 = 1371000000mm^4
 	Wt_CHS610x8 = 4495000mm^3
 	#show
-	
+
 #end def
 #def CHS610x10$
 	#hide
@@ -2393,7 +2393,7 @@
 	It_CHS610x10 = 1697000000mm^4
 	Wt_CHS610x10 = 5564000mm^3
 	#show
-	
+
 #end def
 #def CHS610x12_5$
 	#hide
@@ -2410,7 +2410,7 @@
 	It_CHS610x12_5 = 2095000000mm^4
 	Wt_CHS610x12_5 = 6869000mm^3
 	#show
-	
+
 #end def
 #def CHS610x14_2$
 	#hide
@@ -2427,7 +2427,7 @@
 	It_CHS610x14_2 = 2360000000mm^4
 	Wt_CHS610x14_2 = 7738000mm^3
 	#show
-	
+
 #end def
 #def CHS610x16$
 	#hide
@@ -2444,7 +2444,7 @@
 	It_CHS610x16 = 2636000000mm^4
 	Wt_CHS610x16 = 8641000mm^3
 	#show
-	
+
 #end def
 #def CHS610x20$
 	#hide
@@ -2461,7 +2461,7 @@
 	It_CHS610x20 = 3230000000mm^4
 	Wt_CHS610x20 = 10590000mm^3
 	#show
-	
+
 #end def
 #def CHS610x25$
 	#hide
@@ -2478,7 +2478,7 @@
 	It_CHS610x25 = 3938000000mm^4
 	Wt_CHS610x25 = 12910000mm^3
 	#show
-	
+
 #end def
 #def CHS610x30$
 	#hide
@@ -2495,7 +2495,7 @@
 	It_CHS610x30 = 4610000000mm^4
 	Wt_CHS610x30 = 15110000mm^3
 	#show
-	
+
 #end def
 #def CHS610x40$
 	#hide
@@ -2512,7 +2512,7 @@
 	It_CHS610x40 = 5847000000mm^4
 	Wt_CHS610x40 = 19170000mm^3
 	#show
-	
+
 #end def
 #def CHS610x50$
 	#hide
@@ -2529,7 +2529,7 @@
 	It_CHS610x50 = 6951000000mm^4
 	Wt_CHS610x50 = 22790000mm^3
 	#show
-	
+
 #end def
 #def CHS711x6_3$
 	#hide
@@ -2546,7 +2546,7 @@
 	It_CHS711x6_3 = 1732000000mm^4
 	Wt_CHS711x6_3 = 4871000mm^3
 	#show
-	
+
 #end def
 #def CHS711x8$
 	#hide
@@ -2563,7 +2563,7 @@
 	It_CHS711x8 = 2183000000mm^4
 	Wt_CHS711x8 = 6141000mm^3
 	#show
-	
+
 #end def
 #def CHS711x10$
 	#hide
@@ -2580,7 +2580,7 @@
 	It_CHS711x10 = 2706000000mm^4
 	Wt_CHS711x10 = 7612000mm^3
 	#show
-	
+
 #end def
 #def CHS711x12_5$
 	#hide
@@ -2597,7 +2597,7 @@
 	It_CHS711x12_5 = 3347000000mm^4
 	Wt_CHS711x12_5 = 9415000mm^3
 	#show
-	
+
 #end def
 #def CHS711x14_2$
 	#hide
@@ -2614,7 +2614,7 @@
 	It_CHS711x14_2 = 3775000000mm^4
 	Wt_CHS711x14_2 = 10620000mm^3
 	#show
-	
+
 #end def
 #def CHS711x16$
 	#hide
@@ -2631,7 +2631,7 @@
 	It_CHS711x16 = 4221000000mm^4
 	Wt_CHS711x16 = 11870000mm^3
 	#show
-	
+
 #end def
 #def CHS711x20$
 	#hide
@@ -2648,7 +2648,7 @@
 	It_CHS711x20 = 5187000000mm^4
 	Wt_CHS711x20 = 14590000mm^3
 	#show
-	
+
 #end def
 #def CHS711x25$
 	#hide
@@ -2665,7 +2665,7 @@
 	It_CHS711x25 = 6347000000mm^4
 	Wt_CHS711x25 = 17850000mm^3
 	#show
-	
+
 #end def
 #def CHS711x30$
 	#hide
@@ -2682,7 +2682,7 @@
 	It_CHS711x30 = 7456000000mm^4
 	Wt_CHS711x30 = 20970000mm^3
 	#show
-	
+
 #end def
 #def CHS711x40$
 	#hide
@@ -2699,7 +2699,7 @@
 	It_CHS711x40 = 9525000000mm^4
 	Wt_CHS711x40 = 26790000mm^3
 	#show
-	
+
 #end def
 #def CHS711x50$
 	#hide
@@ -2716,7 +2716,7 @@
 	It_CHS711x50 = 11410000000mm^4
 	Wt_CHS711x50 = 32090000mm^3
 	#show
-	
+
 #end def
 #def CHS711x60$
 	#hide
@@ -2733,7 +2733,7 @@
 	It_CHS711x60 = 13110000000mm^4
 	Wt_CHS711x60 = 36880000mm^3
 	#show
-	
+
 #end def
 #def CHS762x6_3$
 	#hide
@@ -2750,7 +2750,7 @@
 	It_CHS762x6_3 = 2136000000mm^4
 	Wt_CHS762x6_3 = 5605000mm^3
 	#show
-	
+
 #end def
 #def CHS762x8$
 	#hide
@@ -2767,7 +2767,7 @@
 	It_CHS762x8 = 2694000000mm^4
 	Wt_CHS762x8 = 7070000mm^3
 	#show
-	
+
 #end def
 #def CHS762x10$
 	#hide
@@ -2784,7 +2784,7 @@
 	It_CHS762x10 = 3341000000mm^4
 	Wt_CHS762x10 = 8768000mm^3
 	#show
-	
+
 #end def
 #def CHS762x12_5$
 	#hide
@@ -2801,7 +2801,7 @@
 	It_CHS762x12_5 = 4135000000mm^4
 	Wt_CHS762x12_5 = 10850000mm^3
 	#show
-	
+
 #end def
 #def CHS762x14_2$
 	#hide
@@ -2818,7 +2818,7 @@
 	It_CHS762x14_2 = 4665000000mm^4
 	Wt_CHS762x14_2 = 12250000mm^3
 	#show
-	
+
 #end def
 #def CHS762x16$
 	#hide
@@ -2835,7 +2835,7 @@
 	It_CHS762x16 = 5219000000mm^4
 	Wt_CHS762x16 = 13700000mm^3
 	#show
-	
+
 #end def
 #def CHS762x20$
 	#hide
@@ -2852,7 +2852,7 @@
 	It_CHS762x20 = 6422000000mm^4
 	Wt_CHS762x20 = 16850000mm^3
 	#show
-	
+
 #end def
 #def CHS762x25$
 	#hide
@@ -2869,7 +2869,7 @@
 	It_CHS762x25 = 7869000000mm^4
 	Wt_CHS762x25 = 20650000mm^3
 	#show
-	
+
 #end def
 #def CHS762x30$
 	#hide
@@ -2886,7 +2886,7 @@
 	It_CHS762x30 = 9257000000mm^4
 	Wt_CHS762x30 = 24300000mm^3
 	#show
-	
+
 #end def
 #def CHS762x40$
 	#hide
@@ -2903,7 +2903,7 @@
 	It_CHS762x40 = 11860000000mm^4
 	Wt_CHS762x40 = 31130000mm^3
 	#show
-	
+
 #end def
 #def CHS762x50$
 	#hide
@@ -2920,7 +2920,7 @@
 	It_CHS762x50 = 14240000000mm^4
 	Wt_CHS762x50 = 37390000mm^3
 	#show
-	
+
 #end def
 #def CHS813x8$
 	#hide
@@ -2937,7 +2937,7 @@
 	It_CHS813x8 = 3278000000mm^4
 	Wt_CHS813x8 = 8064000mm^3
 	#show
-	
+
 #end def
 #def CHS813x10$
 	#hide
@@ -2954,7 +2954,7 @@
 	It_CHS813x10 = 4067000000mm^4
 	Wt_CHS813x10 = 10010000mm^3
 	#show
-	
+
 #end def
 #def CHS813x12_5$
 	#hide
@@ -2971,7 +2971,7 @@
 	It_CHS813x12_5 = 5037000000mm^4
 	Wt_CHS813x12_5 = 12390000mm^3
 	#show
-	
+
 #end def
 #def CHS813x14_2$
 	#hide
@@ -2988,7 +2988,7 @@
 	It_CHS813x14_2 = 5686000000mm^4
 	Wt_CHS813x14_2 = 13990000mm^3
 	#show
-	
+
 #end def
 #def CHS813x16$
 	#hide
@@ -3005,7 +3005,7 @@
 	It_CHS813x16 = 6364000000mm^4
 	Wt_CHS813x16 = 15660000mm^3
 	#show
-	
+
 #end def
 #def CHS813x20$
 	#hide
@@ -3022,7 +3022,7 @@
 	It_CHS813x20 = 7838000000mm^4
 	Wt_CHS813x20 = 19280000mm^3
 	#show
-	
+
 #end def
 #def CHS813x25$
 	#hide
@@ -3039,7 +3039,7 @@
 	It_CHS813x25 = 9617000000mm^4
 	Wt_CHS813x25 = 23660000mm^3
 	#show
-	
+
 #end def
 #def CHS813x30$
 	#hide
@@ -3056,7 +3056,7 @@
 	It_CHS813x30 = 11330000000mm^4
 	Wt_CHS813x30 = 27870000mm^3
 	#show
-	
+
 #end def
 #def CHS914x8$
 	#hide
@@ -3073,7 +3073,7 @@
 	It_CHS914x8 = 4673000000mm^4
 	Wt_CHS914x8 = 10230000mm^3
 	#show
-	
+
 #end def
 #def CHS914x10$
 	#hide
@@ -3090,7 +3090,7 @@
 	It_CHS914x10 = 5803000000mm^4
 	Wt_CHS914x10 = 12700000mm^3
 	#show
-	
+
 #end def
 #def CHS914x12_5$
 	#hide
@@ -3107,7 +3107,7 @@
 	It_CHS914x12_5 = 7194000000mm^4
 	Wt_CHS914x12_5 = 15740000mm^3
 	#show
-	
+
 #end def
 #def CHS914x14_2$
 	#hide
@@ -3124,7 +3124,7 @@
 	It_CHS914x14_2 = 8127000000mm^4
 	Wt_CHS914x14_2 = 17780000mm^3
 	#show
-	
+
 #end def
 #def CHS914x16$
 	#hide
@@ -3141,7 +3141,7 @@
 	It_CHS914x16 = 9103000000mm^4
 	Wt_CHS914x16 = 19920000mm^3
 	#show
-	
+
 #end def
 #def CHS914x20$
 	#hide
@@ -3158,7 +3158,7 @@
 	It_CHS914x20 = 11230000000mm^4
 	Wt_CHS914x20 = 24570000mm^3
 	#show
-	
+
 #end def
 #def CHS914x25$
 	#hide
@@ -3175,7 +3175,7 @@
 	It_CHS914x25 = 13810000000mm^4
 	Wt_CHS914x25 = 30210000mm^3
 	#show
-	
+
 #end def
 #def CHS914x30$
 	#hide
@@ -3192,7 +3192,7 @@
 	It_CHS914x30 = 16300000000mm^4
 	Wt_CHS914x30 = 35660000mm^3
 	#show
-	
+
 #end def
 #def CHS1016x8$
 	#hide
@@ -3209,7 +3209,7 @@
 	It_CHS1016x8 = 6436000000mm^4
 	Wt_CHS1016x8 = 12670000mm^3
 	#show
-	
+
 #end def
 #def CHS1016x10$
 	#hide
@@ -3226,7 +3226,7 @@
 	It_CHS1016x10 = 7997000000mm^4
 	Wt_CHS1016x10 = 15740000mm^3
 	#show
-	
+
 #end def
 #def CHS1016x12_5$
 	#hide
@@ -3243,7 +3243,7 @@
 	It_CHS1016x12_5 = 9922000000mm^4
 	Wt_CHS1016x12_5 = 19530000mm^3
 	#show
-	
+
 #end def
 #def CHS1016x14_2$
 	#hide
@@ -3260,7 +3260,7 @@
 	It_CHS1016x14_2 = 11220000000mm^4
 	Wt_CHS1016x14_2 = 22080000mm^3
 	#show
-	
+
 #end def
 #def CHS1016x16$
 	#hide
@@ -3277,7 +3277,7 @@
 	It_CHS1016x16 = 12570000000mm^4
 	Wt_CHS1016x16 = 24740000mm^3
 	#show
-	
+
 #end def
 #def CHS1016x20$
 	#hide
@@ -3294,7 +3294,7 @@
 	It_CHS1016x20 = 15530000000mm^4
 	Wt_CHS1016x20 = 30560000mm^3
 	#show
-	
+
 #end def
 #def CHS1016x25$
 	#hide
@@ -3311,7 +3311,7 @@
 	It_CHS1016x25 = 19120000000mm^4
 	Wt_CHS1016x25 = 37640000mm^3
 	#show
-	
+
 #end def
 #def CHS1016x30$
 	#hide
@@ -3328,7 +3328,7 @@
 	It_CHS1016x30 = 22610000000mm^4
 	Wt_CHS1016x30 = 44500000mm^3
 	#show
-	
+
 #end def
 #def CHS1067x10$
 	#hide
@@ -3345,7 +3345,7 @@
 	It_CHS1067x10 = 9276000000mm^4
 	Wt_CHS1067x10 = 17390000mm^3
 	#show
-	
+
 #end def
 #def CHS1067x12_5$
 	#hide
@@ -3362,7 +3362,7 @@
 	It_CHS1067x12_5 = 11510000000mm^4
 	Wt_CHS1067x12_5 = 21580000mm^3
 	#show
-	
+
 #end def
 #def CHS1067x14_2$
 	#hide
@@ -3379,7 +3379,7 @@
 	It_CHS1067x14_2 = 13020000000mm^4
 	Wt_CHS1067x14_2 = 24400000mm^3
 	#show
-	
+
 #end def
 #def CHS1067x16$
 	#hide
@@ -3396,7 +3396,7 @@
 	It_CHS1067x16 = 14590000000mm^4
 	Wt_CHS1067x16 = 27350000mm^3
 	#show
-	
+
 #end def
 #def CHS1067x20$
 	#hide
@@ -3413,7 +3413,7 @@
 	It_CHS1067x20 = 18040000000mm^4
 	Wt_CHS1067x20 = 33810000mm^3
 	#show
-	
+
 #end def
 #def CHS1067x25$
 	#hide
@@ -3430,7 +3430,7 @@
 	It_CHS1067x25 = 22230000000mm^4
 	Wt_CHS1067x25 = 41660000mm^3
 	#show
-	
+
 #end def
 #def CHS1067x30$
 	#hide
@@ -3447,7 +3447,7 @@
 	It_CHS1067x30 = 26300000000mm^4
 	Wt_CHS1067x30 = 49290000mm^3
 	#show
-	
+
 #end def
 #def CHS1168x10$
 	#hide
@@ -3464,7 +3464,7 @@
 	It_CHS1168x10 = 12200000000mm^4
 	Wt_CHS1168x10 = 20890000mm^3
 	#show
-	
+
 #end def
 #def CHS1168x12_5$
 	#hide
@@ -3481,7 +3481,7 @@
 	It_CHS1168x12_5 = 15150000000mm^4
 	Wt_CHS1168x12_5 = 25940000mm^3
 	#show
-	
+
 #end def
 #def CHS1168x14_2$
 	#hide
@@ -3498,7 +3498,7 @@
 	It_CHS1168x14_2 = 17130000000mm^4
 	Wt_CHS1168x14_2 = 29340000mm^3
 	#show
-	
+
 #end def
 #def CHS1168x16$
 	#hide
@@ -3515,7 +3515,7 @@
 	It_CHS1168x16 = 19220000000mm^4
 	Wt_CHS1168x16 = 32900000mm^3
 	#show
-	
+
 #end def
 #def CHS1168x20$
 	#hide
@@ -3532,7 +3532,7 @@
 	It_CHS1168x20 = 23770000000mm^4
 	Wt_CHS1168x20 = 40710000mm^3
 	#show
-	
+
 #end def
 #def CHS1168x25$
 	#hide
@@ -3549,7 +3549,7 @@
 	It_CHS1168x25 = 29330000000mm^4
 	Wt_CHS1168x25 = 50230000mm^3
 	#show
-	
+
 #end def
 #def CHS1219x10$
 	#hide
@@ -3566,7 +3566,7 @@
 	It_CHS1219x10 = 13880000000mm^4
 	Wt_CHS1219x10 = 22770000mm^3
 	#show
-	
+
 #end def
 #def CHS1219x12_5$
 	#hide
@@ -3583,7 +3583,7 @@
 	It_CHS1219x12_5 = 17240000000mm^4
 	Wt_CHS1219x12_5 = 28290000mm^3
 	#show
-	
+
 #end def
 #def CHS1219x14_2$
 	#hide
@@ -3600,7 +3600,7 @@
 	It_CHS1219x14_2 = 19510000000mm^4
 	Wt_CHS1219x14_2 = 32000000mm^3
 	#show
-	
+
 #end def
 #def CHS1219x16$
 	#hide
@@ -3617,7 +3617,7 @@
 	It_CHS1219x16 = 21880000000mm^4
 	Wt_CHS1219x16 = 35900000mm^3
 	#show
-	
+
 #end def
 #def CHS1219x20$
 	#hide
@@ -3634,7 +3634,7 @@
 	It_CHS1219x20 = 27080000000mm^4
 	Wt_CHS1219x20 = 44430000mm^3
 	#show
-	
+
 #end def
 #def CHS1219x25$
 	#hide
@@ -3651,5 +3651,5 @@
 	It_CHS1219x25 = 33440000000mm^4
 	Wt_CHS1219x25 = 54860000mm^3
 	#show
-	
+
 #end def

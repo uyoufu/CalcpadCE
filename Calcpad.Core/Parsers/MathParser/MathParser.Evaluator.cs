@@ -159,21 +159,21 @@ namespace Calcpad.Core
             private IValue EvaluateToken(Token t) =>
                 t.Type switch
                 {
-                    TokenTypes.Unit => 
+                    TokenTypes.Unit =>
                         t is ValueToken vt ? vt.Value : ((VariableToken)t).Variable.ValueByRef(),
-                    TokenTypes.Variable => 
+                    TokenTypes.Variable =>
                         EvaluateVariableToken((VariableToken)t),
-                    TokenTypes.Vector => 
-                        t is VectorToken vt ? 
-                            vt.Vector : 
+                    TokenTypes.Vector =>
+                        t is VectorToken vt ?
+                            vt.Vector :
                             EvaluateVariableToken(((VariableToken)t)),
-                    TokenTypes.Matrix => 
-                        t is MatrixToken mt ? 
-                            mt.Matrix : 
+                    TokenTypes.Matrix =>
+                        t is MatrixToken mt ?
+                            mt.Matrix :
                             EvaluateVariableToken(((VariableToken)t)),
-                    TokenTypes.Input when t.Content == "?" => 
+                    TokenTypes.Input when t.Content == "?" =>
                         throw Exceptions.UndefinedInputField(),
-                    _ => 
+                    _ =>
                         ((ValueToken)t).Value
                 };
 
@@ -181,11 +181,11 @@ namespace Calcpad.Core
             private IValue EvaluateToken(Token t, in IValue a) =>
                 t.Type switch
                 {
-                    TokenTypes.Operator => 
+                    TokenTypes.Operator =>
                         -a,
-                    TokenTypes.Function => 
+                    TokenTypes.Function =>
                         IValue.EvaluateFunction(_matrixCalc, t.Index, a),
-                    TokenTypes.VectorFunction => 
+                    TokenTypes.VectorFunction =>
                         VectorCalculator.EvaluateVectorFunction(t.Index, a),
                     TokenTypes.MatrixOptionalFunction =>
                         MatrixCalculator.EvaluateMatrixIterativeFunction(t.Index, a, RealValue.Zero, _parser.Tol),
@@ -198,11 +198,11 @@ namespace Calcpad.Core
             private IValue EvaluateToken(Token t, in IValue a, in IValue b) =>
                 t.Type switch
                 {
-                    TokenTypes.Operator => 
+                    TokenTypes.Operator =>
                         IValue.EvaluateOperator(_matrixCalc, t.Index, a, b),
-                    TokenTypes.Function2 => 
+                    TokenTypes.Function2 =>
                         IValue.EvaluateFunction2(_matrixCalc, t.Index, a, b),
-                    TokenTypes.VectorFunction2 => 
+                    TokenTypes.VectorFunction2 =>
                         VectorCalculator.EvaluateVectorFunction2(t.Index, a, b),
                     TokenTypes.MatrixIterativeFunction =>
                         MatrixCalculator.EvaluateMatrixIterativeFunction(t.Index, a, b, _parser.Tol),
@@ -331,11 +331,11 @@ namespace Calcpad.Core
                        a = StackPop();
                 return t.Type switch
                 {
-                    TokenTypes.Function3 => 
+                    TokenTypes.Function3 =>
                         _calc.EvaluateFunction3(t.Index, a, b, c),
-                    TokenTypes.VectorFunction3 => 
+                    TokenTypes.VectorFunction3 =>
                         VectorCalculator.EvaluateVectorFunction3(t.Index, a, b, c),
-                    _ => 
+                    _ =>
                         MatrixCalculator.EvaluateMatrixFunction3(t.Index, a, b, c)
                 };
             }

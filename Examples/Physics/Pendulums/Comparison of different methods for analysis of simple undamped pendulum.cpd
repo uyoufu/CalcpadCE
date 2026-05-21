@@ -48,7 +48,7 @@ circle$(x; y; R; ball_style$)
 texth$(x+3*δ_x; y_g-δ;g)
 '</svg>
 #equ
-'</td></tr></table> 
+'</td></tr></table>
 #noc
 'Differential equation -'θ″ + g/l*θ = 0
 #equ
@@ -56,7 +56,7 @@ texth$(x+3*δ_x; y_g-δ;g)
 'Cyclic frequency -'f = ω/(2*π*rad)|Hz
 'Period -'T = 1/f
 'Equation of motion -'θ(t) = θ_0*cos(ω*t)
-'<h4>Analytical solution for large rotations (exact)</h4> 
+'<h4>Analytical solution for large rotations (exact)</h4>
 #noc
 'Differential equation -'θ″ + g/l*sin(θ) = 0
 #equ
@@ -89,7 +89,7 @@ $Plot{δ_T(θ_0) @ θ_0 = 0.01° : 90°}
 'Number of steps -'n = t_max/h
 'For each time step'n'the values for the next step will be obtained by using the following equstions
 #noc
-'<p class="eq" style="border-left:solid 1pt black; margin-left:24pt; padding-left:3pt;"><var>θ</var><sub>n+1</sub> = <var>θ</var><sub>n</sub> + <var>h</var>·<var>ω</var><sub>n</sub><br/> <var>ω</var><sub>n+1</sub> = <var>ω</var><sub>n</sub> + 'h*(g/l)'· <b>sin</b><var>θ</var><sub>n</sub></p> 
+'<p class="eq" style="border-left:solid 1pt black; margin-left:24pt; padding-left:3pt;"><var>θ</var><sub>n+1</sub> = <var>θ</var><sub>n</sub> + <var>h</var>·<var>ω</var><sub>n</sub><br/> <var>ω</var><sub>n+1</sub> = <var>ω</var><sub>n</sub> + 'h*(g/l)'· <b>sin</b><var>θ</var><sub>n</sub></p>
 #equ
 'Allocate vectors
 θ_fwE = vector(n)'<br/>'ω_fwE = vector(n)'<br/>'E_fwE = vector(n)
@@ -108,13 +108,13 @@ E_fwE.n = m*l^2*(1/2*ω_fwE.n^2 + (g/l)*(1 - cos(θ_fwE.n)))|J
 '<h4>Solution by backward Euler method (implicit)</h4>
 'The following iterative procedure is applied:
 #noc
-'<p class="eq" style="border-left:solid 1pt black; margin-left:24pt; padding-left:3pt;"><var>θ</var><sub>n+1</sub> = <var>θ</var><sub>n</sub> + <var>h</var>·<var>ω</var><sub>n+1</sub><br/> <var>ω</var><sub>n+1</sub> = <var>ω</var><sub>n</sub> + 'h*(g/l)'· <b>sin</b><var>θ</var><sub>n+1</sub></p> 
+'<p class="eq" style="border-left:solid 1pt black; margin-left:24pt; padding-left:3pt;"><var>θ</var><sub>n+1</sub> = <var>θ</var><sub>n</sub> + <var>h</var>·<var>ω</var><sub>n+1</sub><br/> <var>ω</var><sub>n+1</sub> = <var>ω</var><sub>n</sub> + 'h*(g/l)'· <b>sin</b><var>θ</var><sub>n+1</sub></p>
 #equ
 'Allocate vectors
 θ_bwE = vector(n)'<br/>'ω_bwE = vector(n)'<br/>'E_bwE = vector(n)
 'Set initial conditions
 θ_bwE.1 = θ_0/1rad','ω_bwE.1 = 0/s
-'Perform Euler steps 
+'Perform Euler steps
 #for i = 1 : n - 1
 	f(θ) = θ_bwE.i + h*(ω_bwE.i + h*(g/l)*sin(-θ)) - θ
 	'Rotation -'θ_bwE.(i + 1) = $Root{f(θ) @ θ = -2*π : 2*π}
@@ -128,13 +128,13 @@ E_bwE.n = m*l^2*(1/2*ω_bwE.n^2 + (g/l)*(1 - cos(θ_bwE.n)))|J
 '<h4>Solution by Crank–Nicolson method (IMEX)</h4>
 'The following iterative procedure is applied:
 #noc
-'<p class="eq" style="border-left:solid 1pt black; margin-left:24pt; padding-left:3pt;"><var>θ</var><sub>n+1</sub> = <var>θ</var><sub>n</sub> +'h/2'(&thinsp;<var>ω</var><sub>n</sub> + <var>ω</var><sub>n+1</sub>&thinsp;)<br/> <var>ω</var><sub>n+1</sub> = <var>ω</var><sub>n</sub> + 'h*g/(2*l)'(&thinsp;<b>sin</b><var>θ</var><sub>n</sub> + <b>sin</b><var>θ</var><sub>n+1</sub>&thinsp;)</p> 
+'<p class="eq" style="border-left:solid 1pt black; margin-left:24pt; padding-left:3pt;"><var>θ</var><sub>n+1</sub> = <var>θ</var><sub>n</sub> +'h/2'(&thinsp;<var>ω</var><sub>n</sub> + <var>ω</var><sub>n+1</sub>&thinsp;)<br/> <var>ω</var><sub>n+1</sub> = <var>ω</var><sub>n</sub> + 'h*g/(2*l)'(&thinsp;<b>sin</b><var>θ</var><sub>n</sub> + <b>sin</b><var>θ</var><sub>n+1</sub>&thinsp;)</p>
 #equ
 'Allocate vectors
 θ_CN = vector(n)'<br/>'ω_CN = vector(n)'<br/>'E_CN = vector(n)
 'Set initial conditions
 θ_CN.1 = θ_0/1rad','ω_CN.1 = 0/s
-'Perform Euler steps 
+'Perform Euler steps
 #for i = 1 : n - 1
 	f(θ) = θ_CN.i + h/2*(2*ω_CN.i + h*g/(2*l)*(sin(-θ_CN.i) + sin(-θ))) - θ
 	'Rotation -'θ_CN.(i + 1) = $Root{f(θ) @ θ = -2*π : 2*π}
@@ -162,7 +162,7 @@ k_1,ω = (g/l)*sin(-θ_i)'</td></tr>
 θ_RK4 = vector(n)'<br/>'ω_RK4 = vector(n)'<br/>'E_RK4 = vector(n)
 'Set initial conditions
 θ_RK4.1 = θ_0/1rad','ω_RK4.1 = 0/s
-'Perform Runge-Kutta 4 steps 
+'Perform Runge-Kutta 4 steps
 #for i = 1 : n - 1
 	'RK4 factors
 	k_1,θ = ω_RK4.i', ' _

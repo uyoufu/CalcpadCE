@@ -9,16 +9,16 @@ let currentPanel: vscode.WebviewPanel | undefined = undefined;
 let agentPanel: vscode.WebviewPanel | undefined = undefined;
 const completionItems: string[] = [
     // Keywords
-    "#append", "#break", "#complex", "#const", "#continue", "#def", "#deg", "#else if", 
-    "#else", "#end def", "#end if", "#equ", "#for", "#while", "#global", "#gra", "#hide", 
-    "#if", "#include", "#input", "#local", "#loop", "#md", "#md off", "#md on", "#noc", 
-    "#nosub", "#novar", "#pause", "#phasor", "#post", "#pre", "#rad", "#read", "#repeat", 
+    "#append", "#break", "#complex", "#const", "#continue", "#def", "#deg", "#else if",
+    "#else", "#end def", "#end if", "#equ", "#for", "#while", "#global", "#gra", "#hide",
+    "#if", "#include", "#input", "#local", "#loop", "#md", "#md off", "#md on", "#noc",
+    "#nosub", "#novar", "#pause", "#phasor", "#post", "#pre", "#rad", "#read", "#repeat",
     "#round","#show", "#split", "#val", "#varsub", "#wrap", "#write",
-    
+
     // Methods
     "$Area", "$Block", "$Derivative", "$Find", "$Inf", "$Inline", "$Integral", "$Map",
     "$Plot", "$Product", "$Repeat", "$Root", "$Slope", "$Sum", "$Sup", "$While",
-    
+
     // Units and constants
     "A", "AU", "Ah", "BTU", "Bq", "C", "Ci", "Da", "EeV", "F", "GA", "GBq", "GC", "GF",
     "GGy", "GH", "GHz", "GJ", "GN", "GPa", "GS", "GSv", "GT", "GV", "GVA", "GVAR", "GW",
@@ -28,11 +28,11 @@ const completionItems: string[] = [
     "Rd", "S", "St", "Sv", "T", "TA", "TBq", "TC", "TF", "TGy", "TH", "THz", "TJ", "TN",
     "TPa", "TS", "TSv", "TT", "TV", "TVA", "TVAR", "TW", "TWb", "TWh", "TeV", "Torr",
     "TΩ", "T℧", "V", "VA", "VAR", "W", "Wb", "Wh",
-    
+
     // Settings
     "PlotAdaptive", "PlotHeight", "PlotLightDir", "PlotPalette", "PlotShadows",
     "PlotSmooth", "PlotStep", "PlotSVG", "PlotWidth", "Precision", "ReturnAngleUnits", "Tol",
-    
+
     // Functions
     "abs", "acos", "acosh", "acot", "acoth", "acsc", "acsch", "add", "adj", "and", "asec",
     "asech", "asin", "asinh", "atan", "atan2", "atanh", "augment", "average", "cbrt",
@@ -45,7 +45,7 @@ const completionItems: string[] = [
     "gcd", "getunits", "hlookup", "hlookup_eq", "hlookup_ge", "hlookup_gt", "hlookup_le",
     "hlookup_lt", "hlookup_ne", "hp", "hprod", "identity", "identity_hp", "if", "im",
     "inverse", "ishp", "join", "join_cols", "join_rows", "kprod", "last", "lcm", "len",
-    "line", "ln", "log", "log_2", "lookup", "lookup_eq", "lookup_ge", "lookup_gt", 
+    "line", "ln", "log", "log_2", "lookup", "lookup_eq", "lookup_ge", "lookup_gt",
     "lookup_le", "lookup_lt", "lookup_ne", "lsolve", "ltriang", "ltriang_hp", "lu",
     "matmul", "matrix", "matrix_hp", "max", "mcount", "mean", "mfill", "mfind", "mfind_eq",
     "mfind_ge", "mfind_gt", "mfind_le", "mfind_lt", "mfind_ne", "min", "mnorm", "mnorm_1",
@@ -60,7 +60,7 @@ const completionItems: string[] = [
     "timer", "trace", "transp", "trunc", "unit", "utriang", "utriang_hp", "vec2col",
     "vec2diag", "vec2row", "vector", "vector_hp", "vlookup", "vlookup_eq", "vlookup_ge",
     "vlookup_gt", "vlookup_le", "vlookup_lt", "vlookup_ne", "xor",
-    
+
     // Units
     "a", "d", "h", "min", "ms", "ns", "ps", "s", "ks", "y",
     "ac", "at", "atm", "bar", "bbl", "bbl_UK", "bbl_US", "bbl_dry", "bu", "bu_UK", "bu_US",
@@ -83,7 +83,7 @@ const completionItems: string[] = [
     "pt_UK", "pt_US", "pt_dry", "pΩ", "p℧", "qt", "qt_UK", "qt_US", "qt_dry", "quad",
     "rad", "rev", "rod", "rood", "rpm", "slug", "st", "t", "tf", "th", "therm", "therm_UK",
     "therm_US", "ton", "ton_UK", "ton_US", "ton_f", "tonf", "tsf", "tsi", "u", "w", "yd",
-    
+
     // Special units
     "°C", "°F", "°R", "Δ°C", "Δ°F", "Ω", "μA", "μBq", "μC", "μF", "μGy", "μH", "μHz",
     "μJ", "μL", "μPa", "μS", "μSv", "μT", "μV", "μVA", "μVAR", "μW", "μWb", "μWh",
@@ -100,7 +100,7 @@ const functionDescriptions: { [key: string]: string } = {
     "csc": "Cosecant function:\n\n    csc(x)",
     "sec": "Secant function:\n\n    sec(x)",
     "cot": "Cotangent function:\n\n    cot(x)",
-    
+
     // Hyperbolic functions
     "sinh": "Hyperbolic sine:\n\n    sinh(x)",
     "cosh": "Hyperbolic cosine:\n\n    cosh(x)",
@@ -108,7 +108,7 @@ const functionDescriptions: { [key: string]: string } = {
     "csch": "Hyperbolic cosecant:\n\n    csch(x)",
     "sech": "Hyperbolic secant:\n\n    sech(x)",
     "coth": "Hyperbolic cotangent:\n\n    coth(x)",
-    
+
     // Inverse trigonometric functions
     "asin": "Inverse sine (arcsine):\n\n    asin(x)",
     "acos": "Inverse cosine (arccosine):\n\n    acos(x)",
@@ -117,7 +117,7 @@ const functionDescriptions: { [key: string]: string } = {
     "acsc": "Inverse cosecant:\n\n    acsc(x)",
     "asec": "Inverse secant:\n\n    asec(x)",
     "acot": "Inverse cotangent:\n\n    acot(x)",
-    
+
     // Inverse hyperbolic functions
     "asinh": "Inverse hyperbolic sine:\n\n    asinh(x)",
     "acosh": "Inverse hyperbolic cosine:\n\n    acosh(x)",
@@ -125,7 +125,7 @@ const functionDescriptions: { [key: string]: string } = {
     "acsch": "Inverse hyperbolic cosecant:\n\n    acsch(x)",
     "asech": "Inverse hyperbolic secant:\n\n    asech(x)",
     "acoth": "Inverse hyperbolic cotangent:\n\n    acoth(x)",
-    
+
     // Logarithmic, exponential and roots
     "log": "Decimal (base-10) logarithm:\n\n    log(x)",
     "ln": "Natural logarithm:\n\n    ln(x)",
@@ -135,25 +135,25 @@ const functionDescriptions: { [key: string]: string } = {
     "sqrt": "Square root:\n\n    sqrt(x)",
     "cbrt": "Cubic root:\n\n    cbrt(x)",
     "root": "N-th root:\n\n    root(x; n)",
-    
+
     // Rounding functions
     "round": "Rounds to the nearest integer:\n\n    round(x)",
     "floor": "Rounds down to the smaller integer (towards -∞):\n\n    floor(x)",
     "ceiling": "Rounds up to the greater integer (towards +∞):\n\n    ceiling(x)",
     "trunc": "Rounds to the smaller integer (towards zero):\n\n    trunc(x)",
-    
+
     // Integer functions
     "mod": "Returns the remainder of an integer division:\n\n    mod(x; y)",
     "gcd": "Greatest common divisor of several integers:\n\n    gcd(x; y; z...)",
     "lcm": "Least common multiple of several integers:\n\n    lcm(x; y; z...)",
-    
+
     // Complex number functions
     "re": "Returns the real part of a complex number:\n\n    re(z)",
     "im": "Returns the imaginary part of a complex number:\n\n    im(z)",
     "abs": "Returns the absolute value/magnitude:\n\n    abs(z)",
     "phase": "Returns the phase angle of a complex number:\n\n   phase(z)",
     "conj": "Returns the complex conjugate:\n\n    conj(z)",
-    
+
     // Aggregate and interpolation functions
     "min": "Minimum of multiple values:\n\n    min(x; y; z...)",
     "max": "Maximum of multiple values:\n\n    max(x; y; z...)",
@@ -166,7 +166,7 @@ const functionDescriptions: { [key: string]: string } = {
     "take": "Returns the n-th element from a list or matrix element at indexes:\n\n    take(n; a; b; c...) or take(x; y; M)",
     "line": "Linear interpolation:\n\n    line(x; a; b; c...)\n    or double linear for matrices:\n    line(x; y; M)",
     "spline": "Hermite spline interpolation:\n\n    spline(x; a; b; c...) or double spline for matrices:\n    spline(x; y; M)",
-    
+
     // Conditional and logical functions
     "if": "Conditional evaluation:\n\n    if(condition; value-if-true; value-if-false)",
     "switch": "Selective evaluation:\n\n    switch(cond1; value1; cond2; value2; ...; default)",
@@ -174,7 +174,7 @@ const functionDescriptions: { [key: string]: string } = {
     "and": "Logical AND:\n\n    and(x; y; z...)",
     "or": "Logical OR:\n\n    or(x; y; z...)",
     "xor": "Logical XOR:\n\n    xor(x; y; z...)",
-    
+
     // Other utility functions
     "sign": "Returns the sign of a number (-1, 0, or 1):\n\n    sign(x)",
     "random": "Returns a random number between 0 and x:\n\n    random(x)",
@@ -184,13 +184,13 @@ const functionDescriptions: { [key: string]: string } = {
     "clrunits": "Clears the units from a scalar, vector or matrix x:\n\n    clrunits(x)",
     "hp": "Converts x to its high performance (hp) equivalent type:\n\n    hp(x)",
     "ishp": "Checks if the type of x is a high-performance (hp) vector or matrix:\n\n    ishp(x)",
-    
+
     // Vector - Creational
     "vector": "Creates an empty vector with length n:\n\n    vector(n)",
     "vector_hp": "Creates an empty high performance (hp) vector with length n:\n\n    vector_hp(n)",
     "range": "Creates a vector with values spanning from x1 to xn with step s:\n\n    range(x1; xn; s)",
     "range_hp": "Creates a high performance (hp) vector from a range of values:\n\n    range_hp(x1; xn; s)",
-    
+
     // Vector - Structural
     "len": "Returns the length of vector v:\n\n    len(v)",
     "size": "Returns the actual size of vector v:\n\n    size(v) - the index of the last non-zero element",
@@ -201,7 +201,7 @@ const functionDescriptions: { [key: string]: string } = {
     "first": "Returns the first n elements of vector v:\n\n    first(v; n)",
     "last": "Returns the last n elements of vector v:\n\n    last(v; n)",
     "extract": "Extracts the elements from v which indexes are contained in i:\n\n    extract(v; i)",
-    
+
     // Vector - Data
     "sort": "Sorts the elements of vector v in ascending order:\n\n    sort(v)",
     "rsort": "Sorts the elements of vector v in descending order:\n\n    rsort(v)",
@@ -224,7 +224,7 @@ const functionDescriptions: { [key: string]: string } = {
     "lookup_le": "Returns all elements in a for which the respective elements in b are ≤ x:\n\n    lookup_le(a; b; x)",
     "lookup_gt": "Returns all elements in a for which the respective elements in b are > x:\n\n    lookup_gt(a; b; x)",
     "lookup_ge": "Returns all elements in a for which the respective elements in b are ≥ x:\n\n    lookup_ge(a; b; x)",
-    
+
     // Vector - Math
     "norm_1": "L1 (Manhattan) norm of vector v:\n\n    norm_1(v)",
     "norm": "L2 (Euclidean) norm of vector v:\n\n    norm(v)",
@@ -235,7 +235,7 @@ const functionDescriptions: { [key: string]: string } = {
     "unit": "Returns the normalized vector v (with L2 norm = 1):\n\n    unit(v)",
     "dot": "Scalar product of two vectors a and b:\n\n    dot(a; b)",
     "cross": "Cross product of two vectors a and b (with length 2 or 3):\n\n    cross(a; b)",
-    
+
     // Matrix - Creational
     "matrix": "Creates an empty matrix with dimensions m×n:\n\n    matrix(m; n)",
     "identity": "Creates an identity matrix with dimensions n×n:\n\n    identity(n)",
@@ -258,7 +258,7 @@ const functionDescriptions: { [key: string]: string } = {
     "join_rows": "Creates a new matrix by joining row vectors:\n\n    join_rows(r₁; r₂; r₃...)",
     "augment": "Creates a new matrix by appending matrices A; B; C side by side:\n\n    augment(A; B; C...)",
     "stack": "Creates a new matrix by stacking matrices A; B; C one below the other:\n\n    stack(A; B; C...)",
-    
+
     // Matrix - Structural
     "n_rows": "Returns the number of rows in matrix M:\n\n    n_rows(M)",
     "n_cols": "Returns the number of columns in matrix M:\n\n    n_cols(M)",
@@ -274,7 +274,7 @@ const functionDescriptions: { [key: string]: string } = {
     "extract_cols": "Extracts the columns from matrix M whose indexes are contained in vector j:\n\n    extract_cols(M; j)",
     "diag2vec": "Extracts the diagonal elements of matrix M to a vector:\n\n    diag2vec(M)",
     "submatrix": "Extracts a submatrix of M, bounded by rows i₁ and i₂ and columns j₁ and j₂:\n\n    submatrix(M; i₁; i₂; j₁; j₂)",
-    
+
     // Matrix - Data
     "sort_cols": "Sorts the columns of M based on the values in row i in ascending order:\n\n    sort_cols(M; i)",
     "rsort_cols": "Sorts the columns of M based on the values in row i in descending order:\n\n    rsort_cols(M; i)",
@@ -307,7 +307,7 @@ const functionDescriptions: { [key: string]: string } = {
     "vlookup_le": "Returns the values from column j₂ of M, for which the elements in column j₁ are ≤ x:\n\n    vlookup_le(M; x; j₁; j₂)",
     "vlookup_gt": "Returns the values from column j₂ of M, for which the elements in column j₁ are > x:\n\n    vlookup_gt(M; x; j₁; j₂)",
     "vlookup_ge": "Returns the values from column j₂ of M, for which the elements in column j₁ are ≥ x:\n\n    vlookup_ge(M; x; j₁; j₂)",
-    
+
     // Matrix - Math
     "hprod": "Hadamard product of matrices A and B:\n\n    hprod(A; B)",
     "fprod": "Frobenius product of matrices A and B:\n\n    fprod(A; B)",
@@ -348,7 +348,7 @@ const functionDescriptions: { [key: string]: string } = {
 };
 
 // Keyword descriptions for hover information
-const keywordDescriptions: { [key: string]: string } = {    
+const keywordDescriptions: { [key: string]: string } = {
     // Keywords
     "#append": "Append matrix M to a text/CSV or Excel file:\n\n    #append M to filename.txt@R1C1:R2C2 TYPE=N SEP=','",
     "#break": "Breaks out of the current iteration loop",
@@ -395,7 +395,7 @@ const keywordDescriptions: { [key: string]: string } = {
 
 // Method descriptions for hover information
 const methodDescriptions: { [key: string]: string } = {
-	// Iterative and numerical methods and plotting:  
+	// Iterative and numerical methods and plotting:
     "$Root": "Root finding:\n\n    $Root{f(x) @ x = a : b} or\n\n    $Root{f(x) = const @ x = a : b}",
     "$Find": "Similar to $Root, but x is not required to be a precise solution:\n\n    $Find{f(x) @ x = a : b}",
     "$Sup": "Local maximum of a function:\n\n    $Sup{f(x) @ x = a : b}",
@@ -424,7 +424,7 @@ const settingDescriptions: { [key: string]: string } = {
     "PlotPalette": "The number of color palette to be used for surface plots (0-9)",
     "PlotShadows": "Draw surface plots with shadows",
     "PlotSmooth": "Smooth transition of colors (= 1) or isobands (= 0) for surface plots",
-    "PlotLightDir": "Direction to light source (0-7) clockwise", 
+    "PlotLightDir": "Direction to light source (0-7) clockwise",
     "Precision": "Relative precision for numerical methods"
 };
 
@@ -437,10 +437,10 @@ export function activate(context: vscode.ExtensionContext) {
         {
             provideCompletionItems(document: vscode.TextDocument, position: vscode.Position) {
                 const items: vscode.CompletionItem[] = [];
-                
+
                 for (const item of completionItems) {
                     const completionItem = new vscode.CompletionItem(item);
-                    
+
                     // Set completion kind based on prefix
                     if (item.startsWith('#')) {
                         completionItem.kind = vscode.CompletionItemKind.Keyword;
@@ -505,11 +505,11 @@ export function activate(context: vscode.ExtensionContext) {
         const dirPath = path.dirname(filePath);
         const baseName = path.basename(filePath, '.cpd');
         const htmlPath = path.join(dirPath, baseName + '.html');
-        
+
         // Path to Calcpad CLI - get from settings
         const config = vscode.workspace.getConfiguration('calcpad');
         const cliPath = config.get<string>('cliPath', 'C:\\Program Files\\Calcpad\\Cli.exe');
-        
+
         // Check if CLI exists
         if (!fs.existsSync(cliPath)) {
             vscode.window.showErrorMessage(`Calcpad CLI not found at: ${cliPath}`);
@@ -529,7 +529,7 @@ export function activate(context: vscode.ExtensionContext) {
                         reject(error);
                         return;
                     }
-                    
+
                     if (stderr) {
                         vscode.window.showWarningMessage(`Calcpad warning: ${stderr}`);
                     }
@@ -553,13 +553,13 @@ export function activate(context: vscode.ExtensionContext) {
                                         localResourceRoots: [vscode.Uri.file(dirPath)]
                                     }
                                 );
-                                
+
                                 // Handle panel disposal
                                 currentPanel.onDidDispose(() => {
                                     currentPanel = undefined;
                                 });
                             }
-                            
+
                             // Update localResourceRoots for the current file's directory
                             currentPanel.webview.options = {
                                 enableScripts: true,
@@ -568,7 +568,7 @@ export function activate(context: vscode.ExtensionContext) {
 
                             let htmlContent = fs.readFileSync(htmlPath, 'utf8');
                             const webviewUri = currentPanel.webview.asWebviewUri(vscode.Uri.file(dirPath));
-                            
+
                             // Update relative paths in HTML to use webview URIs
                             htmlContent = htmlContent.replace(
                                 /src="(?!http|data:)([^"]+)"/g,

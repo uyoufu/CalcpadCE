@@ -1,6 +1,6 @@
 ﻿# Plotting
 
-Besides functions, Calcpad provides special commands for advanced operations.
+Besides functions, CalcpadCE provides special commands for advanced operations.
 They accept functions and expressions as arguments and perform plotting, iterative solutions and numerical methods.
 Their names start with "\$" to be distinguished from normal functions.
 Their parameters must be enclosed in curly brackets: "{" and "}". Such is the plotting command \$Plot.

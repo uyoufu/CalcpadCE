@@ -48,7 +48,7 @@
 'concreteTexture.wrapT = THREE.RepeatWrapping;
 'concreteTexture.repeat.set(b, 0.5*b);
 'const concreteMaterial = new THREE.MeshStandardMaterial({
-'map: concreteTexture, roughness: 1, metalness: 0.1, transparent: true, opacity:0.9}); 
+'map: concreteTexture, roughness: 1, metalness: 0.1, transparent: true, opacity:0.9});
 'const beam = new THREE.Mesh(extrude, concreteMaterial);
 'scene.add(beam);
 'const r = 'Ø/2';

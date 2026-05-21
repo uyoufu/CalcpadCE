@@ -50,7 +50,7 @@ circle$(x; y; R; ball_style$)
 texth$(x+3*δ_x; y_g-δ;g)
 '</svg>
 #equ
-'</td></tr></table> 
+'</td></tr></table>
 '<h4>Solution by Runge-Kutta RK4 method (explicit)</h4>
 #noc
 'Differential equation -'θ″ + b/m*θ′ + g/l*sin(θ) = 0
@@ -83,7 +83,7 @@ k_1,ω = (g/l)*sin(-θ_i) - b/m*k_1,θ'</td></tr>
 θ = vector(n)'<br/>'ω = vector(n)
 'Set initial conditions
 θ.1 = θ_0/1rad','ω.1 = ω_0/1rad
-'Perform Runge-Kutta 4 steps 
+'Perform Runge-Kutta 4 steps
 #for i = 1 : n - 1
 	'RK4 factors
 	k_1,θ = ω.i', ' _
@@ -96,7 +96,7 @@ k_1,ω = (g/l)*sin(-θ_i) - b/m*k_1,θ'</td></tr>
 	k_4,ω = (g/l)*sin(-(θ.i + h*k_3,θ)) - b/m*k_4,θ
 	'Update values using weighted averages
 	'Rotation -'θ.(i + 1) = θ.i + (h/6)*(k_1,θ + 2*k_2,θ + 2*k_3,θ + k_4,θ)
-	'Angular velocity -'ω.(i + 1) = ω.i + (h/6)*(k_1,ω + 2*k_2,ω + 2*k_3,ω + k_4,ω)' < /p > 
+	'Angular velocity -'ω.(i + 1) = ω.i + (h/6)*(k_1,ω + 2*k_2,ω + 2*k_3,ω + k_4,ω)' < /p >
 	#hide
 #loop
 t(i) = i*h - h
@@ -110,8 +110,8 @@ r2d = 180/π
 $Plot{t(i)|θ.i*r2d @ i = 1 : n}
 'Energy - <var>E</var>(<var>t</var>), [J]
 $Plot{t(i)|E_k(i) + E_p(i) & 0s|0J & 0s|0J & 0s|0J & t(i)|E_p(i) & t(i)|E_k(i) & 0s|0J @ i = 1 : n}
-'<br/><b style="color:MediumVioletRed">━━</b> Potential - <var>E</var><sub>p</sub>, 
-'<b style="color:MediumSpringGreen">━━</b> Kinetic - <var>E</var><sub>k</sub>, 
+'<br/><b style="color:MediumVioletRed">━━</b> Potential - <var>E</var><sub>p</sub>,
+'<b style="color:MediumSpringGreen">━━</b> Kinetic - <var>E</var><sub>k</sub>,
 '<b style="color:Tomato">━━</b> Total - <var>E</var><sub>tot</sub>
 '<style>#start{height:1.8em; padding-top:0;}.Series3, .Series4{stroke:none!Important; fill:none!Important;} .fr{display:none;} .fr svg{margin-right:64pt; align-center;}</style>
 '<h4>Animate results &emsp;<button id="start">Start</button></h4>

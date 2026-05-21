@@ -1,6 +1,6 @@
 "Wind Load for Rectangular Building with Duopitch Roof<hr/><small>According to <strong>Eurocode</strong>: EN 1991-1-4</small>
 '<div style="max-width:180mm">
-'<img style="width:225pt;" class="side" src="https://calcpad.eu/media/structures/loads/wind-3d.png" alt="wind-3d.png">'
+'<img style="width:225pt;" class="side" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/loads/wind-3d.png?raw=true" alt="wind-3d.png">'
 '
 '
 '<h4>Dimensions of the building</h4>
@@ -36,7 +36,7 @@
 'Orography factor -'C_0 = 1.0
 #pre
 '<p id="C" style="display:none;">'C = ? {4}'</p>
-'<p class="ref">[EN 1991-1-4, <a target="_blank" href="https://calcpad.eu/reference/wind-terrain.html">Table 4.1</a>]</p>
+'<p class="ref">[EN 1991-1-4, Table 4.1]</p>
 'Terrain categories
 '<p><select data-target="C">
 '<option value="0"> 0. Sea or coastal area...</option>
@@ -46,7 +46,7 @@
 '<option value="4"> IV. Area in which at least 15 % of the surface is covered with buildings with h > 15 m</option>
 '</select></p>
 #post
-'<p class="ref">[EN 1991-1-4, <a target="_blank" href="https://calcpad.eu/reference/wind-terrain.html">Table 4.1</a>]</p>
+'<p class="ref">[EN 1991-1-4, Table 4.1]</p>
 #if C ≡ 0
 	'Terrain category - 0:'z_0 = 0.003'm,'z_min = 1.0'm,'z_max = 200'm
 	'Sea or coastal area exposed to the open sea.
@@ -61,7 +61,7 @@
 	'Area with regular cover of vegetation or buildings or with isolated obstacles with separations of maximum 20 obstacle heights (such as villages, suburban terrain, permanent forest).
 #else if C ≡ 4
 	'Terrain category - IV:'z_0 = 1.0'm,'z_min = 10.0'm,'z_max = 200'm
-	'Area in which at least 15 % of the surface is covered with buildings and their average height exceeds 15 m. 
+	'Area in which at least 15 % of the surface is covered with buildings and their average height exceeds 15 m.
 #else
 	'Invalid category
 #end if
@@ -115,17 +115,17 @@ e = min(L; 2*h_1)'m
 #if e ≤ B
 	'<!--'case = 1'-->
 	e'm ≤'B'm
-	'<img style="width:200pt;" src="https://calcpad.eu/media/structures/loads/wind-0-wall-1.png" alt="wind-0-wall-1.png">'
+	'<img style="width:200pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/loads/wind-0-wall-1.png?raw=true" alt="wind-0-wall-1.png">'
 	e/5'm,'4/5*e'm,'B - e'm
 #else if e < 5*B
 	'<!--'case = 2'-->
 	e'm &lt;'5*B'm
-	'<img style="width:200pt;" src="https://calcpad.eu/media/structures/loads/wind-0-wall-2.png" alt="wind-0-wall-2.png">'
+	'<img style="width:200pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/loads/wind-0-wall-2.png?raw=true" alt="wind-0-wall-2.png">'
 	e/5'm,'B - e/5'm
 #else
 	'<!--'case = 3'-->
 	e'm &ge;'5*B'm
-	'<img style="width:200pt;" src="https://calcpad.eu/media/structures/loads/wind-0-wall-3.png" alt="wind-0-wall-3.png">'
+	'<img style="width:200pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/loads/wind-0-wall-3.png?raw=true" alt="wind-0-wall-3.png">'
 	B'm
 #end if
 h_1/B
@@ -244,7 +244,7 @@ h_1/B
 #equ
 '<br/>
 '<p><b>Roof</b></p>
-'<img style="width:200pt;" src="https://calcpad.eu/media/structures/loads/wind-0-roof.png" alt="wind-0-roof.png">'
+'<img style="width:200pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/loads/wind-0-roof.png?raw=true" alt="wind-0-roof.png">'
 e'm,'e/4'm,'e/10'm
 '(Four possible combinations for minimum and maximum loads on both slopes are required: { + , + }; { + , – }; { – , + }; { – , – })
 '<div class="fold">
@@ -497,17 +497,17 @@ e = min(B; 2*h_1)
 #if e ≤ L
 	'<!--'case = 1'-->
 	e'm ≤'L'm
-	'<img style="width:200pt;" src="https://calcpad.eu/media/structures/loads/wind-90-wall-1.png" alt="wind-90-wall-1.png">'
+	'<img style="width:200pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/loads/wind-90-wall-1.png?raw=true" alt="wind-90-wall-1.png">'
 	e/5'm,'4/5*e'm,'L - e'm
 #else if e < 5*L
 	'<!--'case = 2'-->
 	e'm &lt;'5*L'm
-	'<img style="width:200pt;" src="https://calcpad.eu/media/structures/loads/wind-90-wall-2.png" alt="wind-90-wall-2.png">'
+	'<img style="width:200pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/loads/wind-90-wall-2.png?raw=true" alt="wind-90-wall-2.png">'
 	e/5'm,'L - e/5'm
 #else
 	'<!--'case = 3'-->
 	e'm &ge;'5*L'm
-	'<img style="width:200pt;" src="https://calcpad.eu/media/structures/loads/wind-90-wall-3.png" alt="wind-90-wall-3.png">'
+	'<img style="width:200pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/loads/wind-90-wall-3.png?raw=true" alt="wind-90-wall-3.png">'
 	L'm
 #end if
 h_1/L
@@ -626,7 +626,7 @@ h_1/L
 #equ
 '<br/>
 '<p><b>Roof</b></p>
-'<img style="width:300pt;" src="https://calcpad.eu/media/structures/loads/wind-90-roof.png" alt="wind-90-roof.png">'
+'<img style="width:300pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/loads/wind-90-roof.png?raw=true" alt="wind-90-roof.png">'
 e'm,'e/4'm,'e/10'm
 '<div class="fold">
 '<p><b>Results</b></p>
@@ -722,7 +722,7 @@ e'm,'e/4'm,'e/10'm
 '</table>
 #equ
 '<h4>Notes</h4>
-'<p><sup>1)</sup> External pressure coefficients are determined according to <br />EN 1991-1-4, <a target="_blank" href="https://calcpad.eu/reference/wind-cpe-walls.html">Table 7.1</a> - for  vertical walls and <a target="_blank" href="https://calcpad.eu/reference/wind-cpe-roof-2.html">Tables 7.4 a, b</a> and <a target="_blank" href="https://calcpad.eu/reference/wind-cpe-roof-0.html">7.2</a> - for roof.<br/>
+'<p><sup>1)</sup> External pressure coefficients are determined according to <br />EN 1991-1-4, Table 7.1 - for  vertical walls and Tables 7.4 a, b and 7.2 - for roof.<br/>
 '<sup>2)</sup> Surface loads are calculated with coefficient <i>C</i><sub>pe,10</sub>. These loads should be applied only for global analysis of the structure. For design of separate structural elements, values of <i>C</i><sub>pe</sub> = <i>C</i><sub>pe,1</sub> - (<i>C</i><sub>pe,1</sub> - <i>C</i><sub>pe,10</sub>)&middot;log(<i>A</i>)) is used instead of <i>C</i><sub>pe,10</sub> for the respective reference area<i>A</i>.<br />
 '<sup>3)</sup> Thus, the given loads on beams, columns, purlins and siding should be used only for design of the respective elements. These loads cannot be used for load take-down and calculation of other elements.<br />
 '<sup>4)</sup> Positive values (+) mean pressure towards the given surface and negative values (-) are in the opposite direction. The pressure is always perpendicular to the respective surface.</p>

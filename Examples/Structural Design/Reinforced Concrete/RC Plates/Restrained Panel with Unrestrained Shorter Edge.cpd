@@ -1,6 +1,6 @@
 "Restrained Slab Panel with Unrestrained Shorter Edge<hr/><small>According to <strong>Eurocode</strong>: EN 1992-1-1</small>
 '<div style="max-width:180mm;">
-'<img alt="fsff-span-cl.png" class="side" style="height:180pt;" src="https://calcpad.eu/media/structures/rc/spans/fsff-span-cl.png">
+'<img alt="fsff-span-cl.png" class="side" style="height:180pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/spans/fsff-span-cl.png?raw=true">
 '<h4>Dimensions</h4>
 'Clear spans (<i>l</i><sub>x</sub> &lt; <i>l</i><sub>y</sub>)
 l_x_cl = ?'m,'l_y_cl = ?'m
@@ -18,7 +18,7 @@ l_y = l_y_cl + min(b_y/100;h/100)'m
 #else
 	#show
 	'Design spans lengths and edge moments in adjacent panels
-	'<img alt="fsff-span.png" class="side" style="height:140pt;" src="https://calcpad.eu/media/structures/rc/spans/fsff-span.png">
+	'<img alt="fsff-span.png" class="side" style="height:140pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/spans/fsff-span.png?raw=true">
 	'<table><tr><td rowspan="2">
 	'Parallel to <i>x</i> - <br />
 	'</td><td>
@@ -76,7 +76,7 @@ l_y = l_y_cl + min(b_y/100;h/100)'m
 	'</div>
 	#show
 	'<h4>Material properties</h4>
-	'<p><b>Concrete</b> &nbsp;&nbsp;[<a target="_blank" href="https://calcpad.eu/reference/concrete-table.html">EN 1992-1-1, Table 3.1</a>]</p>
+	'<p><b>Concrete</b> &nbsp;&nbsp;[EN 1992-1-1, Table 3.1]</p>
 	'Characteristic compressive cylinder strength -'f_ck = ?'MPa
 	'Partial safety factors for concrete -'γ_c = 1.5','α_cc = ?
 	#post
@@ -213,7 +213,7 @@ l_y = l_y_cl + min(b_y/100;h/100)'m
 	#if k ≤ 2
 		M_Ed_yb = β_yb1*p_1*l_x^2 + β_yb2*p_2*l_x^2'kN·m/m
 	#end if
-	'Support moment 
+	'Support moment
 	M_Ed_xt = β_xt*p*l_x^2'kN·m/m
 	#if k ≤ 2
 		M_Ed_yt = β_yt*p*l_x^2'kN·m/m

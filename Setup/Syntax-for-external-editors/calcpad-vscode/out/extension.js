@@ -404,7 +404,7 @@ const keywordDescriptions = {
 };
 // Method descriptions for hover information
 const methodDescriptions = {
-    // Iterative and numerical methods and plotting:  
+    // Iterative and numerical methods and plotting:
     "$Root": "Root finding:\n\n    $Root{f(x) @ x = a : b} or\n\n    $Root{f(x) = const @ x = a : b}",
     "$Find": "Similar to $Root, but x is not required to be a precise solution:\n\n    $Find{f(x) @ x = a : b}",
     "$Sup": "Local maximum of a function:\n\n    $Sup{f(x) @ x = a : b}",
