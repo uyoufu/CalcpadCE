@@ -1,3 +1,4 @@
+using System.Text;
 using HtmlAgilityPack;
 
 namespace Calcpad.WebApi.Utils.Calcpad
@@ -18,7 +19,7 @@ namespace Calcpad.WebApi.Utils.Calcpad
         public List<HtmlNode> ContentNodes { get; set; } = new();
     }
 
-    public class ConditionBlockWrapper(HtmlDocument doc)
+    public partial class ConditionBlockWrapper(HtmlDocument doc)
     {
         /// <summary>
         /// process conditional blocks and wrap them in divs with v-if/v-else-if/v-else attributes
@@ -272,7 +273,7 @@ namespace Calcpad.WebApi.Utils.Calcpad
         /// </summary>
         private static string ExtractCondition(HtmlNode eqSpan)
         {
-            var innerText = eqSpan.InnerText.Trim();
+            var innerText = ExtractConditionText(eqSpan).Trim();
             // convert calcpad operators to JavaScript
             // ≡ -> ==
             // ≠ -> !=
@@ -282,10 +283,55 @@ namespace Calcpad.WebApi.Utils.Calcpad
                 .Replace("≡", "==")
                 .Replace("≠", "!=")
                 .Replace("≤", "<=")
-                .Replace("≥", ">=")
-                .Replace(" ", "");
+                .Replace("≥", ">=");
 
-            return innerText;
+            return RemoveConditionWhitespace(innerText);
+        }
+
+        private static string ExtractConditionText(HtmlNode node)
+        {
+            var builder = new StringBuilder();
+            AppendConditionText(node, builder);
+            return builder.ToString();
+        }
+
+        private static void AppendConditionText(HtmlNode node, StringBuilder builder)
+        {
+            foreach (var child in node.ChildNodes)
+            {
+                if (child.NodeType == HtmlNodeType.Text)
+                {
+                    builder.Append(HtmlEntity.DeEntitize(child.InnerText));
+                    continue;
+                }
+
+                if (child.Name.Equals("sub", StringComparison.CurrentCultureIgnoreCase))
+                {
+                    var subscript = HtmlEntity.DeEntitize(child.InnerText).Trim();
+                    if (!string.IsNullOrEmpty(subscript))
+                    {
+                        builder.Append('_');
+                        builder.Append(subscript);
+                    }
+                    continue;
+                }
+
+                if (child.Name.Equals("i", StringComparison.CurrentCultureIgnoreCase))
+                    continue;
+
+                AppendConditionText(child, builder);
+            }
+        }
+
+        private static string RemoveConditionWhitespace(string expression)
+        {
+            var builder = new StringBuilder(expression.Length);
+            foreach (var character in expression)
+            {
+                if (!char.IsWhiteSpace(character))
+                    builder.Append(character);
+            }
+            return builder.ToString();
         }
     }
 }
