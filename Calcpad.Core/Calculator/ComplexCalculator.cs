@@ -100,7 +100,7 @@ namespace Calcpad.Core
                 Fact,     // 42
                 (in ComplexValue a) => -a,   // 43
                 Not,      // 44
-                Timer     // 45  
+                Timer     // 45
             ];
 
             Functions2 =

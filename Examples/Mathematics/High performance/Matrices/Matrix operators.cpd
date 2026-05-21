@@ -14,7 +14,7 @@ A - B'- subtraction
 A + B'- addition
 'Relational (comparison):
 A ≡ B'- equal to
-A ≠ B'- unequal to 
+A ≠ B'- unequal to
 A < B'- less then
 A > B'- greater than
 A ≤ B'- less or equal
@@ -42,7 +42,7 @@ A - b'- subtraction
 A + b'- addition
 'Relational (comparison):
 A ≡ b'- equal to
-A ≠ b'- unequal to 
+A ≠ b'- unequal to
 A < b'- less then
 A > b'- greater than
 A ≤ b'- less or equal
@@ -69,7 +69,7 @@ a - B'- subtraction
 a + B'- addition
 'Relational (comparison):
 a ≡ B'- equal to
-a ≠ B'- unequal to 
+a ≠ B'- unequal to
 a < B'- less then
 a > B'- greater than
 a ≤ B'- less or equal
@@ -120,7 +120,7 @@ a = 2', 'B = hp([11; 10; 9|8; 7; 6])
 'Relational (comparison):
 2 ≡ B'- equal to
 2 ≠ B'- unequal to
-2 < B'- less then 
+2 < B'- less then
 2 > B'- greater than
 2 ≤ B'- less or equal
 2 ≥ B'- greater or equal

@@ -10,8 +10,8 @@
 
 namespace Calcpad.Wpf {
     using System;
-    
-    
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -23,15 +23,15 @@ namespace Calcpad.Wpf {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class MainWindowResources {
-        
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal MainWindowResources() {
         }
-        
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -45,7 +45,7 @@ namespace Calcpad.Wpf {
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -59,7 +59,7 @@ namespace Calcpad.Wpf {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to 2D color map of a surface.
         /// </summary>
@@ -68,7 +68,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("2DColorMap", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Adaptive.
         /// </summary>
@@ -77,7 +77,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Adaptive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Adaptive Gauss-Lobatto Integration.
         /// </summary>
@@ -86,7 +86,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AdaptiveGaussLobattoIntegration", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Adaptive 1D function plot.
         /// </summary>
@@ -95,7 +95,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AdaptiveTooltip", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Adds all elements from A to those of B, starting from indexes i and j of B.
         /// </summary>
@@ -104,7 +104,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AddsAllElementsFromAToThoseOfBStartingFromIndexesIAndJOfB", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Adjugate of matrix M.
         /// </summary>
@@ -113,7 +113,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AdjugateOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Algebraic complex notation.
         /// </summary>
@@ -122,7 +122,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AlgebraicComplexNotation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to All elements in vector a for which the corresponding elements in vector b are.
         /// </summary>
@@ -131,7 +131,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AllElementsInVectorAForWhichTheCorrespondingElementsInVectorBAre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Alternative: if-else-end if.
         /// </summary>
@@ -140,7 +140,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AlternativeIfElseEndIf", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Always show the content (default).
         /// </summary>
@@ -149,7 +149,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AlwaysShowContent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to A new vector containing the elements of v in reverse order.
         /// </summary>
@@ -158,7 +158,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ANewVectorContainingTheElementsOfVInReverseOrder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Angles:.
         /// </summary>
@@ -167,7 +167,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Angles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Append Excel File.
         /// </summary>
@@ -176,7 +176,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AppendExcelFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Append Text/CSV File.
         /// </summary>
@@ -185,7 +185,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AppendTextCSVFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Are you sure you want to unlock the source code for editing?.
         /// </summary>
@@ -194,7 +194,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Are_you_sure_you_want_to_unlock_the_source_code_for_editing", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Backspace.
         /// </summary>
@@ -203,7 +203,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Backspace", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Blue-red.
         /// </summary>
@@ -212,7 +212,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("BlueRed", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Blues.
         /// </summary>
@@ -221,7 +221,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Blues", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Blue-yellow.
         /// </summary>
@@ -230,7 +230,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("BlueYellow", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Bold.
         /// </summary>
@@ -239,7 +239,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Bold", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Bulleted List.
         /// </summary>
@@ -248,16 +248,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("BulletedList", resourceCulture);
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to https:// calcpad.eu/download/help.html.
-        /// </summary>
-        public static string calcpad_download_help_html {
-            get {
-                return ResourceManager.GetString("calcpad_download_help_html", resourceCulture);
-            }
-        }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Calculate.
         /// </summary>
@@ -266,7 +257,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Calculate", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Calculate by iterations.
         /// </summary>
@@ -275,7 +266,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CalculateByIterations", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Change case.
         /// </summary>
@@ -284,7 +275,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ChangeCase", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Checkbox.
         /// </summary>
@@ -293,7 +284,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Checkbox", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Check if argument is a high performance type.
         /// </summary>
@@ -302,7 +293,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CheckIfArgumentIsAHighPerformanceType", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Cholesky decomposition of a symmetric, positive-definite matrix M.
         /// </summary>
@@ -311,7 +302,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CholeskyDecompositionOfASymmetricPositiveDefiniteMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Circle.
         /// </summary>
@@ -320,7 +311,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Circle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Clears the units from a scalar/vactor/matrix.
         /// </summary>
@@ -329,7 +320,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ClearsTheUnitsFromAScalarVactorMatrix", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Code.
         /// </summary>
@@ -338,7 +329,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Code", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Cofactor matrix of M.
         /// </summary>
@@ -347,25 +338,25 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CofactorMatrixOfM", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Calcpad Worksheet (*.cpd)|*.cpd|Calcpad Compiled (*.cpdz)|*.cpdz|Text File (*.txt)|*.txt.
+        ///   Looks up a localized string similar to CE Worksheet (*.cpd)|*.cpd|CalcpadCE Compiled (*.cpdz)|*.cpdz|Text File (*.txt)|*.txt.
         /// </summary>
         public static string Command_Open_Calcpad_Worksheet {
             get {
                 return ResourceManager.GetString("Command_Open_Calcpad_Worksheet", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Text File (*.txt)|*.txt|Calcpad Worksheet (*.cpd)|*.cpd|Calcpad Compiled (*.cpdz)|*.cpdz.
+        ///   Looks up a localized string similar to Text File (*.txt)|*.txt|CalcpadCE Worksheet (*.cpd)|*.cpd|CalcpadCE Compiled (*.cpdz)|*.cpdz.
         /// </summary>
         public static string Command_Open_Text_File {
             get {
                 return ResourceManager.GetString("Command_Open_Text_File", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Command Line Interpreter (CLI).
         /// </summary>
@@ -374,7 +365,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CommandLineInterpreter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Comment Selected Lines.
         /// </summary>
@@ -383,7 +374,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CommentSelectedLines", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Compile to input form (F4).
         /// </summary>
@@ -392,7 +383,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Compile_to_input_form_F4", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Complete: if-else if-else-end if.
         /// </summary>
@@ -401,7 +392,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CompleteIfElseIfElseIfEndIf", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Complex.
         /// </summary>
@@ -410,7 +401,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Complex", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Complex step differentiation.
         /// </summary>
@@ -419,7 +410,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ComplexStepDifferentiation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Conditional loop expression block.
         /// </summary>
@@ -428,7 +419,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConditionalLoopExpressionBlock", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Conditional: repeat-break-loop.
         /// </summary>
@@ -437,7 +428,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConditionalRepeatBreakLoop", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Conditional: repeat-continue-loop.
         /// </summary>
@@ -446,7 +437,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConditionalRepeatContinueLoop", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Conditional: while-loop.
         /// </summary>
@@ -455,7 +446,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConditionalWhileLoop", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Condition number of M based on the Frobenius norm.
         /// </summary>
@@ -464,7 +455,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConditionNumberOfMBasedOnTheFrobeniusNorm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Condition number of M based on the L1 norm.
         /// </summary>
@@ -473,7 +464,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConditionNumberOfMBasedOnTheL1Norm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Condition number of M based on the L2 norm.
         /// </summary>
@@ -482,7 +473,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConditionNumberOfMBasedOnTheL2Norm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Condition number of M based on the L∞ norm.
         /// </summary>
@@ -491,7 +482,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConditionNumberOfMBasedOnTheLNorm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Condition numbers.
         /// </summary>
@@ -500,7 +491,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConditionNumbers", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Conjugate of a complex number.
         /// </summary>
@@ -509,7 +500,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConjugateOfAComplexNumber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Converts any vector and matrix to high performance type.
         /// </summary>
@@ -518,7 +509,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ConvertsAnyVectorAndMatrixToHighPerformanceType", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Copies all elements from A to B, starting from indexes i and j of B.
         /// </summary>
@@ -527,7 +518,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CopiesAllElementsFromAToBStartingFromIndexesIAndJOfB", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Copy.
         /// </summary>
@@ -536,7 +527,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Copy", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Copy all output.
         /// </summary>
@@ -545,7 +536,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CopyAllOutput", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Copy selected text to Clipboard.
         /// </summary>
@@ -554,7 +545,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CopyText", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a column high performance matrix with dimensions m⨯1, filled with value c.
         /// </summary>
@@ -563,7 +554,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAColumnHighPerformanceMatrixWithDimensionsM1FilledWithValueC", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a column matrix from the elements of vector v.
         /// </summary>
@@ -572,7 +563,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAColumnMatrixFromTheElementsOfVectorV", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a column matrix with dimensions m⨯1, filled with value c.
         /// </summary>
@@ -581,7 +572,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAColumnMatrixWithDimensionsM1FilledWithValueC", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a diagonal high performance matrix with dimensions n⨯n and fills the diagonal with value d.
         /// </summary>
@@ -591,7 +582,7 @@ namespace Calcpad.Wpf {
                         "D", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a diagonal matrix from the elements of vector v.
         /// </summary>
@@ -600,7 +591,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesADiagonalMatrixFromTheElementsOfVectorV", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a diagonal matrix with dimensions n⨯n and fills the diagonal with value d.
         /// </summary>
@@ -609,7 +600,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesADiagonalMatrixWithDimensionsNNAndFillsTheDiagonalWithValueD", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a high performance vector with values spanning from x₁ to xₙ with step s..
         /// </summary>
@@ -618,7 +609,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAHighPerformanceVectorWithValuesSpanningFromXToXₙWithStepS", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a lower triangular high performance matrix with dimensions n⨯n.
         /// </summary>
@@ -627,7 +618,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesALowerTriangularHighPerformanceMatrixWithDimensionsNN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a lower triangular matrix with dimensions n⨯n.
         /// </summary>
@@ -636,7 +627,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesALowerTriangularMatrixWithDimensionsNN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates an empty high performance matrix with dimensions m⨯n.
         /// </summary>
@@ -645,7 +636,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAnEmptyHighPerformanceMatrixWithDimensionsMN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates an empty high performance vector with length n..
         /// </summary>
@@ -654,7 +645,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAnEmptyHighPerformanceVectorWithLengthN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates an empty matrix with dimensions m⨯n.
         /// </summary>
@@ -663,7 +654,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAnEmptyMatrixWithDimensionsMN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates an empty vector with length n.
         /// </summary>
@@ -672,7 +663,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAnEmptyVectorWithLengthN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a new matrix by appending matrices A; B; C side by side.
         /// </summary>
@@ -681,7 +672,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesANewMatrixByAppendingMatricesABCSideBySide", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a new matrix by joining column vectors.
         /// </summary>
@@ -690,7 +681,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesANewMatrixByJoiningColumnVectors", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a new matrix by joining row vectors.
         /// </summary>
@@ -699,7 +690,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesANewMatrixByJoiningRowVectors", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a new matrix by stacking matrices A; B; C one below the other.
         /// </summary>
@@ -708,7 +699,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesANewMatrixByStackingMatricesABCOneBelowTheOther", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates an identity high performance matrix with dimensions n⨯n.
         /// </summary>
@@ -717,7 +708,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAnIdentityHighPerformanceMatrixWithDimensionsNN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates an identity matrix with dimensions n⨯n.
         /// </summary>
@@ -726,7 +717,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAnIdentityMatrixWithDimensionsNN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates an upper triangular high performance matrix with dimensions n⨯n.
         /// </summary>
@@ -735,7 +726,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAnUpperTriangularHighPerformanceMatrixWithDimensionsNN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates an upper triangular matrix with dimensions n⨯n.
         /// </summary>
@@ -744,7 +735,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAnUpperTriangularMatrixWithDimensionsNN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a symmetric high performance matrix with dimensions n⨯n.
         /// </summary>
@@ -753,7 +744,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesASymmetricHighPerformanceMatrixWithDimensionsNN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a symmetric matrix with dimensions n⨯n.
         /// </summary>
@@ -762,7 +753,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesASymmetricMatrixWithDimensionsNN", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a vector by joining the arguments: matrices, vectors and scalars.
         /// </summary>
@@ -771,7 +762,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAVectorByJoiningTheArgumentsMatricesVectorsAndScalars", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creates a vector with values spanning from x₁ to xₙ with step s.
         /// </summary>
@@ -780,7 +771,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CreatesAVectorWithValuesSpanningFromX1ToXnWithStepS", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creational.
         /// </summary>
@@ -789,7 +780,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Creational", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Cross product of two vectors a and b (with length 2 or 3).
         /// </summary>
@@ -798,7 +789,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CrossProductOfTwoVectorsAAndBWithLength2Or3", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Cu_t.
         /// </summary>
@@ -807,7 +798,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Cut", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Data.
         /// </summary>
@@ -816,7 +807,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Data", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Declares a constant (readonly variable).
         /// </summary>
@@ -825,7 +816,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DeclaresAConstantReadonlyVariable", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Decompositions.
         /// </summary>
@@ -834,7 +825,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Decompositions", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Degrees.
         /// </summary>
@@ -843,7 +834,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Degrees", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Determinant of matrix M.
         /// </summary>
@@ -852,7 +843,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DeterminantOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to digits.
         /// </summary>
@@ -861,7 +852,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Digits", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Disables markdown in comments.
         /// </summary>
@@ -870,7 +861,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DisablesMarkdownInComments", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Display small matrix elements as zero instead of exponent..
         /// </summary>
@@ -879,7 +870,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DisplaySmallMatrixElementsAsZeroInsteadOfExponent", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Dividing Line.
         /// </summary>
@@ -888,7 +879,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DividingLine", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Do not substitute variables (no substitution).
         /// </summary>
@@ -897,7 +888,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DoNotSubstituteVariables", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Double Hermite spline interpolation from the elements of matrix M based on the values of x and y.
         /// </summary>
@@ -906,7 +897,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DoubleHermiteSplineInterpolationFromTheElementsOfMatrixMBasedOnTheValuesOfXAndY", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Double Interpolation.
         /// </summary>
@@ -915,7 +906,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DoubleInterpolation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Double linear interpolation from the elements of matrix M based on the values of x and y.
         /// </summary>
@@ -924,7 +915,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DoubleLinearInterpolationFromTheElementsOfMatrixMBasedOnTheValuesOfXAndY", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Drawing.
         /// </summary>
@@ -933,7 +924,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Drawing", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Drawing/SVG.
         /// </summary>
@@ -942,7 +933,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DrawingSVG", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to East.
         /// </summary>
@@ -951,7 +942,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("East", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Edit.
         /// </summary>
@@ -960,7 +951,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Edit", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Eigenvalues and eigenvectors.
         /// </summary>
@@ -969,7 +960,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EigenvaluesAndEigenvectors", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Eigenvalues and eigenvectors of matrix M.
         /// </summary>
@@ -978,7 +969,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EigenvaluesAndEigenvectorsOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Eigenvalues of matrix M.
         /// </summary>
@@ -987,7 +978,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EigenvaluesOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Eigenvectors of matrix M.
         /// </summary>
@@ -996,7 +987,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EigenvectorsOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Ellipse.
         /// </summary>
@@ -1005,7 +996,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Ellipse", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Embed.
         /// </summary>
@@ -1014,7 +1005,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Embed", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Embed plots inside the Html as base64 encoded images, Save to files if unchecked..
         /// </summary>
@@ -1023,7 +1014,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EmbedPlotsInsideTheHtmlAsBase64EncodedImagesSaveToFilesIfUnchecked", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Enables markdown in comments.
         /// </summary>
@@ -1032,7 +1023,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EnablesMarkdownInComments", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Equation format:.
         /// </summary>
@@ -1041,7 +1032,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EquationFormat", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error exporting docx file. Display validation log?.
         /// </summary>
@@ -1050,7 +1041,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Error_Exporting_Docx_File", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error getting units..
         /// </summary>
@@ -1059,7 +1050,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Error_getting_units", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error! Invalid number. Please correct and then try again..
         /// </summary>
@@ -1068,7 +1059,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Error_Invalid_number_Please_correct_and_then_try_again", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error setting units..
         /// </summary>
@@ -1077,7 +1068,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Error_setting_units", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Exit.
         /// </summary>
@@ -1086,7 +1077,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Exit", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Ext. browser:.
         /// </summary>
@@ -1095,7 +1086,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ExternalBrowser", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to External browser for opening links in reports.
         /// </summary>
@@ -1104,7 +1095,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ExternalBrowserTooltip", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Extracts a submatrix of M, bounded by rows i₁ and i₂ and columns j₁ and j₂, incl..
         /// </summary>
@@ -1113,7 +1104,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ExtractsASubmatrixOfMBoundedByRowsIAndIAndColumnsJAndJIncl", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Extracts the columns from matrix M whose indexes are contained in vector j.
         /// </summary>
@@ -1122,7 +1113,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ExtractsTheColumnsFromMatrixMWhoseIndexesAreContainedInVectorJ", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Extracts the diagonal elements of matrix M to a vector.
         /// </summary>
@@ -1131,7 +1122,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ExtractsTheDiagonalElementsOfMatrixMToAVector", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Extracts the elements from v which indexes are contained in i.
         /// </summary>
@@ -1140,7 +1131,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ExtractsTheElementsFromVWhichIndexesAreContainedInI", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Extracts the i-th row of matrix M as a vector.
         /// </summary>
@@ -1149,7 +1140,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ExtractsTheIThRowOfMatrixMAsAVector", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Extracts the j-th column of matrix M as a vector.
         /// </summary>
@@ -1158,7 +1149,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ExtractsTheJThColumnOfMatrixMAsAVector", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Extracts the rows from matrix M whose indexes are contained in vector i.
         /// </summary>
@@ -1167,7 +1158,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ExtractsTheRowsFromMatrixMWhoseIndexesAreContainedInVectorI", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Fast Fourier Transfrom.
         /// </summary>
@@ -1176,7 +1167,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FastFourierTransfrom", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Fast square matrix multiplication with parallel Winograd algorithm.
         /// </summary>
@@ -1185,7 +1176,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FastSquareMatrixMultiplicationWithParallelWinogradAlgorithm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _File.
         /// </summary>
@@ -1194,16 +1185,16 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("File", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Calcpad Compiled (*.cpdz)|*.cpdz.
+        ///   Looks up a localized string similar to CalcpadCE Compiled (*.cpdz)|*.cpdz.
         /// </summary>
         public static string FileSaveAs_Calcpad_Compiled {
             get {
                 return ResourceManager.GetString("FileSaveAs_Calcpad_Compiled", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Fills matrix M with value x.
         /// </summary>
@@ -1212,7 +1203,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FillsMatrixMWithValueX", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Fills the i-th row of matrix M with value x.
         /// </summary>
@@ -1221,7 +1212,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FillsTheIThRowOfMatrixMWithValueX", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Fills the j-th column of matrix M with value x.
         /// </summary>
@@ -1230,7 +1221,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FillsTheJThColumnOfMatrixMWithValueX", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Fills vector v with value x.
         /// </summary>
@@ -1239,7 +1230,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FillsVectorVWithValueX", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Find.
         /// </summary>
@@ -1248,7 +1239,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Find", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Find and replace.
         /// </summary>
@@ -1257,7 +1248,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FindAndReplace", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Find a root of equation f(x) = 0.
         /// </summary>
@@ -1266,7 +1257,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FindRootOfEquation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Finite product.
         /// </summary>
@@ -1275,7 +1266,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FiniteProduct", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Finite sum.
         /// </summary>
@@ -1284,7 +1275,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FiniteSum", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Folded Div.
         /// </summary>
@@ -1293,7 +1284,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FoldedDiv", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to &lt;div class=&quot;errorHeader&quot;&gt;Found &lt;b&gt;{0}&lt;/b&gt; errors in modules and macros:.
         /// </summary>
@@ -1302,7 +1293,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Found_Errors_In_Modules_And_Macros", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Frobenius norm of matrix M.
         /// </summary>
@@ -1311,7 +1302,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FrobeniusNormOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Frobenius product of matrices A and B.
         /// </summary>
@@ -1320,7 +1311,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FrobeniusProductOfMatricesAAndB", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Function Plot.
         /// </summary>
@@ -1329,7 +1320,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FunctionPlot", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Gets the units of a scalar/vactor/matrix.
         /// </summary>
@@ -1338,7 +1329,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GetsTheUnitsOfAScalarVactorMatrix", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Grades.
         /// </summary>
@@ -1347,7 +1338,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Grades", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Gray.
         /// </summary>
@@ -1356,7 +1347,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Gray", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Greek letters and symbols.
         /// </summary>
@@ -1365,7 +1356,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GreekLetters", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Green Color.
         /// </summary>
@@ -1374,7 +1365,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GreenColor", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Green-yellow.
         /// </summary>
@@ -1383,7 +1374,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GreenYellow", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Hadamard product of matrices A and B.
         /// </summary>
@@ -1392,7 +1383,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HadamardProductOfMatricesAAndB", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Heading 3.
         /// </summary>
@@ -1401,7 +1392,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Heading3", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Heading 4.
         /// </summary>
@@ -1410,7 +1401,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Heading4", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Heading 5.
         /// </summary>
@@ -1419,7 +1410,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Heading5", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Heading 6.
         /// </summary>
@@ -1428,7 +1419,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Heading6", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Help.
         /// </summary>
@@ -1437,7 +1428,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Help", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Hide the content after the current line.
         /// </summary>
@@ -1446,7 +1437,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HideContentAfterCurrentLine", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to High performance.
         /// </summary>
@@ -1455,7 +1446,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HighPerformance", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Html UI.
         /// </summary>
@@ -1464,7 +1455,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HtmlUI", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Hyperbolic Functions.
         /// </summary>
@@ -1473,7 +1464,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("HyperbolicFunctions", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Image.
         /// </summary>
@@ -1482,7 +1473,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Image", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Imperial/US.
         /// </summary>
@@ -1491,7 +1482,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ImperialUS", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Include External File.
         /// </summary>
@@ -1500,7 +1491,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("IncludeExternalFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inline.
         /// </summary>
@@ -1509,7 +1500,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Inline", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Stop! Inline Html elements must not cross text lines..
         /// </summary>
@@ -1518,7 +1509,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Inline_Html_elements_must_not_cross_text_lines", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inline expression block.
         /// </summary>
@@ -1527,7 +1518,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InlineExpressionBlock", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inline Macro.
         /// </summary>
@@ -1536,7 +1527,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InlineMacro", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inline String Variable.
         /// </summary>
@@ -1545,7 +1536,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InlineStringVariable", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Input.
         /// </summary>
@@ -1554,7 +1545,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Input", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Input Form.
         /// </summary>
@@ -1563,7 +1554,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InputForm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Insert.
         /// </summary>
@@ -1572,7 +1563,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Insert", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Insert image.
         /// </summary>
@@ -1581,7 +1572,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InsertImage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse Fast Fourier Transfrom.
         /// </summary>
@@ -1590,7 +1581,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseFastFourierTransfrom", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse functions.
         /// </summary>
@@ -1599,7 +1590,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseFunctions", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Inverse of matrix M.
         /// </summary>
@@ -1608,7 +1599,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InverseOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Italic.
         /// </summary>
@@ -1617,7 +1608,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Italic", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Iteration.
         /// </summary>
@@ -1626,7 +1617,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Iteration", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Iterative expr. block with counter.
         /// </summary>
@@ -1635,7 +1626,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("IterativeExprBlockWithCounter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Iterative Product.
         /// </summary>
@@ -1644,7 +1635,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("IterativeProduct", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Iterative Sum.
         /// </summary>
@@ -1653,7 +1644,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("IterativeSum", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ┌── Numbers ───┐ ┌──── Operators ─────┐ ┌───────── Functions ─────────┐.
         /// </summary>
@@ -1662,7 +1653,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KeypadLabel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Kronecker product of matrices A and B.
         /// </summary>
@@ -1671,7 +1662,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("KroneckerProductOfMatricesAAndB", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to L1 (Manhattan) norm of vector v.
         /// </summary>
@@ -1680,7 +1671,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("L1ManhattanNormOfVectorV", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to L1 norm of matrix M.
         /// </summary>
@@ -1689,7 +1680,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("L1NormOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to L2 (Euclidean) norm of vector v.
         /// </summary>
@@ -1698,7 +1689,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("L2EuclideanNormOfVectorV", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to L2 norm of matrix M.
         /// </summary>
@@ -1707,7 +1698,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("L2NormOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Light direction.
         /// </summary>
@@ -1716,7 +1707,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LightDirection", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Line.
         /// </summary>
@@ -1725,7 +1716,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Line", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Line Break.
         /// </summary>
@@ -1734,7 +1725,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LineBreak", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to L∞ (infinity) norm of vector v.
         /// </summary>
@@ -1743,7 +1734,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LInfinityNormOfVectorV", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to L∞ norm of matrix M.
         /// </summary>
@@ -1752,7 +1743,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LNormOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Local Maximum of a Function.
         /// </summary>
@@ -1761,7 +1752,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LocalMaximum", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Local minimum of a function.
         /// </summary>
@@ -1770,7 +1761,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LocalMinimum", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Lp norm of vector v.
         /// </summary>
@@ -1779,7 +1770,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LpNormOfVectorV", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to LU decomposition of matrix M.
         /// </summary>
@@ -1788,7 +1779,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("LUDecompositionOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Math.
         /// </summary>
@@ -1797,7 +1788,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Math", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Matrix.
         /// </summary>
@@ -1806,7 +1797,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Matrix", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Maximum number of elements in vector or matrix row/column to display in the output.
         /// </summary>
@@ -1815,7 +1806,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MaximumNumberOfElementsInVectorOrMatrixRowColumnToDisplayInTheOutput", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Max output count:.
         /// </summary>
@@ -1824,7 +1815,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MaxOutputCount", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Multiline expression block.
         /// </summary>
@@ -1833,7 +1824,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MultilineExpressionBlock", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Multiline Macro.
         /// </summary>
@@ -1842,7 +1833,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MultilineMacro", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Multiline String Variable.
         /// </summary>
@@ -1851,7 +1842,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MultilineStringVariable", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Multiple.
         /// </summary>
@@ -1860,7 +1851,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Multiple", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Multiple Parametric.
         /// </summary>
@@ -1869,7 +1860,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MultipleParametric", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _New.
         /// </summary>
@@ -1878,7 +1869,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("New", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New file.
         /// </summary>
@@ -1887,7 +1878,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NewFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New line.
         /// </summary>
@@ -1896,7 +1887,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NewLine", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to None.
         /// </summary>
@@ -1905,7 +1896,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("None", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Non-metric units:.
         /// </summary>
@@ -1914,7 +1905,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NonMetricUnits", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Non-Strict Root Finding.
         /// </summary>
@@ -1923,7 +1914,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NonStrictRootFinding", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Norms.
         /// </summary>
@@ -1932,7 +1923,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Norms", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to North.
         /// </summary>
@@ -1941,7 +1932,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("North", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to North-east.
         /// </summary>
@@ -1950,7 +1941,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NorthEast", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to North-west.
         /// </summary>
@@ -1959,7 +1950,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NorthWest", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Numbered List.
         /// </summary>
@@ -1968,7 +1959,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NumberedList", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Number of columns in matrix M.
         /// </summary>
@@ -1977,7 +1968,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NumberOfColumnsInMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Number of digits after the decimal point.
         /// </summary>
@@ -1986,7 +1977,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NumberOfDigitsTooltip", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Number of occurrences of value x in matrix M.
         /// </summary>
@@ -1995,7 +1986,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NumberOfOccurrencesOfValueXInMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Number of rows in matrix M.
         /// </summary>
@@ -2004,7 +1995,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NumberOfRowsInMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Numbers: .
         /// </summary>
@@ -2013,7 +2004,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Numbers", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Numerical Differentiation by Richardson extrapolation.
         /// </summary>
@@ -2022,7 +2013,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NumericalDifferentiation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Numerical Method.
         /// </summary>
@@ -2031,7 +2022,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NumericalMethod", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Open.
         /// </summary>
@@ -2040,7 +2031,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Open", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Open source code for editing (F4).
         /// </summary>
@@ -2049,7 +2040,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Open_source_code_for_editing__F4", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Open file.
         /// </summary>
@@ -2058,7 +2049,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("OpenFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Open With MS Word.
         /// </summary>
@@ -2067,7 +2058,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("OpenWithWord", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Other.
         /// </summary>
@@ -2076,7 +2067,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Other", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Outer variable assignment in block.
         /// </summary>
@@ -2085,7 +2076,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("OuterVariableAssignment", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Output.
         /// </summary>
@@ -2094,7 +2085,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Output", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Output Visibility Control.
         /// </summary>
@@ -2103,7 +2094,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("OutputVisibilityControl", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Palette:.
         /// </summary>
@@ -2112,7 +2103,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Palette", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Surface map color scale.
         /// </summary>
@@ -2121,7 +2112,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PaletteTooltip", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Paragraph.
         /// </summary>
@@ -2130,7 +2121,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Paragraph", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Parametric.
         /// </summary>
@@ -2139,7 +2130,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Parametric", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Paste.
         /// </summary>
@@ -2148,7 +2139,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Paste", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Paste As Comment.
         /// </summary>
@@ -2157,7 +2148,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PasteAsComment", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Paste text from Clipboard.
         /// </summary>
@@ -2166,7 +2157,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PasteText", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Pause the calculations and wait.
         /// </summary>
@@ -2175,7 +2166,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PauseCalculation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Pause the execution and display an input form.
         /// </summary>
@@ -2184,7 +2175,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PauseExecutionAndDisplayInputForm", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Phasor.
         /// </summary>
@@ -2193,7 +2184,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Phasor", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Phasor complex notation.
         /// </summary>
@@ -2202,7 +2193,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PhasorComplexNotation", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Plot:.
         /// </summary>
@@ -2211,7 +2202,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Plot", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Polygon.
         /// </summary>
@@ -2220,7 +2211,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Polygon", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Polyline.
         /// </summary>
@@ -2229,7 +2220,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Polyline", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Print.
         /// </summary>
@@ -2238,7 +2229,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Print", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Print Preview.
         /// </summary>
@@ -2247,7 +2238,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PrintPreview", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Professional.
         /// </summary>
@@ -2256,7 +2247,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Pro", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Program Flow Control.
         /// </summary>
@@ -2265,7 +2256,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ProgramFlowControl", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Purple-yellow.
         /// </summary>
@@ -2274,7 +2265,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PurpleYellow", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to QR decomposition of matrix M.
         /// </summary>
@@ -2283,7 +2274,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("QRDecompositionOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Radians.
         /// </summary>
@@ -2292,7 +2283,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Radians", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Radio Buttons.
         /// </summary>
@@ -2301,7 +2292,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RadioButtons", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Rainbow.
         /// </summary>
@@ -2310,7 +2301,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Rainbow", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Rank of matrix M.
         /// </summary>
@@ -2319,7 +2310,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RankOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Read Excel File.
         /// </summary>
@@ -2328,7 +2319,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ReadExcelFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Read Text/CSV File.
         /// </summary>
@@ -2337,7 +2328,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ReadTextCSVFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Real.
         /// </summary>
@@ -2346,7 +2337,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Real", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Recent files.
         /// </summary>
@@ -2355,7 +2346,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RecentFileList", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Recent Files.
         /// </summary>
@@ -2364,7 +2355,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RecentFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Rectangle.
         /// </summary>
@@ -2373,7 +2364,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Rectangle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Red Color.
         /// </summary>
@@ -2382,7 +2373,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RedColor", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Redo.
         /// </summary>
@@ -2391,7 +2382,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Redo", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Redo.
         /// </summary>
@@ -2400,7 +2391,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RedoEdit", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Refresh results after each edit.
         /// </summary>
@@ -2409,7 +2400,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RefreshResultsAfterEachEdit", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Replace.
         /// </summary>
@@ -2418,7 +2409,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Replace", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Reset.
         /// </summary>
@@ -2427,7 +2418,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Reset", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Returns the element of matrix M at indexes x and y.
         /// </summary>
@@ -2436,7 +2427,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ReturnsTheElementOfMatrixMAtIndexesXAndY", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Returns the length of vector v.
         /// </summary>
@@ -2445,7 +2436,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ReturnsTheLengthOfVectorV", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Returns the part of vector v bounded by indexes i₁ and i₂ inclusive.
         /// </summary>
@@ -2454,7 +2445,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ReturnsThePartOfVectorVBoundedByIndexesIAndIInclusive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Root Finding for f(x)=const.
         /// </summary>
@@ -2463,7 +2454,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RootFindingForXEqualsConst", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Root Finding for f(x)=0.
         /// </summary>
@@ -2472,7 +2463,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RootFindingForXEqualsZero", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Round.
         /// </summary>
@@ -2481,7 +2472,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Round", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Round to.
         /// </summary>
@@ -2490,7 +2481,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RoundTo", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Round to the specified digits after the decimal point.
         /// </summary>
@@ -2499,7 +2490,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RoundToTheSpecifiedDigits", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Run calculations and display output (F5).
         /// </summary>
@@ -2508,7 +2499,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("RunAndDisplayOutput", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Save.
         /// </summary>
@@ -2517,7 +2508,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Save", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Save _As....
         /// </summary>
@@ -2526,7 +2517,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SaveAs", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Save output as Html file.
         /// </summary>
@@ -2535,7 +2526,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SaveAsHTML", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Save as PDF File.
         /// </summary>
@@ -2544,7 +2535,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SaveAsPDF", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Save file.
         /// </summary>
@@ -2553,7 +2544,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SaveFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to File not saved. Save?.
         /// </summary>
@@ -2562,7 +2553,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SavePrompt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Scalar product of two vectors a and b.
         /// </summary>
@@ -2571,7 +2562,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ScalarProductOfTwoVectorsAAndB", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Select_All.
         /// </summary>
@@ -2580,7 +2571,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Select_All", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Selection.
         /// </summary>
@@ -2589,7 +2580,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Selection", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Set angle measurement in degrees.
         /// </summary>
@@ -2598,7 +2589,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SetAngleDegrees", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Set angle measurement in grades.
         /// </summary>
@@ -2607,7 +2598,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SetAngleGrades", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Set angle measurement in radians.
         /// </summary>
@@ -2616,7 +2607,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SetAngleRadians", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sets a new length n of vector v.
         /// </summary>
@@ -2625,7 +2616,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SetsANewLengthNOfVectorV", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sets custom format string for numbers.
         /// </summary>
@@ -2634,7 +2625,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SetsCustomFormatStringForNumbers", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sets new dimensions m and n for matrix M.
         /// </summary>
@@ -2643,7 +2634,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SetsNewDimensionsMAndNForMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sets the units to a scalar/vactor/matrix.
         /// </summary>
@@ -2652,7 +2643,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SetsTheUnitsToAScalarVactorMatrix", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Shadows:.
         /// </summary>
@@ -2661,7 +2652,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Shadows", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Draw surface maps with shadows.
         /// </summary>
@@ -2670,7 +2661,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ShadowsTooltip", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Show the complete equations (default).
         /// </summary>
@@ -2679,7 +2670,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ShowCompleteEquations", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Show the content below only after calculations.
         /// </summary>
@@ -2688,7 +2679,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ShowContentBelowOnlyAfterCalc", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Show the content below only before calculations.
         /// </summary>
@@ -2697,7 +2688,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ShowContentBelowOnlyBeforeCalc", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Show equations only with substituted values (no variables).
         /// </summary>
@@ -2706,7 +2697,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ShowEquationsOnlyWithSubstitutedValues", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Show the equations, but without calculating.
         /// </summary>
@@ -2715,7 +2706,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ShowEquationsWithoutCalculating", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Show equations with variables and substituted values (default).
         /// </summary>
@@ -2724,7 +2715,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ShowEquationsWithVariablesAndSubstitutedValues", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Help.
         /// </summary>
@@ -2733,7 +2724,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ShowHelp", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Show/hide numeric keypad.
         /// </summary>
@@ -2742,7 +2733,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ShowHideKeypad", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Show only the calculated values.
         /// </summary>
@@ -2751,7 +2742,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ShowOnlyCalculatedValues", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Show unwrapped source code in the output, when macros or includes are available.
         /// </summary>
@@ -2760,7 +2751,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ShowUnwrappedSourceCodeInTheOutputWhenMacrosOrIncludesAreAvailable", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Simple: if-end if.
         /// </summary>
@@ -2769,7 +2760,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SimpleIfEndIf", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Simple Plot.
         /// </summary>
@@ -2778,7 +2769,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SimplePlot", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Simple: repeat-loop.
         /// </summary>
@@ -2787,7 +2778,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SimpleRepeatLoop", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Singular value decomposition of M.
         /// </summary>
@@ -2796,7 +2787,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SingularValueDecompositionOfM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Smooth.
         /// </summary>
@@ -2805,7 +2796,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Smooth", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Smooth shading for surface map.
         /// </summary>
@@ -2814,7 +2805,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SmoothTooltip", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Solves the generalized matrix equation AX = B using LDLT decomposition for symmetric matrices and LU for non-symmetric.
         /// </summary>
@@ -2824,7 +2815,7 @@ namespace Calcpad.Wpf {
                         "dLUForNonSymmetric", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Solves the generalized matrix equation AX = B with a symmetric matrix A using PCG method.
         /// </summary>
@@ -2833,7 +2824,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SolvesTheGeneralizedMatrixEquationAXBWithASymmetricMatrixAUsingPCGMethod", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Solves the generalized matrix equation AX = B with symmetric positive definite matrix A using Cholesky decomposition.
         /// </summary>
@@ -2843,7 +2834,7 @@ namespace Calcpad.Wpf {
                         "leskyDecomposition", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Solves the linear matrix equation Ax = b with a symmetric matrix A using PCG method.
         /// </summary>
@@ -2852,7 +2843,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SolvesTheLinearMatrixEquationAxBWithASymmetricMatrixAUsingPCGMethod", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Solves the linear matrix equation Ax = b with a symmetric, positive-definite matrix A using Cholesky decomposition.
         /// </summary>
@@ -2862,7 +2853,7 @@ namespace Calcpad.Wpf {
                         "yDecomposition", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Solves the system of linear equations Ax = b using LDLT decomposition for symmetric matrices, and LU for non-symmetric.
         /// </summary>
@@ -2872,7 +2863,7 @@ namespace Calcpad.Wpf {
                         "UForNonSymmetric", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sorts the columns of M based on the values in row i in ascending order.
         /// </summary>
@@ -2881,7 +2872,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SortsTheColumnsOfMBasedOnTheValuesInRowIInAscendingOrder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sorts the columns of M based on the values in row i in descending order.
         /// </summary>
@@ -2890,7 +2881,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SortsTheColumnsOfMBasedOnTheValuesInRowIInDescendingOrder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sorts the elements of vector v in descending order.
         /// </summary>
@@ -2899,7 +2890,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SortsTheElementsOfVectorVInDescendingOrder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sorts the elements of vector v in vector ascending order.
         /// </summary>
@@ -2908,7 +2899,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SortsTheElementsOfVectorVInVectorAscendingOrder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sorts the rows of M based on the values in column j in ascending order.
         /// </summary>
@@ -2917,7 +2908,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SortsTheRowsOfMBasedOnTheValuesInColumnJInAscendingOrder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sorts the rows of M based on the values in column j in descending order.
         /// </summary>
@@ -2926,7 +2917,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SortsTheRowsOfMBasedOnTheValuesInColumnJInDescendingOrder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to South.
         /// </summary>
@@ -2935,7 +2926,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("South", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to South-east.
         /// </summary>
@@ -2944,7 +2935,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SouthEast", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to South-west.
         /// </summary>
@@ -2953,7 +2944,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SouthWest", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Split equations that do not fit on a single line.
         /// </summary>
@@ -2962,7 +2953,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SplitEquations", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Striketrough.
         /// </summary>
@@ -2971,7 +2962,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Strikethrough", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to String Variable or Macro.
         /// </summary>
@@ -2980,7 +2971,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("StringVariableOrMacro", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Structural.
         /// </summary>
@@ -2989,7 +2980,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Structural", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Subscript.
         /// </summary>
@@ -2998,7 +2989,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Subscript", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Substitute.
         /// </summary>
@@ -3007,7 +2998,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Substitute", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Substitute variables in equations.
         /// </summary>
@@ -3016,7 +3007,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SubstituteTooltip", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Superscript.
         /// </summary>
@@ -3025,7 +3016,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Superscript", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Surface map.
         /// </summary>
@@ -3034,7 +3025,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SurfaceMap", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Table.
         /// </summary>
@@ -3043,7 +3034,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Table", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Tanh-Sinh Integration.
         /// </summary>
@@ -3052,7 +3043,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TanhSinhIntegration", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Terrain.
         /// </summary>
@@ -3061,7 +3052,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Terrain", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Text.
         /// </summary>
@@ -3070,7 +3061,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Text", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The actual size of vector v - the index of the last non-zero element.
         /// </summary>
@@ -3079,7 +3070,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheActualSizeOfVectorVTheIndexOfTheLastNonZeroElement", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The first n elements of vector v.
         /// </summary>
@@ -3088,7 +3079,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheFirstNElementsOfVectorV", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The indexes of all elements in M that are.
         /// </summary>
@@ -3097,7 +3088,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheIndexesOfAllElementsInMThatAre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The indexes of all elements in v, starting from the i-th one, that are.
         /// </summary>
@@ -3106,7 +3097,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheIndexesOfAllElementsInVStartingFromTheIThOneThatAre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The indexes of the columns of M based on the ordering of the values from row i in ascending order.
         /// </summary>
@@ -3115,7 +3106,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheIndexesOfTheColumnsOfMBasedOnTheOrderingOfTheValuesFromRowIInAscendingOrder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The indexes of the columns of M based on the ordering of the values from row i in descending order.
         /// </summary>
@@ -3124,7 +3115,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheIndexesOfTheColumnsOfMBasedOnTheOrderingOfTheValuesFromRowIInDescendingOrder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The indexes of the rows of M based on the ordering of the values in column j in ascending order.
         /// </summary>
@@ -3133,7 +3124,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheIndexesOfTheRowsOfMBasedOnTheOrderingOfTheValuesInColumnJInAscendingOrder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The indexes of the rows of M based on the ordering of the values in column j in descending order.
         /// </summary>
@@ -3142,7 +3133,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheIndexesOfTheRowsOfMBasedOnTheOrderingOfTheValuesInColumnJInDescendingOrder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The indexes of vector v, arranged by the ascending order of its elements.
         /// </summary>
@@ -3151,7 +3142,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheIndexesOfVectorVArrangedByTheAscendingOrderOfItsElements", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The indexes of vector v, arranged by the descending order of its elements.
         /// </summary>
@@ -3160,7 +3151,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheIndexesOfVectorVArrangedByTheDescendingOrderOfItsElements", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The index of the first element in v, starting from the i-th one, that is equal to x.
         /// </summary>
@@ -3169,7 +3160,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheIndexOfTheFirstElementInVStartingFromTheIThOneThatIsEqualToX", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The last n elements of vector v.
         /// </summary>
@@ -3178,7 +3169,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheLastNElementsOfVectorV", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The normalized vector v (with L2 norm = 1).
         /// </summary>
@@ -3187,7 +3178,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheNormalizedVectorVWithL2Norm1", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The number of elements of vector v, starting from the i-th one, that are equal to x.
         /// </summary>
@@ -3196,7 +3187,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheNumberOfElementsOfVectorVStartingFromTheIThOneThatAreEqualToX", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The values from column j₂ of M, for which the elements in column j₁ are.
         /// </summary>
@@ -3205,7 +3196,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheValuesFromColumnJOfMForWhichTheElementsInColumnJAre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The values from row i₂ of M, for which the elements in row i₁ are.
         /// </summary>
@@ -3214,7 +3205,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TheValuesFromRowIOfMForWhichTheElementsInRowIAre", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Trace of matrix M.
         /// </summary>
@@ -3223,7 +3214,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TraceOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Transpose of matrix M.
         /// </summary>
@@ -3232,7 +3223,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TransposeOfMatrixM", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Recovery failed with error:
         ///&quot;{0}&quot;.
@@ -3244,9 +3235,9 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TryRestoreState_Failed", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Calcpad recovered from unexpected shutdown.
+        ///   Looks up a localized string similar to CalcpadCE recovered from unexpected shutdown.
         ///Would you like to restore your unsaved data?.
         /// </summary>
         public static string TryRestoreState_Recovered_SavePrompt {
@@ -3254,7 +3245,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("TryRestoreState_Recovered_SavePrompt", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Uncomment Selected Lines.
         /// </summary>
@@ -3263,7 +3254,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("UncommentSelectedLines", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Underline.
         /// </summary>
@@ -3272,7 +3263,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Underline", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to _Undo.
         /// </summary>
@@ -3281,7 +3272,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Undo", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Undo.
         /// </summary>
@@ -3290,7 +3281,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("UndoEdit", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unwarped code.
         /// </summary>
@@ -3299,7 +3290,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Unwarped_code", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unwrapped code.
         /// </summary>
@@ -3308,7 +3299,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("UnwrappedCode", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Vector.
         /// </summary>
@@ -3317,7 +3308,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Vector", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Vector with the two indexes of the first occurrence of x in matrix M, starting from indexes i and j.
         /// </summary>
@@ -3326,7 +3317,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("VectorWithTheTwoIndexesOfTheFirstOccurrenceOfXInMatrixMStartingFromIndexesIAndJ", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Violet-yellow.
         /// </summary>
@@ -3335,7 +3326,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("VioletYellow", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to West.
         /// </summary>
@@ -3344,7 +3335,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("West", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to With counter: for-loop.
         /// </summary>
@@ -3353,7 +3344,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("WithCounterForLoop", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Wrap equations that do not fit on a single line (default).
         /// </summary>
@@ -3362,7 +3353,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("WrapEquations", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Write Excel File.
         /// </summary>
@@ -3371,7 +3362,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("WriteExcelFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Write Text/CSV File.
         /// </summary>
@@ -3380,7 +3371,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("WriteTextCSVFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Zero small elem..
         /// </summary>

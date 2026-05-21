@@ -355,7 +355,7 @@ namespace Calcpad.Core
         }
 
         protected static void SvgToFile(SvgDrawing drawing, string imagePath, string imageFileName)
-        {            
+        {
             var fullPath = imagePath + imageFileName;
             try
             {

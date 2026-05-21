@@ -46,7 +46,7 @@ x_3 = x(3)',      'y_3 = f(x_3)',    'w_3 = w(3)
 'Error -'δ_DE = abs(I_DE - I)/I|%
 '<p><strong>Scheme</strong></p>
 $Plot{f(x) & x_1|0 & x_2|0 & x_3|0 & -x_2|0 & -x_1|0 @ x = -1 : 1}
-'<h4>Calcpad</h4>
+'<h4>CalcpadCE</h4>
 '<hr/>
 'Adaptive Tanh-Sinh -'I_ATH = $Integral{f(x) @ x = -1 : 1}
 'Error -'δ_ATH = abs(I_ATH - I)/I|%

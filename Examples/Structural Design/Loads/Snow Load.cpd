@@ -1,6 +1,6 @@
 "Snow Load on Monopitch or Duopitch Roof<hr/><small>According to <strong>Eurocode</strong>: EN 1991-1-3</small>
 '<div style="max-width:180mm">
-'<img style="width:200pt;" src="http://calcpad.eu/media/structures/loads/snow.png" alt="snow.png"><br /><br />
+'<img style="width:200pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/loads/snow.png?raw=true" alt="snow.png"><br /><br />
 'Characteristic snow load on the ground -'s_k = ?'kN/m<sup>2</sup>
 'Roof pitch angle -'α = ?'<sup>o</sup>
 #post

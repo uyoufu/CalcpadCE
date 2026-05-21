@@ -14,7 +14,7 @@ You can do the same by double clicking into the input window.
 
 ## Substitution
 
-Calcpad can substitute the values of variables in all formulas in the output, just before the answer:
+CalcpadCE can substitute the values of variables in all formulas in the output, just before the answer:
 
 <img src="./media/image39.png" style="width:2.27778in;height:0.43056in" alt="Картина, която съдържа Шрифт, линия, номер, текст Описанието е генерирано автоматично" />
 
@@ -51,7 +51,7 @@ If the value is less than "0" or greater than "15", the respective limit will be
 
 However, rounding can come across some potential problems.
 If the result is less than 10-*n* and you round it to *n* digits after the decimal point, the result will contain only zeros.
-That is why, Calcpad incorporates some advanced rules: If the output contains less than *n* significant digits after rounding, it is expanded up to *n* significant digits.
+That is why, CalcpadCE incorporates some advanced rules: If the output contains less than *n* significant digits after rounding, it is expanded up to *n* significant digits.
 Even then, if the number is too small, it will be difficult to count the zeros after the decimal point.
 So, in such cases, the output is converted to floating point format with *n* digits.
 When the total number of digits becomes greater than 2*n*, the factional part is being truncated.
@@ -74,7 +74,7 @@ You can override the global rounding inside a worksheet by using the `#Round n` 
 
 ## Formatting
 
-Calcpad does not simply calculate formulas.
+CalcpadCE does not simply calculate formulas.
 It also builds a professionally looking report out of your source code.
 It uses Html to format the output.
 It is widely recognized and allows you to publish your calculations on the web.
@@ -110,10 +110,10 @@ Several examples of formatting in different cases are provided in the table belo
 
 Html formatting makes the report easier to read and check than the respective plain text.
 You can also insert additional Html code inside the comments that will affect the final appearance.
-In this way, you can use Calcpad code to build professional Web applications.
-You will also need the cloud version of Calcpad for that purpose.
+In this way, you can use CalcpadCE code to build professional Web applications.
+You will also need the cloud version of CalcpadCE for that purpose.
 
-Calcpad uses for decimal separator the symbol defined in the Windows' Regional Settings.
+CalcpadCE uses for decimal separator the symbol defined in the Windows' Regional Settings.
 
 ## Custom format strings
 
@@ -250,8 +250,8 @@ The forward rotation will scale up and the backward will scale down.
 
 ## Saving the output
 
-You can save the output to an **Html** file . Unlike the input file, it cannot be modified with Calcpad.
-On the other hand, everyone will be able to view and print your calculations without Calcpad.
+You can save the output to an **Html** file . Unlike the input file, it cannot be modified with CalcpadCE.
+On the other hand, everyone will be able to view and print your calculations without CalcpadCE.
 Html files can be opened on any computer using web browser or office program like Word.
 
 You can save the file by clicking the <img src="./media/image9.png" alt="" height="20"> button above the output box.
@@ -266,7 +266,7 @@ When you click the button, the print preview dialog will be displayed:
 <img src="./media/image41.png" style="width:6.71902in;height:3.23821in" alt="Картина, която съдържа текст, екранна снимка, софтуер, Мултимедиен софтуер Генерираното от ИИ съдържание може да е неправилно." />
 
 It allows you to set the paper layout, margins, size, type, etc.
-Printing in Calcpad uses the built-in functionality of Windows and Edge.
+Printing in CalcpadCE uses the built-in functionality of Windows and Edge.
 The above screenshots may look different on your computer, depending on the versions you use.
 
 ## Copying
@@ -280,7 +280,7 @@ Otherwise, the content will be pasted as plain text.
 
 You can open the results directly with **MS Word** by clicking <img src="./media/image11.png" alt="" height="20">. It must be installed on the computer, but it is not necessary to be preliminary open.
 This approach is easier than copy-paste and provides some additional benefits.
-If the output is obtained with the professional equation formatting option, Calcpad will use the "**\*.docx**" file format for export.
+If the output is obtained with the professional equation formatting option, CalcpadCE will use the "**\*.docx**" file format for export.
 This is the native format for the latest versions of **MS Word** and will open automatically.
 If you have **Open Office** or **Libre office**, the respective program will be used instead.
 If you do not have any text editor currently installed, the file will be saved to the disk but not open.
@@ -288,7 +288,7 @@ You can go to the respective folder later and open it manually.
 Formulas are exported as **MathType** objects and can be modified inside Word.
 However, it is possible to lose part of the Html formatting.
 Images, tables and most common tags are supported.
-If you have selected inline equation formatting, Calcpad will use an **Html** file for the export.
+If you have selected inline equation formatting, CalcpadCE will use an **Html** file for the export.
 It will preserve most of the formatting, but formulas will be part of the document text.
 
 ## Export to PDF
@@ -303,4 +303,4 @@ Alternatively, you can use a pdf printer.
 There are a lot of free pdf printers over the Internet.
 Just download and install one.
 After that, the process of printing is not much different than any other printer.
-Detailed description of printing from Calcpad is provided above.
+Detailed description of printing from CalcpadCE is provided above.

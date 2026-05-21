@@ -23,7 +23,7 @@
 	Iw_HEA100 = 2475000000mm^6
 	Ww_HEA100 = 1143000mm^4
 	#show
-	
+
 #end def
 #def HEA120$
 	#hide
@@ -50,7 +50,7 @@
 	Iw_HEA120 = 6285000000mm^6
 	Ww_HEA120 = 1998000mm^4
 	#show
-	
+
 #end def
 #def HEA140$
 	#hide
@@ -77,7 +77,7 @@
 	Iw_HEA140 = 14729000000mm^6
 	Ww_HEA140 = 3409000mm^4
 	#show
-	
+
 #end def
 #def HEA160$
 	#hide
@@ -104,7 +104,7 @@
 	Iw_HEA160 = 30615000000mm^6
 	Ww_HEA160 = 5404000mm^4
 	#show
-	
+
 #end def
 #def HEA180$
 	#hide
@@ -131,7 +131,7 @@
 	Iw_HEA180 = 59014000000mm^6
 	Ww_HEA180 = 8182000mm^4
 	#show
-	
+
 #end def
 #def HEA200$
 	#hide
@@ -158,7 +158,7 @@
 	Iw_HEA200 = 105580000000mm^6
 	Ww_HEA200 = 11830000mm^4
 	#show
-	
+
 #end def
 #def HEA220$
 	#hide
@@ -185,7 +185,7 @@
 	Iw_HEA220 = 189610000000mm^6
 	Ww_HEA220 = 17440000mm^4
 	#show
-	
+
 #end def
 #def HEA240$
 	#hide
@@ -212,7 +212,7 @@
 	Iw_HEA240 = 321640000000mm^6
 	Ww_HEA240 = 24780000mm^4
 	#show
-	
+
 #end def
 #def HEA260$
 	#hide
@@ -239,7 +239,7 @@
 	Iw_HEA260 = 504990000000mm^6
 	Ww_HEA260 = 32980000mm^4
 	#show
-	
+
 #end def
 #def HEA280$
 	#hide
@@ -266,7 +266,7 @@
 	Iw_HEA280 = 770140000000mm^6
 	Ww_HEA280 = 43120000mm^4
 	#show
-	
+
 #end def
 #def HEA300$
 	#hide
@@ -293,7 +293,7 @@
 	Iw_HEA300 = 1174700000000mm^6
 	Ww_HEA300 = 57190000mm^4
 	#show
-	
+
 #end def
 #def HEA320$
 	#hide
@@ -320,7 +320,7 @@
 	Iw_HEA320 = 1482600000000mm^6
 	Ww_HEA320 = 67640000mm^4
 	#show
-	
+
 #end def
 #def HEA340$
 	#hide
@@ -347,7 +347,7 @@
 	Iw_HEA340 = 1790200000000mm^6
 	Ww_HEA340 = 76670000mm^4
 	#show
-	
+
 #end def
 #def HEA360$
 	#hide
@@ -374,7 +374,7 @@
 	Iw_HEA360 = 2137700000000mm^6
 	Ww_HEA360 = 86300000mm^4
 	#show
-	
+
 #end def
 #def HEA400$
 	#hide
@@ -401,7 +401,7 @@
 	Iw_HEA400 = 2893600000000mm^6
 	Ww_HEA400 = 104700000mm^4
 	#show
-	
+
 #end def
 #def HEA450$
 	#hide
@@ -428,7 +428,7 @@
 	Iw_HEA450 = 4087200000000mm^6
 	Ww_HEA450 = 130800000mm^4
 	#show
-	
+
 #end def
 #def HEA500$
 	#hide
@@ -455,7 +455,7 @@
 	Iw_HEA500 = 5569200000000mm^6
 	Ww_HEA500 = 159800000mm^4
 	#show
-	
+
 #end def
 #def HEA550$
 	#hide
@@ -482,7 +482,7 @@
 	Iw_HEA550 = 7103100000000mm^6
 	Ww_HEA550 = 184400000mm^4
 	#show
-	
+
 #end def
 #def HEA600$
 	#hide
@@ -509,7 +509,7 @@
 	Iw_HEA600 = 8879600000000mm^6
 	Ww_HEA600 = 210500000mm^4
 	#show
-	
+
 #end def
 #def HEA650$
 	#hide
@@ -536,7 +536,7 @@
 	Iw_HEA650 = 10915000000000mm^6
 	Ww_HEA650 = 238000000mm^4
 	#show
-	
+
 #end def
 #def HEA700$
 	#hide
@@ -563,7 +563,7 @@
 	Iw_HEA700 = 13223000000000mm^6
 	Ww_HEA700 = 267000000mm^4
 	#show
-	
+
 #end def
 #def HEA800$
 	#hide
@@ -590,7 +590,7 @@
 	Iw_HEA800 = 18113000000000mm^6
 	Ww_HEA800 = 318200000mm^4
 	#show
-	
+
 #end def
 #def HEA900$
 	#hide
@@ -617,7 +617,7 @@
 	Iw_HEA900 = 24748000000000mm^6
 	Ww_HEA900 = 385100000mm^4
 	#show
-	
+
 #end def
 #def HEA1000$
 	#hide
@@ -644,5 +644,5 @@
 	Iw_HEA1000 = 31834000000000.01mm^6
 	Ww_HEA1000 = 444100000mm^4
 	#show
-	
+
 #end def

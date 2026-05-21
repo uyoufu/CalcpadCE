@@ -1,6 +1,3 @@
-using Calcpad.Core;
-using Microsoft.Web.WebView2.Core;
-using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,6 +18,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
+using Calcpad.Core;
+using Microsoft.Web.WebView2.Core;
+using Microsoft.Win32;
 
 namespace Calcpad.Wpf
 {
@@ -51,7 +51,7 @@ namespace Calcpad.Wpf
                 // Strip source link hash appended by SDK (e.g. "+abc123def")
                 var plusIndex = Version.IndexOf('+');
                 if (plusIndex >= 0) Version = Version[..plusIndex];
-                Title = " Calcpad VM " + Version;
+                Title = " CalcpadCE " + Version + " – Community Edition";
                 DocPath = Path + "doc";
                 if (!Directory.Exists(DocPath))
                     DocPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Calcpad";
@@ -115,7 +115,7 @@ namespace Calcpad.Wpf
                         _cfn = Path.Combine(DocumentPath, value);
                     else
                         SetCurrentDirectory(path);
-                    Title = AppInfo.Title + " - " + Path.GetFileName(value);
+                    Title = Path.GetFileName(value) + " -" + AppInfo.Title;
                     _tempDir = Path.GetFileNameWithoutExtension(value) + '\\';
                 }
             }
@@ -216,7 +216,7 @@ namespace Calcpad.Wpf
             _htmlWorksheet = ReadTextFromFile($"{docPath}\\template{htmlExt}").Replace("https:// calcpad.local", docUrl);
             _htmlParsingPath = $"{docPath}\\parsing{htmlExt}";
             _htmlParsingUrl = $"{docUrl}/parsing{htmlExt}";
-            _htmlHelpPath = GetHelp(MainWindowResources.calcpad_download_help_html);
+            _htmlHelpPath = GetHelp();
             _htmlSource = ReadTextFromFile($"{docPath}\\source.html");
             _svgTyping = $"<img style=\"height:1em;\" src=\"{docUrl}/typing.gif\" alt=\"...\">";
             _readmeFileName = $"{docPath}\\readme{htmlExt}";
@@ -452,7 +452,7 @@ namespace Calcpad.Wpf
                 if (selLength > 0)
                 {
                     p = tp.Paragraph;
-                    if (tp  is not null)
+                    if (tp is not null)
                         tp = p.PreviousBlock.ContentEnd;
                 }
             }
@@ -792,7 +792,7 @@ namespace Calcpad.Wpf
             settings.Browser = (byte)ExternalBrowserComboBox.SelectedIndex;
             settings.ZeroSmallMatrixElements = ZeroSmallMatrixElementsCheckBox.IsChecked ?? false;
             settings.MaxOutputCount = int.TryParse(MaxOutputCountTextBox.Text, out int i) ? i : (int)20;
-            settings.Embed = EmbedCheckBox.IsChecked ?? false;  
+            settings.Embed = EmbedCheckBox.IsChecked ?? false;
             settings.WindowLeft = Left;
             settings.WindowTop = Top;
             settings.WindowWidth = Width;
@@ -1069,7 +1069,7 @@ namespace Calcpad.Wpf
         {
             if (_isWebView2Focused)
                 WebViewer.CoreWebView2.ExecuteScriptAsync($"var input = document.activeElement; input.setRangeText('{Clipboard.GetText()}', input.selectionStart, input.selectionEnd, 'end');");
-            else if(InputFrame.Visibility == Visibility.Visible)
+            else if (InputFrame.Visibility == Visibility.Visible)
             {
                 RichTextBox.Paste();
                 RichTextBox.Focus();
@@ -1219,7 +1219,7 @@ namespace Calcpad.Wpf
 
         private void GetMathSettings()
         {
-            var mathSettings = _parser.Settings.Math;   
+            var mathSettings = _parser.Settings.Math;
             if (double.TryParse(DecimalsTextBox.Text, out var d))
             {
                 var i = (int)Math.Floor(d);
@@ -1454,7 +1454,7 @@ namespace Calcpad.Wpf
                             continue;
 
                         var cls = HighLighter.GetCSSClassFromColor(r.Foreground);
-                        if (r.Background is SolidColorBrush brush && 
+                        if (r.Background is SolidColorBrush brush &&
                             brush.Color.R > brush.Color.G)
                                 cls = "error";
 
@@ -1522,7 +1522,7 @@ namespace Calcpad.Wpf
                 _wv2Warper.Navigate(_htmlHelpPath);
         }
 
-        private static string GetHelp(string helpURL)
+        private static string GetHelp()
         {
             var fileName = $"{AppInfo.DocPath}\\help.{_currentCultureName}.html";
             if (!File.Exists(fileName))
@@ -1677,7 +1677,7 @@ namespace Calcpad.Wpf
                     foreach (var c in item)
                     {
                         var n = _stringBuilder.Length - 1;
-                       switch (c)
+                        switch (c)
                         {
                             case '=':
                                 if (n < 0)
@@ -1921,7 +1921,7 @@ namespace Calcpad.Wpf
                     if (line.SequenceEqual(s))
                     {
                         if (_currentParagraph == b)
-                            _highlighter.Parse(_currentParagraph, IsComplex, j,false);
+                            _highlighter.Parse(_currentParagraph, IsComplex, j, false);
 
                         var bp = b as Paragraph;
                         if (!UpdateIndent(bp, ref indent))
@@ -2275,7 +2275,7 @@ namespace Calcpad.Wpf
         }
 
         private async Task ScrollOutput()
-        {   
+        {
             var offset = RichTextBox.CaretPosition.GetCharacterRect(LogicalDirection.Forward).Top +
                 RichTextBox.Margin.Top - WebViewer.Margin.Top;
             await ScrollOutputToLine(
@@ -3392,16 +3392,6 @@ namespace Calcpad.Wpf
             }
         }
 
-        private void Logo_MouseUp(object sender, MouseButtonEventArgs e)
-        {
-            var info = new ProcessStartInfo
-            {
-                FileName = "https:// calcpad.eu",
-                UseShellExecute = true
-            };
-            Process.Start(info);
-        }
-
         private void PdfButton_Click(object sender, RoutedEventArgs e)
         {
             if (_isParsing)
@@ -3465,7 +3455,7 @@ namespace Calcpad.Wpf
         }
         private async void WebViewer_NavigationCompleted(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NavigationCompletedEventArgs e)
         {
-           if (!await _wv2Warper.CheckIsReportAsync())
+            if (!await _wv2Warper.CheckIsReportAsync())
                 return;
 
             _isParsing = false;
@@ -3705,7 +3695,7 @@ namespace Calcpad.Wpf
 
 
         private static void ShowErrorMessage(string message) =>
-            MessageBox.Show(message, "Calcpad", MessageBoxButton.OK, MessageBoxImage.Error);
+            MessageBox.Show(message, "CalcpadCE", MessageBoxButton.OK, MessageBoxImage.Error);
 
         private async void Window_ContentRendered(object sender, EventArgs e)
         {
@@ -3738,7 +3728,7 @@ namespace Calcpad.Wpf
 
         private void MenuCli_Click(object sender, RoutedEventArgs e)
         {
-            Execute(AppInfo.Path + "Cli.exe");
+            Execute(AppInfo.Path + "cli\\Cli.exe");
         }
 
         private void ZeroSmallMatrixElementsCheckBox_Click(object sender, RoutedEventArgs e) => ClearOutput();
@@ -3909,6 +3899,16 @@ namespace Calcpad.Wpf
             if (key?.GetValue("Language") is string lang && lang is "en" or "bg" or "zh")
                 return lang;
             return "en";
+        }
+
+        private void Website_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            var info = new ProcessStartInfo
+            {
+                FileName = "https://calcpad-ce.org",
+                UseShellExecute = true
+            };
+            Process.Start(info);
         }
     }
 }

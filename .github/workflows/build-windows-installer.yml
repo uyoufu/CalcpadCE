@@ -19,8 +19,19 @@ jobs:
         with:
           dotnet-version: '10.0.x'
 
-      - name: Publish Calcpad WPF
+      - name: Publish CalcpadCE WPF
         run: dotnet publish Calcpad.Wpf/Calcpad.wpf.csproj -c Release -r win-x64 --self-contained false -p:Version=${{ inputs.version }}
+
+      - name: Publish CalcpadCE CLI
+        run: dotnet publish Calcpad.Cli/Calcpad.Cli.csproj -c Release -r win-x64 --self-contained false -p:Version=${{ inputs.version }}
+
+      - name: Stage CLI into WPF publish directory
+        shell: pwsh
+        run: |
+          $wpfPublish = "Calcpad.Wpf/bin/Release/net10.0-windows/win-x64/publish"
+          $cliPublish = "Calcpad.Cli/bin/Release/net10.0/win-x64/publish"
+          New-Item -ItemType Directory -Path "$wpfPublish/cli" -Force | Out-Null
+          Copy-Item -Path "$cliPublish/*" -Destination "$wpfPublish/cli" -Recurse
 
       - name: Install NSIS
         run: choco install nsis -y --no-progress

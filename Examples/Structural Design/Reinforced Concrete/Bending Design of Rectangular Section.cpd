@@ -1,6 +1,6 @@
 "Bending Design of RC Rectangular Section<hr/><small>According to <strong>Eurocode</strong>: EN 1992-1-1</small>
 '<div style = "max-width:180mm;">
-'<img style="width:330pt;" src="https://calcpad.eu/media/structures/rc/design/beam-bending.png" alt="beam-bending.png">
+'<img style="width:330pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/beam-bending.png?raw=true" alt="beam-bending.png">
 'Design bending moment -'M_Ed = ? {340}'kN·m
 '<h4>Cross section dcimensions</h4>
 'Width -'b = ? {300}'mm, Height -'h = ? {500}'mm
@@ -9,7 +9,7 @@
 'Effective cross section depth -'d = h - d_1'cm
 #show
 '<h4>Material properties</h4>
-'<p style="float:right">[EN 1992-1-1, <a target="_blank" href="https://calcpad.eu/reference/concrete-table.html">Table 3.1</a>]</p>
+'<p style="float:right">[EN 1992-1-1, Table 3.1]</p>
 '<p><b>Concrete</b></p>
 'Characteristic compressive cylinder strength -'f_ck = ? {20}'MPa
 'Partial safety factor for concrete -'γ_c = 1.5','α_cc = ? {0.85}
@@ -32,7 +32,7 @@
 'Relative compression zone depth -'ξ = x/d'
 'Design reinforcement yield strain
 ε_yd = f_yd/E_s
-'Relative depth of compression zone at yielding of bottom reinforcement 
+'Relative depth of compression zone at yielding of bottom reinforcement
 ξ_yd = ε_cu3/(ε_cu3 + ε_yd)
 #show
 'Limit compression zone depth -'ξ_lim = ? {0.62}
@@ -67,7 +67,7 @@
 	'- compressive reinforcement -'ρ_2 = A_s2/(b*d)
 #end if
 '<p class="ref">[EN 1992-1-1, § 9.2.1.1]</p>
-'Minimum tensile reinforcement ratio 
+'Minimum tensile reinforcement ratio
 ρ_min = max(0.26*f_ctm/f_yk; 0.0013)
 'Minimum area of tensile reinforcement -'A_s_min = ρ_min*b*d'mm²
 #if A_s1 < A_s_min

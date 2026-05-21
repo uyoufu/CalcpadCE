@@ -95,7 +95,7 @@ A_max(k) = max(A_i(k; 1); A_i(k; 2); A_i(k; 3); A_i(k; 4))
 'The minimum value of the area and the respective target parameter are calculated by the embedded $Inf function:
 A_inf = $Inf{A_max(k) @ k = k_min : k_max}
 k = k_inf
-'The optimal dimensions of the foundation pad are: 
+'The optimal dimensions of the foundation pad are:
 a = sqrt(A_inf/k)'m, 'b = a*k'm
 #hide
 i = 0

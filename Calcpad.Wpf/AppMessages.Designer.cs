@@ -10,8 +10,8 @@
 
 namespace Calcpad.Wpf {
     using System;
-    
-    
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -23,15 +23,15 @@ namespace Calcpad.Wpf {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class AppMessages {
-        
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal AppMessages() {
         }
-        
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -45,7 +45,7 @@ namespace Calcpad.Wpf {
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -59,7 +59,7 @@ namespace Calcpad.Wpf {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Click to open file..
         /// </summary>
@@ -68,7 +68,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ClickToOpenFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Data import/export.
         /// </summary>
@@ -77,7 +77,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("DataImportExport", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to End of line expected..
         /// </summary>
@@ -86,7 +86,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("End_of_line_expected", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error getting input fields values..
         /// </summary>
@@ -95,7 +95,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Error_getting_input_fields_values", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
@@ -104,9 +104,9 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ErrorString", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to 
+        ///   Looks up a localized string similar to
         ///
         ///Exception details:
         ///
@@ -117,7 +117,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ExceptionDetails", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to File not found..
         /// </summary>
@@ -126,7 +126,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("File_not_found", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid compiler directive..
         /// </summary>
@@ -135,7 +135,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Invalid_compiler_directive", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid method..
         /// </summary>
@@ -144,7 +144,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Invalid_method", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid syntax..
         /// </summary>
@@ -153,7 +153,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Invalid_syntax", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid format string..
         /// </summary>
@@ -162,7 +162,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InvalidFormatString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid macro name..
         /// </summary>
@@ -171,7 +171,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InvalidMacroName", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid operator..
         /// </summary>
@@ -180,7 +180,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("InvalidOperator", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to \nYour data was saved both to clipboard and temp file: .
         /// </summary>
@@ -189,40 +189,40 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NYourDataWasSavedBothToClipboardAndTempFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to 
+        ///   Looks up a localized string similar to
         ///
-        ///There is no unsaved data. If the problem persists, please contact proektsoft.bg@gmail.com..
+        ///There is no unsaved data. If the problem persists, please file an issue at https://github.com/imartincei/CalcpadCE/issues..
         /// </summary>
         public static string ReportUnhandledExceptionAndClose_NoUnsavedData {
             get {
                 return ResourceManager.GetString("ReportUnhandledExceptionAndClose_NoUnsavedData", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to 
+        ///   Looks up a localized string similar to
         ///
-        ///Calcpad saved your work and tried to recover automatically..
+        ///CalcpadCE saved your work and tried to recover automatically..
         /// </summary>
         public static string ReportUnhandledExceptionAndClose_NoUnsavedData_RecoveryAttempted {
             get {
                 return ResourceManager.GetString("ReportUnhandledExceptionAndClose_NoUnsavedData_RecoveryAttempted", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to 
+        ///   Looks up a localized string similar to
         ///
-        ///There was unsaved data. Calcpad tried, but was unable to recover. If the problem persists, please contact proektsoft.bg@gmail.com..
+        ///There was unsaved data. CalcpadCE tried, but was unable to recover. If the problem persists, please file an issue at https://github.com/imartincei/CalcpadCE/issues..
         /// </summary>
         public static string ReportUnhandledExceptionAndClose_UnsavedData_RecoveryFailed {
             get {
                 return ResourceManager.GetString("ReportUnhandledExceptionAndClose_UnsavedData_RecoveryFailed", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Single expression expected..
         /// </summary>
@@ -231,7 +231,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Single_expression_expected", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Undeclared function..
         /// </summary>
@@ -240,7 +240,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Undeclared_function", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Undeclared variable..
         /// </summary>
@@ -249,7 +249,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Undeclared_variable", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Undefined macro or parameter..
         /// </summary>
@@ -258,7 +258,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Undefined_macro_or_parameter", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Undefined units..
         /// </summary>
@@ -267,9 +267,9 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Undefined_units", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Unexpected error occurred in Calcpad: &quot;{0}&quot;
+        ///   Looks up a localized string similar to Unexpected error occurred in CalcpadCE: &quot;{0}&quot;
         ///
         ///Source: &quot;{1}&quot;.
         /// </summary>

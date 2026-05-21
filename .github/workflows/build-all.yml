@@ -61,6 +61,13 @@ jobs:
         working-directory: Calcpad.Cli
         run: dotnet restore Calcpad.Cli.csproj -r ${{ matrix.rid }}
 
+      - name: Stage Examples for packaging
+        shell: bash
+        run: |
+          rm -rf Calcpad.Cli/.pkg/Examples
+          mkdir -p Calcpad.Cli/.pkg/Examples
+          cp -a Examples/. Calcpad.Cli/.pkg/Examples/
+
       - name: Build .deb package
         working-directory: Calcpad.Cli
         run: >
@@ -69,6 +76,7 @@ jobs:
           -p:Configuration=Release
           -p:Version=${{ inputs.version }}
           -p:PackagePrefix=CalcpadCE
+          -p:ExamplesContentDir=.pkg/Examples
           -p:RuntimeIdentifier=${{ matrix.rid }}
 
       - name: Upload artifact
@@ -98,6 +106,13 @@ jobs:
         working-directory: Calcpad.Cli
         run: dotnet restore Calcpad.Cli.csproj -r ${{ matrix.rid }}
 
+      - name: Stage root Examples for packaging
+        shell: bash
+        run: |
+          rm -rf Calcpad.Cli/.pkg/Examples
+          mkdir -p Calcpad.Cli/.pkg/Examples
+          cp -a Examples/. Calcpad.Cli/.pkg/Examples/
+
       - name: Build .rpm package
         working-directory: Calcpad.Cli
         run: >
@@ -106,6 +121,7 @@ jobs:
           -p:Configuration=Release
           -p:Version=${{ inputs.version }}
           -p:PackagePrefix=CalcpadCE
+          -p:ExamplesContentDir=.pkg/Examples
           -p:RuntimeIdentifier=${{ matrix.rid }}
 
       - name: Upload artifact

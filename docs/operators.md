@@ -1,6 +1,6 @@
 ﻿# Operators
 
-The following operators are supported by the Calcpad language:
+The following operators are supported by the CalcpadCE language:
 
 ## Arithmetic
 
@@ -50,7 +50,7 @@ The following operators are supported by the Calcpad language:
 
 ## Operator shortcuts
 
-Instead of "≡", "≠", "≤"- and "≥", you can use the respective C-style equivalent operators, as follows: "==", "!=", "\<=" and "\>=". They will be automatically replaced by the corresponding Calcpad operators.
+Instead of "≡", "≠", "≤"- and "≥", you can use the respective C-style equivalent operators, as follows: "==", "!=", "\<=" and "\>=". They will be automatically replaced by the corresponding CalcpadCE operators.
 The shortcut “%%” will be converted to the modulo operator “⦼”. This is necessary because “%” is reserved for the percent units.
 Since this symbol is not very common, it is rendered as “mod” in the output, e.g. “7 mod 5 = 2”, instead of “7 ⦼ 5 = 2”.  in a similar way, double slash "//" is a shortcut for division bar "÷" operator.
 Boolean operators also have shortcuts for easier typing: "&&" for "∧" (AND), "\|\|" for "∨" (OR) and "^^" for "⊕" (XOR).
@@ -67,8 +67,8 @@ For example, "5 + 2∙3" makes "11". If the addition has to be first, write "(5 
 This is called operator associativity.
 For example, "3 - 2 + 1" makes "(3 - 2) + 1 = 2" and not "3 - (2 + 1) = 0". Another good example is "2∙3 / 2∙3", which makes "9" and not "1".
 
-All operators in Calcpad are left-associative (calculations are performed from left to right). The only exception is exponentiation, which is right-associative unlike many hand calculators and spreadsheet software like Excel.
-In Calcpad, exponentiation is performed from right to left, which means that *x*^*a*^*b* will be evaluated as $x^{a^b}$.
+All operators in CalcpadCE are left-associative (calculations are performed from left to right). The only exception is exponentiation, which is right-associative unlike many hand calculators and spreadsheet software like Excel.
+In CalcpadCE, exponentiation is performed from right to left, which means that *x*^*a*^*b* will be evaluated as $x^{a^b}$.
 
 ## Relational expressions
 
@@ -79,7 +79,7 @@ For that special purpose, it is better to use the built-in function **max**(*a*;
 
 ## Logical expressions
 
-Calcpad operates only with numerical data and does not have special types for boolean data.
+CalcpadCE operates only with numerical data and does not have special types for boolean data.
 Like relational ones, logical operators also use "**1**" for "**true**" and "**0**" for "**false**". Any input value, different than 0, is also assumed to be "**true**". You can build logical expressions by using logical operators and/or logical functions (see further in this manual). They work as follows:
 
 - "**∧**" (and) returns 1 if both operands are 1 and 0 otherwise;

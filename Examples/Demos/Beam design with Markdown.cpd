@@ -46,7 +46,7 @@ page_break$
 'Compressive zone depth -'x = d/λ*(1 - sqr(1 - 2*m_Ed))
 'Relative compression zone depth -'ξ = x/d
 'Design reinforcement yield strain -'ε_yd = f_yd/E_s
-'Relative depth of compression zone at yielding of bottom reinforcement 
+'Relative depth of compression zone at yielding of bottom reinforcement
 ξ_yd = ε_cu3/(ε_cu3 + ε_yd)
 'Limit compression zone depth -'ξ_lim = ξ_yd
 '(*ξ*~lim~ = *ξ*~yd~ for elastic and *ξ*~lim~ = 0.45 for plastic analysis)
@@ -65,7 +65,7 @@ page_break$
 k = min(1 + sqr(200mm/d); 2)', 'C_Rd_c = 0.18/γ_c', 'k_1 = 0.15', 'σ_cp = 0MPa
 v_min = 0.035*k^(3/2)*sqr(f_ck)*MPa^0.5|MPa
 V_Rd_c_ = (C_Rd_c*k*(100*ρ_L*f_ck/MPa)^(1/3)*MPa + k_1*σ_cp)*b*d
-'Minimum shear resistance 
+'Minimum shear resistance
 V_Rd_c_min = (v_min + k_1*σ_cp)*b*d
 V_Rd_c = max(V_Rd_c_min; V_Rd_c_)
 'Design check:

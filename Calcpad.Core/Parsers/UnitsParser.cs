@@ -57,18 +57,18 @@ namespace Calcpad.Core
         {
             private static readonly bool[,] CorrectOrder =
             {
-            // None  Const   Units   Oper    BrOp    BrCl   Error  
-            {true,  true,   true,   true,   true,   true},  // None 
+            // None  Const   Units   Oper    BrOp    BrCl   Error
+            {true,  true,   true,   true,   true,   true},  // None
             {true,  false,  false,  true,   false,  true},  // Const
             {true,  false,  false,  true,   false,  true},  // Unit
             {true,  true,   true,   false,  true,   false}, // Oper
             {true,  true,   true,   false,  true,   false}, // BrOp
-            {true,  false,  false,  true,   false,  true},  // BrCl  
+            {true,  false,  false,  true,   false,  true},  // BrCl
             };
 
             internal static void Check(Queue<Token> input)
             {
-                // Initializes the correct sequence of token types. 
+                // Initializes the correct sequence of token types.
                 // Value if true if type in row can precede type in column
                 // Text and heading are hot included. They are checked separately.
                 var countOfBrackets = 0;

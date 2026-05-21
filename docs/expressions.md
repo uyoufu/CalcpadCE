@@ -1,6 +1,6 @@
 ﻿# Expressions
 
-The main purpose of Calcpad is to perform calculations.
+The main purpose of CalcpadCE is to perform calculations.
 That is why, everything inside the input window is assumed to be mathematical expressions, unless it is enclosed in quotes.
 Then it is treated as comments.
 By default, each expression has to be in a separate line, e.g.:

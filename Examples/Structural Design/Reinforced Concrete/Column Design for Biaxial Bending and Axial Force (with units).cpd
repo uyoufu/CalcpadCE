@@ -1,6 +1,6 @@
 "Column Design for Biaxial Bending and Axial Force<hr/><small>According to <strong>Eurocode</strong>: EN 1992-1-1</small>
 '<div style="max-width:180mm">
-'<img class="side" style="width:150pt;" src="https://calcpad.eu/media/structures/rc/design/column-design.png" alt="Column_Design.png">
+'<img class="side" style="width:150pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/column-design.png?raw=true" alt="Column_Design.png">
 '<h4>Cross section dimensions</h4>
 'Width -'b = ?mm', Height - 'h = ?mm
 #post
@@ -20,7 +20,7 @@
 'Axial force -'N_Ed = ?kN' (positive for compression)
 'Bending moment -'M_Ed = ?kNm
 '<h4>Material properties</h4>
-'<p style="float:right">[EN 1992-1-1, <a target="_blank" href="https://calcpad.eu/reference/concrete-table.html">Table 3.1</a>]</p>
+'<p style="float:right">[EN 1992-1-1, Table 3.1]</p>
 '<p><b>Concrete</b></p>
 'Characteristic compressive cylinder strength -'f_ck = ?MPa
 'Partial safety factor for concrete -'γ_c = 1.5','α_cc = ?
@@ -113,7 +113,7 @@ I_s = A_s1*(h/2 - d_1)^2 + A_s2*(h/2 - d_2)^2|cm^4
 'Design value of the modulus of elasticity of concrete
 E_cd = E_cm/γ_cE
 '<p class="ref">[EN 1992-1-1 (5.21)]</p>
-'Nominal stiffness 
+'Nominal stiffness
 EI = (K_c*E_cd*I_c + K_s*E_s*I_s)|kN*cm^2
 '<p class="ref">[EN 1992-1-1 (5.17)]</p>
 'Buckling load
@@ -157,7 +157,7 @@ N_Rd_max = A_c*f_cd + σ_s(ε)*(A_s1 + A_s2)|kN
 		M_Rd = (N_c(x)*z_c + N_s1(x)*(h/2 - d_1) - N_s2(x)*(h/2 - d_2))|kNm
 	#else
 		'Section is entirely in compression -'N_Ed'≥'N_Rd_h
-		'Distance from the point with constant strain to the bottom edge of the section 
+		'Distance from the point with constant strain to the bottom edge of the section
 		h_c = h*ε_c2/ε_cu2
 		'Internal forces are expressed as functions of the strain <i>ε</i> at the bottom edge.
 		'Reinforcement strain:
@@ -171,7 +171,7 @@ N_Rd_max = A_c*f_cd + σ_s(ε)*(A_s1 + A_s2)|kN
 		N_Rd(ε) = N_c(ε) + N_s1(ε) + N_s2(ε)
 		'Strain at bottom edge is determined from the equilibrium of the axial forces in the section
 		ε_c = $Root{N_Rd(ε) = N_Ed @ ε = 0 : ε_c2}
-		'Equivalent bending moment about the lower section edge, due to concrete stress 
+		'Equivalent bending moment about the lower section edge, due to concrete stress
 		M_c0 = (h_c^2/6*(2*σ_c((ε_c + ε_c2)/2) + σ_c(ε_c2)) + (h^2 - h_c^2)/2*f_cd)*b|kNm
 		'Lever arm of concrete stress equivalent force about the section centroid
 		z_c = M_c0/N_c(ε_c) - h/2
@@ -187,7 +187,7 @@ N_Rd_max = A_c*f_cd + σ_s(ε)*(A_s1 + A_s2)|kN
 		M_Ed'≤'M_Rd
 		'The design check is satisfied.
 		#pre
-		'<img class="side" style="width:190pt;" src="https://calcpad.eu/media/structures/rc/design/column-biaxial.png" alt="Column_Biaxial.png">
+		'<img class="side" style="width:190pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/column-biaxial.png?raw=true" alt="Column_Biaxial.png">
 		'<h4>Biaxial bending design</h4>
 		'For the other direction:
 		'Design moment -'M_Edy = ?kNm
@@ -195,7 +195,7 @@ N_Rd_max = A_c*f_cd + σ_s(ε)*(A_s1 + A_s2)|kN
 		'Effective length -'L_oy = ?*L
 		#post
 		#if M_Edy > 0kNm
-			'<img class="side" style="width:190pt;" src="https://calcpad.eu/media/structures/rc/design/column-biaxial.png" alt="Column_Biaxial.png">
+			'<img class="side" style="width:190pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/column-biaxial.png?raw=true" alt="Column_Biaxial.png">
 			'<h4>Biaxial bending design</h4>
 			'For the other direction:
 			'Design moment -'M_Edy

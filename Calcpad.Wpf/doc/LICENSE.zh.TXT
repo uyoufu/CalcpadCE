@@ -1,6 +1,7 @@
 MIT许可证
 
-版权所有 (c) 2025 Proektsoft EOOD
+Copyright (c) 2026 CalcpadCE Contributors
+Copyright (c) 2014-2026 Nedelcho Ganchovski
 
 特此授予任何人免费获得本软件及相关文档文件（以下简称“软件”）副本的许可，并无限制地处理软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售软件副本的权利，以及允许被提供软件的个人这样做，但须符合以下条件：
 

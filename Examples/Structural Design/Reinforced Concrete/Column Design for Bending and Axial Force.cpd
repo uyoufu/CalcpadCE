@@ -1,6 +1,6 @@
 "Column Design for Bending and Axial Force<hr/><small>According to <strong>Eurocode</strong>: EN 1992-1-1</small>
 '<div style="max-width:180mm">
-'<img class="side" style="width:150pt;"src="https://calcpad.eu/media/structures/rc/design/column-design.png" alt="column-design.png">
+'<img class="side" style="width:150pt;"src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/column-design.png?raw=true" alt="column-design.png">
 '<h4>Cross section dimensions</h4>
 'Width -'b = ? {300}'mm, Height -'h = ? {700}'mm
 #post
@@ -29,7 +29,7 @@
 #show
 'Positive axial force is compressive!
 '<h4>Material properties</h4>
-'<p style="float:right">[EN 1992-1-1, <a target="_blank" href="https://calcpad.eu/reference/concrete-table.html">Table 3.1</a>]</p>
+'<p style="float:right">[EN 1992-1-1, Table 3.1]</p>
 '<p><b>Concrete</b></p>
 'Characteristic compressive cylinder strength -'f_ck = ? {20}'MPa
 'Partial safety factor for concrete -'γ_c = 1.5','α_cc = ? {0.85}

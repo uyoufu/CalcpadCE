@@ -5,8 +5,8 @@
     <AnalysisLevel>latest</AnalysisLevel>
     <RootNamespace>PyCalcpad</RootNamespace>
     <OutputType>Library</OutputType>
-    <Authors>Nedelcho Ganchovski</Authors>
-    <Company>Proektsoft EOOD</Company>
+    <Authors>CalcpadCE Contributors</Authors>
+    <Company>CalcpadCE Community</Company>
     <GenerateRuntimeConfigFiles>true</GenerateRuntimeConfigFiles>
   </PropertyGroup>
 

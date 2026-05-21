@@ -7,7 +7,7 @@
 '<p>Select section -
 '<select data-target="section">
 #post
-'<p>Section type -  
+'<p>Section type -
 '<select data-target="section" style="font-weight:bold; border:none; background: none; color: black; box-shadow:none; appearance: none;">
 #show
 '<option value=80;3.9;42;5.9;42;5.9;3.9;2.3>IPN 80</option>
@@ -213,7 +213,7 @@
 '</table>
 h_w = h - t_f1 - t_f2'mm
 #pre
-'<p>Section type - 
+'<p>Section type -
 '<select data-target="rolled">
 '<option value="1">Rolled</option>
 '<option value="0">Welded</option>

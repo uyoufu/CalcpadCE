@@ -1,6 +1,6 @@
 ﻿# Units
 
-Calcpad provides comprehensive support for physical units of measurement.
+CalcpadCE provides comprehensive support for physical units of measurement.
 The current version supports metric (SI and compatible), US and Imperial units.
 There are seven basic units that correspond to the seven physical dimensions:
 
@@ -52,7 +52,7 @@ In the next example, speed is calculated in m/s, but is converted and stored as 
 
 ## Predefined units
 
-Calcpad includes a large collection of predefined units as follows:
+CalcpadCE includes a large collection of predefined units as follows:
 
 ### Dimensionless
 

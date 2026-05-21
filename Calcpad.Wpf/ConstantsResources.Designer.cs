@@ -10,8 +10,8 @@
 
 namespace Calcpad.Wpf {
     using System;
-    
-    
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -23,15 +23,15 @@ namespace Calcpad.Wpf {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class ConstantsResources {
-        
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal ConstantsResources() {
         }
-        
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -45,7 +45,7 @@ namespace Calcpad.Wpf {
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -59,7 +59,7 @@ namespace Calcpad.Wpf {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Avogadro constant.
         /// </summary>
@@ -68,7 +68,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("AvogadroConstant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Boltzmann constant.
         /// </summary>
@@ -77,7 +77,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("BoltzmannConstant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Constants.
         /// </summary>
@@ -86,7 +86,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Constants_Header", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Coulomb constant.
         /// </summary>
@@ -95,7 +95,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("CoulombConstant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Earth mass.
         /// </summary>
@@ -104,7 +104,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EarthMass", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Electron mass.
         /// </summary>
@@ -113,7 +113,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ElectronMass", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Elementary charge.
         /// </summary>
@@ -122,7 +122,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ElementaryCharge", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Euler constant.
         /// </summary>
@@ -131,7 +131,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EulerConstant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Euler number.
         /// </summary>
@@ -140,7 +140,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("EulerNumber", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Faraday constant.
         /// </summary>
@@ -149,7 +149,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("FaradayConstant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Golden ratio.
         /// </summary>
@@ -158,7 +158,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GoldenRatio", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Gravitational acceleration on Earth.
         /// </summary>
@@ -167,7 +167,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GravitationalAcceleration", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Gravitational constant.
         /// </summary>
@@ -176,7 +176,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("GravitationalConstant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Molar gas constant.
         /// </summary>
@@ -185,7 +185,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("MolarGasConstant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Neutron mass.
         /// </summary>
@@ -194,7 +194,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("NeutronMass", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Constant π (pi).
         /// </summary>
@@ -203,7 +203,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("Pi", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Planck constant.
         /// </summary>
@@ -212,7 +212,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("PlanckConstant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Proton mass.
         /// </summary>
@@ -221,7 +221,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("ProtonMass", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Solar mass.
         /// </summary>
@@ -230,7 +230,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SolarMass", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Speed of light in vacuum.
         /// </summary>
@@ -239,7 +239,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("SpeedOfLight", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Stefan–Boltzmann constant.
         /// </summary>
@@ -248,7 +248,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("StefanBoltzmannConstant", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unit weight of aluminium.
         /// </summary>
@@ -257,7 +257,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("UnitWeightOfAluminium", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unit weight of concrete.
         /// </summary>
@@ -266,7 +266,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("UnitWeightOfConcrete", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unit weight of glass.
         /// </summary>
@@ -275,7 +275,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("UnitWeightOfGlass", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unit weight of steel.
         /// </summary>
@@ -284,7 +284,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("UnitWeightOfSteel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unit weight of water.
         /// </summary>
@@ -293,7 +293,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("UnitWeightOfWater", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Vacuum magnetic permeability.
         /// </summary>
@@ -302,7 +302,7 @@ namespace Calcpad.Wpf {
                 return ResourceManager.GetString("VacuumPermeability", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Vacuum electric permittivity.
         /// </summary>

@@ -3,7 +3,7 @@
 namespace Calcpad.Core
 {
     internal static partial class ComplexSpecialFunctions
-    {        
+    {
         // Precision for numerical integration with Tanh-Sinh method
         private const double Precision = 1e-15;
         // Constants
@@ -112,7 +112,7 @@ namespace Calcpad.Core
         // Jacobi elliptic function cn
         // Jacobi elliptic function dn
         // Jacobi elliptic function cs
-        // Jacobi elliptic function cd   
+        // Jacobi elliptic function cd
         // Jacobi elliptic function dc
         // Jacobi elliptic function sc
         // Jacobi elliptic function sd

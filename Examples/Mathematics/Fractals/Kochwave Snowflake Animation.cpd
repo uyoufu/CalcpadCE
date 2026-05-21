@@ -6,7 +6,7 @@ x = hp([0; 1; 0.5; 0])', 'y = hp([0; 0; -a$; 0])
 'Number of iterations -'n = 7
 '<h4>Animation&emsp;<button id="start">Start</button></h4>
 #val
-'<style>polygon{display:none; stroke:Teal; stroke-width:0.1; stroke-linejoin:round;fill:Turquoise;}</style> 
+'<style>polygon{display:none; stroke:Teal; stroke-width:0.1; stroke-linejoin:round;fill:Turquoise;}</style>
 #hide 8
 w = 360', 'h = w', 'k = 100
 #round 12

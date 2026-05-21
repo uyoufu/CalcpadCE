@@ -30,3 +30,6 @@ jobs:
     uses: ./.github/workflows/build-windows-installer.yml
     with:
       version: ${{ needs.determine-version.outputs.version }}
+
+  test:
+    uses: ./.github/workflows/run-tests.yml

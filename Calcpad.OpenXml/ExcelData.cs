@@ -109,16 +109,16 @@ namespace Calcpad.OpenXml
         public static string[][] Read(string filepath, string sheetName, string rangeStart, string rangeEnd)
         {
             using SpreadsheetDocument document = SpreadsheetDocument.Open(filepath, false); // Open in read-only mode
-            WorkbookPart wbPart = document.WorkbookPart ?? 
+            WorkbookPart wbPart = document.WorkbookPart ??
                 throw new InvalidOperationException("The Excel workbook is missing or not initialized.");
-            
+
             WorksheetPart wsPart = null;
             Sheet sheet = null;
             if (!string.IsNullOrEmpty(sheetName))
                 sheet = wbPart.Workbook.Descendants<Sheet>().FirstOrDefault(s => s.Name == sheetName) ??
                     throw new InvalidOperationException($"Worksheet \"{sheetName}\" not found.");
             else
-                sheet = wbPart.Workbook.Descendants<Sheet>().FirstOrDefault() ?? 
+                sheet = wbPart.Workbook.Descendants<Sheet>().FirstOrDefault() ??
                     throw new InvalidOperationException("This Excel workbook doesn not contain worksheets.");
 
             var sheetID = sheet?.Id?.Value ?? string.Empty;
@@ -236,9 +236,9 @@ namespace Calcpad.OpenXml
             WorksheetPart wsPart = wbPart.AddNewPart<WorksheetPart>();
             wsPart.Worksheet = new(new SheetData());
             Sheets sheets = wbPart.Workbook.AppendChild(new Sheets());
-            Sheet sheet = new() { 
-                Id = wbPart.GetIdOfPart(wsPart), 
-                SheetId = 1, 
+            Sheet sheet = new() {
+                Id = wbPart.GetIdOfPart(wsPart),
+                SheetId = 1,
                 Name = string.IsNullOrWhiteSpace(sheetName) ? defaultSheet : sheetName,
             };
             sheets.Append(sheet);
@@ -259,19 +259,19 @@ namespace Calcpad.OpenXml
                 cell.DataType = CellValues.InlineString;
             }
         }
- 
+
         static Sheet InsertWorksheet(WorkbookPart wbPart, string sheetName)
         {
             WorksheetPart wsPart = wbPart.AddNewPart<WorksheetPart>();
             wsPart.Worksheet = new(new SheetData());
-            Sheets sheets = wbPart.Workbook.GetFirstChild<Sheets>() ?? 
+            Sheets sheets = wbPart.Workbook.GetFirstChild<Sheets>() ??
                 wbPart.Workbook.AppendChild(new Sheets());
             string relationshipId = wbPart.GetIdOfPart(wsPart);
             uint sheetId = sheets.Elements<Sheet>().Max(s => s.SheetId?.Value ?? 0) + 1;
-            Sheet sheet = new() { 
-                Id = relationshipId, 
-                SheetId = sheetId, 
-                Name = sheetName 
+            Sheet sheet = new() {
+                Id = relationshipId,
+                SheetId = sheetId,
+                Name = sheetName
             };
             sheets.Append(sheet);
             return sheet;

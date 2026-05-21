@@ -1,4 +1,4 @@
-"Rounding and formatting numbers in Calcpad
+"Rounding and formatting numbers in CalcpadCE
 #round 6
 'Custom rounding -'a = 100*sqr(2)' (to 6 digits)
 #round default

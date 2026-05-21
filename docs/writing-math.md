@@ -35,7 +35,7 @@ If you have done this accidentally, you can use **Undo** <img src="./media/image
 
 ### Moving inside the text
 
-Writing and editing text in Calcpad is not much different than any other Windows program.
+Writing and editing text in CalcpadCE is not much different than any other Windows program.
 If you have some experience in that, you can skip this and go straight to "**Expressions**".
 
 You can type at arbitrary position inside the text.
@@ -73,8 +73,8 @@ You can copy the selected text to the Clipboard by pressing "**Ctrl+C**" or by c
 
 Before you paste a text from the Clipboard you have to position the cursor at the required place.
 Then press "**Ctrl+V**" or the <img src="./media/image15.png" alt="" height="20"> button.
-You can copy text from Calcpad and paste it to other programs and vice versa.
-For example, you can take some formulas from Word, calculate them in Calcpad and return the results back to Word.
+You can copy text from CalcpadCE and paste it to other programs and vice versa.
+For example, you can take some formulas from Word, calculate them in CalcpadCE and return the results back to Word.
 
 ### Undo
 
@@ -129,7 +129,7 @@ It runs automatically in the background, each time you edit and leave the curren
 All errors are highlighted in red.
 The program makes difference between defined and undefined variables and functions.
 The color palette is predefined and cannot be changed.
-Currently, Calcpad does not support custom styles and themes.
+Currently, CalcpadCE does not support custom styles and themes.
 
 ### Auto-indentation
 
@@ -194,5 +194,5 @@ Since "j"/"J" and "V" remain unused, they are mapped to "ø"/"Ø" and "∡", res
 
 **Notepad++** is a popular text/code editor.
 It is free and open source and can be downloaded from the official website [https://notepad-plus-plus.org](https://notepad-plus-plus.org/). It supports many programming or scripting languages.
-Its text editing capabilities are much more powerful than Calcpad.
-It is also very useful for writing Html code. **Calcpad** syntax can be also used with Notepad++. It is predefined as an XML file that can be inserted in Notepad++. You can do this by selecting the "**Language**" menu, then click "**Define your language**" and then, "**Import…**". Find the **Calcpad** folder inside your **Program Files** directory or wherever Calcpad is installed and select the file named [Calcpad-syntax-for-Notepad++.xml](https://calcpad.eu/download/Notepadpp.zip).
+Its text editing capabilities are much more powerful than CalcpadCE.
+It is also very useful for writing Html code. **CalcpadCE** syntax can be also used with Notepad++. It is predefined as an XML file that can be inserted in Notepad++. You can do this by selecting the "**Language**" menu, then click "**Define your language**" and then, "**Import…**". Find the **CalcpadCE** folder inside your **Program Files** directory or wherever CalcpadCE is installed and select the file named [Calcpad-syntax-for-Notepad++.xml](https://github.com/imartincei/CalcpadCE/tree/main/Setup/Syntax-for-external-editors/Notepad%2B%2B).

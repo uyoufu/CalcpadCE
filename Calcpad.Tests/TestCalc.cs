@@ -15,6 +15,9 @@ namespace Calcpad.Tests
         internal static string CompareWithTolerance(string a, string b, string tolerance) =>
             $"r = abs({a} - {b}) ≤ {tolerance}*max(abs({a}); 1)";
 
+        internal static string CompareWithToleranceDirect(string a, string b, string tolerance) =>
+            $"abs({a} - {b}) ≤ {tolerance}*max(abs({a}); 1)";
+
         private readonly MathParser _parser = new(settings);
 
         public double Run(string expression)

@@ -1003,7 +1003,7 @@
         public void Test_kcal() => Test("kcal|J", 4186.8);
         #endregion
 
-        #region Power   
+        #region Power
         [Fact]
         [Trait("Category", "Power")]
         public void Test_W() => Test("W|kg*m^2*s^-3", 1d);

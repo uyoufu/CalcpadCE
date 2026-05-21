@@ -1,5 +1,5 @@
 "Geometrical Properties of Square Rhombus
-'<hr /><div style="max-width:120mm"><img style="height:135pt;" alt="rombus-square.png" class="side" src="https://calcpad.eu/media/mechanics/sections/rhombus-square.png"></div>
+'<hr /><div style="max-width:120mm"><img style="height:135pt;" alt="rombus-square.png" class="side" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/mechanics/sections/rhombus-square.png?raw=true"></div>
 'Side length
 a = ?'%u
 'Diagonal length
@@ -14,6 +14,6 @@ P = 4*a'%u
 '<p><i>I</i><sub>z</sub> ='I_y = d^4/48'%u<sup>4</sup></p>
 'Polar moment of area
 I_x = 2*I_y'%u<sup>4</sup>
-'Radii of gyration 
+'Radii of gyration
 '<p><i>r</i><sub>z</sub> ='r_y = sqrt(I_y/A)'</p>
 r_x = sqr(I_x/A)'%u1

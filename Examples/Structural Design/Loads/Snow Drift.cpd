@@ -1,6 +1,6 @@
 "Snow Drift on a Roof, Abutting a Taller Construction<hr/><small>According to <strong>Eurocode</strong>: EN 1991-1-3, § 5.3.6</small>
 '<div style="max-width:180mm">
-'<img class="side" style="width:210pt;" src="https://calcpad.eu/media/structures/loads/snow-drift.png" alt="snow-drift.png">
+'<img class="side" style="width:210pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/loads/snow-drift.png?raw=true" alt="snow-drift.png">
 'Characteristic snow load on the ground -'s_k = ?'kN/m<sup>2</sup>
 'Higher roof width -'b_1 = ?'m
 'Sliding surface width -'b_s = ?'m
@@ -34,7 +34,7 @@ l_s = max(5; min(2*h;15))'m
 '<p class="ref">(5.6) from EN 1991-1-3</p>
 μ_1 = 0.8
 '<p class="ref">(5.7) from EN 1991-1-3</p>
-μ_2 = μ_s + μ_w 
+μ_2 = μ_s + μ_w
 #if b_2 < l_s
 	'Shape coefficient for the edge of the lower roof
 	μ_12 = (μ_1 - μ_2)*b_2/l_s + μ_2

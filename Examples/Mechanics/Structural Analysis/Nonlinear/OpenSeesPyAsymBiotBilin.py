@@ -36,5 +36,5 @@ print(f"Support reactions: {["%.2fkN" % (f/1000) \
 for f in ops.nodeReaction(1)]}, {["%.2fkN" % (f/1000) \
 for f in ops.nodeReaction(3)]}")
 print(f"Element axial forces: {["%.2fkN" % (f/1000) \
-for f in ops.basicForce(1)]}, {["%.2fkN" % (f/1000) 
+for f in ops.basicForce(1)]}, {["%.2fkN" % (f/1000)
 for f in ops.basicForce(2)]}")

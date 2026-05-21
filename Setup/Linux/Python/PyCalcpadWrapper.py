@@ -26,7 +26,7 @@ class TrigUnits(enum.Enum):
     Deg = 0
     Rad = 1
     Grad = 2
-    
+
 class LightDirections(enum.Enum):
     North = 0
     NorthEast = 1
@@ -65,7 +65,7 @@ class MathSettings:
 
     @Degrees.setter
     def Degrees(self, value : TrigUnits):
-        self._instance.Degrees = value.value        
+        self._instance.Degrees = value.value
 
     @property
     def IsComplex(self):
@@ -89,7 +89,7 @@ class MathSettings:
 
     @FormatEquations.setter
     def FormatEquations(self, value : bool):
-        self._instance.FormatEquations = value   
+        self._instance.FormatEquations = value
 
     @property
     def ZeroSmallMatrixElements(self):
@@ -118,7 +118,7 @@ class PlotSettings:
     @IsAdaptive.setter
     def IsAdaptive(self, value: bool):
         self._instance.IsAdaptive = value
-        
+
     @property
     def VectorGraphics(self):
         return self._instance.VectorGraphics
@@ -184,7 +184,7 @@ class Settings:
         return self._instance.Units
 
     @Units.setter
-    def Units(self, value : str): 
+    def Units(self, value : str):
         self._instance.Units = value
 
 class Calculator:

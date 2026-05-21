@@ -175,7 +175,7 @@ N_4,ψ(ξ; η) = Φ_2a(ξ)*Φ_4b(η)
 '</td><td colspan="2" style="width:160pt; text-align:center;">
 '<img src="./plate-element.png" alt="plane-elemen.png" style="width:160pt;" />
 '</td></tr></table>
-'<!--'PlotSVG = 1''PlotWidth = 160''PlotHeight = PlotWidth''PlotPalette = 7'--> 
+'<!--'PlotSVG = 1''PlotWidth = 160''PlotHeight = PlotWidth''PlotPalette = 7'-->
 '<table><tr><td>
 '<p><var>N</var><sub>1,w</sub> shape function plot</p>
 $Map{N_1,w(ξ; η) @ ξ = 0 : 1 & η = 0 : 1}
@@ -183,7 +183,7 @@ $Map{N_1,w(ξ; η) @ ξ = 0 : 1 & η = 0 : 1}
 '<p><var>N</var><sub>1,θₓ</sub> shape function plot</p>
 $Map{N_1,θₓ(ξ; η) @ ξ = 0 : 1 & η = 0 : 1}
 '</td></tr><tr><td>
-'<!--'PlotHeight = 50'--> 
+'<!--'PlotHeight = 50'-->
 $Plot{N_1,w(ξ; 0) @ ξ = 0 : 1}
 '</td><td>
 $Plot{N_1,θₓ(ξ; 0) @ ξ = 0 : 1}

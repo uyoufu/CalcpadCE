@@ -53,7 +53,7 @@ namespace Calcpad.Core
                 var stackBuffer = new Stack<Expression>();
                 var len = rpn.Length;
                 if (_allowAssignment && (rpn[len - 1].Content == "="))
-                { 
+                {
                     var rpn0 = rpn[0];
                     if (rpn0.Type == TokenTypes.Variable &&
                         rpn0 is VariableToken vt)
@@ -534,13 +534,13 @@ namespace Calcpad.Core
                 if (t.Type == TokenTypes.VectorMultiFunction)
                     return Expression.Invoke(
                         Expression.Constant(
-                            VectorCalculator.GetMultiFunction(t.Index)), 
+                            VectorCalculator.GetMultiFunction(t.Index)),
                             argsExpression);
 
                 // TokenTypes.MatrixMultiFunction
                 return Expression.Invoke(
                     Expression.Constant(
-                        MatrixCalculator.GetMultiFunction(t.Index)), 
+                        MatrixCalculator.GetMultiFunction(t.Index)),
                         argsExpression);
             }
 
@@ -581,9 +581,9 @@ namespace Calcpad.Core
             private ConstantExpression EvaluateInterpolation(Token t, Expression[] arguments) =>
                 Expression.Constant(
                     IValue.EvaluateInterpolation(
-                        _matrixCalc, 
-                        t.Index, 
-                        EvaluateConstantParameters(arguments)), 
+                        _matrixCalc,
+                        t.Index,
+                        EvaluateConstantParameters(arguments)),
                         typeof(IValue));
 
             private ConstantExpression EvaluateMultiFunction(Token t, Expression[] arguments)
@@ -605,15 +605,15 @@ namespace Calcpad.Core
 
             private static NewExpression ParseVectorToken(Expression[] values) =>
                 Expression.New(
-                    VectorConstructor, 
+                    VectorConstructor,
                     Expression.Call(
-                        ExpandRealValuesMethod, 
-                        Expression.NewArrayInit(typeof(IValue), 
+                        ExpandRealValuesMethod,
+                        Expression.NewArrayInit(typeof(IValue),
                         values)));
 
             private static MethodCallExpression ParseMatrixToken(Expression[] values) =>
                 Expression.Call(
-                    JoinRowsMethod, 
+                    JoinRowsMethod,
                     Expression.NewArrayInit(typeof(IValue), values));
 
             private static MethodCallExpression ParseVectorIndexToken(Expression vector, Expression ii) =>

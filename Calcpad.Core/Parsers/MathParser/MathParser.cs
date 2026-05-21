@@ -125,7 +125,7 @@ namespace Calcpad.Core
             _realCalc = new RealCalculator();
             _complexCalc = new ComplexCalculator();
             if (_settings.IsComplex)
-                _calc = _complexCalc; 
+                _calc = _complexCalc;
             else
                 _calc = _realCalc;
 
@@ -685,7 +685,7 @@ namespace Calcpad.Core
                             if (cf.ParameterCount != n)
                                 cf = CreateFunction(n, IsConst);
                         }
-                        else  
+                        else
                             cf = CreateFunction(n, IsConst);
 
 
@@ -896,8 +896,8 @@ namespace Calcpad.Core
             if (IsAssignment(last.Content))
             {
                 var t = rpn[0].Type;
-                if (t == TokenTypes.Variable || 
-                    t == TokenTypes.Vector || 
+                if (t == TokenTypes.Variable ||
+                    t == TokenTypes.Vector ||
                     t == TokenTypes.Matrix)
                         i0 = 1;
             }

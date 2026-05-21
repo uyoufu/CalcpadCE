@@ -6,7 +6,7 @@
 'Thickness -'t = 0.1'm
 'Distributed load -'q = 100'kN/m
 '<p><b>Loads</b></p>
-'Load length -'b = 0.8'm 
+'Load length -'b = 0.8'm
 'Load position -'a = (l - b)/2'm
 'Load function -'q(x) = q*(x ≥ a ∧ x ≤ a + b)
 '</td><td><img src="./deep-beam-fea.png" style="width:140; height:160pt; margin-left:20pt;"></td></tr></table>
@@ -311,7 +311,7 @@ $Plot{N_y(l/2; y)|y & -k|0 & k|0 @ y = 0 : h}
 'Shear membrane forces - <var>N</var><sub>xy</sub>, kN/m
 transp(Nxy)
 $Map{N_xy(x; y) @ x = 0 : l & y = 0 : h}
-'Max. value at 3/4 of span -'N_xy(3*l/4; h/2)'kN/m	
+'Max. value at 3/4 of span -'N_xy(3*l/4; h/2)'kN/m
 'Principal membrane forces, kN/m
 N_m(x; y) = 0.5*(N_x(x; y) + N_y(x; y))
 ΔN(x; y) = 0.5*sqr((N_x(x; y) - N_y(x; y))^2 + 4*N_xy(x; y)^2)

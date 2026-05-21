@@ -1,10 +1,10 @@
 "Geometrical Properties of Trapezoid
-'<hr /><div style="max-width:130mm"><img style="height:135pt;" alt="Trapezoid.png" class="side" src="https://calcpad.eu/media/Mechanics/Sections/Trapezoid.png"></div>
+'<hr /><div style="max-width:130mm"><img style="height:135pt;" alt="Trapezoid.png" class="side" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/Mechanics/Sections/Trapezoid.png?raw=true"></div>
 'Dimensions
 a = ?'%u,'b = ?'%u
 'Height
 h = ?'%u
-'Area  
+'Area
 A = h*(a + b)/2'%u<sup>2</sup>
 'Centroid
 y_c = a/2'%u

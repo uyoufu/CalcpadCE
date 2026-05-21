@@ -1,5 +1,5 @@
 #md on
-"Markdown in Calcpad
+"Markdown in CalcpadCE
 '---
 '### Heading 3
 '#### Heading 4
@@ -9,10 +9,10 @@
 'This text is **bold**, this is *italic* and this is ***bold-italic***.
 'You can also have ++underlined++, ~~deleted~~ and ==marked== text.
 'Adding ~sub~script and ^super^script is now easier than ever.
-'Code: 
+'Code:
 '`c = a + b`
 'Image:
-'![Calcpad](https://calcpad.eu/images/Calc.png) 
-'Links: <https://www.markdownguide.org>, [Calcpad website](https://calcpad.eu)
+'![CalcpadCE](https://github.com/imartincei/CalcpadCE/blob/main/Calcpad.Wpf/resources/calc.png?raw=true)
+'Links: <https://www.markdownguide.org>, [CalcpadCE website](https://calcpad-ce.org)
 '> Blockquote
 '>> Next level

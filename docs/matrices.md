@@ -2,7 +2,7 @@
 
 ## Internal implementation and types of matrices
 
-Calcpad includes different types of matrices: general (rectangular) and special (column, symmetric, diagonal.
+CalcpadCE includes different types of matrices: general (rectangular) and special (column, symmetric, diagonal.
 upper/lower triangular). Internally, each type is implemented in a different way that benefits from the specific structure for better efficiency.
 Externally, all of them behave in a similar way, except for a few cases.
 
@@ -11,7 +11,7 @@ Vectors normally represent matrix rows, except for diagonal and column matrices.
 
 <img src="./media/image30.png" style="width:6.71339in;height:4.4143in" alt="Картина, която съдържа текст, диаграма, линия, Паралелен Описанието е генерирано автоматично" />
 
-Calcpad uses large vectors to contain the values.
+CalcpadCE uses large vectors to contain the values.
 So, it does not store the extra zero elements for partially filled (banded) matrices.
 The indexing operator for each type is internally redefined in order to return directly zero when we try to read a value outside the matrix structure or bandwidth.
 
@@ -121,7 +121,7 @@ The inline equivalent of the above loop is the following:
 The "square brackets" syntax is very powerful and flexible for creating small matrices with predefined sizes.
 However, it also has a lot of limitations.
 For example, it cannot create special types of matrices and cannot specify the matrix dimensions.
-That is why, Calcpad also includes various functions for creating matrices, as follows:
+That is why, CalcpadCE also includes various functions for creating matrices, as follows:
 
 ### **matrix**(*m*; *n*)
 
@@ -1210,7 +1210,7 @@ For example:
 1 & 1 & 0
 \end{bmatrix}`$
 
-Calcpad also includes a lot of math functions that are specific for matrices, as follows:
+CalcpadCE also includes a lot of math functions that are specific for matrices, as follows:
 
 ### **hprod**(*A*; *B*)
 
@@ -1644,7 +1644,7 @@ Calcpad also includes a lot of math functions that are specific for matrices, as
 !!! note
     The cofactor $C_{ij}$ is defined as the respective minor $M_{ij}$ is multiplied by
     $(-1)^{i + j}$. The minor $M_{ij}$ represents the determinant of the submatrix, obtained by removing the *i*-th row and the *j*-th column.
-    In Calcpad, the cofactor matrix is calculated by transposing the adjugate: $C = adj(A)^T$
+    In CalcpadCE, the cofactor matrix is calculated by transposing the adjugate: $C = adj(A)^T$
 
 !!! example
     `cofactor([1; 2|3; 4])` $`= \begin{bmatrix}
@@ -1817,7 +1817,7 @@ $n_e$
     The function returns both matrices *L* and *U*, packed in a single square matrix.
     The elements along the main diagonal belong to *U*, since it is known that those of *L* are ones.
     The solution is performed by using the Crout's algorithm with partial pivoting.
-    Instead of building the permutation matrix *P*, Calcpad internally creates a vector $\vec{ind}$ containing the indexes of the rows after reordering.
+    Instead of building the permutation matrix *P*, CalcpadCE internally creates a vector $\vec{ind}$ containing the indexes of the rows after reordering.
     If you need both matrices *L* and *U* separately, you can extract them as a Hadamard product of the combined matrix by the respective lower/upper triangular matrix.
     After that, you have to reset the diagonal of *L* to ones.
     If the type of *M* is symmetric matrix, the LDLT decomposition is returned instead of LU.
@@ -2353,7 +2353,7 @@ For example:
 \end{bmatrix}`$
 
 The only exception is multiplication operator "\*" which represents the standard matrix multiplication.
-The elementwise (Hadamard or Schur) product is implemented in Calcpad as a function: **hprod**. Matrix multiplication *C*m×p = *A*m×n *B*n×p is defined so that each element *c*i j is obtained as the dot product of the *i*-th row of *A* and the *j*-th column of *B*:
+The elementwise (Hadamard or Schur) product is implemented in CalcpadCE as a function: **hprod**. Matrix multiplication *C*m×p = *A*m×n *B*n×p is defined so that each element *c*i j is obtained as the dot product of the *i*-th row of *A* and the *j*-th column of *B*:
 
 ``` math
 c_{ij} = \sum_{k = 1}^{n}{a_{ik}b_{kj}}

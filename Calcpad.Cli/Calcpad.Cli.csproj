@@ -5,8 +5,8 @@
     <LangVersion>latest</LangVersion>
     <AnalysisLevel>latest</AnalysisLevel>
     <RootNamespace>Calcpad.Cli</RootNamespace>
-    <Authors>Nedelcho Ganchovski</Authors>
-    <Company>Proektsoft EOOD</Company>
+    <Authors>CalcpadCE Contributors</Authors>
+    <Company>CalcpadCE Community</Company>
     <PackageId>Cli</PackageId>
     <Product>Cli</Product>
     <AssemblyName>Cli</AssemblyName>
@@ -14,6 +14,7 @@
     <SymlinkAppHostInBin>false</SymlinkAppHostInBin>
     <SkipDebDependencies>true</SkipDebDependencies>
     <SkipRpmDependencies>true</SkipRpmDependencies>
+    <ExamplesContentDir>..\Examples</ExamplesContentDir>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,7 +28,10 @@
       <LinuxPath>/usr/bin/calcpad</LinuxPath>
     </Content>
     <Content Include="doc/**/*" CopyToPublishDirectory="PreserveNewest" CopyToOutputDirectory="PreserveNewest" />
-    <Content Include="Examples/**/*" CopyToPublishDirectory="PreserveNewest" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="$(ExamplesContentDir)\**\*"
+      CopyToPublishDirectory="PreserveNewest"
+      CopyToOutputDirectory="PreserveNewest"
+      TargetPath="Examples/%(RecursiveDir)%(Filename)%(Extension)" />
     <Content Include="Syntax/**/*" CopyToPublishDirectory="PreserveNewest" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="Fonts/*" CopyToPublishDirectory="PreserveNewest" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="Settings.xml" CopyToPublishDirectory="PreserveNewest" CopyToOutputDirectory="PreserveNewest" />

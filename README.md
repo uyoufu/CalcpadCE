@@ -103,7 +103,7 @@ cd CalcpadCE
 dotnet build Calcpad.Wpf
 ```
 
-Run the application by starting the built EXE: `Calcpad.Wpf\bin\Debug\net10.0-windows\Calcpad.exe`.
+Run the application by starting the built EXE: `Calcpad.Wpf\bin\Debug\net10.0-windows\CalcpadCE.exe`.
 
 ## 📄 License & Credits
 

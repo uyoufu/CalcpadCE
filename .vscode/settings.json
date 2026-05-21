@@ -1,12 +1,10 @@
 {
-    "[csharp]": {
-        "editor.formatOnSave": false,
-        "files.trimTrailingWhitespace": false
-    },
-    "[xml]": {
-        "files.trimFinalNewlines": false
-    },
+    "editor.formatOnSave": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
     "[markdown]": {
-        "editor.formatOnSave": false
+        // Two trailing spaces in Markdown signal a line break in the rendered output.
+        "files.trimTrailingWhitespace": false,
     }
 }

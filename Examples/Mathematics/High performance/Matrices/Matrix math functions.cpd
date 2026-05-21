@@ -67,14 +67,14 @@ transp(A)'- the transpose of matrix A
 
 '<p><b>Adj</b>(<em>matrix</em>)</p><hr/>
 A = hp([1; 2|3; 4])
-adj(A)'- the adjugate of matrix A 
-D = det(A)'- the determinant of matrix A 
-A_I = inverse(A)'- the inverse of matrix A 
+adj(A)'- the adjugate of matrix A
+D = det(A)'- the determinant of matrix A
+A_I = inverse(A)'- the inverse of matrix A
 A_I*D'- the inverse multiplied by the determinant shoud give the adjugate
 
 '<p><b>Cofactor</b>(<em>matrix</em>)</p><hr/>
 A = hp([1; 2|3; 4])
-C = cofactor(A)'- the cofactor of matrix A 
+C = cofactor(A)'- the cofactor of matrix A
 transp(C)'- the transpose of the cofactor shoud give the adjugate'
 adj(A)
 
@@ -175,7 +175,7 @@ A = copy([8; 6; -4|6; 12; -3| - 4; -3; 9]; _
 B = join_cols(hp([10; 20; 30]); hp([40; 50; 60]))'- the right hand side matrix
 X = cmsolve(A; B)'- the solution matrix obtained by Cholesky decomposition
 X = smsolve(A; B)'- the solution matrix obtained by PCG method
-A*X'- check: multiplying the coefficients matrix by the solution matrix should give the right hand side matrix 
+A*X'- check: multiplying the coefficients matrix by the solution matrix should give the right hand side matrix
 
 #rad
 'Trigonometric:<hr/>
@@ -219,7 +219,7 @@ acoth(5/x)'- inverse hyperbolic cotangent
 
 'Logarithmic, exponential and roots:<hr/>
 log(x)'- decimal logarithm
-ln(x)'- natural logarithm 
+ln(x)'- natural logarithm
 log_2(x)'- binary logarithm
 exp(x)'- natural exponent = eˣ
 sqr(x)'- square root

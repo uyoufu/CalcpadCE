@@ -28,7 +28,7 @@ c_J = [1; 10^20kN/m; 10^20kN/m|3; 10^20kN/m; 10^20kN/m]
 c_J
 n_c = n_rows(c_J)
 '<h4>Material - steel</h4>
-'We assume bi-linear material model 
+'We assume bi-linear material model
 'Initial modulus of elasticity -'E_0 = 206GPa
 'Yield stress -'f_y = 500MPa
 'Ultimate tensile stress -'f_u = 600MPa
@@ -138,7 +138,7 @@ frame$
 '</svg>
 #equ
 '<h4>Finite element formulation</h4>
-'<!--'u = 0','v = 0','z = [0; 0]'--> 
+'<!--'u = 0','v = 0','z = [0; 0]'-->
 'We will formulate a 2D truss element with 3rd order geometric nonlinearity. The equilibrium equations will be derived in local CS, for the deformed state of the structure, assuming large displacements, as follows:
 '<img style="height:115pt; width:198pt;" src="./Images/nonlin-truss-element.png" alt="nonlin-truss-element.png">
 #noc
@@ -265,7 +265,7 @@ R(i) = -z_J(j(i))*last(r(i); 2)
 #varsub
 'Element yield capacity  -'N_y = f_y*A
 'Element ultimate capacity -'N_u = f_u*A
-'<p><strong>Element axial forces</strong> -'N_e(e) = N(e; z_e(e))'</p> 
+'<p><strong>Element axial forces</strong> -'N_e(e) = N(e; z_e(e))'</p>
 #novar
 #for e = 1 : n_E
 	#val

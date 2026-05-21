@@ -1,5 +1,5 @@
 "Volume of Triangular Frustum
-'<hr /><div style = "max-width:120mm"><img style="height:60pt;" class="side" alt="triangular-frustum.png" src = "https://calcpad.eu/media/math/volume/triangular-frustum.png"></div>
+'<hr /><div style = "max-width:120mm"><img style="height:60pt;" class="side" alt="triangular-frustum.png" src = "https://github.com/imartincei/CalcpadCE/blob/main/Images/math/volume/triangular-frustum.png?raw=true"></div>
 '<p><b>Dimensions:</b></p>
 'Bottom base
 A = ?','B = ?','C = ?
@@ -18,7 +18,7 @@ A_1 = sqr(p*(p - A)*(p - B)*(p - C))
 'Semiperimeter
 p = 0.5*(a + b + c)
 'Area (Heron equation)
-A_2 = sqr(p*(p - a)*(p - b)*(p - c)) 
+A_2 = sqr(p*(p - a)*(p - b)*(p - c))
 '<p><b>Volume</b></p>
 V = h/3*(A_1 + sqr(A_1*A_2) + A_2)
 '<!--

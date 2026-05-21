@@ -1,6 +1,6 @@
 ﻿# Functions
 
-Calcpad includes a library with common math functions, ready to use.
+CalcpadCE includes a library with common math functions, ready to use.
 
 ## Trigonometric
 

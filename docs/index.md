@@ -1,6 +1,6 @@
-﻿# About Calcpad VM
+﻿# About CalcpadCE (Community Edition)
 
-Calcpad is free and open-source software for mathematical and engineering calculations.
+CalcpadCE is free and open-source software for mathematical and engineering calculations.
 It combines powerful computational algorithms with Html formatted reporting with export to Word.
 It is simple and easy to use, but it also includes many advanced features:
 
@@ -56,4 +56,4 @@ This software is developed using the C# programming language and latest computer
 It automatically parses the input, substitutes the variables, calculates the expressions and displays the output.
 All results are sent to a professional looking Html report for viewing and printing.
 
-<img src="./media/image3.png" style="width:6.71882in;height:4.44785in" alt="Calcpad" />
+<img src="./media/image3.png" style="width:6.71882in;height:4.44785in" alt="CalcpadCE" />

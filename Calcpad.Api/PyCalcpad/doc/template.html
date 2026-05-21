@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Created with Calcpad</title>
+    <title>Created with CalcpadCE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -93,7 +93,7 @@
                 border: 0.5pt solid #CCC;
                 border-radius: 0.35em;
                 box-shadow: 0.06em 0.06em 0.5em #ddd;
-                min-width: 3em; 
+                min-width: 3em;
             }
 
             input[type="text"] {
@@ -295,7 +295,7 @@
             position: relative;
             bottom: 1pt;
         }
-		
+
         .eq small.nth{
             font-size: 70%;
         }
@@ -864,7 +864,7 @@
                     }
                 });
                 $(".money").each(function () { $(this).text(Number(($(this).text())).toFixed(2)); });
-				
+
 				$("input").change(function(){
 					var e = $(this);
 					var s = e.val();
@@ -880,7 +880,7 @@
                 $("a").click(function () {
                     chrome.webview.postMessage('clicked');
                 });
-				
+
 				window.addEventListener('click', () => {
 					window.chrome.webview.postMessage('focused');
 				});

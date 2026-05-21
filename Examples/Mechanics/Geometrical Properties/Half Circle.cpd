@@ -1,12 +1,12 @@
 "Geometrical Properties of Half Circle
-'<hr /><div style="max-width:120mm"><img style="height:112pt;" alt="half-circle.png" class="side"  src="https://calcpad.eu/media/mechanics/sections/half-circle.png"></div>
+'<hr /><div style="max-width:120mm"><img style="height:112pt;" alt="half-circle.png" class="side"  src="https://github.com/imartincei/CalcpadCE/blob/main/Images/mechanics/sections/half-circle.png?raw=true"></div>
 'Diameter
 d = ?'%u
 'Area
 A = π*d^2/8'%u<sup>2</sup>
 'Perimeter
 P = π*d/2 + d'%u
-'Centroid 
+'Centroid
 y_c = d/2'%u
 z_c = 2*d/(3*π)'%u
 'Second moments of area

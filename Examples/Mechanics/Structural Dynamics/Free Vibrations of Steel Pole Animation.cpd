@@ -9,7 +9,7 @@
 'Poisson′s ratio - 'ν = 0.3
 'Shear modulus -'G = E/(2*(1 + ν))
 'Mass density -'γ_s = 7.85*t/m^3
-'<!--Section shape 'shape = 3', 'Precision = 10^-4'--> 
+'<!--Section shape 'shape = 3', 'Precision = 10^-4'-->
 '<h3>Cross-section</h3>
 'Section height:
 '- at bottom -'h_b = 3000mm
@@ -21,7 +21,7 @@
 '- at top -'w_t = 750mm
 '- difference -'Δw = w_t - w_b
 '- as a function of distance to base -'w(x) = w_b + Δw*x/L
-'<p>Cross-section shape - 
+'<p>Cross-section shape -
 #if shape ≡ 0
 	'<b>Rectangular</b></p>
 #else if shape ≡ 1

@@ -1,6 +1,6 @@
 
 
-; File G:\Моят диск\phd\UACG 2\struct\Plate\Plate_6x4.$2k saved 1.4.25 16:18:12 in KN-m
+; File G:\пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ\phd\UACG 2\struct\Plate\Plate_6x4.$2k saved 1.4.25 16:18:12 in KN-m
 
 SYSTEM
   DOF=UZ,RX,RY  LENGTH=m  FORCE=KN  PAGE=SECTIONS
@@ -70,7 +70,7 @@ PATTERN
 MATERIAL
   NAME=STEEL  IDES=S  M=7.8271  W=76.81955
     T=0  E=1.99948E+08  U=.3  A=.0000117  FY=248211.3
-  NAME=CONC  IDES=C  
+  NAME=CONC  IDES=C
     T=0  E=3.5E+07  U=.15  A=.0000099
   NAME=OTHER  IDES=N  M=2.40068  W=23.56161
     T=0  E=2.482113E+07  U=.2  A=.0000099

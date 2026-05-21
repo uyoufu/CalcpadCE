@@ -1,6 +1,6 @@
 "Combined Bending, Shear and Torsion Design of RC Beam<hr/><small>According to <strong>Eurocode</strong>: EN 1992-1-1</small>
 '<div style="width:180mm">
-'<img style="width:400pt;" src="https://calcpad.eu/media/structures/rc/design/torsion.png" alt="torsion.png">
+'<img style="width:400pt;" src="https://github.com/imartincei/CalcpadCE/blob/main/Images/structures/rc/design/torsion.png?raw=true" alt="torsion.png">
 '<h4>Cross section dimensions</h4>
 b_w = ? {250}'mm,'h_w = ? {500}'mm
 b_f = ? {1200}'mm,'h_f = ? {120}'mm
@@ -33,7 +33,7 @@ a_l = (2*d - h_w)/(n_ef + 1)'mm
 'Bending moment -'M_Ed = ? {200}'kN·m
 'Shear force -'V_Ed = ? {120}'kN
 '<h4>Material properties</h4>
-'<p><b>Concrete</b> [EN 1992-1-1, <a target="_blank" href="https://calcpad.eu/reference/concrete-table.html">Table 3.1</a>]</p>
+'<p><b>Concrete</b> [EN 1992-1-1, Table 3.1]</p>
 'Characteristic compressive cylinder strength -'f_ck = ? {20}'MPa,
 'Partial safety factors for concrete -'γ_c = 1.5','α_cc = ? {0.85}
 #post
@@ -75,12 +75,12 @@ M_f = b_f*h_f*η*f_cd*(d - h_f/2)*10^-6'kN·m
 		'Required tensile reinforcement area -'A_s1 = M_Ed*10^6/(z*f_yd)'mm²
 		'Reinforcement ratio -'ρ_1 = A_s1/(b_w*d)
 		'<!--'A_s2 = 0','ρ_2 = 0'-->
-	#else 
+	#else
 		ξ'&gt;'ξ_lim'- compressive reinforcement is required.
 		'Relative depth is assumed to be'ξ = ξ_lim'and compressive reinforcement is designed
 		'Compression zone depth -'x = ξ*d'mm
 		'Distance from the center of compressive reinforcement to the concrete surface
-		d_2 = h_w - d'mm 
+		d_2 = h_w - d'mm
 		'Distance between tensile and compressive reinforcement -'z_s = d - d_2'mm
 		'Required tensile reinforcement area
 		A_s1 = (M_Ed*10^6 + (b_w*λ*x*(λ*x/2 - d_2) + A_f*(h_f/2 - d_2))*η*f_cd)/(f_yd*z_s)'mm²
@@ -123,7 +123,7 @@ V_Rd,c = max(V_Rd,c,min; V_Rd,c_)'kN
 t_ef = max(b_w*h_w/(2*(b_w + h_w)); 2*c_nom)'mm
 'Total area of the cross section within the outer perimeter
 A_k = (b_w - t_ef)*(h_w - t_ef)'mm²
-'Outer perimeter of the cross section 
+'Outer perimeter of the cross section
 u_k = 2*(b_w + h_w - 2*t_ef)'mm
 'Section subjected to pure torsion
 T_Rd,c = 2*A_k*t_ef*f_ctd*10^-6'kN·m
@@ -136,7 +136,7 @@ T_Rd,c = 2*A_k*t_ef*f_ctd*10^-6'kN·m
 	'<p class="ref">[EN 1992-1-1, § 9.2.2 (5)]</p>
 	A_sw,min = 0.08*sqr(f_ck)/f_yk*b_w'mm²/mm
 	'<!--'θ = 21.8'-->
-#else 
+#else
 	'<p class="ref">[EN 1992-1-1, § 6.3.2 (5)]</p>
 	T_Ed/T_Rd,c + V_Ed/V_Rd,c'>'1
 	'Shear reinforcement is required!

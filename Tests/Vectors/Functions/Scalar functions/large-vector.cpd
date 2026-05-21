@@ -1,5 +1,5 @@
 '<h2>Trigonometric functions</h2>
-#rad 
+#rad
 #hide
 vec1 = vector(220)
 #for i = 1 : 12

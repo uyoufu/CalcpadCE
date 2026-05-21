@@ -25,7 +25,7 @@ namespace Calcpad.Core
             // #read M from filename.xlsm!A1:B2 (when sheet is missing the first sheet is read)
             // #read M from filename.xls@Sheet1!A1:B2 (when type is missing R is assumed)
             // #read M from filename.csv@R1C1:R2C2 type=[R|C|D|L|U|S] sep=,
-            // #read M from filename.txt@R1C1:R2C2 type=[R|C|D|L|U|S] sep=  
+            // #read M from filename.txt@R1C1:R2C2 type=[R|C|D|L|U|S] sep=
 
             // #write Name to Path.Ext@Sheet!Start:End Type=T
             // #write M to filename.xlsx@Sheet1!A1:B2 type=[Y|N]
@@ -34,11 +34,11 @@ namespace Calcpad.Core
 
             // #write Name to Path.Ext@Sheet!Start:End Type=T sep=S
             // #write M to filename.csv@R1C1:R2C2 type=[Y|N] sep=,
-            // #write M to filename.txt@R1C1:R2C2 type=[Y|N] sep=  
+            // #write M to filename.txt@R1C1:R2C2 type=[Y|N] sep=
 
             // #append Name to Path.Ext@Sheet!Start:End Type=T sep=S
             // #append M to filename.csv@R1C1:R2C2 type=[Y|N] sep=,
-            // #append M to filename.txt@R1C1:R2C2 type=[Y|N] sep=  
+            // #append M to filename.txt@R1C1:R2C2 type=[Y|N] sep=
 
             internal ReadWriteOptions(ReadOnlySpan<char> s, int command)
             {

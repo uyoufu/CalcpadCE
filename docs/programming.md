@@ -3,7 +3,7 @@
 ## Input Forms
 
 If you have a long and complicated problem or you want to share your solution with others, it is a good idea to create an input form.
-It is very easy to do that with Calcpad.
+It is very easy to do that with CalcpadCE.
 Just replace the values that need to be entered with question marks "**?**", e.g. "*a* = ?". Please note that after that, you will not be able to calculate the results directly by clicking <img src="./media/image6.png" alt="" height="20">. You must compile it first to an input form.
 For that purpose, click the <img src="./media/image34.png" alt="" height="20"> button or press **F4** from the keyboard.
 
@@ -40,7 +40,7 @@ This is more comprehensible for the user, especially if the program is developed
 This prevents an inexperienced user from accidentally damaging the calculation formulas.
 
 If you save the document as a "**\*.cpdz**" file, you will make the source code completely inaccessible.
-It will not be possible to unlock it inside Calcpad anymore.
+It will not be possible to unlock it inside CalcpadCE anymore.
 Also, no one could edit the file in external text editor, because it is encoded.
 That is how you can protect your source code from unauthorized copying, viewing and modification.
 
@@ -57,8 +57,8 @@ This approach is not recommended for complicated problems, because the program l
 ## Advanced UI with Html and CSS
 
 Besides simple input boxes, you can use some advanced UI elements like "**select**" (combo box), "**radio**" buttons and "**checkboxes**" in your worksheets.
-Since all the output from Calcpad is rendered as an Html document, you can use Html and CSS for that purpose.
-However, Calcpad accepts input only from text boxes.
+Since all the output from CalcpadCE is rendered as an Html document, you can use Html and CSS for that purpose.
+However, CalcpadCE accepts input only from text boxes.
 That is why, it is required to map every other UI element to some text box.
 This is performed by enclosing the text box into an outer html element (paragraph or div) with a certain **id**. The same id must be assigned as a **name** or **data-target** attribute of the source UI element.
 Then, the content of the source element's value attribute will be automatically filled in the target text box.
@@ -135,7 +135,7 @@ You can use `#Val` to create a table with values, but without the formulas, like
 ## Conditional execution
 
 Sometimes the solution has to continue in different ways, depending on some intermediate values.
-Such feature is included in Calcpad, similarly to other programming languages.
+Such feature is included in CalcpadCE, similarly to other programming languages.
 It is called "conditional execution block" and has the following general form:
 
 ```text
@@ -188,7 +188,7 @@ We can do this, using conditional execution, as follows:
 
 ## Iteration blocks
 
-You can have simple iterations inside a Calcpad program.
+You can have simple iterations inside a CalcpadCE program.
 For that purpose, you have to define a "**repeat-loop**" block:
 
 ```text
@@ -235,7 +235,7 @@ Since version VM 7.0, two new iteration blocks were added: "for-loop" and "while
 
 ## Interactive (step-by-step) execution
 
-You can make a Calcpad worksheet to execute interactively (step-by-step) by defining "breakpoints" at certain lines.
+You can make a CalcpadCE worksheet to execute interactively (step-by-step) by defining "breakpoints" at certain lines.
 It will allow the user to review the intermediate results and enter some additional input data if needed.
 There are two special keywords you can use for that purpose:
 
@@ -259,7 +259,7 @@ The execution will pause at the current line as if `#Pause` is detected.
 
 ## Modules (include)
 
-Calcpad allows you to include content from external files in your worksheet.
+CalcpadCE allows you to include content from external files in your worksheet.
 If you have pieces of code that is repeated in different worksheets, you can organize it in modules and reuse it multiple times.
 Also, if you have a longer worksheet, you can split it into modules that will be easier to maintain.
 Then, you can include them into the main file by using the following statement:
@@ -269,11 +269,11 @@ Then, you can include them into the main file by using the following statement:
 The "*filename*" must contain the full path to a local file.
 If the file is the same folder as the current one, you can specify only the filename.
 
-By default, Calcpad will include the whole contents of the external module.
+By default, CalcpadCE will include the whole contents of the external module.
 However, you can prevent some parts from inclusion by making them local.
 To start a "local" section in a module, add a new line, containing the `#local` keyword.
 To end a "local" section (or start a "global" one), add a new line with the `#global` keyword.
-Calcpad supports multiple levels of inclusions.
+CalcpadCE supports multiple levels of inclusions.
 That means that the included file, in its turn, can reference other files and so on.
 
 ## Macros and string variables
@@ -313,7 +313,7 @@ Multiline string macro:
 
 Names of string variables, macros, and their parameters can contain small and capital Latin letters and underscore "\_". They must end with the "\$" symbol.
 The contents can be virtually any string.
-It is not necessary to be a valid Calcpad expression, since it is not processed by the parser at this stage.
+It is not necessary to be a valid CalcpadCE expression, since it is not processed by the parser at this stage.
 However, other macro/string variable definitions are not allowed inside.
 You can insert only references to previously defined ones.
 Also, input fields "?" are not supported in macros yet.
@@ -335,7 +335,7 @@ You can go to the respective line by clicking the link on the line number.
 ## Import/export of external data
 
 You can import and export numerical data from/to text, CSV and Excel files.
-Inside Calcpad, data should be stored in a matrix/vector variable.
+Inside CalcpadCE, data should be stored in a matrix/vector variable.
 You can also read and write partial data by specifying the desired range.
 Structured storage of special matrices is supported for saving space.
 The following commands are available:

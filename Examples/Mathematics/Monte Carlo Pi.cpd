@@ -10,7 +10,7 @@ y = random(fill(Vector_hp(n); 1))
 #round 15
 '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="-0.1 -0.1 1.2 1.2">
 #for i = 1 : n
-	'<circle cx="'x.i'" cy="'1 - y.i'" r="0.002" stroke="none" 
+	'<circle cx="'x.i'" cy="'1 - y.i'" r="0.002" stroke="none"
 	#if r.i < 1
 		'fill = "red"/>
 	#else

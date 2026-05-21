@@ -13,8 +13,8 @@ namespace Calcpad.Core
             {
                 var fileName = $"{options.Path}.{options.Ext}";
                 if (fileName == ".")
-                    throw Exceptions.MissingFileName(); 
-                
+                    throw Exceptions.MissingFileName();
+
                 var fullPath = options.FullPath;
                 if (!File.Exists(fullPath))
                     throw Exceptions.FileNotFound(fileName);
@@ -33,7 +33,7 @@ namespace Calcpad.Core
                 catch (Exception e)
                 {
                     throw new MathParserException(e.Message);
-                }    
+                }
             }
 
             private static string[][] ReadCSV(ReadWriteOptions options)

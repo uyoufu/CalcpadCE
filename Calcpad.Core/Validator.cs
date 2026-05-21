@@ -70,7 +70,7 @@ namespace Calcpad.Core
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static bool IsLatinLetter(char c) =>
             c >= 'a' && c <= 'z' || // a - z
-            c >= 'A' && c <= 'Z';   // A - Z 
+            c >= 'A' && c <= 'Z';   // A - Z
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static bool IsDigit(char c) =>

@@ -21,7 +21,7 @@ a'- also changes the original vector.
 '<p><b>Join</b>(<em>mixed list of arguments</em>)</p><hr/>
 A = [1; 2|3; 4]
 b = [7; 8; 9]
-c = join(0; A; 5; 6; b)'- by function... 
+c = join(0; A; 5; 6; b)'- by function...
 c = [0; A; 5; 6; b]'- or by square brackets initializer.
 
 '<p><b>Slice</b>(<em>vector</em>; <em>start index</em>; <em>end index</em>)</p><hr/>

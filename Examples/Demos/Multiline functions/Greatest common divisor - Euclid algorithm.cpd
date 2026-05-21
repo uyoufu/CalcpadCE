@@ -2,9 +2,9 @@
 '<hr/>
 'Custom function:
 mygcd(a; b) = $while{
-  b > 0; 
-  t = b; 
-  b = a⦼b; 
+  b > 0;
+  t = b;
+  b = a⦼b;
   a = t}
 'Example:
 mygcd(1071; 462)
