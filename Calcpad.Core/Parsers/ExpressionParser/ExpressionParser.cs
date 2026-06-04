@@ -153,12 +153,15 @@ namespace Calcpad.Core
                     if ((textSpan[0] != '$' || !ParsePlot(textSpan)) &&
                         ParseCondition(textSpan, keyword))
                     {
+                        var skipChars = keyword == Keyword.Const ? 7 : _condition.KeywordLength;
+                        if (TryParseProgress(textSpan[skipChars..]))
+                            continue;
+
                         List<Token> tokens;
                         if (_lineCache[_currentLine].IsCached)
                             tokens = _lineCache[_currentLine].Tokens;
                         else
                         {
-                            var skipChars = keyword == Keyword.Const ? 7 : _condition.KeywordLength;
                             tokens = GetTokens(textSpan[skipChars..]);
                             if (_isMarkdownOn)
                                 ParseMarkdown(tokens);

@@ -197,6 +197,7 @@ namespace Calcpad.Wpf
         public MainWindow()
         {
             _parser = new();
+            RegisterEvents();
             _highlighter = new();
             Thread.CurrentThread.CurrentUICulture = new CultureInfo(_currentCultureName);
             InitializeComponent();

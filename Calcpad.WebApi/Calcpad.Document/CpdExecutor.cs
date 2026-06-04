@@ -18,7 +18,6 @@ namespace Calcpad.Document
 
 
         #region Parsers
-        private readonly ExpressionParser _parser = new();
         private readonly MacroParser _macroParser =
             new() { Include = (includeResolver ?? new LocalFileIncludeResolver()).Include };
         #endregion
@@ -37,8 +36,9 @@ namespace Calcpad.Document
             if (string.IsNullOrEmpty(sourceCode))
                 return string.Empty;
 
+            var parser = new ExpressionParser();
             // use settings
-            _parser.Settings = _settings;
+            parser.Settings = _settings;
             var sourceCodeTemp = await ParseMacros(sourceCode);
 
             var isCancelled = false;
@@ -48,15 +48,15 @@ namespace Calcpad.Document
                 // ignore timeout in debug
                 await Task.Delay(60 * 60 * 1000);
 #else
-                // 60s milliseconds timeout
-                await Task.Delay(5 * 60 * 1000);
+                // 30 min timeout
+                await Task.Delay(30 * 60 * 1000);
                 _parser.Cancel();
 #endif
                 isCancelled = true;
             });
             var parseTask = Task.Run(() =>
             {
-                _parser.Parse(sourceCodeTemp, calculate);
+                parser.Parse(sourceCodeTemp, calculate);
             });
             Task.WaitAny([timeoutTask, parseTask]);
 
@@ -64,7 +64,7 @@ namespace Calcpad.Document
             {
                 return "<p class='err'>Calculation cancelled due to timeout for 5 minutes.</p>";
             }
-            return _parser.HtmlResult;
+            return parser.HtmlResult;
         }
 
         private async Task<string> ParseMacros(string sourceCode)
