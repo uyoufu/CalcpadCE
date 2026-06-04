@@ -18,6 +18,11 @@ namespace Calcpad.Document
         private readonly Settings _settings = settings ?? new Settings();
         #endregion
 
+        /// <summary>
+        /// 是否已经请求取消
+        /// </summary>
+        public bool IsCancellationRequested { get; private set; }
+
 
         #region Parsers
         private readonly MacroParser _macroParser =
@@ -123,6 +128,15 @@ namespace Calcpad.Document
             cpdWriter.WriteFile(fullName, inputText);
 
             return await CompileToInputForm(inputText, calculate);
+        }
+
+        /// <summary>
+        /// 取消当前计算
+        /// </summary>
+        public void CancelCalculation()
+        {
+            IsCancellationRequested = true;
+            _parser.Cancel();
         }
 
         /// <summary>

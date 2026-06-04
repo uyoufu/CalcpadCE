@@ -38,7 +38,8 @@ namespace Calcpad.WebApi.Controllers
         CpdStorageService storageService,
         CpdContentService contentService,
         CpdI18nContentService i18NService,
-        HttpApiService httpApiService
+        HttpApiService httpApiService,
+        CpdCalculationTaskService calculationTaskService
     ) : ControllerBaseV1
     {
         /// <summary>
@@ -446,7 +447,18 @@ namespace Calcpad.WebApi.Controllers
                 progressChanged: e =>
                     httpApiService.SendCalculationProgressAsync(uniqueId, e.Value, e.Message)
             );
-            var outputText = await cpdExecutor.RunCalculation(data.InputFields);
+            calculationTaskService.RegisterCalculationTask(uniqueId, cpdExecutor);
+            string outputText;
+            try
+            {
+                outputText = await cpdExecutor.RunCalculation(data.InputFields);
+            }
+            finally
+            {
+                await calculationTaskService.RemoveCalculationTaskAsync(uniqueId, cpdExecutor);
+            }
+            if (cpdExecutor.IsCancellationRequested)
+                return outputText.ToFailResponse("calculation task cancelled");
 
             // replace local link to public path
             var localeResult = contentService.FormatReadMacroResult(outputText, false);
@@ -469,6 +481,18 @@ namespace Calcpad.WebApi.Controllers
 
             // compile
             return outputText.ToSuccessResponse();
+        }
+
+        /// <summary>
+        /// cancel running calculation task
+        /// </summary>
+        /// <param name="uniqueId"></param>
+        /// <returns></returns>
+        [HttpDelete("{uniqueId}/calculation-task")]
+        public async Task<ResponseResult<bool>> CancelCalculationTask(string uniqueId)
+        {
+            var isCancelled = await calculationTaskService.CancelCalculationTaskAsync(uniqueId);
+            return isCancelled.ToSuccessResponse();
         }
 
         #endregion
