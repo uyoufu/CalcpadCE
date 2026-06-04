@@ -25,7 +25,7 @@ namespace Calcpad.Core
             if (_parser.Units is not null)
                 throw Exceptions.MustBeReal(Exceptions.Items.Argument);
 
-            if (double.IsNaN(value) || double.IsInfinity(value) || value < 0d || value > 1d)
+            if (double.IsNaN(value) || double.IsInfinity(value))
                 throw Exceptions.ArgumentOutOfRange("progress");
 
             return value;
