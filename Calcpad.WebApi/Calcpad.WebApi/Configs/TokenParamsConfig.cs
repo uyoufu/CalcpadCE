@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net.NetworkInformation;
 using System.Security.Cryptography;
 using System.Text;
@@ -56,7 +56,7 @@ namespace Calcpad.WebApi.Configs
                 if (_key == null)
                 {
                     // use SHA256 to hash the secret to get a 256-bit key
-                    byte[] keyBytes = SHA256.HashData(Encoding.UTF8.GetBytes(Secret));
+                    byte[] keyBytes = Encoding.UTF8.GetBytes(Secret);
                     _key = new(keyBytes);
                 }
                 return _key;

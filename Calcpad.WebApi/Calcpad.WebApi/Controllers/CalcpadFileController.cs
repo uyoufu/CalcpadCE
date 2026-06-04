@@ -2,6 +2,7 @@ using System.IO;
 using Calcpad.Document;
 using Calcpad.Document.Archive;
 using Calcpad.Document.Core.Segments;
+using Calcpad.WebApi.Api.SignalR;
 using Calcpad.WebApi.Configs;
 using Calcpad.WebApi.Controllers.Base;
 using Calcpad.WebApi.Controllers.DTOs;
@@ -36,7 +37,8 @@ namespace Calcpad.WebApi.Controllers
         AppSettings<AppConfig> appConfig,
         CpdStorageService storageService,
         CpdContentService contentService,
-        CpdI18nContentService i18NService
+        CpdI18nContentService i18NService,
+        HttpApiService httpApiService
     ) : ControllerBaseV1
     {
         /// <summary>
@@ -439,7 +441,11 @@ namespace Calcpad.WebApi.Controllers
             if (!System.IO.File.Exists(fullPath))
                 return "Not Found".ToFailResponse("calcpad file not found");
 
-            var cpdExecutor = new CpdExecutor(fullPath);
+            var cpdExecutor = new CpdExecutor(
+                fullPath,
+                progressChanged: e =>
+                    httpApiService.SendCalculationProgressAsync(uniqueId, e.Value, e.Message)
+            );
             var outputText = await cpdExecutor.RunCalculation(data.InputFields);
 
             // replace local link to public path

@@ -10,7 +10,7 @@ namespace Calcpad.Document
         string fullName,
         Settings? settings = null,
         IIncludeResolver? includeResolver = null,
-        string uniqueId = ""
+        Func<ProgressEventArgs, Task>? progressChanged = null
     )
     {
         #region private fields
@@ -52,21 +52,23 @@ namespace Calcpad.Document
                 isCancelled = true;
                 _parser.Cancel();
             });
+
+            // 注册事件
+            if (calculate && progressChanged != null)
+                _parser.ProgressChanged += Parser_ProgressChanged;
+
             var parseTask = Task.Run(() =>
             {
                 _parser.Parse(sourceCodeTemp, calculate);
             });
 
-            // 注册事件
-            if (calculate && !string.IsNullOrEmpty(uniqueId))
-                _parser.ProgressChanged += Parser_ProgressChanged;
             try
             {
                 Task.WaitAny([timeoutTask, parseTask]);
             }
             finally
             {
-                if (calculate && !string.IsNullOrEmpty(uniqueId))
+                if (calculate && progressChanged != null)
                     // 取消事件注册
                     _parser.ProgressChanged -= Parser_ProgressChanged;
             }
@@ -78,7 +80,21 @@ namespace Calcpad.Document
             return _parser.HtmlResult;
         }
 
-        private void Parser_ProgressChanged(object? sender, ProgressEventArgs e) { }
+        private void Parser_ProgressChanged(object? sender, ProgressEventArgs e)
+        {
+            if (progressChanged == null)
+                return;
+
+            try
+            {
+                _ = progressChanged(e)
+                    .ContinueWith(_ => { }, TaskContinuationOptions.OnlyOnFaulted);
+            }
+            catch
+            {
+                // Progress notifications must not interrupt calculations.
+            }
+        }
 
         private async Task<string> ParseMacros(string sourceCode)
         {
