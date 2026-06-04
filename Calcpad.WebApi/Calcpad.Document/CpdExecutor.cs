@@ -9,10 +9,12 @@ namespace Calcpad.Document
     public class CpdExecutor(
         string fullName,
         Settings? settings = null,
-        IIncludeResolver? includeResolver = null
+        IIncludeResolver? includeResolver = null,
+        string uniqueId = ""
     )
     {
         #region private fields
+        private readonly ExpressionParser _parser = new();
         private readonly Settings _settings = settings ?? new Settings();
         #endregion
 
@@ -36,36 +38,47 @@ namespace Calcpad.Document
             if (string.IsNullOrEmpty(sourceCode))
                 return string.Empty;
 
-            var parser = new ExpressionParser();
             // use settings
-            parser.Settings = _settings;
+            _parser.Settings = _settings;
             var sourceCodeTemp = await ParseMacros(sourceCode);
 
             var isCancelled = false;
+            var timeoutMinutes = 30;
             var timeoutTask = Task.Run(async () =>
             {
-#if DEBUG
                 // ignore timeout in debug
-                await Task.Delay(60 * 60 * 1000);
-#else
-                // 30 min timeout
-                await Task.Delay(30 * 60 * 1000);
-                _parser.Cancel();
-#endif
+                await Task.Delay(timeoutMinutes * 60 * 1000);
+
                 isCancelled = true;
+                _parser.Cancel();
             });
             var parseTask = Task.Run(() =>
             {
-                parser.Parse(sourceCodeTemp, calculate);
+                _parser.Parse(sourceCodeTemp, calculate);
             });
-            Task.WaitAny([timeoutTask, parseTask]);
+
+            // 注册事件
+            if (calculate && !string.IsNullOrEmpty(uniqueId))
+                _parser.ProgressChanged += Parser_ProgressChanged;
+            try
+            {
+                Task.WaitAny([timeoutTask, parseTask]);
+            }
+            finally
+            {
+                if (calculate && !string.IsNullOrEmpty(uniqueId))
+                    // 取消事件注册
+                    _parser.ProgressChanged -= Parser_ProgressChanged;
+            }
 
             if (isCancelled)
             {
-                return "<p class='err'>Calculation cancelled due to timeout for 5 minutes.</p>";
+                return $"<p class='err'>Calculation cancelled due to timeout for {timeoutMinutes} minutes.</p>";
             }
-            return parser.HtmlResult;
+            return _parser.HtmlResult;
         }
+
+        private void Parser_ProgressChanged(object? sender, ProgressEventArgs e) { }
 
         private async Task<string> ParseMacros(string sourceCode)
         {

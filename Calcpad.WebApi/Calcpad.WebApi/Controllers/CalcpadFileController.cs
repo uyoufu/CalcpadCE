@@ -652,7 +652,9 @@ namespace Calcpad.WebApi.Controllers
 
             // update inputField by variable name
             var fromInputs = fromReader.GetInputLines();
-            var fromFieldsDic = fromInputs.SelectMany(x => x.Fields).ToDictionary(x => x.Name, x => x);
+            var fromFieldsDic = fromInputs
+                .SelectMany(x => x.Fields)
+                .ToDictionary(x => x.Name, x => x);
             var toInputs = toReader.GetInputLines();
             foreach (var toInput in toInputs)
             {
