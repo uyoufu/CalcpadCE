@@ -166,6 +166,155 @@ namespace Calcpad.WebApi.Services.Calcpad
         }
 
         /// <summary>
+        /// remove paired svg blocks, nested svg blocks are removed by their outermost block
+        /// </summary>
+        /// <param name="originHtml"></param>
+        /// <returns></returns>
+        public string RemovePairedSvgBlocks(string originHtml)
+        {
+            if (string.IsNullOrEmpty(originHtml))
+            {
+                return string.Empty;
+            }
+
+            var svgStartIndexes = new Stack<int>();
+            var removeRanges = new List<(int Start, int End)>();
+            var index = 0;
+
+            while (index < originHtml.Length)
+            {
+                var tagStart = originHtml.IndexOf('<', index);
+                if (tagStart < 0)
+                {
+                    break;
+                }
+
+                var tagEnd = originHtml.IndexOf('>', tagStart + 1);
+                if (tagEnd < 0)
+                {
+                    break;
+                }
+
+                if (IsSvgEndTag(originHtml, tagStart, tagEnd))
+                {
+                    if (svgStartIndexes.Count > 0)
+                    {
+                        var svgStart = svgStartIndexes.Pop();
+                        if (svgStartIndexes.Count == 0)
+                        {
+                            removeRanges.Add((svgStart, tagEnd + 1));
+                        }
+                    }
+                }
+                else if (
+                    IsSvgStartTag(originHtml, tagStart, tagEnd)
+                    && !IsSelfClosingTag(originHtml, tagStart, tagEnd)
+                )
+                {
+                    svgStartIndexes.Push(tagStart);
+                }
+
+                index = tagEnd + 1;
+            }
+
+            if (removeRanges.Count == 0)
+            {
+                return originHtml;
+            }
+
+            var builder = new StringBuilder(originHtml.Length);
+            var copyStart = 0;
+            foreach (var range in removeRanges.OrderBy(x => x.Start))
+            {
+                if (range.Start > copyStart)
+                {
+                    builder.Append(originHtml, copyStart, range.Start - copyStart);
+                }
+
+                copyStart = range.End;
+            }
+
+            if (copyStart < originHtml.Length)
+            {
+                builder.Append(originHtml, copyStart, originHtml.Length - copyStart);
+            }
+
+            return builder.ToString();
+        }
+
+        private static bool IsSvgStartTag(string html, int tagStart, int tagEnd)
+        {
+            var index = tagStart + 1;
+            while (index < tagEnd && char.IsWhiteSpace(html[index]))
+            {
+                index++;
+            }
+
+            if (index < tagEnd && html[index] == '/')
+            {
+                return false;
+            }
+
+            return IsSvgTagName(html, index, tagEnd);
+        }
+
+        private static bool IsSvgEndTag(string html, int tagStart, int tagEnd)
+        {
+            var index = tagStart + 1;
+            while (index < tagEnd && char.IsWhiteSpace(html[index]))
+            {
+                index++;
+            }
+
+            if (index >= tagEnd || html[index] != '/')
+            {
+                return false;
+            }
+
+            index++;
+            while (index < tagEnd && char.IsWhiteSpace(html[index]))
+            {
+                index++;
+            }
+
+            return IsSvgTagName(html, index, tagEnd);
+        }
+
+        private static bool IsSvgTagName(string html, int nameStart, int tagEnd)
+        {
+            const string svgTagName = "svg";
+            if (nameStart + svgTagName.Length > tagEnd)
+            {
+                return false;
+            }
+
+            if (
+                !html.AsSpan(nameStart, svgTagName.Length)
+                    .Equals(svgTagName, StringComparison.OrdinalIgnoreCase)
+            )
+            {
+                return false;
+            }
+
+            var nameEnd = nameStart + svgTagName.Length;
+            return nameEnd == tagEnd
+                || char.IsWhiteSpace(html[nameEnd])
+                || html[nameEnd] == '/'
+                || html[nameEnd] == '>';
+        }
+
+        private static bool IsSelfClosingTag(string html, int tagStart, int tagEnd)
+        {
+            var index = tagEnd - 1;
+            while (index > tagStart && char.IsWhiteSpace(html[index]))
+            {
+                index--;
+            }
+
+            return index > tagStart && html[index] == '/';
+        }
+
+        /// <summary>
         /// simplify html, remain row or p element which contains input,select,h1-h6
         /// </summary>
         /// <param name="originHtml"></param>

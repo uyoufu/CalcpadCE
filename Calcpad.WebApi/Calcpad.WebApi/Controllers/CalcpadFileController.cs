@@ -406,6 +406,7 @@ namespace Calcpad.WebApi.Controllers
             var cpdExecutor = new CpdExecutor(fullPath);
             var outputText = await cpdExecutor.RunCalculation(data?.InputFields ?? [], false);
 
+            outputText = contentService.RemovePairedSvgBlocks(outputText);
             // replace local link to public path
             outputText = contentService.FormatReadMacroResult(outputText);
 
