@@ -224,14 +224,14 @@ namespace Calcpad.WebApi.Services.Calcpad
 
             var builder = new StringBuilder(originHtml.Length);
             var copyStart = 0;
-            foreach (var range in removeRanges.OrderBy(x => x.Start))
+            foreach (var (Start, End) in removeRanges.OrderBy(x => x.Start))
             {
-                if (range.Start > copyStart)
+                if (Start > copyStart)
                 {
-                    builder.Append(originHtml, copyStart, range.Start - copyStart);
+                    builder.Append(originHtml, copyStart, Start - copyStart);
                 }
 
-                copyStart = range.End;
+                copyStart = End;
             }
 
             if (copyStart < originHtml.Length)
