@@ -24,10 +24,10 @@ namespace Calcpad.WebApi.Services.Calcpad
                 return;
 
             // 同一个文件只保留一个运行任务，新任务开始前终止旧任务
-            if (_runningExecutors.TryGetValue(uniqueId, out var oldExecutor))
+            if (_runningExecutors.TryRemove(uniqueId, out var oldExecutor))
                 oldExecutor.CancelCalculation();
 
-            _runningExecutors[uniqueId] = executor;
+            _runningExecutors.TryAdd(uniqueId, executor);
         }
 
         /// <summary>
@@ -40,12 +40,17 @@ namespace Calcpad.WebApi.Services.Calcpad
             if (string.IsNullOrWhiteSpace(uniqueId))
                 return;
 
-            if (_runningExecutors.TryGetValue(uniqueId, out var currentExecutor)
-                && ReferenceEquals(currentExecutor, executor))
+            if (
+                _runningExecutors.TryRemove(uniqueId, out var currentExecutor)
+                && ReferenceEquals(currentExecutor, executor)
+            )
             {
-                _runningExecutors.TryRemove(uniqueId, out _);
                 if (executor.IsCancellationRequested)
-                    await httpApiService.SendCalculationProgressAsync(uniqueId, 1, "calculation task cancelled");
+                    await httpApiService.SendCalculationProgressAsync(
+                        uniqueId,
+                        1,
+                        "calculation task cancelled"
+                    );
             }
         }
 
@@ -59,7 +64,7 @@ namespace Calcpad.WebApi.Services.Calcpad
             if (string.IsNullOrWhiteSpace(uniqueId))
                 return false;
 
-            if (!_runningExecutors.TryGetValue(uniqueId, out var executor))
+            if (!_runningExecutors.TryRemove(uniqueId, out var executor))
                 return false;
 
             executor.CancelCalculation();
