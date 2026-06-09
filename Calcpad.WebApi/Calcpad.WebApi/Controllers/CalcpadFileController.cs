@@ -685,7 +685,8 @@ namespace Calcpad.WebApi.Controllers
             var fromInputs = fromReader.GetInputLines();
             var fromFieldsDic = fromInputs
                 .SelectMany(x => x.Fields)
-                .ToDictionary(x => x.Name, x => x);
+                .GroupBy(x => x.Name, StringComparer.Ordinal)
+                .ToDictionary(x => x.Key, x => x.Last(), StringComparer.Ordinal);
             var toInputs = toReader.GetInputLines();
             foreach (var toInput in toInputs)
             {
