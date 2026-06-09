@@ -701,7 +701,7 @@ namespace Calcpad.WebApi.Controllers
             var toWriter = CpdWriterFactory.CreateCpdWriter();
             var allLines = new List<CpdLine>();
             allLines.AddRange(toReadLines);
-            allLines.AddRange(toInputs);
+            allLines.AddRange(toInputs.Where(x => x.HasUpdatedFields));
             var content = CpdWriter.BuildCpdContent(toReader.ReadStringLines(), allLines);
             toWriter.WriteFile(toFullPath, content);
 

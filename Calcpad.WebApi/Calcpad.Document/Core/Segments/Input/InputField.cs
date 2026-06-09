@@ -24,6 +24,14 @@ namespace Calcpad.Document.Core.Segments.Input
     {
         public InputFieldType Type { get; set; }
 
+        public int ValueStartIndex { get; init; } = -1;
+
+        public int ValueEndIndex { get; init; } = -1;
+
+        public bool HasValueRange => ValueStartIndex >= 0 && ValueEndIndex >= ValueStartIndex;
+
+        public bool IsUpdated { get; private set; }
+
         /// <summary>
         /// field/variable name
         /// </summary>
@@ -38,6 +46,7 @@ namespace Calcpad.Document.Core.Segments.Input
             if (Values.Length == 0)
                 Array.Resize(ref values, length);
             Array.Copy(newValues, values, length);
+            IsUpdated = true;
         }
 
         public override string ToString()

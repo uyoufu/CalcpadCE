@@ -12,14 +12,18 @@ namespace Calcpad.Document.Core.Segments
         private static readonly System.Buffers.SearchValues<char> s_includeSearchValues =
             System.Buffers.SearchValues.Create("#include");
 
-        private readonly List<StringSegment> _lineSegments = [];
+        private readonly string _originalLine;
         public List<InputField> Fields { get; private set; } = [];
 
         public bool ContainsInputs => Fields.Count > 0;
 
+        public bool HasUpdatedFields => Fields.Any(x => x.IsUpdated);
+
         public InputLine(uint rowIndex, string line)
             : base(rowIndex)
         {
+            _originalLine = line ?? string.Empty;
+
             // resolve input fields from the line
             if (string.IsNullOrEmpty(line))
                 return;
@@ -54,16 +58,23 @@ namespace Calcpad.Document.Core.Segments
                 var valuesStr = trimmed[(lastLeftBrace + 1)..lastRightBrace];
                 var values = valuesStr.ToString().Split(';');
                 var name = trimmed[..lastHashIndex].ToString().Trim();
-                AddInputField(new InputField(values, name) { Type = InputFieldType.Include });
+                AddInputField(
+                    new InputField(values, name)
+                    {
+                        Type = InputFieldType.Include,
+                        ValueStartIndex = lastLeftBrace + 1,
+                        ValueEndIndex = lastRightBrace
+                    }
+                );
                 return;
             }
 
             // 处理注释中的 variable = ? {val}
             var commentEnumerator = s.EnumerateComments();
+            var itemStartIndex = 0;
             // 非 include 时处理
             foreach (var item in commentEnumerator)
             {
-                bool isInput = false;
                 if (!item.IsEmpty && item[0] != '"' && item[0] != '\'')
                 {
                     var inputChar = '\0';
@@ -87,39 +98,64 @@ namespace Calcpad.Document.Core.Segments
 
                             var name = item[..(equalIndex - 1)].ToString().Trim();
                             AddInputField(
-                                new InputField([val], name) { Type = InputFieldType.Variable }
+                                new InputField([val], name)
+                                {
+                                    Type = InputFieldType.Variable,
+                                    ValueStartIndex = itemStartIndex + braceStart,
+                                    ValueEndIndex = itemStartIndex + j
+                                }
                             );
-                            isInput = true;
                             inputChar = '\0';
                             braceStart = -1;
                         }
                     }
                 }
 
-                // 添加原始字符
-                if (!isInput)
-                    _lineSegments.Add(new StringSegment(item.ToString()));
+                itemStartIndex += item.Length;
             }
         }
 
         private void AddInputField(InputField field)
         {
             Fields.Add(field);
-            _lineSegments.Add(field);
         }
         #endregion
 
 
         public override string ToString()
         {
-            return string.Concat(_lineSegments);
+            if (!HasUpdatedFields)
+                return _originalLine;
+
+            var updatedFields = Fields
+                .Where(x => x.IsUpdated && x.HasValueRange)
+                .OrderBy(x => x.ValueStartIndex)
+                .ToArray();
+
+            if (updatedFields.Length == 0)
+                return _originalLine;
+
+            var sb = new StringBuilder(_originalLine.Length + updatedFields.Length * 20);
+            var lastIndex = 0;
+            foreach (var field in updatedFields)
+            {
+                if (field.ValueStartIndex < lastIndex || field.ValueEndIndex > _originalLine.Length)
+                    return _originalLine;
+
+                sb.Append(_originalLine.AsSpan(lastIndex, field.ValueStartIndex - lastIndex));
+                sb.Append(string.Join(';', field.Values));
+                lastIndex = field.ValueEndIndex;
+            }
+
+            sb.Append(_originalLine.AsSpan(lastIndex));
+            return sb.ToString();
         }
 
         public static bool IsInputLine(ReadOnlySpan<char> line)
         {
             // check for ? {...} pattern
             var index = line.IndexOf('?');
-            if (index >= 0 && line[index + 2] == '{')
+            if (index >= 0 && index + 2 < line.Length && line[index + 2] == '{')
                 return true;
 
             // check for #include directive
