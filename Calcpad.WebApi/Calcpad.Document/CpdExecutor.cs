@@ -23,7 +23,6 @@ namespace Calcpad.Document
         /// </summary>
         public bool IsCancellationRequested { get; private set; }
 
-
         #region Parsers
         private readonly MacroParser _macroParser =
             new() { Include = (includeResolver ?? new LocalFileIncludeResolver()).Include };

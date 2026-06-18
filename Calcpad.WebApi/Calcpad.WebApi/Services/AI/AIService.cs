@@ -10,7 +10,7 @@ namespace Calcpad.WebApi.Services.AI
     public class AIService(
         AppSettings<AIConfig> aiConfig,
         AppSettings<TranslationConfig> transConfig,
-        OpenAIChatClient chatClient,
+        IepcChatClient chatClient,
         ILogger<AIService> logger
     ) : IScopedService
     {
@@ -42,8 +42,8 @@ namespace Calcpad.WebApi.Services.AI
             if (!IsEnabled)
                 return [];
 
-            var openAiChat = aiConfig.Value.OpenAIChat;
-            if (openAiChat == null || !openAiChat.IsValid())
+            var iepcChat = aiConfig.Value.IepcChat;
+            if (iepcChat == null || !iepcChat.IsValid())
                 return [];
 
             var systemPrompt = transConfig.Value.Prompt.Replace("{lang}", lang);

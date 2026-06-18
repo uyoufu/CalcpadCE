@@ -12,6 +12,11 @@ namespace Calcpad.WebApi.Configs
         public OpenAIChat? OpenAIChat { get; set; }
 
         /// <summary>
+        /// chat config for iEPC chat api
+        /// </summary>
+        public IepcChat? IepcChat { get; set; }
+
+        /// <summary>
         /// Gets or sets the collection of AI prompt templates used by the application.
         /// </summary>
         public List<AIPrompts>? Prompts { get; set; }
