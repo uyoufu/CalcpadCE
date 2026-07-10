@@ -1,19 +1,20 @@
 using System.ClientModel;
 using Calcpad.WebApi.Configs;
-using Calcpad.WebApi.Utils.Web.Service;
+using Calcpad.WebApi.Services.AI.Interface;
 using Microsoft.Extensions.AI;
 
 namespace Calcpad.WebApi.Services.AI
 {
     /// <summary>
     /// OpenAI Chat Client wrapper for IChatClient interface
-    /// Singleton service
     /// </summary>
-    public class OpenAIChatClient : IChatClient, ISingletonService
+    public class OpenAIChatClient : IAIChatClient
     {
         private IChatClient? _chatClient;
 
         public long MaxTokenLength { get; private set; } = 0;
+
+        public bool IsAvailable => _chatClient != null && MaxTokenLength > 0;
 
         public OpenAIChatClient(AppSettings<AIConfig> config)
         {

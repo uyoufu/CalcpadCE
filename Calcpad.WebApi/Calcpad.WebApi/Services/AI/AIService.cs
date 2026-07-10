@@ -1,5 +1,6 @@
 using System.Text.Json;
 using Calcpad.WebApi.Configs;
+using Calcpad.WebApi.Services.AI.Interface;
 using Calcpad.WebApi.Utils.Json;
 using Calcpad.WebApi.Utils.Web.Exceptions;
 using Calcpad.WebApi.Utils.Web.Service;
@@ -10,17 +11,19 @@ namespace Calcpad.WebApi.Services.AI
     public class AIService(
         AppSettings<AIConfig> aiConfig,
         AppSettings<TranslationConfig> transConfig,
-        IepcChatClient chatClient,
+        AIChatClientFactory chatClientFactory,
         ILogger<AIService> logger
     ) : IScopedService
     {
+        private IAIChatClient? _chatClient;
+
         private static readonly JsonSerializerOptions _jsonSerializerOptions =
             new()
             {
                 Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
             };
 
-        public bool IsEnabled => aiConfig.Value.Enable;
+        public bool IsEnabled => aiConfig.Value.Enable && GetChatClient().IsAvailable;
 
         /// <summary>
         /// Translates a list of text strings into the specified target language asynchronously.
@@ -40,10 +43,6 @@ namespace Calcpad.WebApi.Services.AI
         )
         {
             if (!IsEnabled)
-                return [];
-
-            var iepcChat = aiConfig.Value.IepcChat;
-            if (iepcChat == null || !iepcChat.IsValid())
                 return [];
 
             var systemPrompt = transConfig.Value.Prompt.Replace("{lang}", lang);
@@ -66,6 +65,7 @@ namespace Calcpad.WebApi.Services.AI
                 return (int)(englishCount / 4.0 + otherCount / 2.0);
             }
 
+            var chatClient = GetChatClient();
             var maxTokenLength = chatClient.MaxTokenLength;
             // reserve tokens for system prompt and response
             var maxTokensPerChunk = maxTokenLength / 3 - EstimateTokens(systemPrompt);
@@ -139,6 +139,12 @@ namespace Calcpad.WebApi.Services.AI
 
             var resultsList = await Task.WhenAll(tasks);
             return [.. resultsList.SelectMany(x => x)];
+        }
+
+        private IAIChatClient GetChatClient()
+        {
+            _chatClient ??= chatClientFactory.Create();
+            return _chatClient;
         }
     }
 }

@@ -7,6 +7,11 @@ namespace Calcpad.WebApi.Configs
         public bool Enable { get; set; } = false;
 
         /// <summary>
+        /// Gets or sets the active AI chat provider.
+        /// </summary>
+        public string Provider { get; set; } = "OpenAIChat";
+
+        /// <summary>
         /// chat config for openai chat api
         /// </summary>
         public OpenAIChat? OpenAIChat { get; set; }

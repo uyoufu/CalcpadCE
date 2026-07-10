@@ -4,20 +4,19 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using Calcpad.WebApi.Configs;
 using Calcpad.WebApi.Configs.SubConfigs;
-using Calcpad.WebApi.Utils.Web.Service;
+using Calcpad.WebApi.Services.AI.Interface;
 using Microsoft.Extensions.AI;
 
 namespace Calcpad.WebApi.Services.AI
 {
     /// <summary>
     /// iEPC Chat Client wrapper for IChatClient interface
-    /// Singleton service
     /// </summary>
     public class IepcChatClient(
         HttpClient httpClient,
         AppSettings<AIConfig> config,
         ILogger<IepcChatClient> logger
-    ) : IChatClient, ISingletonService
+    ) : IAIChatClient
     {
         private static readonly JsonSerializerOptions _jsonSerializerOptions =
             new(JsonSerializerDefaults.Web)
@@ -30,8 +29,13 @@ namespace Calcpad.WebApi.Services.AI
         public long MaxTokenLength { get; private set; } =
             config.Value.IepcChat?.MaxTokenLenght ?? 0;
 
+        public bool IsAvailable => _iepcChat?.IsValid() == true && MaxTokenLength > 0;
+
         #region IChatClient
-        public void Dispose() { }
+        public void Dispose()
+        {
+            httpClient.Dispose();
+        }
 
         public async Task<ChatResponse> GetResponseAsync(
             IEnumerable<ChatMessage> messages,
@@ -67,14 +71,9 @@ namespace Calcpad.WebApi.Services.AI
                 response.EnsureSuccessStatusCode();
             }
 
-            var iepcResponse = JsonSerializer.Deserialize<IepcChatResponse>(
-                responseJson,
-                _jsonSerializerOptions
-            );
-            if (iepcResponse == null)
-            {
-                throw new InvalidOperationException("iEPC chat response is invalid.");
-            }
+            var iepcResponse =
+                JsonSerializer.Deserialize<IepcChatResponse>(responseJson, _jsonSerializerOptions)
+                ?? throw new InvalidOperationException("iEPC chat response is invalid.");
             if (!iepcResponse.Ok)
             {
                 throw new InvalidOperationException(
