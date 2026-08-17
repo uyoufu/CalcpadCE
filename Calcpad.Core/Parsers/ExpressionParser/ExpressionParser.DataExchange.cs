@@ -128,7 +128,7 @@ namespace Calcpad.Core
                 var sheet = options.Sheet.ToString();
                 var start = options.Start.ToString();
                 var end = options.End.ToString();
-                return ExcelData.Read(options.FullPath, sheet, start, end);
+                return ExcelData.ReadValues(options.FullPath, sheet, start, end);
             }
 
             internal static void Write(ReadWriteOptions options, string[][] data)
