@@ -7,7 +7,7 @@ public class ExpressionParserProgressTests
     {
         var parser = new ExpressionParser();
         ProgressEventArgs args = null;
-        parser.Progress += (_, e) => args = e;
+        parser.ProgressChanged += (_, e) => args = e;
 
         parser.Parse("""
             a = 1
@@ -27,7 +27,7 @@ public class ExpressionParserProgressTests
     {
         var parser = new ExpressionParser();
         ProgressEventArgs args = null;
-        parser.Progress += (_, e) => args = e;
+        parser.ProgressChanged += (_, e) => args = e;
 
         parser.Parse("progress(1)");
 
@@ -42,7 +42,7 @@ public class ExpressionParserProgressTests
     {
         var parser = new ExpressionParser();
         ProgressEventArgs args = null;
-        parser.Progress += (_, e) => args = e;
+        parser.ProgressChanged += (_, e) => args = e;
 
         parser.Parse("progress(0.5; \"Loading data\")");
 
@@ -57,7 +57,7 @@ public class ExpressionParserProgressTests
     {
         var parser = new ExpressionParser();
         var values = new List<double>();
-        parser.Progress += (_, e) => values.Add(e.Value);
+        parser.ProgressChanged += (_, e) => values.Add(e.Value);
 
         parser.Parse("""
             #for i = 1 : 3
@@ -69,16 +69,18 @@ public class ExpressionParserProgressTests
     }
 
     [Fact]
-    public void Progress_RejectsOutOfRangeValue()
+    public void Progress_AllowsValuesOutsideUnitInterval()
     {
         var parser = new ExpressionParser();
-        var eventCount = 0;
-        parser.Progress += (_, _) => ++eventCount;
+        ProgressEventArgs args = null;
+        parser.ProgressChanged += (_, e) => args = e;
 
-        parser.Parse("progress(1.5; invalid)");
+        parser.Parse("progress(1.5; extended)");
 
-        Assert.Equal(0, eventCount);
-        Assert.Contains("err", parser.HtmlResult, StringComparison.OrdinalIgnoreCase);
+        Assert.NotNull(args);
+        Assert.Equal(1.5, args.Value, 12);
+        Assert.Equal("extended", args.Message);
+        Assert.DoesNotContain("err", parser.HtmlResult, StringComparison.OrdinalIgnoreCase);
     }
 
     [Fact]
@@ -86,7 +88,7 @@ public class ExpressionParserProgressTests
     {
         var parser = new ExpressionParser();
         var eventCount = 0;
-        parser.Progress += (_, _) => ++eventCount;
+        parser.ProgressChanged += (_, _) => ++eventCount;
 
         parser.Parse("progress([0.5; 0.6])");
 
@@ -99,7 +101,7 @@ public class ExpressionParserProgressTests
     {
         var parser = new ExpressionParser();
         var eventCount = 0;
-        parser.Progress += (_, _) => ++eventCount;
+        parser.ProgressChanged += (_, _) => ++eventCount;
 
         parser.Parse("x = progress(0.5)");
 
