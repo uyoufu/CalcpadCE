@@ -1,6 +1,7 @@
 using Calcpad.WebApi.Configs;
 using Calcpad.WebApi.Services.AI;
 using Calcpad.WebApi.Services.AI.Interface;
+using Calcpad.WebApi.Tests.Services.Calcpad;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
@@ -12,7 +13,15 @@ var tests = new (string Name, Action Run)[]
     ("Unknown provider throws", UnknownProviderThrows),
     ("Invalid OpenAI provider configuration throws", InvalidOpenAIProviderConfigurationThrows),
     ("Invalid iEPC provider configuration throws", InvalidIepcProviderConfigurationThrows),
-    ("Factory creates a new client instance for each create call", FactoryCreatesNewClientInstanceForEachCreateCall)
+    ("Factory creates a new client instance for each create call", FactoryCreatesNewClientInstanceForEachCreateCall),
+    (
+        "SimplifyHtml preserves conditional chain when only else branch has inputs",
+        CpdContentServiceTests.PreservesConditionalChainWhenOnlyElseBranchHasInputs
+    ),
+    (
+        "SimplifyHtml preserves conditional skeleton when all branches are empty",
+        CpdContentServiceTests.PreservesConditionalSkeletonWhenAllBranchesAreEmpty
+    )
 };
 
 foreach (var test in tests)

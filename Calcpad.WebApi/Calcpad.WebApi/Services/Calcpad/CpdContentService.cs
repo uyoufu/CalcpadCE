@@ -411,6 +411,11 @@ namespace Calcpad.WebApi.Services.Calcpad
             if (containerType == 2)
             {
                 // div with class conditional-block、indent、v-if、v-else-if、v-else
+                if (IsConditionalBlock(node))
+                {
+                    return CleanConditionalBlock(node);
+                }
+
                 foreach (var child in node.ChildNodes.ToList())
                 {
                     var isRetain = CleanNodeRecursively(child);
@@ -424,6 +429,52 @@ namespace Calcpad.WebApi.Services.Calcpad
             }
 
             return false;
+        }
+
+        /// <summary>
+        /// Retains conditional branch containers even when their content is removed so Vue
+        /// directives remain a valid adjacent chain in the simplified HTML.
+        /// </summary>
+        /// <param name="conditionalBlock">The wrapper generated from a Calcpad conditional block.</param>
+        /// <returns>Whether the block contains content that should remain in the simplified HTML.</returns>
+        private static bool CleanConditionalBlock(HtmlNode conditionalBlock)
+        {
+            var hasRetainedContent = false;
+            var hasConditionalBranch = false;
+
+            foreach (var child in conditionalBlock.ChildNodes.ToList())
+            {
+                var isConditionalBranch = IsConditionalBranch(child);
+                hasConditionalBranch |= isConditionalBranch;
+
+                var isRetain = CleanNodeRecursively(child);
+                if (isRetain)
+                {
+                    hasRetainedContent = true;
+                    continue;
+                }
+
+                if (!isConditionalBranch)
+                {
+                    conditionalBlock.RemoveChild(child);
+                }
+            }
+
+            return hasRetainedContent || hasConditionalBranch;
+        }
+
+        private static bool IsConditionalBlock(HtmlNode node)
+        {
+            var classAttr = node.GetAttributeValue("class", string.Empty);
+            return classAttr
+                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                .Any(className => string.Equals(className, "conditional-block", StringComparison.Ordinal));
+        }
+
+        private static bool IsConditionalBranch(HtmlNode node)
+        {
+            return node.NodeType == HtmlNodeType.Element
+                && _containerAttr.Any(node.Attributes.Contains);
         }
 
         /// <summary>
